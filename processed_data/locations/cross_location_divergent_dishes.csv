@@ -1,0 +1,86 @@
+item_id,item_name,category_name,distinct_class_count,classes_observed,profit_driver_locs,volume_driver_locs,hidden_opportunity_locs,low_performer_locs,min_quantity,max_quantity,quantity_spread
+ITEM-081,Thai Crunch Peanut Chicken Salad,Farm-Fresh Salads & Grain Bowls,3,"Hidden Opportunity, Low Performer, Profit Driver",8,0,1,11,202,737,535
+ITEM-100,Crispy Falafel Mezze Platter,Vegan & Plant-Based Creations,3,"Hidden Opportunity, Low Performer, Profit Driver",11,0,3,6,183,680,497
+ITEM-109,Warm Apple Cinnamon Crisp,Handcrafted Desserts & Pastries,3,"Hidden Opportunity, Low Performer, Profit Driver",10,0,1,9,200,697,497
+ITEM-021,California Turkey Avocado Club,Artisanal Burgers & Handhelds,3,"Hidden Opportunity, Low Performer, Volume Driver",0,9,1,10,171,647,476
+ITEM-085,Blackened Salmon Cobb Salad,Farm-Fresh Salads & Grain Bowls,3,"Hidden Opportunity, Low Performer, Volume Driver",0,17,1,2,186,634,448
+ITEM-034,Prosciutto e Rucola Pizza,Wood-Fired Pizzas & Pastas,3,"Hidden Opportunity, Low Performer, Volume Driver",0,3,3,14,123,568,445
+ITEM-101,Thai Coconut Green Curry Tofu,Vegan & Plant-Based Creations,3,"Hidden Opportunity, Low Performer, Profit Driver",2,0,14,4,171,608,437
+ITEM-097,Jackfruit Smoky Carnitas Tacos,Vegan & Plant-Based Creations,3,"Hidden Opportunity, Low Performer, Profit Driver",3,0,12,5,187,615,428
+ITEM-116,Key Lime Tart Graham Crust,Handcrafted Desserts & Pastries,3,"Hidden Opportunity, Low Performer, Profit Driver",5,0,9,6,149,574,425
+ITEM-095,Spicy Tofu Peanut Noodle Bowl,Vegan & Plant-Based Creations,3,"Hidden Opportunity, Low Performer, Profit Driver",3,0,8,9,192,615,423
+ITEM-146,Acai Berry Superfood Smoothie,Specialty Coffee & Beverages,3,"Hidden Opportunity, Low Performer, Volume Driver",0,9,1,10,177,594,417
+ITEM-050,Slow-Braised Beef Short Ribs,Prime Steaks & Butcher Cuts,3,"Hidden Opportunity, Low Performer, Volume Driver",0,8,1,11,173,573,400
+ITEM-011,Spicy Tuna Crispy Rice,Appetizers & Small Plates,3,"Hidden Opportunity, Low Performer, Volume Driver",0,4,5,11,163,551,388
+ITEM-082,Wild Rice & Avocado Harvest Bowl,Farm-Fresh Salads & Grain Bowls,3,"Hidden Opportunity, Low Performer, Volume Driver",0,2,1,17,178,534,356
+ITEM-107,Classic Madagascar Vanilla Bean Gelato,Handcrafted Desserts & Pastries,2,"Low Performer, Profit Driver",19,0,0,1,255,1068,813
+ITEM-088,Simple Garden House Salad,Farm-Fresh Salads & Grain Bowls,2,"Low Performer, Profit Driver",16,0,0,4,240,994,754
+ITEM-037,Spaghetti All'Amatriciana,Wood-Fired Pizzas & Pastas,2,"Low Performer, Profit Driver",18,0,0,2,238,903,665
+ITEM-123,Spicy Passionfruit Mezcalita,Signature Cocktails & Mocktails,2,"Low Performer, Profit Driver",19,0,0,1,199,858,659
+ITEM-042,Spicy Diavola Pizza,Wood-Fired Pizzas & Pastas,2,"Low Performer, Profit Driver",18,0,0,2,226,868,642
+ITEM-112,Salted Caramel Creme Brulee,Handcrafted Desserts & Pastries,2,"Low Performer, Profit Driver",11,0,0,9,192,830,638
+ITEM-114,Warm Churros with Spiced Dulce,Handcrafted Desserts & Pastries,2,"Low Performer, Profit Driver",19,0,0,1,213,835,622
+ITEM-089,Southwest Chipotle Chicken Bowl,Farm-Fresh Salads & Grain Bowls,2,"Low Performer, Profit Driver",18,0,0,2,194,800,606
+ITEM-111,Traditional Italian Tiramisu,Handcrafted Desserts & Pastries,2,"Low Performer, Profit Driver",13,0,0,7,273,874,601
+ITEM-083,Classic Greek Village Salad,Farm-Fresh Salads & Grain Bowls,2,"Low Performer, Profit Driver",13,0,0,7,206,792,586
+ITEM-142,Spiced Masala Chai Latte,Specialty Coffee & Beverages,2,"Hidden Opportunity, Profit Driver",19,0,1,0,168,753,585
+ITEM-129,Smoked Rosemary Paloma Tequila,Signature Cocktails & Mocktails,2,"Hidden Opportunity, Profit Driver",19,0,1,0,170,754,584
+ITEM-124,Elderflower French 75 Champagne,Signature Cocktails & Mocktails,2,"Hidden Opportunity, Profit Driver",18,0,2,0,146,728,582
+ITEM-127,Zero-Proof Cucumber Mint Cooler,Signature Cocktails & Mocktails,2,"Low Performer, Profit Driver",18,0,0,2,239,807,568
+ITEM-104,Golden Turmeric Lentil Soup Bowl,Vegan & Plant-Based Creations,2,"Low Performer, Profit Driver",18,0,0,2,202,766,564
+ITEM-134,Strawberry Basil Smash Lemonade (Mocktail),Signature Cocktails & Mocktails,2,"Low Performer, Profit Driver",11,0,0,9,184,738,554
+ITEM-077,Mediterranean Quinoa Crunch Bowl,Farm-Fresh Salads & Grain Bowls,2,"Low Performer, Profit Driver",14,0,0,6,242,782,540
+ITEM-093,Crispy Cauliflower Buffalo Bites,Vegan & Plant-Based Creations,2,"Low Performer, Profit Driver",14,0,0,6,218,757,539
+ITEM-058,BBQ Glazed St. Louis Ribs (Full),Prime Steaks & Butcher Cuts,2,"Low Performer, Volume Driver",0,16,0,4,147,676,529
+ITEM-086,Sesame Ahi Tuna Poke Bowl,Farm-Fresh Salads & Grain Bowls,2,"Low Performer, Volume Driver",0,17,0,3,161,674,513
+ITEM-041,Calabrian Sausage Rigatoni,Wood-Fired Pizzas & Pastas,2,"Low Performer, Profit Driver",15,0,0,5,259,764,505
+ITEM-055,Steakhouse Flat Iron Chimichurri,Prime Steaks & Butcher Cuts,2,"Low Performer, Volume Driver",0,19,0,1,200,701,501
+ITEM-040,Truffled Wild Mushroom Gnocchi,Wood-Fired Pizzas & Pastas,2,"Hidden Opportunity, Low Performer",0,0,11,9,155,647,492
+ITEM-143,Organic Earl Grey Loose Leaf Tea,Specialty Coffee & Beverages,2,"Hidden Opportunity, Profit Driver",19,0,1,0,184,673,489
+ITEM-009,Truffle Whipped Burrata,Appetizers & Small Plates,2,"Low Performer, Volume Driver",0,19,0,1,146,631,485
+ITEM-131,Yuzu Lavender Gin Tonic,Signature Cocktails & Mocktails,2,"Low Performer, Profit Driver",17,0,0,3,218,698,480
+ITEM-025,Philly Ribeye Cheesesteak,Artisanal Burgers & Handhelds,2,"Low Performer, Volume Driver",0,19,0,1,203,678,475
+ITEM-044,Lasagna Bolognese Al Forno,Wood-Fired Pizzas & Pastas,2,"Low Performer, Profit Driver",16,0,0,4,225,690,465
+ITEM-147,Belgian Hot Chocolate Marshmallows,Specialty Coffee & Beverages,2,"Hidden Opportunity, Profit Driver",14,0,6,0,182,641,459
+ITEM-128,Hibiscus Berry Botanical Fizz (Mocktail),Signature Cocktails & Mocktails,2,"Low Performer, Profit Driver",16,0,0,4,224,676,452
+ITEM-092,Truffle Wild Mushroom Risotto,Vegan & Plant-Based Creations,2,"Hidden Opportunity, Low Performer",0,0,18,2,139,577,438
+ITEM-079,Strawberry Gorgonzola Pecan Salad,Farm-Fresh Salads & Grain Bowls,2,"Hidden Opportunity, Low Performer",0,0,10,10,203,638,435
+ITEM-043,Burrata Caprese Pizza,Wood-Fired Pizzas & Pastas,2,"Hidden Opportunity, Low Performer",0,0,3,17,137,566,429
+ITEM-135,Red Sangria Pitcher (House Wine),Signature Cocktails & Mocktails,2,"Hidden Opportunity, Profit Driver",1,0,19,0,161,584,423
+ITEM-023,Smoked Brisket Panini,Artisanal Burgers & Handhelds,2,"Low Performer, Volume Driver",0,3,0,17,148,566,418
+ITEM-070,Garlic Butter Tiger Prawns Skewer,Chef Specials & Seafood,2,"Low Performer, Volume Driver",0,2,0,18,135,542,407
+ITEM-150,Artisanal Kombucha Peach Ginger,Specialty Coffee & Beverages,2,"Hidden Opportunity, Profit Driver",3,0,17,0,187,580,393
+ITEM-084,Kale Tahini Caesar Roasted Chickpeas,Farm-Fresh Salads & Grain Bowls,2,"Hidden Opportunity, Low Performer",0,0,15,5,176,560,384
+ITEM-078,Burrata Caprese Heirloom Salad,Farm-Fresh Salads & Grain Bowls,2,"Hidden Opportunity, Low Performer",0,0,2,18,127,502,375
+ITEM-028,Cubano Roast Pork Sandwich,Artisanal Burgers & Handhelds,2,"Hidden Opportunity, Low Performer",0,0,4,16,115,487,372
+ITEM-059,Bistro Hanger Steak Shallot Jus,Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,4,16,122,485,363
+ITEM-010,Smoked Duck Croquettes,Appetizers & Small Plates,2,"Hidden Opportunity, Low Performer",0,0,2,18,84,446,362
+ITEM-027,Chipotle Fish Tacos (3pcs),Artisanal Burgers & Handhelds,2,"Hidden Opportunity, Low Performer",0,0,2,18,126,488,362
+ITEM-046,USDA Prime Center-Cut Filet Mignon (8oz),Prime Steaks & Butcher Cuts,2,"Low Performer, Volume Driver",0,2,0,18,142,492,350
+ITEM-071,Steamed Blue Mussels White Wine,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,3,17,112,451,339
+ITEM-148,Cold Pressed Green Detox Juice,Specialty Coffee & Beverages,2,"Hidden Opportunity, Low Performer",0,0,4,16,122,444,322
+ITEM-065,Jumbo Lump Crab Cakes (2pcs),Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,1,19,107,419,312
+ITEM-054,Coffee-Crusted Prime Ribeye (14oz),Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,1,19,127,415,288
+ITEM-067,Seafood Paella Valenciana,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,6,14,108,394,286
+ITEM-014,Spanakopita Herb Triangles,Appetizers & Small Plates,2,"Hidden Opportunity, Low Performer",0,0,3,17,125,402,277
+ITEM-049,Colorado Rosemary Lamb Chops,Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,5,15,80,336,256
+ITEM-048,Dry-Aged Bone-in NY Strip (16oz),Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,3,17,104,348,244
+ITEM-110,Fresh Wild Berry Pavlova,Handcrafted Desserts & Pastries,2,"Hidden Opportunity, Low Performer",0,0,3,17,96,338,242
+ITEM-053,Smoked Bone-in Kurobuta Pork Chop,Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,8,12,91,332,241
+ITEM-056,Pan-Roasted Duck Breast Plum Glaze,Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,7,13,55,293,238
+ITEM-069,Grilled Yellowfin Ahi Tuna Steak,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,6,14,102,337,235
+ITEM-045,Linguine alle Vongole (Clams),Wood-Fired Pizzas & Pastas,2,"Hidden Opportunity, Low Performer",0,0,5,15,90,313,223
+ITEM-074,Fried Softshell Crab Basket,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,5,15,82,291,209
+ITEM-018,Prime Wagyu Truffle Burger,Artisanal Burgers & Handhelds,2,"Hidden Opportunity, Low Performer",0,0,4,16,95,300,205
+ITEM-006,Soft-Shell Crab Sliders,Appetizers & Small Plates,2,"Hidden Opportunity, Low Performer",0,0,4,16,49,250,201
+ITEM-005,Wild Alaskan Salmon Tartare,Appetizers & Small Plates,2,"Hidden Opportunity, Low Performer",0,0,8,12,54,252,198
+ITEM-066,Seared Diver Scallops Sweet Corn,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,6,14,110,306,196
+ITEM-062,Crispy Skin Mediterranean Branzino,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,4,16,56,251,195
+ITEM-075,Seafood Bouillabaisse Saffron Rouille,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,4,16,51,244,193
+ITEM-061,Pan-Seared Chilean Sea Bass,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,7,13,67,249,182
+ITEM-073,Pacific Black Cod Miso Glaze,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,7,13,44,206,162
+ITEM-064,Butter Poached Maine Lobster Tail,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,6,14,41,196,155
+ITEM-029,Truffle Lobster Roll,Artisanal Burgers & Handhelds,2,"Hidden Opportunity, Low Performer",0,0,7,13,41,164,123
+ITEM-072,Whole Grilled Red Snapper Mojo,Chef Specials & Seafood,2,"Hidden Opportunity, Low Performer",0,0,9,11,43,148,105
+ITEM-060,Pepper-Crusted Bison Tenderloin,Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,5,15,17,99,82
+ITEM-057,Roasted Veal Chop Chanterelles,Prime Steaks & Butcher Cuts,2,"Hidden Opportunity, Low Performer",0,0,9,11,26,91,65
