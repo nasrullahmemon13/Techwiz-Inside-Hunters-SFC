@@ -11,6 +11,7 @@ from fastapi.staticfiles import StaticFiles
 from backend.routers.executive import router as executive_router
 from backend.routers.menu_intelligence import router as menu_intelligence_router
 from backend.routers.customer_intelligence import router as customer_intelligence_router
+from backend.routers.wastage import router as wastage_router
 from backend.routers.search_filter import router as search_filter_router
 from backend.routers.reports import router as reports_router
 from backend.routers.exports import router as exports_router
@@ -34,6 +35,7 @@ app.add_middleware(
 app.include_router(executive_router)
 app.include_router(menu_intelligence_router)
 app.include_router(customer_intelligence_router)
+app.include_router(wastage_router)
 app.include_router(search_filter_router)
 app.include_router(reports_router)
 app.include_router(exports_router)
@@ -47,7 +49,8 @@ def health_check():
         "active_dashboards": [
             "Executive Dashboard (Step 42)",
             "Menu Intelligence Dashboard (Step 43)",
-            "Customer Intelligence Dashboard (Step 44)"
+            "Customer Intelligence Dashboard (Step 44)",
+            "Wastage Dashboard (Step 45)"
         ]
     }
 

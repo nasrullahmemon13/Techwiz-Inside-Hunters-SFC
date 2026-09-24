@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import ExecutiveDashboard from './dashboards/ExecutiveDashboard';
 import MenuIntelligenceDashboard from './dashboards/MenuIntelligenceDashboard';
 import CustomerIntelligenceDashboard from './dashboards/CustomerIntelligenceDashboard';
+import WastageDashboard from './dashboards/WastageDashboard';
 import SearchFilterModal from './components/SearchFilterModal';
 import ReportsExportsModal from './components/ReportsExportsModal';
 
@@ -34,14 +35,15 @@ export default function App() {
         {activeTab === 'executive' && <ExecutiveDashboard />}
         {activeTab === 'menu' && <MenuIntelligenceDashboard />}
         {activeTab === 'customer' && <CustomerIntelligenceDashboard />}
+        {activeTab === 'wastage' && <WastageDashboard />}
 
-        {activeTab !== 'executive' && activeTab !== 'menu' && activeTab !== 'customer' && (
+        {activeTab !== 'executive' && activeTab !== 'menu' && activeTab !== 'customer' && activeTab !== 'wastage' && (
           <div className="glass-card" style={{ padding: '60px 24px', textAlign: 'center' }}>
             <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#f8fafc', marginBottom: '8px' }}>
               Dashboard Scheduled in Pipeline Sequence
             </h2>
             <p style={{ color: '#94a3b8', maxWidth: '500px', margin: '0 auto 20px' }}>
-              Building one dashboard at a time. Steps 42, 43, 44 are live.
+              Building one dashboard at a time. Steps 42, 43, 44, 45 are live.
             </p>
             <button
               onClick={() => setActiveTab('executive')}
