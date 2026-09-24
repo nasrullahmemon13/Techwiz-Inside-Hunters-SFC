@@ -1,0 +1,11 @@
+category_id,category_name,description,target_margin_pct,display_order,is_alcohol,is_active
+CAT-01,Appetizers & Small Plates,"Starters, shareables, crispy bites, and dips",65.0,1,False,True
+CAT-02,Artisanal Burgers & Handhelds,"Gourmet beef, chicken, and brioche sandwiches",60.0,2,False,True
+CAT-03,Wood-Fired Pizzas & Pastas,Hand-stretched sourdough pizzas and fresh pastas,72.0,3,False,True
+CAT-04,Prime Steaks & Butcher Cuts,"Dry-aged steaks, chops, and slow-braised meats",48.0,4,False,True
+CAT-05,Chef Specials & Seafood,"Pan-seared fish, seasonal shellfish, and delicacies",52.0,5,False,True
+CAT-06,Farm-Fresh Salads & Grain Bowls,"Organic greens, grain bowls, and superfood salads",68.0,6,False,True
+CAT-07,Vegan & Plant-Based Creations,"Plant-forward entrees, gluten-free bowls, and tofu grills",66.0,7,False,True
+CAT-08,Handcrafted Desserts & Pastries,"Artisanal cakes, tarts, gelatos, and warm puddings",75.0,8,False,True
+CAT-09,Signature Cocktails & Mocktails,"Craft mixology, zero-proof botanicals, and house sodas",82.0,9,True,True
+CAT-10,Specialty Coffee & Beverages,"Single-origin espresso, loose-leaf teas, and cold brews",85.0,10,False,True
