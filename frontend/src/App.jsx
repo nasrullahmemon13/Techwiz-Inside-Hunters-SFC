@@ -1,13 +1,32 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import ExecutiveDashboard from './dashboards/ExecutiveDashboard';
+import SearchFilterModal from './components/SearchFilterModal';
+import ReportsExportsModal from './components/ReportsExportsModal';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('executive');
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isReportsOpen, setIsReportsOpen] = useState(false);
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Navbar
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        onOpenSearch={() => setIsSearchOpen(true)}
+        onOpenReports={() => setIsReportsOpen(true)}
+      />
+
+      {/* Global Modals for Steps 48, 49, 50 */}
+      <SearchFilterModal
+        isOpen={isSearchOpen}
+        onClose={() => setIsSearchOpen(false)}
+      />
+      <ReportsExportsModal
+        isOpen={isReportsOpen}
+        onClose={() => setIsReportsOpen(false)}
+      />
 
       <main className="dashboard-container" style={{ flex: 1, width: '100%' }}>
         {activeTab === 'executive' && <ExecutiveDashboard />}

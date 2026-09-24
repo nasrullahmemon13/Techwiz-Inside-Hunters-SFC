@@ -7,7 +7,9 @@ import {
   TrendingUp,
   GitCompare,
   Activity,
-  ShieldCheck
+  ShieldCheck,
+  Filter,
+  Download
 } from 'lucide-react';
 
 const DASHBOARD_TABS = [
@@ -19,7 +21,7 @@ const DASHBOARD_TABS = [
   { id: 'comparison', name: 'Dual-Pipeline Comparison (Step 47)', icon: GitCompare, available: false },
 ];
 
-export default function Navbar({ activeTab, setActiveTab }) {
+export default function Navbar({ activeTab, setActiveTab, onOpenSearch, onOpenReports }) {
   return (
     <header style={{ background: 'var(--bg-secondary)', borderBottom: '1px solid var(--border-color)' }}>
       {/* Top Banner */}
@@ -52,15 +54,51 @@ export default function Navbar({ activeTab, setActiveTab }) {
           </div>
         </div>
 
-        {/* Status Indicators */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+        {/* Status Indicators & Action Triggers */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <button
+            onClick={onOpenSearch}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              background: 'rgba(56, 189, 248, 0.1)',
+              border: '1px solid rgba(56, 189, 248, 0.3)',
+              color: '#38bdf8',
+              padding: '6px 12px',
+              borderRadius: '8px',
+              fontSize: '0.8rem',
+              fontWeight: 600,
+              cursor: 'pointer'
+            }}
+          >
+            <Filter size={14} />
+            <span>Search &amp; Filter (Step 48)</span>
+          </button>
+
+          <button
+            onClick={onOpenReports}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              background: 'rgba(99, 102, 241, 0.1)',
+              border: '1px solid rgba(99, 102, 241, 0.3)',
+              color: '#818cf8',
+              padding: '6px 12px',
+              borderRadius: '8px',
+              fontSize: '0.8rem',
+              fontWeight: 600,
+              cursor: 'pointer'
+            }}
+          >
+            <Download size={14} />
+            <span>Reports &amp; Exports (49-50)</span>
+          </button>
+
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#34d399', background: 'rgba(16, 185, 129, 0.1)', padding: '6px 12px', borderRadius: '8px', border: '1px solid rgba(16, 185, 129, 0.2)' }}>
             <Activity size={14} />
-            <span>FastAPI Backend Connected (:8000)</span>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#94a3b8' }}>
-            <ShieldCheck size={16} color="#38bdf8" />
-            <span>SRS Compliant</span>
+            <span>FastAPI (:8000)</span>
           </div>
         </div>
       </div>
