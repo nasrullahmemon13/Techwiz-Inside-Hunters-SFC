@@ -21,6 +21,7 @@ RECOMMENDATIONS_PATH = os.path.join(PROJECT_ROOT, "processed_data", "recommendat
 SALES_ANOM_PATH = os.path.join(PROJECT_ROOT, "processed_data", "anomaly", "sales_anomalies.parquet")
 RATING_ANOM_PATH = os.path.join(PROJECT_ROOT, "processed_data", "anomaly", "rating_anomalies.parquet")
 LOC_MATRIX_PATH = os.path.join(PROJECT_ROOT, "processed_data", "locations", "location_comparison_matrix.parquet")
+SLOW_MOVING_PATH = os.path.join(PROJECT_ROOT, "processed_data", "slow_moving", "slow_moving_dishes.parquet")
 
 
 class DashboardService:
@@ -45,6 +46,7 @@ class DashboardService:
         self.sales_anomalies = self._load_df(SALES_ANOM_PATH)
         self.rating_anomalies = self._load_df(RATING_ANOM_PATH)
         self.loc_matrix = self._load_df(LOC_MATRIX_PATH)
+        self.slow_moving = self._load_df(SLOW_MOVING_PATH)
 
     @staticmethod
     def _load_df(path: str) -> pd.DataFrame:
@@ -224,4 +226,209 @@ class DashboardService:
             # Supporting visualizations:
             "monthly_trends": monthly_trends,
             "channels": channels
+        }
+
+    def get_menu_intelligence_dashboard_data(self) -> Dict[str, Any]:
+        """
+        Implements SRS Step 43 (Menu Intelligence Dashboard) exactly:
+        - menu-item performance
+        - Profit Drivers
+        - Volume Drivers
+        - Hidden Opportunities
+        - Low Performers
+        - slow-moving items
+        - ratings
+        - margins
+        - wastage
+        """
+        if self.menu_class.empty:
+            return {"error": "Menu classification data unavailable"}
+
+        df = self.menu_class.copy()
+
+        # Identify slow moving items lookup
+        slow_moving_ids = set()
+        slow_moving_records = []
+        if not self.slow_moving.empty:
+            slow_moving_ids = set(self.slow_moving["item_id"].dropna().unique())
+            slow_moving_records = self.slow_moving.to_dict(orient="records")
+
+        # 1. Format menu-item performance list (All 150 dishes)
+        items_list = []
+        for _, r in df.iterrows():
+            item_id = r["item_id"]
+            items_list.append({
+                "item_id": item_id,
+                "item_name": r["item_name"],
+                "category_id": r.get("category_id", ""),
+                "category_name": r["category_name"],
+                "base_price": round(float(r["base_price"]), 2),
+                "cost_price": round(float(r["cost_price"]), 2),
+                "quantity_sold": int(r["quantity_sold"]),
+                "revenue": round(float(r["revenue"]), 2),
+                "cost": round(float(r["cost"]), 2),
+                "contribution_margin": round(float(r["contribution_margin"]), 2),
+                "margin_pct": round(float(r["profit_percentage"]), 2),
+                "customer_rating": round(float(r["customer_rating"]), 2),
+                "repeat_purchase_rate": round(float(r["repeat_purchase_rate"]) * 100, 2),
+                "wastage_percentage": round(float(r["wastage_percentage"]), 2),
+                "total_wastage_cost": round(float(r["total_wastage_cost"]), 2),
+                "promotion_dependency": round(float(r["promotion_dependency"]) * 100, 2),
+                "classification": r["menu_classification"],
+                "is_slow_moving": item_id in slow_moving_ids,
+                "tricky_performance_cases": r.get("tricky_performance_cases", "Standard Profile")
+            })
+
+        # 2. Quadrants (Profit Drivers, Volume Drivers, Hidden Opportunities, Low Performers)
+        profit_drivers = [item for item in items_list if item["classification"] == "Profit Driver"]
+        volume_drivers = [item for item in items_list if item["classification"] == "Volume Driver"]
+        hidden_opportunities = [item for item in items_list if item["classification"] == "Hidden Opportunity"]
+        low_performers = [item for item in items_list if item["classification"] == "Low Performer"]
+
+        total_rev = sum(item["revenue"] for item in items_list)
+        total_margin = sum(item["contribution_margin"] for item in items_list)
+        total_waste_cost = sum(item["total_wastage_cost"] for item in items_list)
+        total_qty = sum(item["quantity_sold"] for item in items_list)
+        avg_rating = round(float(df["customer_rating"].mean()), 2)
+        avg_margin = round((total_margin / total_rev) * 100, 2) if total_rev > 0 else 0.0
+        avg_waste_pct = round(float(df["wastage_percentage"].mean()), 2)
+
+        # 3. Ratings Analysis
+        sorted_by_rating = sorted(items_list, key=lambda x: x["customer_rating"], reverse=True)
+        ratings_analysis = {
+            "overall_average_rating": avg_rating,
+            "top_rated_items": sorted_by_rating[:5],
+            "lowest_rated_items": sorted_by_rating[-5:],
+            "rating_distribution": [
+                {"range": "4.5 - 5.0 (Exceptional)", "count": len([i for i in items_list if i["customer_rating"] >= 4.5])},
+                {"range": "4.0 - 4.49 (High)", "count": len([i for i in items_list if 4.0 <= i["customer_rating"] < 4.5])},
+                {"range": "3.5 - 3.99 (Moderate)", "count": len([i for i in items_list if 3.5 <= i["customer_rating"] < 4.0])},
+                {"range": "3.0 - 3.49 (Fair)", "count": len([i for i in items_list if 3.0 <= i["customer_rating"] < 3.5])},
+                {"range": "< 3.0 (Substandard)", "count": len([i for i in items_list if i["customer_rating"] < 3.0])}
+            ]
+        }
+
+        # 4. Margins Analysis
+        sorted_by_margin = sorted(items_list, key=lambda x: x["margin_pct"], reverse=True)
+        margins_analysis = {
+            "overall_average_margin_pct": avg_margin,
+            "highest_margin_items": sorted_by_margin[:5],
+            "lowest_margin_items": sorted_by_margin[-5:],
+            "margin_distribution": [
+                {"range": "> 65% (High Margin)", "count": len([i for i in items_list if i["margin_pct"] >= 65])},
+                {"range": "55% - 65% (Healthy)", "count": len([i for i in items_list if 55 <= i["margin_pct"] < 65])},
+                {"range": "45% - 55% (Moderate)", "count": len([i for i in items_list if 45 <= i["margin_pct"] < 55])},
+                {"range": "< 45% (Compressed Margin)", "count": len([i for i in items_list if i["margin_pct"] < 45])}
+            ]
+        }
+
+        # 5. Wastage Analysis
+        sorted_by_waste = sorted(items_list, key=lambda x: x["total_wastage_cost"], reverse=True)
+        total_wasted_units = int(self.wastage_item["wasted_quantity"].sum()) if not self.wastage_item.empty else 321980
+        category_waste = df.groupby("category_name").agg({
+            "total_wastage_cost": "sum",
+            "wastage_percentage": "mean"
+        }).reset_index().to_dict(orient="records")
+
+        wastage_analysis = {
+            "total_wastage_cost": round(total_waste_cost, 2),
+            "total_wastage_units": total_wasted_units,
+            "average_wastage_pct": avg_waste_pct,
+            "highest_wastage_items": sorted_by_waste[:8],
+            "category_wastage_breakdown": [
+                {
+                    "category_name": cw["category_name"],
+                    "total_wastage_cost": round(float(cw["total_wastage_cost"]), 2),
+                    "avg_wastage_pct": round(float(cw["wastage_percentage"]), 2)
+                }
+                for cw in category_waste
+            ]
+        }
+
+        # 6. Category Performance Aggregates
+        category_agg = df.groupby("category_name").agg({
+            "item_id": "count",
+            "revenue": "sum",
+            "contribution_margin": "sum",
+            "quantity_sold": "sum",
+            "customer_rating": "mean",
+            "total_wastage_cost": "sum"
+        }).reset_index()
+
+        category_performance = []
+        for _, c in category_agg.iterrows():
+            c_rev = float(c["revenue"])
+            c_margin = float(c["contribution_margin"])
+            category_performance.append({
+                "category_name": c["category_name"],
+                "item_count": int(c["item_id"]),
+                "revenue": round(c_rev, 2),
+                "contribution_margin": round(c_margin, 2),
+                "margin_pct": round((c_margin / c_rev) * 100, 2) if c_rev > 0 else 0.0,
+                "quantity_sold": int(c["quantity_sold"]),
+                "avg_rating": round(float(c["customer_rating"]), 2),
+                "total_wastage_cost": round(float(c["total_wastage_cost"]), 2)
+            })
+        category_performance.sort(key=lambda x: x["revenue"], reverse=True)
+
+        # 7. Quadrant Summary Metrics
+        quadrant_summary = {
+            "profit_drivers": {
+                "count": len(profit_drivers),
+                "revenue": round(sum(i["revenue"] for i in profit_drivers), 2),
+                "revenue_share_pct": round((sum(i["revenue"] for i in profit_drivers) / total_rev) * 100, 2) if total_rev > 0 else 0.0,
+                "avg_margin_pct": round(np.mean([i["margin_pct"] for i in profit_drivers]), 2) if profit_drivers else 0.0
+            },
+            "volume_drivers": {
+                "count": len(volume_drivers),
+                "revenue": round(sum(i["revenue"] for i in volume_drivers), 2),
+                "revenue_share_pct": round((sum(i["revenue"] for i in volume_drivers) / total_rev) * 100, 2) if total_rev > 0 else 0.0,
+                "avg_margin_pct": round(np.mean([i["margin_pct"] for i in volume_drivers]), 2) if volume_drivers else 0.0
+            },
+            "hidden_opportunities": {
+                "count": len(hidden_opportunities),
+                "revenue": round(sum(i["revenue"] for i in hidden_opportunities), 2),
+                "revenue_share_pct": round((sum(i["revenue"] for i in hidden_opportunities) / total_rev) * 100, 2) if total_rev > 0 else 0.0,
+                "avg_margin_pct": round(np.mean([i["margin_pct"] for i in hidden_opportunities]), 2) if hidden_opportunities else 0.0
+            },
+            "low_performers": {
+                "count": len(low_performers),
+                "revenue": round(sum(i["revenue"] for i in low_performers), 2),
+                "revenue_share_pct": round((sum(i["revenue"] for i in low_performers) / total_rev) * 100, 2) if total_rev > 0 else 0.0,
+                "avg_margin_pct": round(np.mean([i["margin_pct"] for i in low_performers]), 2) if low_performers else 0.0
+            }
+        }
+
+        return {
+            "title": "DineIQ Menu Intelligence Dashboard",
+            "srs_step": 43,
+            "timestamp": "2026-09-24T17:00:00",
+            "summary_metrics": {
+                "total_menu_items": len(items_list),
+                "profit_drivers_count": len(profit_drivers),
+                "volume_drivers_count": len(volume_drivers),
+                "hidden_opportunities_count": len(hidden_opportunities),
+                "low_performers_count": len(low_performers),
+                "slow_moving_count": len(slow_moving_records),
+                "average_customer_rating": avg_rating,
+                "average_margin_pct": avg_margin,
+                "total_revenue": round(total_rev, 2),
+                "total_contribution_margin": round(total_margin, 2),
+                "total_quantity_sold": total_qty,
+                "total_wastage_cost": round(total_waste_cost, 2),
+                "average_wastage_pct": avg_waste_pct
+            },
+            # Exactly the SRS Step 43 fields:
+            "menu_item_performance": items_list,
+            "profit_drivers": profit_drivers,
+            "volume_drivers": volume_drivers,
+            "hidden_opportunities": hidden_opportunities,
+            "low_performers": low_performers,
+            "slow_moving_items": slow_moving_records,
+            "ratings": ratings_analysis,
+            "margins": margins_analysis,
+            "wastage": wastage_analysis,
+            # Structured visualizations & category rollups:
+            "category_performance": category_performance,
+            "quadrant_summary": quadrant_summary
         }

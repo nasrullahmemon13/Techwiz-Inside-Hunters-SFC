@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import ExecutiveDashboard from './dashboards/ExecutiveDashboard';
+import MenuIntelligenceDashboard from './dashboards/MenuIntelligenceDashboard';
 import SearchFilterModal from './components/SearchFilterModal';
 import ReportsExportsModal from './components/ReportsExportsModal';
 
@@ -30,14 +31,15 @@ export default function App() {
 
       <main className="dashboard-container" style={{ flex: 1, width: '100%' }}>
         {activeTab === 'executive' && <ExecutiveDashboard />}
+        {activeTab === 'menu' && <MenuIntelligenceDashboard />}
 
-        {activeTab !== 'executive' && (
+        {activeTab !== 'executive' && activeTab !== 'menu' && (
           <div className="glass-card" style={{ padding: '60px 24px', textAlign: 'center' }}>
             <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#f8fafc', marginBottom: '8px' }}>
               Dashboard Scheduled in Pipeline Sequence
             </h2>
             <p style={{ color: '#94a3b8', maxWidth: '500px', margin: '0 auto 20px' }}>
-              Building one dashboard at a time. The Executive Dashboard (Step 42) is currently live.
+              Building one dashboard at a time. Executive Dashboard (Step 42) &amp; Menu Intelligence (Step 43) are live.
             </p>
             <button
               onClick={() => setActiveTab('executive')}
