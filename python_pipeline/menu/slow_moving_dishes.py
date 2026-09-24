@@ -126,26 +126,69 @@ class SlowMovingDishDetector:
         """
         df = self.compute_all_7_dimensions()
 
-        # Score 1: Low Volume (Inverted percentile rank: low sold -> score close to 1.0)
+        # Score 1: Low sales volume (Inverted percentile rank: low sold -> score close to 1.0)
         df["score_vol"] = 1.0 - df["total_quantity_sold"].rank(pct=True)
 
-        # Score 2: Low Frequency (Inverted percentile rank: low order count -> score close to 1.0)
+        # Score 2: Low purchase frequency (Inverted percentile rank: low order count -> score close to 1.0)
         df["score_freq"] = 1.0 - df["unique_order_count"].rank(pct=True)
 
-        # Score 3: Long Gaps (Percentile rank: high mean gap -> score close to 1.0)
+        # Score 3: Long gaps between purchases (Percentile rank: high mean gap -> score close to 1.0)
         df["score_gap"] = df["mean_gap_days"].rank(pct=True)
 
-        # Score 4: Low Repeat Purchase (Inverted percentile rank: low repeat -> score close to 1.0)
+        # Score 4: Low repeat purchase (Inverted percentile rank: low repeat -> score close to 1.0)
         df["score_repeat"] = 1.0 - df["repeat_purchase_pct"].rank(pct=True)
 
-        # Score 5: High Wastage (Percentile rank: high wastage % -> score close to 1.0)
+        # Score 5: High wastage (Percentile rank: high wastage % -> score close to 1.0)
         df["score_waste"] = df["wastage_percentage"].rank(pct=True)
 
-        # Score 6: Weak Profitability (Inverted percentile rank: low margin -> score close to 1.0)
+        # Score 6: Weak profitability (Inverted percentile rank: low margin -> score close to 1.0)
         df["score_margin"] = 1.0 - df["contribution_margin_pct"].rank(pct=True)
 
-        # Score 7: Poor Trend (Inverted percentile rank: low/negative growth -> score close to 1.0)
+        # Score 7: Poor trend (Inverted percentile rank: low/negative growth -> score close to 1.0)
         df["score_trend"] = 1.0 - df["normalized_trend_slope"].rank(pct=True)
+
+        # Exact SRS Step 32 Dimension Metric Aliases
+        df["low_sales_volume_val"] = df["total_quantity_sold"]
+        df["low_sales_volume_score"] = df["score_vol"]
+
+        df["low_purchase_frequency_val"] = df["unique_order_count"]
+        df["low_purchase_frequency_score"] = df["score_freq"]
+
+        df["long_gaps_between_purchases_val"] = df["mean_gap_days"]
+        df["long_gaps_between_purchases_score"] = df["score_gap"]
+
+        df["low_repeat_purchase_val"] = df["repeat_purchase_pct"]
+        df["low_repeat_purchase_score"] = df["score_repeat"]
+
+        df["high_wastage_val"] = df["wastage_percentage"]
+        df["high_wastage_score"] = df["score_waste"]
+
+        df["weak_profitability_val"] = df["contribution_margin_pct"]
+        df["weak_profitability_score"] = df["score_margin"]
+
+        df["poor_trend_val"] = df["normalized_trend_slope"]
+        df["poor_trend_score"] = df["score_trend"]
+
+        # Boolean Flags for each of the 7 SRS Dimensions (Triggered if score in worst quartile >= 0.70)
+        df["flag_low_sales_volume"] = df["score_vol"] >= 0.70
+        df["flag_low_purchase_frequency"] = df["score_freq"] >= 0.70
+        df["flag_long_gaps_between_purchases"] = df["score_gap"] >= 0.70
+        df["flag_low_repeat_purchase"] = df["score_repeat"] >= 0.70
+        df["flag_high_wastage"] = df["score_waste"] >= 0.70
+        df["flag_weak_profitability"] = df["score_margin"] >= 0.70
+        df["flag_poor_trend"] = df["score_trend"] >= 0.70
+
+        # Count of triggered SRS dimensions
+        dim_flags = [
+            "flag_low_sales_volume",
+            "flag_low_purchase_frequency",
+            "flag_long_gaps_between_purchases",
+            "flag_low_repeat_purchase",
+            "flag_high_wastage",
+            "flag_weak_profitability",
+            "flag_poor_trend"
+        ]
+        df["srs_dimensions_triggered_count"] = df[dim_flags].sum(axis=1)
 
         # Multi-factor weights summing to 1.0
         weights = {
@@ -170,9 +213,10 @@ class SlowMovingDishDetector:
 
         def classify_dish(row):
             smi = row["slow_moving_index"]
-            if smi >= 0.65:
+            trig = row["srs_dimensions_triggered_count"]
+            if smi >= 0.65 or trig >= 5:
                 return "Critical Slow-Moving"
-            elif smi >= 0.50:
+            elif smi >= 0.50 or trig >= 3:
                 return "Moderate Slow-Moving"
             elif smi >= 0.35:
                 return "Watchlist / Marginal"

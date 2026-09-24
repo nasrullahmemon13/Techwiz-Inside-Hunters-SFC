@@ -88,6 +88,62 @@ def test_slow_moving_scorecard_and_classes(menu_data):
     assert "Active Mover" in classes
 
 
+def test_exact_7_srs_dimensions_combination(menu_data):
+    cube_df, wastage_df = menu_data
+    detector = SlowMovingDishDetector(cube_df, wastage_df)
+    scorecard = detector.compute_slow_moving_scorecard()
+
+    # Exact 7 SRS Dimensions Metrics
+    srs_metrics = [
+        "low_sales_volume_val",
+        "low_purchase_frequency_val",
+        "long_gaps_between_purchases_val",
+        "low_repeat_purchase_val",
+        "high_wastage_val",
+        "weak_profitability_val",
+        "poor_trend_val"
+    ]
+    for m in srs_metrics:
+        assert m in scorecard.columns
+
+    # Exact 7 SRS Dimension Scores & Flags
+    srs_scores = [
+        "low_sales_volume_score",
+        "low_purchase_frequency_score",
+        "long_gaps_between_purchases_score",
+        "low_repeat_purchase_score",
+        "high_wastage_score",
+        "weak_profitability_score",
+        "poor_trend_score"
+    ]
+    for s in srs_scores:
+        assert s in scorecard.columns
+        assert (scorecard[s] >= 0.0).all() and (scorecard[s] <= 1.0).all()
+
+    srs_flags = [
+        "flag_low_sales_volume",
+        "flag_low_purchase_frequency",
+        "flag_long_gaps_between_purchases",
+        "flag_low_repeat_purchase",
+        "flag_high_wastage",
+        "flag_weak_profitability",
+        "flag_poor_trend"
+    ]
+    for f in srs_flags:
+        assert f in scorecard.columns
+        assert scorecard[f].dtype == bool
+
+    # Combination enforcement
+    assert "srs_dimensions_triggered_count" in scorecard.columns
+    assert (scorecard["srs_dimensions_triggered_count"] >= 0).all()
+    assert (scorecard["srs_dimensions_triggered_count"] <= 7).all()
+
+    # Slow movers must have high SMI or triggered multiple flags
+    critical = scorecard[scorecard["movement_class"] == "Critical Slow-Moving"]
+    assert len(critical) > 0
+    assert (critical["slow_moving_index"] >= 0.50).all()
+
+
 def test_slow_moving_pipeline_artifacts():
     scorecard_df, summary_stats = run_slow_moving_pipeline()
 
@@ -102,3 +158,4 @@ def test_slow_moving_pipeline_artifacts():
     assert os.path.exists(os.path.join(out_dir, "all_menu_items_movement_scorecard.parquet"))
     assert os.path.exists(os.path.join(rep_dir, "slow_moving_dishes_report.md"))
     assert os.path.exists(os.path.join(rep_dir, "slow_moving_dishes_report.json"))
+
