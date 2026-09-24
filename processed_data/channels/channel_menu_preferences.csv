@@ -1,0 +1,51 @@
+ordering_channel,category_name,units_sold,category_revenue,category_gross_profit,channel_unit_share_pct
+Dine-in,Specialty Coffee & Beverages,77827,433075.13,327045.98,13.204400392261986
+Dine-in,Signature Cocktails & Mocktails,69123,945906.4400000001,728718.64,11.727649380219273
+Dine-in,Wood-Fired Pizzas & Pastas,66545,1316006.19,719119.49,11.290256904455703
+Dine-in,Appetizers & Small Plates,64234,836545.25,268090.9,10.898164580371292
+Dine-in,Artisanal Burgers & Handhelds,63855,1015728.46,470300.76,10.833862117875407
+Dine-in,Farm-Fresh Salads & Grain Bowls,61856,912140.1900000001,520355.08999999997,10.494704802494732
+Dine-in,Handcrafted Desserts & Pastries,61752,630778.82,390167.92,10.477059799593487
+Dine-in,Vegan & Plant-Based Creations,52897,848160.16,542184.5599999999,8.974689600646078
+Dine-in,Prime Steaks & Butcher Cuts,36472,1398188.57,743695.37,6.187966786675308
+Dine-in,Chef Specials & Seafood,34841,1086542.55,564633.95,5.911245635406734
+Other supported channels (Drive-thru),Specialty Coffee & Beverages,17458,97256.08,73470.18000000001,13.156189241736877
+Other supported channels (Drive-thru),Signature Cocktails & Mocktails,15289,211523.61000000002,162648.51,11.52165066542073
+Other supported channels (Drive-thru),Wood-Fired Pizzas & Pastas,14944,294650.17,161263.66999999998,11.261661818565464
+Other supported channels (Drive-thru),Artisanal Burgers & Handhelds,14642,233142.34,107693.64,11.034077378709553
+Other supported channels (Drive-thru),Appetizers & Small Plates,14372,187934.41,60996.060000000005,10.83060784638804
+Other supported channels (Drive-thru),Handcrafted Desserts & Pastries,13987,143394.96,88862.36,10.540475365114773
+Other supported channels (Drive-thru),Farm-Fresh Salads & Grain Bowls,13979,206015.18,117367.58,10.534446638231172
+Other supported channels (Drive-thru),Vegan & Plant-Based Creations,11912,190798.38,122106.08,8.97677432968093
+Other supported channels (Drive-thru),Prime Steaks & Butcher Cuts,8189,310508.68,164965.78,6.171155556225414
+Other supported channels (Drive-thru),Chef Specials & Seafood,7926,246139.9,127484.2,5.972961159927053
+Restaurant Website or App,Specialty Coffee & Beverages,6049,33774.19,25463.79,13.150857664630303
+Restaurant Website or App,Signature Cocktails & Mocktails,5326,74110.15,57244.85,11.579016022784094
+Restaurant Website or App,Farm-Fresh Salads & Grain Bowls,5039,74708.91,42518.71,10.95506228667087
+Restaurant Website or App,Appetizers & Small Plates,5029,66026.75,21475.850000000002,10.933321738374243
+Restaurant Website or App,Artisanal Burgers & Handhelds,5018,79395.64,36865.84,10.90940713524795
+Restaurant Website or App,Wood-Fired Pizzas & Pastas,4981,97928.79,53385.79,10.828967106550428
+Restaurant Website or App,Handcrafted Desserts & Pastries,4966,51188.54,31660.94,10.796356284105485
+Restaurant Website or App,Vegan & Plant-Based Creations,4036,64716.02,41345.62,8.774485292519078
+Restaurant Website or App,Prime Steaks & Butcher Cuts,2906,112268.56,59952.46,6.317803335000109
+Restaurant Website or App,Chef Specials & Seafood,2647,83711.17,43678.67,5.754723134117443
+Takeaway,Specialty Coffee & Beverages,42820,237402.92,179456.17,13.097765243510764
+Takeaway,Signature Cocktails & Mocktails,38141,523520.25,403662.15,11.666554510806728
+Takeaway,Wood-Fired Pizzas & Pastas,36742,726115.6,396676.39999999997,11.238628925200198
+Takeaway,Appetizers & Small Plates,35576,463734.55,149546.35,10.881973290591755
+Takeaway,Artisanal Burgers & Handhelds,35171,560464.48,259859.28,10.758092045294653
+Takeaway,Farm-Fresh Salads & Grain Bowls,35125,517834.72000000003,295159.72,10.744021582865846
+Takeaway,Handcrafted Desserts & Pastries,33954,347384.42,214253.72,10.385836550167316
+Takeaway,Vegan & Plant-Based Creations,29585,474668.36,303342.46,9.049448499048715
+Takeaway,Prime Steaks & Butcher Cuts,20254,776397.95,412899.05,6.1952857833271135
+Takeaway,Chef Specials & Seafood,19558,609098.84,316576.04,5.98239356918691
+Third-party delivery platforms,Specialty Coffee & Beverages,27948,154910.48,117337.63,12.945781318757671
+Third-party delivery platforms,Signature Cocktails & Mocktails,25569,354425.35,273414.55,11.843805729902494
+Third-party delivery platforms,Wood-Fired Pizzas & Pastas,24177,477969.52999999997,261325.13,11.19901799569215
+Third-party delivery platforms,Farm-Fresh Salads & Grain Bowls,23420,346866.41,198072.41,10.84836834425736
+Third-party delivery platforms,Artisanal Burgers & Handhelds,23174,368908.32,170392.62,10.73441878778053
+Third-party delivery platforms,Appetizers & Small Plates,23106,302134.61,97283.86,10.702920536396693
+Third-party delivery platforms,Handcrafted Desserts & Pastries,22614,231548.84,142349.64,10.475021423443037
+Third-party delivery platforms,Vegan & Plant-Based Creations,19669,314755.86,201552.96,9.11086921277532
+Third-party delivery platforms,Prime Steaks & Butcher Cuts,13377,510701.93,271866.83,6.1963545406119005
+Third-party delivery platforms,Chef Specials & Seafood,12831,401091.17,208736.47,5.9434421103828425
