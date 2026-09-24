@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-24 14:53:49",
+  "total_items": 150,
+  "classification_distribution": {
+    "Low Performer": 71,
+    "Volume Driver": 39,
+    "Profit Driver": 31,
+    "Hidden Opportunity": 9
+  },
+  "tricky_scenario_counts": {
+    "High-Selling Loss-Making Dish": 2,
+    "Highly Profitable but Rarely Purchased Dish": 9,
+    "Popular Dish with Excessive Wastage": 5,
+    "Highly Rated Dish with Poor Profitability": 5,
+    "Low-Rated Dish with High Sales": 10,
+    "Promotion-Dependent Dish": 22,
+    "Dish Performing Differently Across Locations": 39,
+    "Weekend-Only Performer": 39,
+    "Seasonal Item": 4,
+    "New Item with Insufficient History": 8
+  }
+}
