@@ -1,4 +1,4 @@
-﻿"""
+"""
 Generate Restaurants Table (20 locations)
 Per SRS Section 2 & Hint specifications.
 """
@@ -49,6 +49,7 @@ def generate_restaurants(output_path: str = None) -> pd.DataFrame:
         
         record = {
             "restaurant_id": loc_id,
+            "location_id": loc_id,
             "name": preset["name"],
             "city": preset["city"],
             "state": preset["state"],
