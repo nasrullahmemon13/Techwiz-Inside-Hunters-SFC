@@ -1,0 +1,120 @@
+{
+  "execution_timestamp": "2026-09-24 15:13:29",
+  "libraries_utilized": [
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "XGBoost",
+    "SciPy",
+    "Statsmodels"
+  ],
+  "price_elasticity": {
+    "model_type": "Log-Log Econometric Demand Regression (Statsmodels OLS)",
+    "price_elasticity_coefficient": -0.7738,
+    "elasticity_category": "Price Inelastic (|Ed| < 1) - Low sensitivity; pricing power exists",
+    "p_value": 0.0,
+    "is_statistically_significant": true,
+    "promo_lift_coefficient": -0.1357,
+    "r_squared": 0.4121,
+    "f_pvalue": 0.0,
+    "total_observations": 7950
+  },
+  "hypothesis_tests": {
+    "two_sample_ttest_weekend_vs_weekday": {
+      "test_name": "Welch's Two-Sample Independent t-test",
+      "null_hypothesis": "Mean ticket spend on weekends equals weekday spend",
+      "weekend_mean": 269.69,
+      "weekday_mean": 268.97,
+      "t_statistic": 0.9006,
+      "p_value": 0.36782790068302607,
+      "reject_null_at_5pct": false
+    },
+    "anova_location_tiers": {
+      "test_name": "One-Way Analysis of Variance (ANOVA)",
+      "null_hypothesis": "Mean order amounts are identical across Urban, Suburban, and Downtown tiers",
+      "f_statistic": 0.7162,
+      "p_value": 0.677502255868565,
+      "reject_null_at_5pct": false
+    },
+    "chi_square_channel_payment": {
+      "test_name": "Pearson's Chi-Square Test of Independence",
+      "null_hypothesis": "Customer fulfillment channel and payment method are statistically independent",
+      "chi2_statistic": 12.7145,
+      "p_value": 0.39013101335896205,
+      "degrees_of_freedom": 12,
+      "reject_null_at_5pct": false
+    },
+    "distribution_metrics": {
+      "spend_skewness": 0.8969,
+      "spend_kurtosis": 1.5102
+    }
+  },
+  "time_series_forecasting": {
+    "model_type": "ARIMA(1, 1, 1) Time-Series Forecaster (Statsmodels)",
+    "total_historical_days": 365,
+    "seasonal_strength_index": 0.8911,
+    "holdout_evaluation_30d": {
+      "mae": 15449.18,
+      "rmse": 17589.28,
+      "mape_pct": 18.91
+    },
+    "forecast_30d_summary": {
+      "mean_projected_daily_revenue": 78668.17,
+      "total_projected_30d_revenue": 2360045.22
+    }
+  },
+  "churn_xgboost": {
+    "xgb_metrics": {
+      "model_name": "XGBoost Classifier (Standalone Python)",
+      "accuracy": 0.8151,
+      "precision": 0.836,
+      "recall": 0.8151,
+      "f1_score": 0.817,
+      "roc_auc": 0.8834,
+      "confusion_matrix": [
+        [
+          3570,
+          413
+        ],
+        [
+          1436,
+          4581
+        ]
+      ]
+    },
+    "rf_baseline_metrics": {
+      "model_name": "Scikit-Learn Random Forest (Baseline)",
+      "accuracy": 0.785,
+      "precision": 0.8604,
+      "recall": 0.785,
+      "f1_score": 0.7845,
+      "roc_auc": 0.8676
+    },
+    "top_features": [
+      {
+        "feature_name": "recency_days",
+        "importance_gain": 0.6779999732971191
+      },
+      {
+        "feature_name": "total_orders",
+        "importance_gain": 0.186599999666214
+      },
+      {
+        "feature_name": "loyalty_points",
+        "importance_gain": 0.10520000010728836
+      },
+      {
+        "feature_name": "weekend_order_ratio",
+        "importance_gain": 0.01209999993443489
+      },
+      {
+        "feature_name": "total_spend",
+        "importance_gain": 0.006300000008195639
+      }
+    ]
+  },
+  "artifacts_persisted": [
+    "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\models\\python\\xgb_churn_model.joblib",
+    "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\reports\\python_pipeline\\sales_forecast_30d.csv"
+  ]
+}
