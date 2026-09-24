@@ -1,0 +1,1361 @@
+{
+  "execution_timestamp": "2026-09-24 15:16:19",
+  "task_name": "Menu Performance Classification",
+  "total_records_compared": 150,
+  "match_count": 146,
+  "mismatch_count": 4,
+  "overall_agreement_percentage": 97.33,
+  "mean_numerical_difference": 0.0996,
+  "records": [
+    {
+      "Record ID": "ITEM-007",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1479,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-011",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0822,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-020",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1453,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-049",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1237,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-051",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0828,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-059",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1447,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-062",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0322,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-073",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0808,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-079",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0996,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-092",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1134,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-094",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0955,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-096",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0125,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-104",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0756,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-110",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1053,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-111",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0585,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-120",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0255,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-121",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1281,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-126",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.229,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-145",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0121,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-147",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0163,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-019",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1002,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-041",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.161,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-047",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0649,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-064",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0773,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-065",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.08,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-067",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1291,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-072",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0157,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-105",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1833,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-115",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.056,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-125",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0141,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-130",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2156,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-133",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0029,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-140",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0432,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-148",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1261,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-010",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.004,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-015",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0539,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-025",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1538,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-028",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0832,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-043",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0407,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-046",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2347,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-053",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Low Performer",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MISMATCH",
+      "Numerical difference (wherever applicable)": 0.1421,
+      "Explanation of disagreement": "Quality-satisfaction divergence: High rating (3.70) and repeat loyalty (2.7%) qualified item as Hidden Opportunity in Python."
+    },
+    {
+      "Record ID": "ITEM-054",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1955,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-058",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2036,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-061",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0309,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-077",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1575,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-078",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.107,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-084",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0517,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-088",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0727,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-103",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1226,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-112",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0451,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-119",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1419,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-127",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MISMATCH",
+      "Numerical difference (wherever applicable)": 0.0494,
+      "Explanation of disagreement": "Boundary condition: Python's RobustScaler combined high repeat purchase (6.4%) with margin ($74,582) to promote item to Profit Driver."
+    },
+    {
+      "Record ID": "ITEM-128",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0452,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-132",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1872,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-136",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0449,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-137",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0575,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-143",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.115,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-009",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1224,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-012",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0045,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-016",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1963,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-017",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1566,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-024",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0212,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-026",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MISMATCH",
+      "Numerical difference (wherever applicable)": 0.1376,
+      "Explanation of disagreement": "Boundary condition: Python's RobustScaler combined high repeat purchase (7.4%) with margin ($80,341) to promote item to Profit Driver."
+    },
+    {
+      "Record ID": "ITEM-033",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1507,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-035",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0066,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-039",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.017,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-044",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1633,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-056",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0714,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-069",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0415,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-071",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0062,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-082",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0152,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-083",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0771,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-085",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1615,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-087",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.007,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-090",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0617,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-101",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1712,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-102",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0358,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-109",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0169,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-138",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0097,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-141",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0263,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-142",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.028,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-146",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0651,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-002",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0882,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-004",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0433,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-045",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0843,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-055",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1915,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-060",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1353,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-068",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1882,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-074",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0223,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-075",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2113,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-080",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0389,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-089",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1936,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-091",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0666,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-097",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1915,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-108",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1166,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-114",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.048,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-116",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0669,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-118",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0449,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-131",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0771,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-001",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1324,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-005",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0965,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-013",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0541,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-014",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.004,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-021",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.076,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-022",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2129,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-027",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0439,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-031",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1199,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-032",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1712,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-095",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0878,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-106",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1167,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-122",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2305,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-134",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0952,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-149",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1221,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-003",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1022,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-030",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0668,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-034",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.085,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-036",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1708,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-037",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2065,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-038",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2102,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-048",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.217,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-052",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.3067,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-063",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.2753,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-093",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0395,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-098",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0804,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-099",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0128,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-100",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1087,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-107",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0621,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-113",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0772,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-117",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0329,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-124",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1729,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-135",
+      "Actual class or value": "Hidden Opportunity",
+      "Spark result": "Hidden Opportunity",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1549,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-139",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0344,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-150",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0495,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-006",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0942,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-008",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.28,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-018",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0313,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-023",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0635,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-029",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0615,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-040",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.134,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-042",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1966,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-050",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Low Performer",
+      "Python result": "Hidden Opportunity",
+      "Match or mismatch": "MISMATCH",
+      "Numerical difference (wherever applicable)": 0.2475,
+      "Explanation of disagreement": "Quality-satisfaction divergence: High rating (3.56) and repeat loyalty (5.2%) qualified item as Hidden Opportunity in Python."
+    },
+    {
+      "Record ID": "ITEM-057",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0378,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-066",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0396,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-070",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1089,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-076",
+      "Actual class or value": "Volume Driver",
+      "Spark result": "Volume Driver",
+      "Python result": "Volume Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1505,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-081",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1074,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-086",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0461,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-123",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.1827,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-129",
+      "Actual class or value": "Profit Driver",
+      "Spark result": "Profit Driver",
+      "Python result": "Profit Driver",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0717,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    },
+    {
+      "Record ID": "ITEM-144",
+      "Actual class or value": "Low Performer",
+      "Spark result": "Low Performer",
+      "Python result": "Low Performer",
+      "Match or mismatch": "MATCH",
+      "Numerical difference (wherever applicable)": 0.0619,
+      "Explanation of disagreement": "Consensus across both independent engines"
+    }
+  ]
+}
