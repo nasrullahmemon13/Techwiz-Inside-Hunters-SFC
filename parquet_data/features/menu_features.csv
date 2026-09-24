@@ -1,0 +1,151 @@
+item_id,item_name,category_id,category_name,base_price,cost_price,item_revenue,cost,contribution_margin,profit_percentage,order_frequency,item_popularity,repeat_purchase_rate,average_rating,rating_trend,wastage_percentage,price_change_percentage
+ITEM-052,Steak Frites Garlic Herb Butter,CAT-04,Prime Steaks & Butcher Cuts,29.99,18.5,417790.69,257723.5,160067.19,38.31,9137,13931,0.0875,3.62,-0.037,4.70,0.0
+ITEM-046,USDA Prime Center-Cut Filet Mignon (8oz),CAT-04,Prime Steaks & Butcher Cuts,48.0,24.5,351744.0,179536.0,172208.0,48.96,4944,7328,0.0522,3.52,-0.105,9.80,0.0
+ITEM-032,Double Pepperoni Hot Honey Pizza,CAT-03,Wood-Fired Pizzas & Pastas,18.5,13.8,344914.0,257287.2,87626.8,25.41,12038,18644,0.1122,3.56,-0.163,2.04,0.0
+ITEM-063,Wild King Salmon Lemon Herb,CAT-05,Chef Specials & Seafood,34.0,16.2,312664.0,148975.2,163688.8,52.35,6204,9196,0.0549,3.64,0.035,11.88,0.0
+ITEM-068,Classic Fish & Chips Tartar,CAT-05,Chef Specials & Seafood,19.99,14.5,302588.63,219486.5,83102.13,27.46,9843,15137,0.0925,3.63,-0.101,3.70,0.0
+ITEM-031,Margherita Sourdough Pizza,CAT-03,Wood-Fired Pizzas & Pastas,15.99,12.0,299572.65,224820.0,74752.65,24.95,12146,18735,0.1148,3.51,-0.025,2.34,0.0
+ITEM-050,Slow-Braised Beef Short Ribs,CAT-04,Prime Steaks & Butcher Cuts,36.0,14.5,296424.0,119393.0,177031.0,59.72,5489,8234,0.0523,3.56,-0.003,6.42,0.0
+ITEM-054,Coffee-Crusted Prime Ribeye (14oz),CAT-04,Prime Steaks & Butcher Cuts,52.0,23.0,285532.0,126293.0,159239.0,55.77,3780,5491,0.0361,3.53,0.189,12.37,0.0
+ITEM-016,DineIQ Smash Double Cheeseburger,CAT-02,Artisanal Burgers & Handhelds,13.99,10.8,277729.48,214401.6,63327.88,22.8,12728,19852,0.1155,3.68,0.15,2.55,0.0
+ITEM-058,BBQ Glazed St. Louis Ribs (Full),CAT-04,Prime Steaks & Butcher Cuts,31.0,14.0,270692.0,122248.0,148444.0,54.84,5853,8732,0.0606,3.56,-0.074,6.69,0.0
+ITEM-048,Dry-Aged Bone-in NY Strip (16oz),CAT-04,Prime Steaks & Butcher Cuts,56.0,26.0,260792.0,121082.0,139710.0,53.57,3144,4657,0.0303,3.64,-0.02,14.08,0.0
+ITEM-055,Steakhouse Flat Iron Chimichurri,CAT-04,Prime Steaks & Butcher Cuts,26.5,13.2,257739.0,128383.2,129355.8,50.19,6526,9726,0.0615,3.58,0.036,6.46,0.0
+ITEM-017,Crispy Buttermilk Chicken Sandwich,CAT-02,Artisanal Burgers & Handhelds,14.5,11.0,250792.0,190256.0,60536.0,24.14,11181,17296,0.1024,3.63,0.009,3.23,0.0
+ITEM-038,Creamy Fettuccine Alfredo,CAT-03,Wood-Fired Pizzas & Pastas,16.99,5.2,245284.63,75072.4,170212.23,69.39,9432,14437,0.0893,3.52,-0.149,2.66,0.0
+ITEM-002,Classic Buffalo Chicken Wings,CAT-01,Appetizers & Small Plates,14.5,11.2,243832.0,188339.2,55492.8,22.76,10892,16816,0.1018,3.52,0.084,3.08,0.0
+ITEM-022,Black Angus Bacon Cheddar,CAT-02,Artisanal Burgers & Handhelds,17.5,8.0,236005.0,107888.0,128117.0,54.29,8812,13486,0.0855,3.63,0.024,4.40,0.0
+ITEM-042,Spicy Diavola Pizza,CAT-03,Wood-Fired Pizzas & Pastas,19.0,6.9,225739.0,81978.9,143760.1,63.68,7831,11881,0.0743,3.58,0.242,2.93,0.0
+ITEM-135,Red Sangria Pitcher (House Wine),CAT-09,Signature Cocktails & Mocktails,29.0,6.2,224083.0,47907.4,176175.6,78.62,5220,7727,0.05,3.46,-0.245,3.82,0.0
+ITEM-037,Spaghetti All'Amatriciana,CAT-03,Wood-Fired Pizzas & Pastas,17.5,5.5,216912.5,68172.5,148740.0,68.57,8125,12395,0.079,3.6,-0.08,3.45,0.0
+ITEM-076,DineIQ Signature Caesar Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,12.99,8.8,212243.61,143783.2,68460.41,32.26,10665,16339,0.1018,3.63,-0.02,3.33,0.0
+ITEM-041,Calabrian Sausage Rigatoni,CAT-03,Wood-Fired Pizzas & Pastas,20.0,6.8,210560.0,71590.4,138969.6,66.0,6944,10528,0.0635,3.55,-0.202,5.21,0.0
+ITEM-044,Lasagna Bolognese Al Forno,CAT-03,Wood-Fired Pizzas & Pastas,21.0,7.9,207207.0,77949.3,129257.7,62.38,6600,9867,0.0618,3.58,0.092,4.45,0.0
+ITEM-070,Garlic Butter Tiger Prawns Skewer,CAT-05,Chef Specials & Seafood,27.0,11.5,207063.0,88193.5,118869.5,57.41,5175,7669,0.0511,3.52,-0.067,9.49,0.0
+ITEM-122,Signature Smoked Old Fashioned,CAT-09,Signature Cocktails & Mocktails,16.0,3.2,204512.0,40902.4,163609.6,80.0,8362,12782,0.0802,3.63,-0.103,1.59,0.0
+ITEM-033,Quattro Formaggi Bianca,CAT-03,Wood-Fired Pizzas & Pastas,18.0,7.5,203796.0,84915.0,118881.0,58.33,7518,11322,0.0787,3.58,0.141,4.42,0.0
+ITEM-126,Espresso Martini Vanilla Foam,CAT-09,Signature Cocktails & Mocktails,15.0,2.9,202710.0,39190.6,163519.4,80.67,8779,13514,0.0794,3.63,-0.078,3.01,0.0
+ITEM-020,Spicy Nashville Hot Chicken Bun,CAT-02,Artisanal Burgers & Handhelds,15.5,7.5,200322.0,96930.0,103392.0,51.61,8470,12924,0.0789,3.58,-0.209,4.18,0.0
+ITEM-067,Seafood Paella Valenciana,CAT-05,Chef Specials & Seafood,35.0,16.0,199675.0,91280.0,108395.0,54.29,3833,5705,0.0366,3.74,0.203,59.74,0.0
+ITEM-132,Aperol Spritz Prosecco Orange,CAT-09,Signature Cocktails & Mocktails,13.99,2.6,196125.81,36449.4,159676.41,81.42,9245,14019,0.0896,3.57,0.002,1.61,0.0
+ITEM-091,Beyond Meat Gourmet Burger,CAT-07,Vegan & Plant-Based Creations,16.99,11.5,191834.09,129846.5,61987.59,32.31,7464,11291,0.0743,3.52,0.015,4.04,0.0
+ITEM-085,Blackened Salmon Cobb Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,21.0,9.8,187278.0,87396.4,99881.6,53.33,5898,8918,0.0566,3.66,-0.232,9.99,0.0
+ITEM-106,Molten Chocolate Lava Cake,CAT-08,Handcrafted Desserts & Pastries,10.99,7.8,187203.66,132865.2,54338.46,29.03,10982,17034,0.1016,3.6,-0.053,2.40,0.0
+ITEM-059,Bistro Hanger Steak Shallot Jus,CAT-04,Prime Steaks & Butcher Cuts,28.0,13.5,184408.0,88911.0,95497.0,51.79,4442,6586,0.0455,3.64,0.127,8.07,0.0
+ITEM-040,Truffled Wild Mushroom Gnocchi,CAT-03,Wood-Fired Pizzas & Pastas,22.0,7.8,183678.0,65122.2,118555.8,64.55,5574,8349,0.048,3.59,-0.018,9.47,0.0
+ITEM-049,Colorado Rosemary Lamb Chops,CAT-04,Prime Steaks & Butcher Cuts,44.0,19.5,183172.0,81178.5,101993.5,55.68,2791,4163,0.0264,3.64,-0.286,20.23,0.0
+ITEM-086,Sesame Ahi Tuna Poke Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,19.5,10.2,182091.0,95247.6,86843.4,47.69,6198,9338,0.0589,3.59,-0.016,47.25,0.0
+ITEM-089,Southwest Chipotle Chicken Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,15.5,5.8,179862.0,67303.2,112558.8,62.58,7664,11604,0.0743,3.69,0.029,3.62,0.0
+ITEM-092,Truffle Wild Mushroom Risotto,CAT-07,Vegan & Plant-Based Creations,23.0,7.2,177054.0,55425.6,121628.4,68.7,5078,7698,0.0478,3.56,-0.04,9.35,0.0
+ITEM-123,Spicy Passionfruit Mezcalita,CAT-09,Signature Cocktails & Mocktails,15.5,3.1,174871.0,34974.2,139896.8,80.0,7492,11282,0.0681,3.63,-0.086,2.32,0.0
+ITEM-130,Classic Moscow Mule Copper Mug,CAT-09,Signature Cocktails & Mocktails,13.5,2.5,168736.5,31247.5,137489.0,81.48,8257,12499,0.0811,3.71,0.114,1.14,0.0
+ITEM-025,Philly Ribeye Cheesesteak,CAT-02,Artisanal Burgers & Handhelds,18.0,9.2,167130.0,85422.0,81708.0,48.89,6200,9285,0.0629,3.69,-0.02,7.52,0.0
+ITEM-007,Crispy Calamari Fritti,CAT-01,Appetizers & Small Plates,16.5,7.5,165880.26,77805.0,88075.26,53.1,6955,10374,0.0648,3.67,0.437,8.49,3.19
+ITEM-065,Jumbo Lump Crab Cakes (2pcs),CAT-05,Chef Specials & Seafood,32.0,15.0,165824.0,77730.0,88094.0,53.13,3503,5182,0.0341,3.43,-0.687,60.44,0.0
+ITEM-034,Prosciutto e Rucola Pizza,CAT-03,Wood-Fired Pizzas & Pastas,21.0,9.8,165522.0,77243.6,88278.4,53.33,5223,7882,0.0525,3.69,0.062,47.76,0.0
+ITEM-019,BBQ Pulled Pork Brioche,CAT-02,Artisanal Burgers & Handhelds,15.0,7.2,164925.0,79164.0,85761.0,52.0,7285,10995,0.0725,3.58,-0.358,5.46,0.0
+ITEM-077,Mediterranean Quinoa Crunch Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,14.5,5.2,164241.5,58900.4,105341.1,64.14,7519,11327,0.0706,3.66,-0.283,5.59,0.0
+ITEM-009,Truffle Whipped Burrata,CAT-01,Appetizers & Small Plates,17.16,7.8,162295.0,72337.2,89957.8,55.43,6180,9274,0.0601,3.64,-0.22,9.99,-1.94
+ITEM-001,Crispy Parmesan Truffle Fries,CAT-01,Appetizers & Small Plates,8.99,6.75,161918.89,121574.25,40344.64,24.92,11566,18011,0.1036,3.66,0.133,2.34,0.0
+ITEM-124,Elderflower French 75 Champagne,CAT-09,Signature Cocktails & Mocktails,17.0,3.6,161194.0,34135.2,127058.8,78.82,6195,9482,0.0588,3.66,0.024,2.73,0.0
+ITEM-013,Loaded Queso Nachos,CAT-01,Appetizers & Small Plates,22.5,15.0,159725.04,184440.0,-24714.96,-15.47,8147,12296,0.0736,3.47,-0.067,3.20,73.21
+ITEM-053,Smoked Bone-in Kurobuta Pork Chop,CAT-04,Prime Steaks & Butcher Cuts,34.0,13.8,155550.0,63135.0,92415.0,59.41,3104,4575,0.0273,3.7,0.094,14.42,0.0
+ITEM-081,Thai Crunch Peanut Chicken Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,16.0,6.2,153744.0,59575.8,94168.2,61.25,6406,9609,0.062,3.61,0.177,7.95,0.0
+ITEM-066,Seared Diver Scallops Sweet Corn,CAT-05,Chef Specials & Seafood,36.0,16.8,152964.0,71383.2,81580.8,53.33,2830,4249,0.0334,3.7,0.017,67.77,0.0
+ITEM-069,Grilled Yellowfin Ahi Tuna Steak,CAT-05,Chef Specials & Seafood,33.0,14.8,152064.0,68198.4,83865.6,55.15,3131,4608,0.0246,3.69,-0.147,65.71,0.0
+ITEM-108,New York Style Cheesecake,CAT-08,Handcrafted Desserts & Pastries,9.99,6.9,150409.44,103886.4,46523.04,30.93,9839,15056,0.0929,3.65,0.002,3.68,0.0
+ITEM-101,Thai Coconut Green Curry Tofu,CAT-07,Vegan & Plant-Based Creations,18.0,5.5,148860.0,45485.0,103375.0,69.44,5569,8270,0.0609,3.73,-0.094,7.45,0.0
+ITEM-100,Crispy Falafel Mezze Platter,CAT-07,Vegan & Plant-Based Creations,16.0,5.0,148560.0,46425.0,102135.0,68.75,6216,9285,0.064,3.61,-0.037,6.87,0.0
+ITEM-129,Smoked Rosemary Paloma Tequila,CAT-09,Signature Cocktails & Mocktails,14.5,2.8,147856.5,28551.6,119304.9,80.69,6857,10197,0.0631,3.51,0.154,2.65,0.0
+ITEM-036,Slow-Braised Wild Boar Pappardelle,CAT-03,Wood-Fired Pizzas & Pastas,26.0,9.5,146380.0,53485.0,92895.0,63.46,3795,5630,0.0328,3.75,0.026,10.54,0.0
+ITEM-061,Pan-Seared Chilean Sea Bass,CAT-05,Chef Specials & Seafood,46.0,18.5,145682.0,58589.5,87092.5,59.78,2132,3167,0.0298,3.58,-0.021,29.64,0.0
+ITEM-043,Burrata Caprese Pizza,CAT-03,Wood-Fired Pizzas & Pastas,20.5,8.5,144566.0,59942.0,84624.0,58.54,4782,7052,0.0451,3.65,0.097,50.89,0.0
+ITEM-083,Classic Greek Village Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,13.5,4.8,143694.0,51091.2,92602.8,64.44,7085,10644,0.0662,3.56,0.065,6.45,0.0
+ITEM-011,Spicy Tuna Crispy Rice,CAT-01,Appetizers & Small Plates,21.56,9.8,141336.0,76949.6,64386.4,45.56,5303,7852,0.0572,3.76,-0.11,53.05,19.78
+ITEM-095,Spicy Tofu Peanut Noodle Bowl,CAT-07,Vegan & Plant-Based Creations,16.5,4.9,141306.0,41963.6,99342.4,70.3,5765,8564,0.0536,3.59,-0.102,7.91,0.0
+ITEM-003,Golden Mozzarella Sticks,CAT-01,Appetizers & Small Plates,9.5,7.1,140182.0,104767.6,35414.4,25.26,9609,14756,0.0885,3.63,0.127,1.89,0.0
+ITEM-039,Handcrafted Lobster Ravioli,CAT-03,Wood-Fired Pizzas & Pastas,29.5,11.2,139505.5,52964.8,86540.7,62.03,3233,4729,0.0295,3.66,-0.074,63.98,0.0
+ITEM-131,Yuzu Lavender Gin Tonic,CAT-09,Signature Cocktails & Mocktails,14.0,2.7,137914.0,26597.7,111316.3,80.71,6521,9851,0.0579,3.55,0.137,2.80,0.0
+ITEM-026,Classic BLT Sourdough,CAT-02,Artisanal Burgers & Handhelds,11.99,4.8,133976.26,53635.2,80341.06,59.97,7390,11174,0.0741,3.7,-0.025,5.74,0.0
+ITEM-098,Avocado Supergreen Toast Sourdough,CAT-07,Vegan & Plant-Based Creations,13.5,6.8,133474.5,67231.6,66242.9,49.63,6507,9887,0.0599,3.73,0.061,45.81,0.0
+ITEM-094,Creamy Cashew Alfredo Tagliatelle,CAT-07,Vegan & Plant-Based Creations,19.0,5.8,133361.0,40710.2,92650.8,69.47,4814,7019,0.0434,3.63,0.126,8.27,0.0
+ITEM-062,Crispy Skin Mediterranean Branzino,CAT-05,Chef Specials & Seafood,38.0,16.0,132582.0,55824.0,76758.0,57.89,2379,3489,0.0214,3.73,0.63,71.21,0.0
+ITEM-021,California Turkey Avocado Club,CAT-02,Artisanal Burgers & Handhelds,16.0,8.9,132272.0,73576.3,58695.7,44.38,5547,8267,0.052,3.74,-0.059,47.11,0.0
+ITEM-056,Pan-Roasted Duck Breast Plum Glaze,CAT-04,Prime Steaks & Butcher Cuts,35.0,14.0,131880.0,52752.0,79128.0,60.0,2579,3768,0.0265,3.66,-0.115,24.49,0.0
+ITEM-111,Traditional Italian Tiramisu,CAT-08,Handcrafted Desserts & Pastries,10.5,3.2,130263.0,39699.2,90563.8,69.52,8143,12406,0.0799,3.55,0.051,5.97,0.0
+ITEM-023,Smoked Brisket Panini,CAT-02,Artisanal Burgers & Handhelds,17.0,8.2,130050.0,62730.0,67320.0,51.76,5138,7650,0.0506,3.59,-0.033,7.25,0.0
+ITEM-097,Jackfruit Smoky Carnitas Tacos,CAT-07,Vegan & Plant-Based Creations,15.5,5.1,128944.5,42426.9,86517.6,67.1,5542,8319,0.0545,3.82,0.089,7.68,0.0
+ITEM-071,Steamed Blue Mussels White Wine,CAT-05,Chef Specials & Seafood,22.0,9.5,128524.0,55499.0,73025.0,56.82,3888,5842,0.0366,3.65,-0.157,60.05,0.0
+ITEM-012,Heirloom Tomato Bruschetta,CAT-01,Appetizers & Small Plates,22.5,15.0,128167.5,167175.0,-39007.5,-30.43,7394,11145,0.069,3.63,-0.013,7.66,95.65
+ITEM-093,Crispy Cauliflower Buffalo Bites,CAT-07,Vegan & Plant-Based Creations,12.0,4.2,124548.0,43591.8,80956.2,65.0,6853,10379,0.0623,3.53,-0.158,5.21,0.0
+ITEM-047,Dry-Aged Tomahawk Ribeye (36oz),CAT-04,Prime Steaks & Butcher Cuts,125.0,38.0,123375.0,37506.0,85869.0,69.6,677,987,0.011,3.7,1.197,34.89,0.0
+ITEM-102,Mushroom & Walnut Bolognese,CAT-07,Vegan & Plant-Based Creations,18.5,5.6,123265.5,37312.8,85952.7,69.73,4487,6663,0.0405,3.55,0.136,9.70,0.0
+ITEM-064,Butter Poached Maine Lobster Tail,CAT-05,Chef Specials & Seafood,52.0,23.5,122408.0,55319.0,67089.0,54.81,1608,2354,0.0151,3.58,0.594,80.25,0.0
+ITEM-112,Salted Caramel Creme Brulee,CAT-08,Handcrafted Desserts & Pastries,11.0,3.1,122023.0,34388.3,87634.7,71.82,7279,11093,0.0676,3.55,0.083,7.23,0.0
+ITEM-121,DineIQ House Draft Lager (Pint),CAT-09,Signature Cocktails & Mocktails,6.5,4.8,121368.0,89625.6,31742.4,26.15,12038,18672,0.1077,3.68,0.024,0.94,0.0
+ITEM-082,Wild Rice & Avocado Harvest Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,15.5,7.5,120249.0,58185.0,62064.0,51.61,5157,7758,0.0494,3.6,0.173,52.68,0.0
+ITEM-088,Simple Garden House Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,8.99,3.2,119935.59,42691.2,77244.39,64.4,8759,13341,0.0826,3.6,-0.008,4.53,0.0
+ITEM-027,Chipotle Fish Tacos (3pcs),CAT-02,Artisanal Burgers & Handhelds,16.5,8.7,117166.5,61778.7,55387.8,47.27,4760,7101,0.0467,3.56,0.179,53.02,0.0
+ITEM-079,Strawberry Gorgonzola Pecan Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,14.0,5.0,117040.0,41800.0,75240.0,64.29,5561,8360,0.0514,3.69,0.13,11.39,0.0
+ITEM-073,Pacific Black Cod Miso Glaze,CAT-05,Chef Specials & Seafood,44.0,18.0,115940.0,47430.0,68510.0,59.09,1795,2635,0.0147,3.74,0.183,33.29,0.0
+ITEM-018,Prime Wagyu Truffle Burger,CAT-02,Artisanal Burgers & Handhelds,28.0,11.5,113260.0,46517.5,66742.5,58.93,2734,4045,0.0239,3.49,-0.292,18.43,0.0
+ITEM-084,Kale Tahini Caesar Roasted Chickpeas,CAT-06,Farm-Fresh Salads & Grain Bowls,13.99,4.9,110227.21,38607.1,71620.11,64.97,5222,7879,0.049,3.6,0.22,7.05,0.0
+ITEM-078,Burrata Caprese Heirloom Salad,CAT-06,Farm-Fresh Salads & Grain Bowls,16.5,7.8,110187.0,52088.4,58098.6,52.73,4530,6678,0.0426,3.47,-0.242,55.78,0.0
+ITEM-075,Seafood Bouillabaisse Saffron Rouille,CAT-05,Chef Specials & Seafood,37.0,16.5,108743.0,48493.5,60249.5,55.41,2016,2939,0.0206,3.35,0.459,75.82,0.0
+ITEM-107,Classic Madagascar Vanilla Bean Gelato,CAT-08,Handcrafted Desserts & Pastries,7.5,1.8,108727.5,26094.6,82632.9,76.0,9457,14497,0.0924,3.6,0.086,2.39,0.0
+ITEM-117,Artisanal Macaron Assortment (6pcs),CAT-08,Handcrafted Desserts & Pastries,15.0,4.2,107055.0,29975.4,77079.6,72.0,4836,7137,0.0464,3.58,-0.021,7.83,0.0
+ITEM-004,Garlic Herb Breadsticks,CAT-01,Appetizers & Small Plates,6.99,4.8,107030.88,73497.6,33533.28,31.33,10039,15312,0.0931,3.56,0.064,2.30,0.0
+ITEM-114,Warm Churros with Spiced Dulce,CAT-08,Handcrafted Desserts & Pastries,9.0,2.4,105003.0,28000.8,77002.2,73.33,7605,11667,0.0713,3.59,-0.075,3.22,0.0
+ITEM-104,Golden Turmeric Lentil Soup Bowl,CAT-07,Vegan & Plant-Based Creations,9.99,2.8,104705.19,29346.8,75358.39,71.97,6907,10481,0.0644,3.65,0.021,3.56,0.0
+ITEM-080,Roasted Beet & Goat Cheese Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,15.0,5.4,104625.0,37665.0,66960.0,64.0,4722,6975,0.0425,3.61,-0.116,11.66,0.0
+ITEM-103,Korean Gochujang Crispy Tofu,CAT-07,Vegan & Plant-Based Creations,14.5,4.4,104298.5,31649.2,72649.3,69.66,4820,7193,0.0458,3.75,0.054,7.29,0.0
+ITEM-045,Linguine alle Vongole (Clams),CAT-03,Wood-Fired Pizzas & Pastas,25.0,12.0,103475.0,49668.0,53807.0,52.0,2788,4139,0.0284,3.57,-0.435,68.85,0.0
+ITEM-139,Vanilla Bean Oat Milk Latte,CAT-10,Specialty Coffee & Beverages,5.75,1.2,102930.75,21481.2,81449.55,79.13,11410,17901,0.1073,3.55,-0.331,1.39,0.0
+ITEM-028,Cubano Roast Pork Sandwich,CAT-02,Artisanal Burgers & Handhelds,15.5,7.2,100812.0,46828.8,53983.2,53.55,4432,6504,0.0392,3.68,-0.036,7.10,0.0
+ITEM-140,Caramel Macchiato Sea Salt,CAT-10,Specialty Coffee & Beverages,5.99,1.25,97253.64,20295.0,76958.64,79.13,10532,16236,0.0972,3.59,-0.134,1.13,0.0
+ITEM-010,Smoked Duck Croquettes,CAT-01,Appetizers & Small Plates,15.4,7.0,97056.0,42462.0,54594.0,56.25,4088,6066,0.0418,3.57,-0.611,12.99,-3.75
+ITEM-015,Bacon Wrapped Stuffed Dates,CAT-01,Appetizers & Small Plates,13.5,5.2,96484.5,37164.4,59320.1,61.48,4797,7147,0.044,3.64,-0.015,6.39,0.0
+ITEM-137,Nitro Cold Brew Sweet Cream,CAT-10,Specialty Coffee & Beverages,5.99,1.1,93264.3,17127.0,76137.3,81.64,10120,15570,0.097,3.63,0.122,1.17,0.0
+ITEM-074,Fried Softshell Crab Basket,CAT-05,Chef Specials & Seafood,26.0,12.0,92040.0,42480.0,49560.0,53.85,2451,3540,0.0297,3.72,0.181,70.60,0.0
+ITEM-127,Zero-Proof Cucumber Mint Cooler,CAT-09,Signature Cocktails & Mocktails,8.5,1.6,91876.5,17294.4,74582.1,81.18,7200,10809,0.0642,3.64,-0.038,4.99,0.0
+ITEM-024,Portobello Mushroom Swiss Burger,CAT-02,Artisanal Burgers & Handhelds,15.0,5.8,91575.0,35409.0,56166.0,61.33,4118,6105,0.0395,3.61,0.064,10.31,0.0
+ITEM-099,Lentil Shepherd's Pie Sweet Potato,CAT-07,Vegan & Plant-Based Creations,17.5,5.2,90177.5,26795.6,63381.9,70.29,3485,5153,0.0317,3.6,-0.259,10.15,0.0
+ITEM-087,Green Goddess Farro Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,14.5,4.8,88783.5,29390.4,59393.1,66.9,4167,6123,0.0362,3.59,-0.022,9.97,0.0
+ITEM-109,Warm Apple Cinnamon Crisp,CAT-08,Handcrafted Desserts & Pastries,9.5,2.8,88663.5,26132.4,62531.1,70.53,6224,9333,0.0598,3.59,0.016,6.92,0.0
+ITEM-072,Whole Grilled Red Snapper Mojo,CAT-05,Chef Specials & Seafood,42.0,17.5,87822.0,36592.5,51229.5,58.33,1476,2091,0.0129,3.77,0.398,80.27,0.0
+ITEM-128,Hibiscus Berry Botanical Fizz (Mocktail),CAT-09,Signature Cocktails & Mocktails,8.99,1.8,87661.49,17551.8,70109.69,79.98,6474,9751,0.0633,3.65,0.081,4.81,0.0
+ITEM-134,Strawberry Basil Smash Lemonade (Mocktail),CAT-09,Signature Cocktails & Mocktails,8.5,1.7,86139.0,17227.8,68911.2,80.0,6743,10134,0.0665,3.75,-0.018,7.54,0.0
+ITEM-136,DineIQ House Drip Roast Coffee,CAT-10,Specialty Coffee & Beverages,3.99,0.6,85705.2,12888.0,72817.2,84.96,13670,21480,0.1239,3.61,-0.104,0.34,0.0
+ITEM-096,Roasted Eggplant Harissa Shakshuka,CAT-07,Vegan & Plant-Based Creations,15.0,4.5,85380.0,25614.0,59766.0,70.0,3897,5692,0.0364,3.62,-0.108,12.11,0.0
+ITEM-120,Affogato al Caffe Espresso Scoop,CAT-08,Handcrafted Desserts & Pastries,6.99,1.5,82146.48,17628.0,64518.48,78.54,7772,11752,0.0725,3.61,-0.075,2.38,0.0
+ITEM-116,Key Lime Tart Graham Crust,CAT-08,Handcrafted Desserts & Pastries,9.5,2.7,79230.0,22518.0,56712.0,71.58,5583,8340,0.0581,3.72,0.149,7.90,0.0
+ITEM-035,Black Truffle Tagliolini Caviar,CAT-03,Wood-Fired Pizzas & Pastas,42.0,11.5,75558.0,20688.5,54869.5,72.62,1241,1799,0.011,3.67,-0.057,29.42,0.0
+ITEM-005,Wild Alaskan Salmon Tartare,CAT-01,Appetizers & Small Plates,21.0,11.5,74424.0,40756.0,33668.0,45.24,2433,3544,0.0275,3.6,0.079,72.23,0.0
+ITEM-141,Ceremonial Iced Matcha Latte,CAT-10,Specialty Coffee & Beverages,6.5,1.4,72800.0,15680.0,57120.0,78.46,7436,11200,0.0666,3.64,-0.028,1.91,0.0
+ITEM-030,Grilled Halloumi Flatbread,CAT-02,Artisanal Burgers & Handhelds,14.0,5.5,71652.0,28149.0,43503.0,60.71,3500,5118,0.0308,3.74,0.101,12.14,0.0
+ITEM-029,Truffle Lobster Roll,CAT-02,Artisanal Burgers & Handhelds,34.0,14.5,69972.0,29841.0,40131.0,57.35,1436,2058,0.0131,3.61,0.208,43.32,0.0
+ITEM-060,Pepper-Crusted Bison Tenderloin,CAT-04,Prime Steaks & Butcher Cuts,58.0,25.0,66410.0,28625.0,37785.0,56.9,794,1145,0.0093,3.48,-0.294,42.00,0.0
+ITEM-146,Acai Berry Superfood Smoothie,CAT-10,Specialty Coffee & Beverages,7.99,3.4,66189.16,28165.6,38023.56,57.45,5590,8284,0.0515,3.61,-0.206,49.72,0.0
+ITEM-144,Fresh Squeezed Orange Juice,CAT-10,Specialty Coffee & Beverages,5.5,2.6,65857.0,31132.4,34724.6,52.73,7822,11974,0.071,3.58,-0.106,42.08,0.0
+ITEM-051,A5 Miyazaki Japanese Wagyu (4oz),CAT-04,Prime Steaks & Butcher Cuts,95.0,32.0,63365.0,21344.0,42021.0,66.32,457,667,0.0092,3.65,-0.395,56.58,0.0
+ITEM-090,Warm Roasted Butternut Squash Bowl,CAT-06,Farm-Fresh Salads & Grain Bowls,14.0,4.5,63364.0,20367.0,42997.0,67.86,3102,4526,0.0294,3.77,-0.218,15.16,0.0
+ITEM-014,Spanakopita Herb Triangles,CAT-01,Appetizers & Small Plates,11.0,4.5,62909.0,25735.5,37173.5,59.09,3782,5719,0.0347,3.62,-0.335,11.37,0.0
+ITEM-006,Soft-Shell Crab Sliders,CAT-01,Appetizers & Small Plates,22.44,10.2,62224.5,32548.2,29676.3,47.69,2159,3191,0.0181,3.63,-0.182,72.75,15.08
+ITEM-115,Pecan Pie Bourbon Whipped Cream,CAT-08,Handcrafted Desserts & Pastries,10.0,3.0,61810.0,18543.0,43267.0,70.0,4167,6181,0.0366,3.54,-0.054,9.24,0.0
+ITEM-110,Fresh Wild Berry Pavlova,CAT-08,Handcrafted Desserts & Pastries,13.5,5.8,61614.0,26471.2,35142.8,57.04,3127,4564,0.0357,3.61,-0.474,66.87,0.0
+ITEM-057,Roasted Veal Chop Chanterelles,CAT-04,Prime Steaks & Butcher Cuts,49.0,22.0,59192.0,26576.0,32616.0,55.1,843,1208,0.0087,3.79,0.464,38.21,0.0
+ITEM-119,Matcha Green Tea Crepe Cake,CAT-08,Handcrafted Desserts & Pastries,11.5,3.2,58650.0,16320.0,42330.0,72.17,3453,5100,0.0341,3.56,0.005,60.77,0.0
+ITEM-145,Sparkling San Pellegrino (750ml),CAT-10,Specialty Coffee & Beverages,6.0,1.5,57678.0,14419.5,43258.5,75.0,6335,9613,0.0544,3.61,0.194,1.36,0.0
+ITEM-105,Artisanal Vegan Charcuterie Board,CAT-07,Vegan & Plant-Based Creations,26.0,8.5,57330.0,18742.5,38587.5,67.31,1447,2205,0.0174,3.38,0.582,25.00,0.0
+ITEM-138,Double Espresso Single Origin,CAT-10,Specialty Coffee & Beverages,3.5,0.5,57113.0,8159.0,48954.0,85.71,10619,16318,0.0947,3.61,0.059,0.61,0.0
+ITEM-133,Rare Japanese Whisky Flight (3-pour),CAT-09,Signature Cocktails & Mocktails,55.0,14.0,57090.0,14532.0,42558.0,74.55,712,1038,0.0073,3.68,-0.449,7.82,0.0
+ITEM-142,Spiced Masala Chai Latte,CAT-10,Specialty Coffee & Beverages,5.25,0.9,55723.5,9552.6,46170.9,82.86,7083,10614,0.0693,3.6,-0.096,1.31,0.0
+ITEM-008,Reserve Osetra Caviar Blinis,CAT-01,Appetizers & Small Plates,36.3,16.5,52910.0,13431.0,39479.0,74.62,574,814,0.0073,3.32,0.992,55.59,-44.15
+ITEM-150,Artisanal Kombucha Peach Ginger,CAT-10,Specialty Coffee & Beverages,6.25,1.8,48537.5,13978.8,34558.7,71.2,5205,7766,0.0479,3.56,-0.051,1.53,0.0
+ITEM-148,Cold Pressed Green Detox Juice,CAT-10,Specialty Coffee & Beverages,8.5,4.1,48441.5,23365.9,25075.6,51.76,3807,5699,0.0367,3.57,0.351,60.87,0.0
+ITEM-147,Belgian Hot Chocolate Marshmallows,CAT-10,Specialty Coffee & Beverages,5.5,1.1,47476.0,9495.2,37980.8,80.0,5755,8632,0.0585,3.65,-0.011,2.08,0.0
+ITEM-125,Black Truffle Infused Manhattan,CAT-09,Signature Cocktails & Mocktails,28.0,4.5,47348.0,7609.5,39738.5,83.93,1127,1691,0.0113,3.75,0.114,8.74,0.0
+ITEM-143,Organic Earl Grey Loose Leaf Tea,CAT-10,Specialty Coffee & Beverages,4.25,0.45,39665.25,4199.85,35465.4,89.41,6263,9333,0.0625,3.51,-0.065,1.21,0.0
+ITEM-113,Vintage Champagne Berry Float,CAT-08,Handcrafted Desserts & Pastries,24.0,5.5,32424.0,7430.5,24993.5,77.08,901,1351,0.0082,3.7,-0.349,37.51,0.0
+ITEM-118,Dark Chocolate Souffle Grand Marnier,CAT-08,Handcrafted Desserts & Pastries,16.5,4.0,29073.0,7048.0,22025.0,75.76,1212,1762,0.013,3.77,0.644,39.37,0.0
+ITEM-149,Rare Blue Mountain Jamaican Pour-Over,CAT-10,Specialty Coffee & Beverages,12.0,2.5,17784.0,3705.0,14079.0,79.17,1020,1482,0.0061,3.56,0.41,3.58,0.0
