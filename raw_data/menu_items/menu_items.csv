@@ -4,14 +4,14 @@ ITEM-002,CAT-01,Classic Buffalo Chicken Wings,DineIQ signature classic buffalo c
 ITEM-003,CAT-01,Golden Mozzarella Sticks,DineIQ signature golden mozzarella sticks crafted with premium ingredients.,9.5,7.1,25.26,True,False,False,7,30,False,POPULAR_LOW_MARGIN,2.8,0.15,0.35,True
 ITEM-004,CAT-01,Garlic Herb Breadsticks,DineIQ signature garlic herb breadsticks crafted with premium ingredients.,6.99,4.8,31.33,True,False,False,6,4,False,POPULAR_LOW_MARGIN,3.0,0.2,0.3,True
 ITEM-005,CAT-01,Wild Alaskan Salmon Tartare,DineIQ signature wild alaskan salmon tartare crafted with premium ingredients.,21.0,11.5,45.24,False,True,False,10,2,False,HIGH_WASTAGE,0.7,0.9,0.65,True
-ITEM-006,CAT-01,Soft-Shell Crab Sliders,DineIQ signature soft-shell crab sliders crafted with premium ingredients.,19.5,10.2,47.69,False,False,False,12,2,False,HIGH_WASTAGE,0.6,0.85,0.6,True
-ITEM-007,CAT-01,Crispy Calamari Fritti,DineIQ signature crispy calamari fritti crafted with premium ingredients.,15.99,7.5,53.1,False,False,False,9,3,False,STANDARD,2.0,0.5,0.5,True
-ITEM-008,CAT-01,Reserve Osetra Caviar Blinis,DineIQ signature reserve osetra caviar blinis crafted with premium ingredients.,65.0,16.5,74.62,False,False,False,6,7,False,PROFITABLE_LOW_SELLING,0.15,0.6,0.3,True
-ITEM-009,CAT-01,Truffle Whipped Burrata,DineIQ signature truffle whipped burrata crafted with premium ingredients.,17.5,7.8,55.43,True,True,False,6,4,False,STANDARD,1.8,0.55,0.5,True
-ITEM-010,CAT-01,Smoked Duck Croquettes,DineIQ signature smoked duck croquettes crafted with premium ingredients.,16.0,7.0,56.25,False,False,False,11,4,False,STANDARD,1.2,0.4,0.45,True
-ITEM-011,CAT-01,Spicy Tuna Crispy Rice,DineIQ signature spicy tuna crispy rice crafted with premium ingredients.,18.0,9.8,45.56,False,True,False,10,2,False,HIGH_WASTAGE,1.5,0.88,0.55,True
-ITEM-012,CAT-01,Heirloom Tomato Bruschetta,DineIQ signature heirloom tomato bruschetta crafted with premium ingredients.,11.5,4.2,63.48,True,False,False,7,3,False,PRICE_SENSITIVE,2.2,0.45,0.75,True
-ITEM-013,CAT-01,Loaded Queso Nachos,DineIQ signature loaded queso nachos crafted with premium ingredients.,12.99,5.5,57.66,True,True,False,8,10,False,STANDARD,2.4,0.2,0.45,True
+ITEM-006,CAT-01,Soft-Shell Crab Sliders,DineIQ signature soft-shell crab sliders crafted with premium ingredients.,-4.5,10.2,47.69,False,False,False,12,2,False,HIGH_WASTAGE,0.6,0.85,0.6,True
+ITEM-007,CAT-01,Crispy Calamari Fritti,DineIQ signature crispy calamari fritti crafted with premium ingredients.,-4.5,7.5,53.1,False,False,False,9,3,False,STANDARD,2.0,0.5,0.5,True
+ITEM-008,CAT-01,Reserve Osetra Caviar Blinis,DineIQ signature reserve osetra caviar blinis crafted with premium ingredients.,-4.5,16.5,74.62,False,False,False,6,7,False,PROFITABLE_LOW_SELLING,0.15,0.6,0.3,True
+ITEM-009,CAT-01,Truffle Whipped Burrata,DineIQ signature truffle whipped burrata crafted with premium ingredients.,0.0,7.8,55.43,True,True,False,6,4,False,STANDARD,1.8,0.55,0.5,True
+ITEM-010,CAT-01,Smoked Duck Croquettes,DineIQ signature smoked duck croquettes crafted with premium ingredients.,0.0,7.0,56.25,False,False,False,11,4,False,STANDARD,1.2,0.4,0.45,True
+ITEM-011,CAT-01,Spicy Tuna Crispy Rice,DineIQ signature spicy tuna crispy rice crafted with premium ingredients.,0.0,9.8,45.56,False,True,False,10,2,False,HIGH_WASTAGE,1.5,0.88,0.55,True
+ITEM-012,CAT-01,Heirloom Tomato Bruschetta,DineIQ signature heirloom tomato bruschetta crafted with premium ingredients.,2.0,15.0,63.48,True,False,False,7,3,False,PRICE_SENSITIVE,2.2,0.45,0.75,True
+ITEM-013,CAT-01,Loaded Queso Nachos,DineIQ signature loaded queso nachos crafted with premium ingredients.,2.0,15.0,57.66,True,True,False,8,10,False,STANDARD,2.4,0.2,0.45,True
 ITEM-014,CAT-01,Spanakopita Herb Triangles,DineIQ signature spanakopita herb triangles crafted with premium ingredients.,11.0,4.5,59.09,True,False,False,10,7,False,STANDARD,1.1,0.3,0.4,True
 ITEM-015,CAT-01,Bacon Wrapped Stuffed Dates,DineIQ signature bacon wrapped stuffed dates crafted with premium ingredients.,13.5,5.2,61.48,False,True,False,9,7,False,STANDARD,1.4,0.25,0.4,True
 ITEM-016,CAT-02,DineIQ Smash Double Cheeseburger,DineIQ signature dineiq smash double cheeseburger crafted with premium ingredients.,13.99,10.8,22.8,False,False,False,10,5,False,POPULAR_LOW_MARGIN,3.8,0.3,0.7,True
@@ -19,18 +19,18 @@ ITEM-017,CAT-02,Crispy Buttermilk Chicken Sandwich,DineIQ signature crispy butte
 ITEM-018,CAT-02,Prime Wagyu Truffle Burger,DineIQ signature prime wagyu truffle burger crafted with premium ingredients.,28.0,11.5,58.93,False,False,False,14,4,False,PROFITABLE_LOW_SELLING,0.8,0.45,0.45,True
 ITEM-019,CAT-02,BBQ Pulled Pork Brioche,DineIQ signature bbq pulled pork brioche crafted with premium ingredients.,15.0,7.2,52.0,False,False,False,8,6,False,STANDARD,2.1,0.35,0.5,True
 ITEM-020,CAT-02,Spicy Nashville Hot Chicken Bun,DineIQ signature spicy nashville hot chicken bun crafted with premium ingredients.,15.5,7.5,51.61,False,False,False,12,5,False,STANDARD,2.5,0.3,0.55,True
-ITEM-021,CAT-02,California Turkey Avocado Club,DineIQ signature california turkey avocado club crafted with premium ingredients.,16.0,8.9,44.38,False,False,False,9,3,False,HIGH_WASTAGE,1.6,0.75,0.5,True
-ITEM-022,CAT-02,Black Angus Bacon Cheddar,DineIQ signature black angus bacon cheddar crafted with premium ingredients.,17.5,8.0,54.29,False,False,False,12,5,False,STANDARD,2.6,0.35,0.5,True
-ITEM-023,CAT-02,Smoked Brisket Panini,DineIQ signature smoked brisket panini crafted with premium ingredients.,17.0,8.2,51.76,False,False,False,10,5,False,STANDARD,1.5,0.3,0.45,True
-ITEM-024,CAT-02,Portobello Mushroom Swiss Burger,DineIQ signature portobello mushroom swiss burger crafted with premium ingredients.,15.0,5.8,61.33,True,False,False,11,4,False,STANDARD,1.2,0.4,0.5,True
-ITEM-025,CAT-02,Philly Ribeye Cheesesteak,DineIQ signature philly ribeye cheesesteak crafted with premium ingredients.,18.0,9.2,48.89,False,False,False,11,4,False,STANDARD,1.8,0.4,0.5,True
-ITEM-026,CAT-02,Classic BLT Sourdough,DineIQ signature classic blt sourdough crafted with premium ingredients.,11.99,4.8,59.97,False,False,False,7,4,False,PRICE_SENSITIVE,2.2,0.35,0.8,True
-ITEM-027,CAT-02,Chipotle Fish Tacos (3pcs),DineIQ signature chipotle fish tacos (3pcs) crafted with premium ingredients.,16.5,8.7,47.27,False,True,False,10,2,False,HIGH_WASTAGE,1.4,0.8,0.55,True
-ITEM-028,CAT-02,Cubano Roast Pork Sandwich,DineIQ signature cubano roast pork sandwich crafted with premium ingredients.,15.5,7.2,53.55,False,False,False,11,5,False,STANDARD,1.3,0.25,0.45,True
-ITEM-029,CAT-02,Truffle Lobster Roll,DineIQ signature truffle lobster roll crafted with premium ingredients.,34.0,14.5,57.35,False,False,False,8,2,False,PROFITABLE_LOW_SELLING,0.4,0.85,0.4,True
-ITEM-030,CAT-02,Grilled Halloumi Flatbread,DineIQ signature grilled halloumi flatbread crafted with premium ingredients.,14.0,5.5,60.71,True,False,False,9,5,False,STANDARD,1.0,0.35,0.45,True
-ITEM-031,CAT-03,Margherita Sourdough Pizza,DineIQ signature margherita sourdough pizza crafted with premium ingredients.,15.99,12.0,24.95,True,False,False,11,5,False,POPULAR_LOW_MARGIN,3.7,0.25,0.7,True
-ITEM-032,CAT-03,Double Pepperoni Hot Honey Pizza,DineIQ signature double pepperoni hot honey pizza crafted with premium ingredients.,18.5,13.8,25.41,False,False,False,12,6,False,POPULAR_LOW_MARGIN,3.6,0.25,0.65,True
+ITEM-021,CAT-02,California Turkey Avocado Club,DineIQ signature california turkey avocado club crafted with premium ingredients.,16.0,8.9,44.38,False,False,False,-10,3,False,HIGH_WASTAGE,1.6,0.75,0.5,True
+ITEM-022,CAT-02,Black Angus Bacon Cheddar,DineIQ signature black angus bacon cheddar crafted with premium ingredients.,17.5,8.0,54.29,False,False,False,-10,5,False,STANDARD,2.6,0.35,0.5,True
+ITEM-023,CAT-02,Smoked Brisket Panini,DineIQ signature smoked brisket panini crafted with premium ingredients.,17.0,8.2,51.76,False,False,False,-10,5,False,STANDARD,1.5,0.3,0.45,True
+ITEM-024,CAT-02,Portobello Mushroom Swiss Burger,DineIQ signature portobello mushroom swiss burger crafted with premium ingredients.,15.0,5.8,61.33,True,False,False,-10,4,False,STANDARD,1.2,0.4,0.5,True
+ITEM-025,CAT-02,Philly Ribeye Cheesesteak,DineIQ signature philly ribeye cheesesteak crafted with premium ingredients.,18.0,9.2,48.89,False,False,False,-10,4,False,STANDARD,1.8,0.4,0.5,True
+ITEM-026,CAT-02,Classic BLT Sourdough,DineIQ signature classic blt sourdough crafted with premium ingredients.,11.99,4.8,59.97,False,False,False,-10,4,False,PRICE_SENSITIVE,2.2,0.35,0.8,True
+ITEM-027,CAT-02,Chipotle Fish Tacos (3pcs),DineIQ signature chipotle fish tacos (3pcs) crafted with premium ingredients.,16.5,8.7,47.27,False,True,False,10,9999,False,HIGH_WASTAGE,1.4,0.8,0.55,True
+ITEM-028,CAT-02,Cubano Roast Pork Sandwich,DineIQ signature cubano roast pork sandwich crafted with premium ingredients.,15.5,7.2,53.55,False,False,False,11,9999,False,STANDARD,1.3,0.25,0.45,True
+ITEM-029,CAT-02,Truffle Lobster Roll,DineIQ signature truffle lobster roll crafted with premium ingredients.,34.0,14.5,57.35,False,False,False,8,9999,False,PROFITABLE_LOW_SELLING,0.4,0.85,0.4,True
+ITEM-030,CAT-02,Grilled Halloumi Flatbread,DineIQ signature grilled halloumi flatbread crafted with premium ingredients.,14.0,5.5,60.71,True,False,False,9,9999,False,STANDARD,1.0,0.35,0.45,True
+ITEM-031,CAT-03,Margherita Sourdough Pizza,DineIQ signature margherita sourdough pizza crafted with premium ingredients.,15.99,12.0,24.95,True,False,False,11,9999,False,POPULAR_LOW_MARGIN,3.7,0.25,0.7,True
+ITEM-032,CAT-03,Double Pepperoni Hot Honey Pizza,DineIQ signature double pepperoni hot honey pizza crafted with premium ingredients.,18.5,13.8,25.41,False,False,False,12,9999,False,POPULAR_LOW_MARGIN,3.6,0.25,0.65,True
 ITEM-033,CAT-03,Quattro Formaggi Bianca,DineIQ signature quattro formaggi bianca crafted with premium ingredients.,18.0,7.5,58.33,True,False,False,11,5,False,STANDARD,2.2,0.3,0.45,True
 ITEM-034,CAT-03,Prosciutto e Rucola Pizza,DineIQ signature prosciutto e rucola pizza crafted with premium ingredients.,21.0,9.8,53.33,False,False,False,12,3,False,HIGH_WASTAGE,1.5,0.7,0.5,True
 ITEM-035,CAT-03,Black Truffle Tagliolini Caviar,DineIQ signature black truffle tagliolini caviar crafted with premium ingredients.,42.0,11.5,72.62,True,False,False,14,5,False,PROFITABLE_LOW_SELLING,0.35,0.45,0.35,True

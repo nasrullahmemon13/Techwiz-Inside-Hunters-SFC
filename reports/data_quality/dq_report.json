@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "platform": "DineIQ Analytics",
+    "srs_step": "Step 4 - Data Quality Report",
+    "generated_at": "2026-09-24T14:31:05.637928",
+    "execution_time_seconds": 3.77,
+    "total_issues_tracked": 15,
+    "overall_data_quality_score": 98.08,
+    "status": "AUDIT_COMPLETED"
+  },
+  "summary": {
+    "total_records_profiled": 4006500,
+    "total_violations_detected": 76843,
+    "critical_issues": 4,
+    "high_issues": 6,
+    "medium_issues": 4,
+    "low_issues": 1
+  },
+  "issues": [
+    {
+      "id": "DQ-001",
+      "issue_name": "missing values",
+      "category": "Completeness",
+      "impacted_table": "customers / orders",
+      "impacted_columns": [
+        "email",
+        "phone_number",
+        "table_number"
+      ],
+      "violation_count": 61316,
+      "total_records": 200200,
+      "severity": "Medium",
+      "description": "Identified 1,478 missing customer emails, 1,990 missing phone numbers, and 57,848 unrecorded dine-in table numbers.",
+      "remediation": "Impute fallback values ('GUEST', 'UNKNOWN_TABLE') and preserve nulls in non-mandatory contact fields.",
+      "error_rate_pct": 30.627
+    },
+    {
+      "id": "DQ-002",
+      "issue_name": "duplicate orders",
+      "category": "Uniqueness",
+      "impacted_table": "orders",
+      "impacted_columns": [
+        "order_id"
+      ],
+      "violation_count": 200,
+      "total_records": 100200,
+      "severity": "Critical",
+      "description": "Detected 200 exact duplicate order headers injected for Spark deduplication validation.",
+      "remediation": "Apply PySpark dropDuplicates(subset=['order_id']) keeping the first valid occurrence.",
+      "error_rate_pct": 0.2
+    },
+    {
+      "id": "DQ-003",
+      "issue_name": "duplicate order-line records",
+      "category": "Uniqueness",
+      "impacted_table": "order_items",
+      "impacted_columns": [
+        "order_item_id"
+      ],
+      "violation_count": 1500,
+      "total_records": 1001500,
+      "severity": "Critical",
+      "description": "Found 1,500 duplicate order line records causing inflated item subtotal calculations.",
+      "remediation": "Apply dropDuplicates(subset=['order_item_id']) prior to financial aggregation.",
+      "error_rate_pct": 0.15
+    },
+    {
+      "id": "DQ-004",
+      "issue_name": "invalid menu prices",
+      "category": "Validity",
+      "impacted_table": "menu_items",
+      "impacted_columns": [
+        "base_price",
+        "cost_price"
+      ],
+      "violation_count": 8,
+      "total_records": 150,
+      "severity": "High",
+      "description": "Identified 8 menu items with negative prices, zero prices, or negative margins where cost exceeds selling price.",
+      "remediation": "Quarantine negative prices and recalibrate selling price based on category target margin (cost / (1 - margin)).",
+      "error_rate_pct": 5.333
+    },
+    {
+      "id": "DQ-005",
+      "issue_name": "negative quantities",
+      "category": "Validity",
+      "impacted_table": "order_items",
+      "impacted_columns": [
+        "quantity"
+      ],
+      "violation_count": 50,
+      "total_records": 1001500,
+      "severity": "High",
+      "description": "Found 50 order items with negative quantities (-1) representing erroneous returns or data entry bugs.",
+      "remediation": "Filter or convert to absolute values if confirmed return or route to returns quarantine table.",
+      "error_rate_pct": 0.005
+    },
+    {
+      "id": "DQ-006",
+      "issue_name": "invalid dates",
+      "category": "Validity",
+      "impacted_table": "orders",
+      "impacted_columns": [
+        "order_date"
+      ],
+      "violation_count": 25,
+      "total_records": 100200,
+      "severity": "High",
+      "description": "Identified 25 orders with future dates (e.g. 2026-08-20) or impossible calendar dates (2025-02-31).",
+      "remediation": "Quarantine invalid dates and parse with Spark to_date(..., 'yyyy-MM-dd') rejecting non-conforming rows.",
+      "error_rate_pct": 0.025
+    },
+    {
+      "id": "DQ-007",
+      "issue_name": "invalid ratings",
+      "category": "Validity",
+      "impacted_table": "ratings",
+      "impacted_columns": [
+        "overall_rating"
+      ],
+      "violation_count": 45,
+      "total_records": 100300,
+      "severity": "Medium",
+      "description": "Found 45 ratings outside the allowed 1 to 5 Likert rating scale (scores of 0 or 6).",
+      "remediation": "Clip ratings to boundaries [1, 5] or discard corrupted records during sentiment ETL.",
+      "error_rate_pct": 0.045
+    },
+    {
+      "id": "DQ-008",
+      "issue_name": "missing customer IDs",
+      "category": "Completeness",
+      "impacted_table": "orders",
+      "impacted_columns": [
+        "customer_id"
+      ],
+      "violation_count": 4017,
+      "total_records": 100200,
+      "severity": "Low",
+      "description": "Identified 4,017 orders without customer ID (anonymous walk-in/guest transactions).",
+      "remediation": "Assign surrogate guest customer ID 'CUST-GUEST' to enable cohort tracking without dropping orders.",
+      "error_rate_pct": 4.009
+    },
+    {
+      "id": "DQ-009",
+      "issue_name": "missing menu IDs",
+      "category": "Completeness",
+      "impacted_table": "order_items",
+      "impacted_columns": [
+        "item_id"
+      ],
+      "violation_count": 35,
+      "total_records": 1001500,
+      "severity": "Critical",
+      "description": "Detected 35 order-line items with missing/null item IDs, preventing item-level margin analysis.",
+      "remediation": "Quarantine records with null item_id for pos log reconciliation.",
+      "error_rate_pct": 0.003
+    },
+    {
+      "id": "DQ-010",
+      "issue_name": "invalid restaurant IDs",
+      "category": "Integrity",
+      "impacted_table": "orders",
+      "impacted_columns": [
+        "location_id"
+      ],
+      "violation_count": 30,
+      "total_records": 100200,
+      "severity": "Critical",
+      "description": "Found 30 orders referencing invalid restaurant IDs ('LOC-999') not present in the master restaurants table.",
+      "remediation": "Filter out non-matching foreign keys using Left Anti Join quarantine before location reporting.",
+      "error_rate_pct": 0.03
+    },
+    {
+      "id": "DQ-011",
+      "issue_name": "impossible wastage quantities",
+      "category": "Validity",
+      "impacted_table": "wastage",
+      "impacted_columns": [
+        "quantity_wasted"
+      ],
+      "violation_count": 25,
+      "total_records": 50000,
+      "severity": "High",
+      "description": "Found 25 wastage records with impossible quantities (e.g. 9,999 units or negative wastage).",
+      "remediation": "Cap wastage quantities using interquartile range (IQR) or quarantine records exceeding max daily production limit.",
+      "error_rate_pct": 0.05
+    },
+    {
+      "id": "DQ-012",
+      "issue_name": "incorrect discounts",
+      "category": "Consistency",
+      "impacted_table": "orders",
+      "impacted_columns": [
+        "discount_amount",
+        "subtotal_amount"
+      ],
+      "violation_count": 40,
+      "total_records": 100200,
+      "severity": "High",
+      "description": "Identified 40 orders where discount amount exceeded total order subtotal or was negative.",
+      "remediation": "Recalculate discount based on promotion cap: discount = least(discount_amount, subtotal_amount, max_discount).",
+      "error_rate_pct": 0.04
+    },
+    {
+      "id": "DQ-013",
+      "issue_name": "cancelled transactions",
+      "category": "Operational",
+      "impacted_table": "orders",
+      "impacted_columns": [
+        "order_status"
+      ],
+      "violation_count": 9510,
+      "total_records": 100200,
+      "severity": "Medium",
+      "description": "Identified 9,510 cancelled and refunded transactions mixed into raw sales data.",
+      "remediation": "Separate cancelled orders into operational cancellation audit tables and exclude from net revenue metrics.",
+      "error_rate_pct": 9.491
+    },
+    {
+      "id": "DQ-014",
+      "issue_name": "inconsistent units",
+      "category": "Consistency",
+      "impacted_table": "menu_items",
+      "impacted_columns": [
+        "prep_time_minutes",
+        "shelf_life_days"
+      ],
+      "violation_count": 12,
+      "total_records": 150,
+      "severity": "Medium",
+      "description": "Found 12 menu items with negative prep time (-10 min) or unrealistically high shelf life (9,999 days).",
+      "remediation": "Impute median category prep time and clamp shelf life to standard culinary thresholds (1 to 90 days).",
+      "error_rate_pct": 8.0
+    },
+    {
+      "id": "DQ-015",
+      "issue_name": "invalid location references",
+      "category": "Integrity",
+      "impacted_table": "wastage",
+      "impacted_columns": [
+        "location_id"
+      ],
+      "violation_count": 30,
+      "total_records": 50000,
+      "severity": "High",
+      "description": "Detected 30 wastage records referencing unmapped location ID 'LOC-404'.",
+      "remediation": "Route unmapped location logs to inventory staging buffer and send alerts for master location mapping.",
+      "error_rate_pct": 0.06
+    }
+  ]
+}
