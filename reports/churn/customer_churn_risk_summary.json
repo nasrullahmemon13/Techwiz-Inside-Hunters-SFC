@@ -1,0 +1,99 @@
+{
+  "evaluation_timestamp": "2026-09-24T16:33:10.321653",
+  "total_customers_evaluated": 50000,
+  "high_churn_risk_count": 22933,
+  "high_churn_risk_pct": 45.87,
+  "medium_churn_risk_count": 10088,
+  "medium_churn_risk_pct": 20.18,
+  "low_churn_risk_count": 16979,
+  "low_churn_risk_pct": 33.96,
+  "total_revenue_evaluated": 23386111.45,
+  "revenue_at_high_churn_risk": 7288731.4,
+  "revenue_at_high_risk_pct": 31.17,
+  "high_value_customers_at_risk": 1000,
+  "factor_breakdown": [
+    {
+      "factor_name": "Increasing Recency",
+      "flag_column": "flag_increasing_recency",
+      "flagged_customer_count": 26921,
+      "overall_penetration_pct": 53.84,
+      "mean_risk_score": 0.638,
+      "high_churn_risk_cohort_pct": 91.62,
+      "high_value_segment_pct": 52.75
+    },
+    {
+      "factor_name": "Declining Frequency",
+      "flag_column": "flag_declining_frequency",
+      "flagged_customer_count": 22743,
+      "overall_penetration_pct": 45.49,
+      "mean_risk_score": 0.4202,
+      "high_churn_risk_cohort_pct": 96.76,
+      "high_value_segment_pct": 44.93
+    },
+    {
+      "factor_name": "Declining Monetary Value",
+      "flag_column": "flag_declining_monetary",
+      "flagged_customer_count": 26781,
+      "overall_penetration_pct": 53.56,
+      "mean_risk_score": 0.4472,
+      "high_churn_risk_cohort_pct": 99.79,
+      "high_value_segment_pct": 53.25
+    },
+    {
+      "factor_name": "Reduced Category Diversity",
+      "flag_column": "flag_reduced_category_diversity",
+      "flagged_customer_count": 25635,
+      "overall_penetration_pct": 51.27,
+      "mean_risk_score": 0.4185,
+      "high_churn_risk_cohort_pct": 99.49,
+      "high_value_segment_pct": 50.73
+    },
+    {
+      "factor_name": "Lower Visit Frequency",
+      "flag_column": "flag_lower_visit_frequency",
+      "flagged_customer_count": 43459,
+      "overall_penetration_pct": 86.92,
+      "mean_risk_score": 0.6489,
+      "high_churn_risk_cohort_pct": 99.94,
+      "high_value_segment_pct": 86.81
+    }
+  ],
+  "tier_summary": [
+    {
+      "churn_risk_tier": "High Churn Risk",
+      "customer_count": 22933,
+      "total_annual_revenue": 7288731.4,
+      "mean_annual_spend": 317.83,
+      "mean_orders": 1.18,
+      "mean_recency_days": 272.3,
+      "mean_churn_risk_score": 0.9114,
+      "avg_risk_factors_count": 4.88,
+      "customer_share_pct": 45.87,
+      "revenue_share_pct": 31.17
+    },
+    {
+      "churn_risk_tier": "Medium Churn Risk",
+      "customer_count": 10088,
+      "total_annual_revenue": 5640211.88,
+      "mean_annual_spend": 559.1,
+      "mean_orders": 2.08,
+      "mean_recency_days": 109.2,
+      "mean_churn_risk_score": 0.2806,
+      "avg_risk_factors_count": 2.29,
+      "customer_share_pct": 20.18,
+      "revenue_share_pct": 24.12
+    },
+    {
+      "churn_risk_tier": "Low Churn Risk",
+      "customer_count": 16979,
+      "total_annual_revenue": 10457168.17,
+      "mean_annual_spend": 615.89,
+      "mean_orders": 2.29,
+      "mean_recency_days": 47.7,
+      "mean_churn_risk_score": 0.1162,
+      "avg_risk_factors_count": 0.63,
+      "customer_share_pct": 33.96,
+      "revenue_share_pct": 44.72
+    }
+  ]
+}

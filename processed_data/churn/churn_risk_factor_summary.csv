@@ -1,0 +1,6 @@
+factor_name,flag_column,flagged_customer_count,overall_penetration_pct,mean_risk_score,high_churn_risk_cohort_pct,high_value_segment_pct
+Increasing Recency,flag_increasing_recency,26921,53.84,0.638,91.62,52.75
+Declining Frequency,flag_declining_frequency,22743,45.49,0.4202,96.76,44.93
+Declining Monetary Value,flag_declining_monetary,26781,53.56,0.4472,99.79,53.25
+Reduced Category Diversity,flag_reduced_category_diversity,25635,51.27,0.4185,99.49,50.73
+Lower Visit Frequency,flag_lower_visit_frequency,43459,86.92,0.6489,99.94,86.81
