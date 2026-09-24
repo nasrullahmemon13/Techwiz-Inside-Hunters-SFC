@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-09-24 15:24:42",
+  "total_customers": 50000,
+  "the_10_factors_evaluated": [
+    "recency",
+    "frequency",
+    "monetary_value",
+    "average_order_value",
+    "visit_frequency",
+    "favorite_menu_categories",
+    "promotion_sensitivity",
+    "ordering_channel",
+    "time_of_day_preference",
+    "repeat_behavior"
+  ],
+  "the_6_srs_segments": [
+    "Occasional Customers",
+    "New Customers",
+    "Promotion-Driven Customers",
+    "At-Risk Customers",
+    "High-Value Loyal Customers",
+    "Frequent Customers"
+  ],
+  "segment_distribution": {
+    "Occasional Customers": 23539,
+    "New Customers": 8187,
+    "Promotion-Driven Customers": 6102,
+    "At-Risk Customers": 5749,
+    "High-Value Loyal Customers": 5707,
+    "Frequent Customers": 716
+  },
+  "segment_profiles": [
+    {
+      "customer_segment": "At-Risk Customers",
+      "customer_count": 5749,
+      "mean_recency": 207.45642720473126,
+      "mean_frequency": 2.380761871629849,
+      "mean_monetary": 641.0842042094278,
+      "mean_aov": 269.16062793529306,
+      "mean_cadence_days": 63.76590711428074,
+      "mean_promo_sensitivity": 0.3312954948686728,
+      "mean_repeat_rate": 0.05766540267872673
+    },
+    {
+      "customer_segment": "Frequent Customers",
+      "customer_count": 716,
+      "mean_recency": 49.710893854748605,
+      "mean_frequency": 3.0237430167597767,
+      "mean_monetary": 540.6942877094972,
+      "mean_aov": 179.13094972067037,
+      "mean_cadence_days": 95.9858938547486,
+      "mean_promo_sensitivity": 0.20435614525139664,
+      "mean_repeat_rate": 0.06927388268156424
+    },
+    {
+      "customer_segment": "High-Value Loyal Customers",
+      "customer_count": 5707,
+      "mean_recency": 44.71053092693184,
+      "mean_frequency": 3.591904678465043,
+      "mean_monetary": 1014.8597424215875,
+      "mean_aov": 284.2409041527948,
+      "mean_cadence_days": 87.42523217101805,
+      "mean_promo_sensitivity": 0.1891186262484668,
+      "mean_repeat_rate": 0.10631018048011215
+    },
+    {
+      "customer_segment": "New Customers",
+      "customer_count": 8187,
+      "mean_recency": 29.47392207157689,
+      "mean_frequency": 1.6130450714547453,
+      "mean_monetary": 435.2346158544033,
+      "mean_aov": 269.73214364235986,
+      "mean_cadence_days": 164.91132282887506,
+      "mean_promo_sensitivity": 0.3380969830218639,
+      "mean_repeat_rate": 0.026693746182973006
+    },
+    {
+      "customer_segment": "Occasional Customers",
+      "customer_count": 23539,
+      "mean_recency": 254.6220315221547,
+      "mean_frequency": 0.7725476868176219,
+      "mean_monetary": 208.46593992947874,
+      "mean_aov": 167.42780619397595,
+      "mean_cadence_days": 241.7289604486172,
+      "mean_promo_sensitivity": 0.17575113641191215,
+      "mean_repeat_rate": 0.006100178427290878
+    },
+    {
+      "customer_segment": "Promotion-Driven Customers",
+      "customer_count": 6102,
+      "mean_recency": 71.87495902982629,
+      "mean_frequency": 3.1338905276958373,
+      "mean_monetary": 827.7992690921009,
+      "mean_aov": 264.47966404457554,
+      "mean_cadence_days": 97.09837758112096,
+      "mean_promo_sensitivity": 0.6149307276302851,
+      "mean_repeat_rate": 0.08726142248443133
+    }
+  ],
+  "rfm_summary": {
+    "r_score_distribution": {
+      "5": 10244,
+      "2": 10001,
+      "1": 9986,
+      "3": 9905,
+      "4": 9864
+    },
+    "f_score_distribution": {
+      "1": 10000,
+      "4": 10000,
+      "5": 10000,
+      "3": 10000,
+      "2": 10000
+    },
+    "m_score_distribution": {
+      "2": 10000,
+      "3": 10000,
+      "1": 10000,
+      "5": 10000,
+      "4": 10000
+    },
+    "top_rfm_cells": {
+      "111": 8906,
+      "555": 3154,
+      "222": 2397,
+      "455": 2296,
+      "355": 1503
+    }
+  }
+}
