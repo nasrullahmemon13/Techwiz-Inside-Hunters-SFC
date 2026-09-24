@@ -1,0 +1,128 @@
+{
+  "generation_timestamp": "2026-09-24T16:41:29.312713",
+  "total_recommendations": 57,
+  "total_potential_business_impact": 3665651.85,
+  "srs_categories_covered": 9,
+  "priority_distribution": [
+    {
+      "priority": "Critical",
+      "recommendation_count": 21,
+      "total_potential_business_impact": 2715227.86,
+      "avg_potential_business_impact": 129296.56,
+      "impact_share_pct": 74.07
+    },
+    {
+      "priority": "High",
+      "recommendation_count": 8,
+      "total_potential_business_impact": 411374.09,
+      "avg_potential_business_impact": 51421.76,
+      "impact_share_pct": 11.22
+    },
+    {
+      "priority": "Medium",
+      "recommendation_count": 27,
+      "total_potential_business_impact": 533282.37,
+      "avg_potential_business_impact": 19751.2,
+      "impact_share_pct": 14.55
+    },
+    {
+      "priority": "Low",
+      "recommendation_count": 1,
+      "total_potential_business_impact": 5767.53,
+      "avg_potential_business_impact": 5767.53,
+      "impact_share_pct": 0.16
+    }
+  ],
+  "category_distribution": [
+    {
+      "category": "Bundle frequently purchased items",
+      "recommendation_count": 8,
+      "total_potential_business_impact": 111678.75,
+      "avg_potential_business_impact": 13959.84,
+      "critical_priority_count": 0,
+      "high_priority_count": 0,
+      "medium_priority_count": 8,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Increase stock before predicted peak periods",
+      "recommendation_count": 2,
+      "total_potential_business_impact": 159006.62,
+      "avg_potential_business_impact": 79503.31,
+      "critical_priority_count": 1,
+      "high_priority_count": 0,
+      "medium_priority_count": 0,
+      "low_priority_count": 1
+    },
+    {
+      "category": "Investigate anomalous locations",
+      "recommendation_count": 4,
+      "total_potential_business_impact": 428183.42,
+      "avg_potential_business_impact": 107045.86,
+      "critical_priority_count": 4,
+      "high_priority_count": 0,
+      "medium_priority_count": 0,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Promote high-margin Hidden Opportunities",
+      "recommendation_count": 9,
+      "total_potential_business_impact": 178596.89,
+      "avg_potential_business_impact": 19844.1,
+      "critical_priority_count": 0,
+      "high_priority_count": 1,
+      "medium_priority_count": 8,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Reduce preparation quantity of high-wastage dishes",
+      "recommendation_count": 10,
+      "total_potential_business_impact": 361748.38,
+      "avg_potential_business_impact": 36174.84,
+      "critical_priority_count": 7,
+      "high_priority_count": 0,
+      "medium_priority_count": 3,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Remove or redesign persistent Low Performers",
+      "recommendation_count": 8,
+      "total_potential_business_impact": 688328.18,
+      "avg_potential_business_impact": 86041.02,
+      "critical_priority_count": 3,
+      "high_priority_count": 5,
+      "medium_priority_count": 0,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Review ineffective promotions",
+      "recommendation_count": 6,
+      "total_potential_business_impact": 700000.0,
+      "avg_potential_business_impact": 116666.67,
+      "critical_priority_count": 4,
+      "high_priority_count": 2,
+      "medium_priority_count": 0,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Review pricing of price-sensitive dishes",
+      "recommendation_count": 8,
+      "total_potential_business_impact": 195714.3,
+      "avg_potential_business_impact": 24464.29,
+      "critical_priority_count": 0,
+      "high_priority_count": 0,
+      "medium_priority_count": 8,
+      "low_priority_count": 0
+    },
+    {
+      "category": "Target selected customer segments",
+      "recommendation_count": 2,
+      "total_potential_business_impact": 842395.31,
+      "avg_potential_business_impact": 421197.66,
+      "critical_priority_count": 2,
+      "high_priority_count": 0,
+      "medium_priority_count": 0,
+      "low_priority_count": 0
+    }
+  ]
+}

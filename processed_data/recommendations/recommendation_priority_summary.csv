@@ -1,0 +1,5 @@
+priority,recommendation_count,total_potential_business_impact,avg_potential_business_impact,impact_share_pct
+Critical,21,2715227.86,129296.56,74.07
+High,8,411374.09,51421.76,11.22
+Medium,27,533282.37,19751.2,14.55
+Low,1,5767.53,5767.53,0.16

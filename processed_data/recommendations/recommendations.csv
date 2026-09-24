@@ -1,0 +1,510 @@
+category,target_entity_type,target_entity_id,target_entity_name,recommended_action,reason_bullets,formatted_evidence,potential_business_impact,business_impact_rationale,priority,implementation_effort,recommendation_id
+Target selected customer segments,Customer Segment,SEG-HIGH-VALUE-RISK,High-Value VIPs at Churn Risk,Deploy Urgent VIP Concierge Retention Campaign for High-Value At-Risk Patrons,"['Massive financial exposure: 2,242 VIP accounts representing $727,713.58 in historical spend', 'Severe churn velocity: average recency of 271.0 days without dining activity', 'High composite churn score: 0.911 across the 5 SRS risk factors', 'Key behavioral signals: declining visit frequency and collapsed category exploration', 'Actionable intervention: executive chef tasting invitation & dedicated concierge reservation outreach']","Recommended Action:
+  Deploy Urgent VIP Concierge Retention Campaign for High-Value At-Risk Patrons
+
+Reason:
+  * Massive financial exposure: 2,242 VIP accounts representing $727,713.58 in historical spend
+  * Severe churn velocity: average recency of 271.0 days without dining activity
+  * High composite churn score: 0.911 across the 5 SRS risk factors
+  * Key behavioral signals: declining visit frequency and collapsed category exploration
+  * Actionable intervention: executive chef tasting invitation & dedicated concierge reservation outreach",727713.5800000001,"Reclaiming 20% of churning VIP revenue preserves $145,542.72 in annual high-margin patronage.",Critical,Medium,REC-046
+Review ineffective promotions,Promotion,PROMO-012,Late Night Craver 20% Off,Review and Immediately Restructure Ineffective Promotion: PROMO-012 ('Late Night Craver 20% Off'),"['Multi-trap promotion failure: triggered 5 of 5 distinct SRS Promotion Traps', 'Trap 1 (Sales Up, Profit Down): Revenue was $522,270.60, but profit margin contracted by 11.1% below baseline (44.9% vs 56.0%), yielding only $234,234.45 in net profit.', 'Trap 2 (Margin Collapse): Acquired high transaction volume (2,626 unique customers), but order margin collapsed to 44.9% due to aggressive discount absorption.', 'Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $267,331.10 in food loss (34,362 units wasted) due to kitchen overproduction and demand miscalculation.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 100.0% of promo patrons never returned after the discount expired (only 0.0% 30-day post-campaign retention).', 'Trap 5 (Cannibalization): Cannibalization confirmed: Promotional sales captured $65,925.77 (4.6% of category volume), shifting demand away from full-price substitutes in CAT-06.']","Recommended Action:
+  Review and Immediately Restructure Ineffective Promotion: PROMO-012 ('Late Night Craver 20% Off')
+
+Reason:
+  * Multi-trap promotion failure: triggered 5 of 5 distinct SRS Promotion Traps
+  * Trap 1 (Sales Up, Profit Down): Revenue was $522,270.60, but profit margin contracted by 11.1% below baseline (44.9% vs 56.0%), yielding only $234,234.45 in net profit.
+  * Trap 2 (Margin Collapse): Acquired high transaction volume (2,626 unique customers), but order margin collapsed to 44.9% due to aggressive discount absorption.
+  * Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $267,331.10 in food loss (34,362 units wasted) due to kitchen overproduction and demand miscalculation.
+  * Trap 4 (Discount-Only Patrons): Extreme customer churn: 100.0% of promo patrons never returned after the discount expired (only 0.0% 30-day post-campaign retention).
+  * Trap 5 (Cannibalization): Cannibalization confirmed: Promotional sales captured $65,925.77 (4.6% of category volume), shifting demand away from full-price substitutes in CAT-06.",175000.0,"Halting profit margin dilution and excessive waste recovers ~$175,000.00 in net restaurant earnings.",Critical,Low,REC-048
+Remove or redesign persistent Low Performers,Menu Item,ITEM-066,Seared Diver Scallops Sweet Corn,Remove or Redesign Persistent Low Performer: ITEM-066 (Seared Diver Scallops Sweet Corn),"['Severe slow-moving status: SMI score of 0.833 (Critical Slow-Moving Tier)', 'Depressed order volume: only 2,830 orders placed across entire network', 'Excessive food wastage: 67.8% wastage rate ($150,074.40 spoiled)', 'Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 36.0% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-066 (Seared Diver Scallops Sweet Corn)
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.833 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 2,830 orders placed across entire network
+  * Excessive food wastage: 67.8% wastage rate ($150,074.40 spoiled)
+  * Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 36.0% (Q4 vs Q1)",173019.0,"Eliminating menu deadweight recovers $173,019.00 in waste and misallocated prep labor.",Critical,Medium,REC-042
+Remove or redesign persistent Low Performers,Menu Item,ITEM-072,Whole Grilled Red Snapper Mojo,Remove or Redesign Persistent Low Performer: ITEM-072 (Whole Grilled Red Snapper Mojo),"['Severe slow-moving status: SMI score of 0.870 (Critical Slow-Moving Tier)', 'Depressed order volume: only 1,476 orders placed across entire network', 'Excessive food wastage: 80.3% wastage rate ($148,837.50 spoiled)', 'Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 39.6% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-072 (Whole Grilled Red Snapper Mojo)
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.870 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 1,476 orders placed across entire network
+  * Excessive food wastage: 80.3% wastage rate ($148,837.50 spoiled)
+  * Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 39.6% (Q4 vs Q1)",162010.8,"Eliminating menu deadweight recovers $162,010.80 in waste and misallocated prep labor.",Critical,Medium,REC-039
+Increase stock before predicted peak periods,Peak Period,PEAK-HOUR-12,Dinner Rush Hour 12:00,Increase Raw Ingredient Stock & Prep Buffers for Dinner Peak Window (12:00 - 13:00),"['Primary network peak period: generates $3,064,781.83 (14.6% of daily revenue)', 'High-throughput kitchen strain: 192,013 menu portions demanded within this 60-minute window', 'Stock-out bottleneck risk: top protein and produce ingredients face acute depletion', 'Mitigation protocol: increase pre-service prep buffers by +25% prior to 12:00', 'Customer experience impact: prevents 8-12 minute ticket delays during high-volume rush']","Recommended Action:
+  Increase Raw Ingredient Stock & Prep Buffers for Dinner Peak Window (12:00 - 13:00)
+
+Reason:
+  * Primary network peak period: generates $3,064,781.83 (14.6% of daily revenue)
+  * High-throughput kitchen strain: 192,013 menu portions demanded within this 60-minute window
+  * Stock-out bottleneck risk: top protein and produce ingredients face acute depletion
+  * Mitigation protocol: increase pre-service prep buffers by +25% prior to 12:00
+  * Customer experience impact: prevents 8-12 minute ticket delays during high-volume rush",153239.09,"Protects $153,239.09 in peak-hour sales from kitchen capacity stock-outs.",Critical,Low,REC-044
+Review ineffective promotions,Promotion,PROMO-001,New Year Kickoff 20% Off,Review and Immediately Restructure Ineffective Promotion: PROMO-001 ('New Year Kickoff 20% Off'),"['Multi-trap promotion failure: triggered 4 of 5 distinct SRS Promotion Traps', 'Trap 1 (Sales Up, Profit Down): Revenue was $516,118.06, but profit margin contracted by 11.0% below baseline (45.0% vs 56.0%), yielding only $232,211.01 in net profit.', 'Trap 2 (Margin Collapse): Acquired high transaction volume (2,589 unique customers), but order margin collapsed to 45.0% due to aggressive discount absorption.', 'Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $129,922.60 in food loss (12,503 units wasted) due to kitchen overproduction and demand miscalculation.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 83.8% of promo patrons never returned after the discount expired (only 16.2% 30-day post-campaign retention).']","Recommended Action:
+  Review and Immediately Restructure Ineffective Promotion: PROMO-001 ('New Year Kickoff 20% Off')
+
+Reason:
+  * Multi-trap promotion failure: triggered 4 of 5 distinct SRS Promotion Traps
+  * Trap 1 (Sales Up, Profit Down): Revenue was $516,118.06, but profit margin contracted by 11.0% below baseline (45.0% vs 56.0%), yielding only $232,211.01 in net profit.
+  * Trap 2 (Margin Collapse): Acquired high transaction volume (2,589 unique customers), but order margin collapsed to 45.0% due to aggressive discount absorption.
+  * Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $129,922.60 in food loss (12,503 units wasted) due to kitchen overproduction and demand miscalculation.
+  * Trap 4 (Discount-Only Patrons): Extreme customer churn: 83.8% of promo patrons never returned after the discount expired (only 16.2% 30-day post-campaign retention).",140000.0,"Halting profit margin dilution and excessive waste recovers ~$140,000.00 in net restaurant earnings.",Critical,Low,REC-049
+Review ineffective promotions,Promotion,PROMO-009,VIP Platinum Royalty 25% Off,Review and Immediately Restructure Ineffective Promotion: PROMO-009 ('VIP Platinum Royalty 25% Off'),"['Multi-trap promotion failure: triggered 4 of 5 distinct SRS Promotion Traps', 'Trap 1 (Sales Up, Profit Down): Revenue was $501,417.49, but profit margin contracted by 14.8% below baseline (41.2% vs 56.0%), yielding only $206,574.55 in net profit.', 'Trap 2 (Margin Collapse): Acquired high transaction volume (2,661 unique customers), but order margin collapsed to 41.2% due to aggressive discount absorption.', 'Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $3,247,970.00 in food loss (310,818 units wasted) due to kitchen overproduction and demand miscalculation.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 100.0% of promo patrons never returned after the discount expired (only 0.0% 30-day post-campaign retention).']","Recommended Action:
+  Review and Immediately Restructure Ineffective Promotion: PROMO-009 ('VIP Platinum Royalty 25% Off')
+
+Reason:
+  * Multi-trap promotion failure: triggered 4 of 5 distinct SRS Promotion Traps
+  * Trap 1 (Sales Up, Profit Down): Revenue was $501,417.49, but profit margin contracted by 14.8% below baseline (41.2% vs 56.0%), yielding only $206,574.55 in net profit.
+  * Trap 2 (Margin Collapse): Acquired high transaction volume (2,661 unique customers), but order margin collapsed to 41.2% due to aggressive discount absorption.
+  * Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $3,247,970.00 in food loss (310,818 units wasted) due to kitchen overproduction and demand miscalculation.
+  * Trap 4 (Discount-Only Patrons): Extreme customer churn: 100.0% of promo patrons never returned after the discount expired (only 0.0% 30-day post-campaign retention).",140000.0,"Halting profit margin dilution and excessive waste recovers ~$140,000.00 in net restaurant earnings.",Critical,Low,REC-050
+Remove or redesign persistent Low Performers,Menu Item,ITEM-005,Wild Alaskan Salmon Tartare,Remove or Redesign Persistent Low Performer: ITEM-005 (Wild Alaskan Salmon Tartare),"['Severe slow-moving status: SMI score of 0.883 (Critical Slow-Moving Tier)', 'Depressed order volume: only 2,433 orders placed across entire network', 'Excessive food wastage: 72.2% wastage rate ($105,995.50 spoiled)', 'Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 36.9% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-005 (Wild Alaskan Salmon Tartare)
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.883 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 2,433 orders placed across entire network
+  * Excessive food wastage: 72.2% wastage rate ($105,995.50 spoiled)
+  * Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 36.9% (Q4 vs Q1)",117159.1,"Eliminating menu deadweight recovers $117,159.10 in waste and misallocated prep labor.",Critical,Medium,REC-038
+Target selected customer segments,Customer Segment,SEG-REGULAR-CAT-FATIGUE,Regular Customers with Menu Fatigue,Target Regular Diners Showing Reduced Category Diversity with Category Sampler Incentives,"['Large cohort size: 1,106 regular customers experiencing menu fatigue', 'Substantial baseline value: $764,544.84 in cumulative 2025 restaurant spend', 'Identified churn precursor: active category breadth narrowed significantly between H1 and H2', 'Early warning indicator: customers currently in Medium Churn Risk buffer before complete lapse', 'Actionable intervention: 30% discount on unsampled menu categories to re-ignite dining variety']","Recommended Action:
+  Target Regular Diners Showing Reduced Category Diversity with Category Sampler Incentives
+
+Reason:
+  * Large cohort size: 1,106 regular customers experiencing menu fatigue
+  * Substantial baseline value: $764,544.84 in cumulative 2025 restaurant spend
+  * Identified churn precursor: active category breadth narrowed significantly between H1 and H2
+  * Early warning indicator: customers currently in Medium Churn Risk buffer before complete lapse
+  * Actionable intervention: 30% discount on unsampled menu categories to re-ignite dining variety",114681.73,"Reversing menu fatigue retains $114,681.73 in repeat dining frequency.",Critical,Low,REC-047
+Investigate anomalous locations,Location,LOC-005,DineIQ West Loop Bistro (Chicago),"Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)","['Severe customer dissatisfaction: CSAT of only 64.7% (697 1-star reviews, 3.64 avg rating)', 'Excessive food wastage: $168,167.10 annual waste loss (20.7% waste rate)', 'Operating margin lag: contribution margin of 56.1% trails network high performers', 'High commercial exposure: $1,116,175.78 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+  Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)
+
+Reason:
+  * Severe customer dissatisfaction: CSAT of only 64.7% (697 1-star reviews, 3.64 avg rating)
+  * Excessive food wastage: $168,167.10 annual waste loss (20.7% waste rate)
+  * Operating margin lag: contribution margin of 56.1% trails network high performers
+  * High commercial exposure: $1,116,175.78 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",111913.87,"Operational turnaround captures $111,913.87 through reduced spoilage and restored customer retention.",Critical,High,REC-057
+Investigate anomalous locations,Location,LOC-020,DineIQ Boston Back Bay (Boston),"Investigate Operational & Quality Anomalies at Location LOC-020 (DineIQ Boston Back Bay, Boston)","['Severe customer dissatisfaction: CSAT of only 63.9% (639 1-star reviews, 3.61 avg rating)', 'Excessive food wastage: $169,904.70 annual waste loss (22.8% waste rate)', 'Operating margin lag: contribution margin of 55.9% trails network high performers', 'High commercial exposure: $1,007,497.16 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+  Investigate Operational & Quality Anomalies at Location LOC-020 (DineIQ Boston Back Bay, Boston)
+
+Reason:
+  * Severe customer dissatisfaction: CSAT of only 63.9% (639 1-star reviews, 3.61 avg rating)
+  * Excessive food wastage: $169,904.70 annual waste loss (22.8% waste rate)
+  * Operating margin lag: contribution margin of 55.9% trails network high performers
+  * High commercial exposure: $1,007,497.16 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",108261.77,"Operational turnaround captures $108,261.77 through reduced spoilage and restored customer retention.",Critical,High,REC-056
+Review ineffective promotions,Promotion,PROMO-003,Mega Feast 50% Off (Fine Print: $120 Min),Review and Immediately Restructure Ineffective Promotion: PROMO-003 ('Mega Feast 50% Off (Fine Print: $120 Min)'),"['Multi-trap promotion failure: triggered 3 of 5 distinct SRS Promotion Traps', 'Trap 1 (Sales Up, Profit Down): Revenue was $215,657.98, but profit margin contracted by 44.3% below baseline (11.7% vs 56.0%), yielding only $25,231.18 in net profit.', 'Trap 2 (Margin Collapse): Acquired high transaction volume (1,629 unique customers), but order margin collapsed to 11.7% due to aggressive discount absorption.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 80.0% of promo patrons never returned after the discount expired (only 19.9% 30-day post-campaign retention).']","Recommended Action:
+  Review and Immediately Restructure Ineffective Promotion: PROMO-003 ('Mega Feast 50% Off (Fine Print: $120 Min)')
+
+Reason:
+  * Multi-trap promotion failure: triggered 3 of 5 distinct SRS Promotion Traps
+  * Trap 1 (Sales Up, Profit Down): Revenue was $215,657.98, but profit margin contracted by 44.3% below baseline (11.7% vs 56.0%), yielding only $25,231.18 in net profit.
+  * Trap 2 (Margin Collapse): Acquired high transaction volume (1,629 unique customers), but order margin collapsed to 11.7% due to aggressive discount absorption.
+  * Trap 4 (Discount-Only Patrons): Extreme customer churn: 80.0% of promo patrons never returned after the discount expired (only 19.9% 30-day post-campaign retention).",105000.0,"Halting profit margin dilution and excessive waste recovers ~$105,000.00 in net restaurant earnings.",Critical,Low,REC-051
+Investigate anomalous locations,Location,LOC-015,DineIQ Bellevue Tech Plaza (Bellevue),"Investigate Operational & Quality Anomalies at Location LOC-015 (DineIQ Bellevue Tech Plaza, Bellevue)","['Severe customer dissatisfaction: CSAT of only 62.6% (675 1-star reviews, 3.56 avg rating)', 'Excessive food wastage: $161,231.50 annual waste loss (22.3% waste rate)', 'Operating margin lag: contribution margin of 55.8% trails network high performers', 'High commercial exposure: $990,105.01 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+  Investigate Operational & Quality Anomalies at Location LOC-015 (DineIQ Bellevue Tech Plaza, Bellevue)
+
+Reason:
+  * Severe customer dissatisfaction: CSAT of only 62.6% (675 1-star reviews, 3.56 avg rating)
+  * Excessive food wastage: $161,231.50 annual waste loss (22.3% waste rate)
+  * Operating margin lag: contribution margin of 55.8% trails network high performers
+  * High commercial exposure: $990,105.01 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",104096.8,"Operational turnaround captures $104,096.80 through reduced spoilage and restored customer retention.",Critical,High,REC-055
+Investigate anomalous locations,Location,LOC-019,DineIQ Atlanta Midtown (Atlanta),"Investigate Operational & Quality Anomalies at Location LOC-019 (DineIQ Atlanta Midtown, Atlanta)","['Severe customer dissatisfaction: CSAT of only 62.2% (720 1-star reviews, 3.55 avg rating)', 'Excessive food wastage: $161,964.80 annual waste loss (22.8% waste rate)', 'Operating margin lag: contribution margin of 55.9% trails network high performers', 'High commercial exposure: $978,126.54 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+  Investigate Operational & Quality Anomalies at Location LOC-019 (DineIQ Atlanta Midtown, Atlanta)
+
+Reason:
+  * Severe customer dissatisfaction: CSAT of only 62.2% (720 1-star reviews, 3.55 avg rating)
+  * Excessive food wastage: $161,964.80 annual waste loss (22.8% waste rate)
+  * Operating margin lag: contribution margin of 55.9% trails network high performers
+  * High commercial exposure: $978,126.54 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",103910.98,"Operational turnaround captures $103,910.98 through reduced spoilage and restored customer retention.",Critical,High,REC-054
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-064,Butter Poached Maine Lobster Tail,Reduce Daily Preparation Quantity of Item ITEM-064 (Butter Poached Maine Lobster Tail) by 27%,"['Severe inventory loss: $224,754.00 annual waste loss (9,564 portions discarded)', 'Excessive wastage rate: 45.7% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,357 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-064 (Butter Poached Maine Lobster Tail) by 27%
+
+Reason:
+  * Severe inventory loss: $224,754.00 annual waste loss (9,564 portions discarded)
+  * Excessive wastage rate: 45.7% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,357 recorded spoilage incidents across locations",60683.58,"Direct food cost savings of $60,683.58 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-010
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-075,Seafood Bouillabaisse Saffron Rouille,Reduce Daily Preparation Quantity of Item ITEM-075 (Seafood Bouillabaisse Saffron Rouille) by 27%,"['Severe inventory loss: $152,047.50 annual waste loss (9,215 portions discarded)', 'Excessive wastage rate: 45.2% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,309 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-075 (Seafood Bouillabaisse Saffron Rouille) by 27%
+
+Reason:
+  * Severe inventory loss: $152,047.50 annual waste loss (9,215 portions discarded)
+  * Excessive wastage rate: 45.2% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,309 recorded spoilage incidents across locations",41052.83,"Direct food cost savings of $41,052.83 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-011
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-066,Seared Diver Scallops Sweet Corn,Reduce Daily Preparation Quantity of Item ITEM-066 (Seared Diver Scallops Sweet Corn) by 27%,"['Severe inventory loss: $150,074.40 annual waste loss (8,933 portions discarded)', 'Excessive wastage rate: 46.3% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,277 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-066 (Seared Diver Scallops Sweet Corn) by 27%
+
+Reason:
+  * Severe inventory loss: $150,074.40 annual waste loss (8,933 portions discarded)
+  * Excessive wastage rate: 46.3% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,277 recorded spoilage incidents across locations",40520.09,"Direct food cost savings of $40,520.09 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-012
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-072,Whole Grilled Red Snapper Mojo,Reduce Daily Preparation Quantity of Item ITEM-072 (Whole Grilled Red Snapper Mojo) by 25%,"['Severe inventory loss: $148,837.50 annual waste loss (8,505 portions discarded)', 'Excessive wastage rate: 41.8% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,224 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-072 (Whole Grilled Red Snapper Mojo) by 25%
+
+Reason:
+  * Severe inventory loss: $148,837.50 annual waste loss (8,505 portions discarded)
+  * Excessive wastage rate: 41.8% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,224 recorded spoilage incidents across locations",37209.38,"Direct food cost savings of $37,209.38 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-013
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-062,Crispy Skin Mediterranean Branzino,Reduce Daily Preparation Quantity of Item ITEM-062 (Crispy Skin Mediterranean Branzino) by 25%,"['Severe inventory loss: $138,096.00 annual waste loss (8,631 portions discarded)', 'Excessive wastage rate: 42.7% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,230 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-062 (Crispy Skin Mediterranean Branzino) by 25%
+
+Reason:
+  * Severe inventory loss: $138,096.00 annual waste loss (8,631 portions discarded)
+  * Excessive wastage rate: 42.7% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,230 recorded spoilage incidents across locations",34524.0,"Direct food cost savings of $34,524.00 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-014
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-067,Seafood Paella Valenciana,Reduce Daily Preparation Quantity of Item ITEM-067 (Seafood Paella Valenciana) by 25%,"['Severe inventory loss: $135,440.00 annual waste loss (8,465 portions discarded)', 'Excessive wastage rate: 42.0% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,216 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-067 (Seafood Paella Valenciana) by 25%
+
+Reason:
+  * Severe inventory loss: $135,440.00 annual waste loss (8,465 portions discarded)
+  * Excessive wastage rate: 42.0% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,216 recorded spoilage incidents across locations",33860.0,"Direct food cost savings of $33,860.00 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-015
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-069,Grilled Yellowfin Ahi Tuna Steak,Reduce Daily Preparation Quantity of Item ITEM-069 (Grilled Yellowfin Ahi Tuna Steak) by 24%,"['Severe inventory loss: $130,713.60 annual waste loss (8,832 portions discarded)', 'Excessive wastage rate: 40.8% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,258 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-069 (Grilled Yellowfin Ahi Tuna Steak) by 24%
+
+Reason:
+  * Severe inventory loss: $130,713.60 annual waste loss (8,832 portions discarded)
+  * Excessive wastage rate: 40.8% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,258 recorded spoilage incidents across locations",31371.26,"Direct food cost savings of $31,371.26 by aligning prep buffers with actual consumer demand.",Critical,Medium,REC-016
+Remove or redesign persistent Low Performers,Menu Item,ITEM-006,Soft-Shell Crab Sliders,Remove or Redesign Persistent Low Performer: ITEM-006 (Soft-Shell Crab Sliders),"['Severe slow-moving status: SMI score of 0.892 (Critical Slow-Moving Tier)', 'Depressed order volume: only 2,159 orders placed across entire network', 'Excessive food wastage: 72.7% wastage rate ($86,893.80 spoiled)', 'Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 30.9% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-006 (Soft-Shell Crab Sliders)
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.892 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 2,159 orders placed across entire network
+  * Excessive food wastage: 72.7% wastage rate ($86,893.80 spoiled)
+  * Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 30.9% (Q4 vs Q1)",96227.48,"Eliminating menu deadweight recovers $96,227.48 in waste and misallocated prep labor.",High,Medium,REC-037
+Review ineffective promotions,Promotion,PROMO-010,Black Friday Week Blowout $20 Off,Review and Immediately Restructure Ineffective Promotion: PROMO-010 ('Black Friday Week Blowout $20 Off'),"['Multi-trap promotion failure: triggered 2 of 5 distinct SRS Promotion Traps', 'Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $64,671.35 in food loss (5,995 units wasted) due to kitchen overproduction and demand miscalculation.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 75.7% of promo patrons never returned after the discount expired (only 24.3% 30-day post-campaign retention).']","Recommended Action:
+  Review and Immediately Restructure Ineffective Promotion: PROMO-010 ('Black Friday Week Blowout $20 Off')
+
+Reason:
+  * Multi-trap promotion failure: triggered 2 of 5 distinct SRS Promotion Traps
+  * Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $64,671.35 in food loss (5,995 units wasted) due to kitchen overproduction and demand miscalculation.
+  * Trap 4 (Discount-Only Patrons): Extreme customer churn: 75.7% of promo patrons never returned after the discount expired (only 24.3% 30-day post-campaign retention).",70000.0,"Halting profit margin dilution and excessive waste recovers ~$70,000.00 in net restaurant earnings.",High,Low,REC-052
+Review ineffective promotions,Promotion,PROMO-004,Spring Weekend Flash 15%,Review and Immediately Restructure Ineffective Promotion: PROMO-004 ('Spring Weekend Flash 15%'),"['Multi-trap promotion failure: triggered 2 of 5 distinct SRS Promotion Traps', 'Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $263,683.15 in food loss (25,413 units wasted) due to kitchen overproduction and demand miscalculation.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 79.9% of promo patrons never returned after the discount expired (only 20.1% 30-day post-campaign retention).']","Recommended Action:
+  Review and Immediately Restructure Ineffective Promotion: PROMO-004 ('Spring Weekend Flash 15%')
+
+Reason:
+  * Multi-trap promotion failure: triggered 2 of 5 distinct SRS Promotion Traps
+  * Trap 3 (Excess Wastage): Severe inventory spoilage during campaign: $263,683.15 in food loss (25,413 units wasted) due to kitchen overproduction and demand miscalculation.
+  * Trap 4 (Discount-Only Patrons): Extreme customer churn: 79.9% of promo patrons never returned after the discount expired (only 20.1% 30-day post-campaign retention).",70000.0,"Halting profit margin dilution and excessive waste recovers ~$70,000.00 in net restaurant earnings.",High,Low,REC-053
+Remove or redesign persistent Low Performers,Menu Item,ITEM-047,Dry-Aged Tomahawk Ribeye (36oz),Remove or Redesign Persistent Low Performer: ITEM-047 (Dry-Aged Tomahawk Ribeye (36oz)),"['Severe slow-moving status: SMI score of 0.861 (Critical Slow-Moving Tier)', 'Depressed order volume: only 677 orders placed across entire network', 'Excessive food wastage: 34.9% wastage rate ($20,102.00 spoiled)', 'Prolonged inter-purchase gap: average 1.2 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 46.2% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-047 (Dry-Aged Tomahawk Ribeye (36oz))
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.861 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 677 orders placed across entire network
+  * Excessive food wastage: 34.9% wastage rate ($20,102.00 spoiled)
+  * Prolonged inter-purchase gap: average 1.2 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 46.2% (Q4 vs Q1)",38608.25,"Eliminating menu deadweight recovers $38,608.25 in waste and misallocated prep labor.",High,Medium,REC-040
+Remove or redesign persistent Low Performers,Menu Item,ITEM-051,A5 Miyazaki Japanese Wagyu (4oz),Remove or Redesign Persistent Low Performer: ITEM-051 (A5 Miyazaki Japanese Wagyu (4oz)),"['Severe slow-moving status: SMI score of 0.898 (Critical Slow-Moving Tier)', 'Depressed order volume: only 457 orders placed across entire network', 'Excessive food wastage: 56.6% wastage rate ($27,808.00 spoiled)', 'Prolonged inter-purchase gap: average 1.4 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 35.8% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-051 (A5 Miyazaki Japanese Wagyu (4oz))
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.898 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 457 orders placed across entire network
+  * Excessive food wastage: 56.6% wastage rate ($27,808.00 spoiled)
+  * Prolonged inter-purchase gap: average 1.4 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 35.8% (Q4 vs Q1)",37312.75,"Eliminating menu deadweight recovers $37,312.75 in waste and misallocated prep labor.",High,Medium,REC-036
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-135,Red Sangria Pitcher (House Wine),Promote Item ITEM-135 (Red Sangria Pitcher (House Wine)),"['High contribution margin: 78.6% ($22.80 per portion)', '3.46 average customer satisfaction rating', 'Low wastage rate: 3.8% (highly efficient kitchen preparation)', 'Low current order frequency: 7,727 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 5.0% repeat order rate']","Recommended Action:
+  Promote Item ITEM-135 (Red Sangria Pitcher (House Wine))
+
+Reason:
+  * High contribution margin: 78.6% ($22.80 per portion)
+  * 3.46 average customer satisfaction rating
+  * Low wastage rate: 3.8% (highly efficient kitchen preparation)
+  * Low current order frequency: 7,727 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 5.0% repeat order rate",35234.81,"Estimated 20% sales volume uplift yielding +$35,234.81 in annual gross profit.",High,Low,REC-009
+Remove or redesign persistent Low Performers,Menu Item,ITEM-029,Truffle Lobster Roll,Remove or Redesign Persistent Low Performer: ITEM-029 (Truffle Lobster Roll),"['Severe slow-moving status: SMI score of 0.837 (Critical Slow-Moving Tier)', 'Depressed order volume: only 1,436 orders placed across entire network', 'Excessive food wastage: 43.3% wastage rate ($22,808.50 spoiled)', 'Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 51.1% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-029 (Truffle Lobster Roll)
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.837 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 1,436 orders placed across entire network
+  * Excessive food wastage: 43.3% wastage rate ($22,808.50 spoiled)
+  * Prolonged inter-purchase gap: average 1.0 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 51.1% (Q4 vs Q1)",33304.3,"Eliminating menu deadweight recovers $33,304.30 in waste and misallocated prep labor.",High,Medium,REC-041
+Remove or redesign persistent Low Performers,Menu Item,ITEM-060,Pepper-Crusted Bison Tenderloin,Remove or Redesign Persistent Low Performer: ITEM-060 (Pepper-Crusted Bison Tenderloin),"['Severe slow-moving status: SMI score of 0.827 (Critical Slow-Moving Tier)', 'Depressed order volume: only 794 orders placed across entire network', 'Excessive food wastage: 42.0% wastage rate ($20,725.00 spoiled)', 'Prolonged inter-purchase gap: average 1.1 days elapsed between customer orders', 'Negative trajectory: quarterly order demand contracted by 58.6% (Q4 vs Q1)']","Recommended Action:
+  Remove or Redesign Persistent Low Performer: ITEM-060 (Pepper-Crusted Bison Tenderloin)
+
+Reason:
+  * Severe slow-moving status: SMI score of 0.827 (Critical Slow-Moving Tier)
+  * Depressed order volume: only 794 orders placed across entire network
+  * Excessive food wastage: 42.0% wastage rate ($20,725.00 spoiled)
+  * Prolonged inter-purchase gap: average 1.1 days elapsed between customer orders
+  * Negative trajectory: quarterly order demand contracted by 58.6% (Q4 vs Q1)",30686.5,"Eliminating menu deadweight recovers $30,686.50 in waste and misallocated prep labor.",High,Medium,REC-043
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-065,Jumbo Lump Crab Cakes (2pcs),Reduce Daily Preparation Quantity of Item ITEM-065 (Jumbo Lump Crab Cakes (2pcs)) by 25%,"['Severe inventory loss: $118,740.00 annual waste loss (7,916 portions discarded)', 'Excessive wastage rate: 42.0% of prepared portions discarded unserved', 'Short shelf-life constraint: 3 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,138 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-065 (Jumbo Lump Crab Cakes (2pcs)) by 25%
+
+Reason:
+  * Severe inventory loss: $118,740.00 annual waste loss (7,916 portions discarded)
+  * Excessive wastage rate: 42.0% of prepared portions discarded unserved
+  * Short shelf-life constraint: 3 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,138 recorded spoilage incidents across locations",29685.0,"Direct food cost savings of $29,685.00 by aligning prep buffers with actual consumer demand.",Medium,Medium,REC-017
+Review pricing of price-sensitive dishes,Menu Item,ITEM-046,USDA Prime Center-Cut Filet Mignon (8oz),Review Pricing of Price-Sensitive Dish: ITEM-046 (USDA Prime Center-Cut Filet Mignon (8oz)) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 1.14', 'Historical demand drop: orders contracted by 5.7% following prior price adjustments', 'Substantial financial exposure: $351,744.00 annual item revenue at stake', 'Current gross profit margin: 49.0% at current base price of $48.00', 'Repeated price sensitivity signals: 0 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-046 (USDA Prime Center-Cut Filet Mignon (8oz)) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 1.14
+  * Historical demand drop: orders contracted by 5.7% following prior price adjustments
+  * Substantial financial exposure: $351,744.00 annual item revenue at stake
+  * Current gross profit margin: 49.0% at current base price of $48.00
+  * Repeated price sensitivity signals: 0 significant negative volume reactions on record",28139.52,"Protects $28,139.52 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-020
+Review pricing of price-sensitive dishes,Menu Item,ITEM-032,Double Pepperoni Hot Honey Pizza,Review Pricing of Price-Sensitive Dish: ITEM-032 (Double Pepperoni Hot Honey Pizza) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 2.16', 'Historical demand drop: orders contracted by 7.9% following prior price adjustments', 'Substantial financial exposure: $344,914.00 annual item revenue at stake', 'Current gross profit margin: 25.4% at current base price of $18.50', 'Repeated price sensitivity signals: 1 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-032 (Double Pepperoni Hot Honey Pizza) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 2.16
+  * Historical demand drop: orders contracted by 7.9% following prior price adjustments
+  * Substantial financial exposure: $344,914.00 annual item revenue at stake
+  * Current gross profit margin: 25.4% at current base price of $18.50
+  * Repeated price sensitivity signals: 1 significant negative volume reactions on record",27593.12,"Protects $27,593.12 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-021
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-005,Wild Alaskan Salmon Tartare,Reduce Daily Preparation Quantity of Item ITEM-005 (Wild Alaskan Salmon Tartare) by 25%,"['Severe inventory loss: $105,995.50 annual waste loss (9,217 portions discarded)', 'Excessive wastage rate: 41.8% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,298 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-005 (Wild Alaskan Salmon Tartare) by 25%
+
+Reason:
+  * Severe inventory loss: $105,995.50 annual waste loss (9,217 portions discarded)
+  * Excessive wastage rate: 41.8% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,298 recorded spoilage incidents across locations",26498.88,"Direct food cost savings of $26,498.88 by aligning prep buffers with actual consumer demand.",Medium,Medium,REC-019
+Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-045,Linguine alle Vongole (Clams),Reduce Daily Preparation Quantity of Item ITEM-045 (Linguine alle Vongole (Clams)) by 24%,"['Severe inventory loss: $109,764.00 annual waste loss (9,147 portions discarded)', 'Excessive wastage rate: 40.1% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,303 recorded spoilage incidents across locations']","Recommended Action:
+  Reduce Daily Preparation Quantity of Item ITEM-045 (Linguine alle Vongole (Clams)) by 24%
+
+Reason:
+  * Severe inventory loss: $109,764.00 annual waste loss (9,147 portions discarded)
+  * Excessive wastage rate: 40.1% of prepared portions discarded unserved
+  * Short shelf-life constraint: 2 days before mandatory spoilage purge
+  * Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor
+  * Recurrent overproduction: 1,303 recorded spoilage incidents across locations",26343.36,"Direct food cost savings of $26,343.36 by aligning prep buffers with actual consumer demand.",Medium,Medium,REC-018
+Review pricing of price-sensitive dishes,Menu Item,ITEM-063,Wild King Salmon Lemon Herb,Review Pricing of Price-Sensitive Dish: ITEM-063 (Wild King Salmon Lemon Herb) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 3.45', 'Historical demand drop: orders contracted by 17.3% following prior price adjustments', 'Substantial financial exposure: $312,664.00 annual item revenue at stake', 'Current gross profit margin: 52.4% at current base price of $34.00', 'Repeated price sensitivity signals: 1 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-063 (Wild King Salmon Lemon Herb) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 3.45
+  * Historical demand drop: orders contracted by 17.3% following prior price adjustments
+  * Substantial financial exposure: $312,664.00 annual item revenue at stake
+  * Current gross profit margin: 52.4% at current base price of $34.00
+  * Repeated price sensitivity signals: 1 significant negative volume reactions on record",25013.12,"Protects $25,013.12 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-022
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-092,Truffle Wild Mushroom Risotto,Promote Item ITEM-092 (Truffle Wild Mushroom Risotto),"['High contribution margin: 68.7% ($15.80 per portion)', '3.56 average customer satisfaction rating', 'Low wastage rate: 9.3% (highly efficient kitchen preparation)', 'Low current order frequency: 7,698 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 4.8% repeat order rate']","Recommended Action:
+  Promote Item ITEM-092 (Truffle Wild Mushroom Risotto)
+
+Reason:
+  * High contribution margin: 68.7% ($15.80 per portion)
+  * 3.56 average customer satisfaction rating
+  * Low wastage rate: 9.3% (highly efficient kitchen preparation)
+  * Low current order frequency: 7,698 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 4.8% repeat order rate",24327.22,"Estimated 20% sales volume uplift yielding +$24,327.22 in annual gross profit.",Medium,Low,REC-001
+Review pricing of price-sensitive dishes,Menu Item,ITEM-068,Classic Fish & Chips Tartar,Review Pricing of Price-Sensitive Dish: ITEM-068 (Classic Fish & Chips Tartar) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 1.75', 'Historical demand drop: orders contracted by 7.9% following prior price adjustments', 'Substantial financial exposure: $302,588.63 annual item revenue at stake', 'Current gross profit margin: 27.5% at current base price of $19.99', 'Repeated price sensitivity signals: 1 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-068 (Classic Fish & Chips Tartar) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 1.75
+  * Historical demand drop: orders contracted by 7.9% following prior price adjustments
+  * Substantial financial exposure: $302,588.63 annual item revenue at stake
+  * Current gross profit margin: 27.5% at current base price of $19.99
+  * Repeated price sensitivity signals: 1 significant negative volume reactions on record",24207.09,"Protects $24,207.09 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-023
+Review pricing of price-sensitive dishes,Menu Item,ITEM-031,Margherita Sourdough Pizza,Review Pricing of Price-Sensitive Dish: ITEM-031 (Margherita Sourdough Pizza) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 1.56', 'Historical demand drop: orders contracted by 13.9% following prior price adjustments', 'Substantial financial exposure: $299,572.65 annual item revenue at stake', 'Current gross profit margin: 24.9% at current base price of $15.99', 'Repeated price sensitivity signals: 2 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-031 (Margherita Sourdough Pizza) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 1.56
+  * Historical demand drop: orders contracted by 13.9% following prior price adjustments
+  * Substantial financial exposure: $299,572.65 annual item revenue at stake
+  * Current gross profit margin: 24.9% at current base price of $15.99
+  * Repeated price sensitivity signals: 2 significant negative volume reactions on record",23965.81,"Protects $23,965.81 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-024
+Review pricing of price-sensitive dishes,Menu Item,ITEM-050,Slow-Braised Beef Short Ribs,Review Pricing of Price-Sensitive Dish: ITEM-050 (Slow-Braised Beef Short Ribs) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 1.11', 'Historical demand drop: orders contracted by 4.5% following prior price adjustments', 'Substantial financial exposure: $296,424.00 annual item revenue at stake', 'Current gross profit margin: 59.7% at current base price of $36.00', 'Repeated price sensitivity signals: 0 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-050 (Slow-Braised Beef Short Ribs) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 1.11
+  * Historical demand drop: orders contracted by 4.5% following prior price adjustments
+  * Substantial financial exposure: $296,424.00 annual item revenue at stake
+  * Current gross profit margin: 59.7% at current base price of $36.00
+  * Repeated price sensitivity signals: 0 significant negative volume reactions on record",23713.92,"Protects $23,713.92 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-025
+Review pricing of price-sensitive dishes,Menu Item,ITEM-016,DineIQ Smash Double Cheeseburger,Review Pricing of Price-Sensitive Dish: ITEM-016 (DineIQ Smash Double Cheeseburger) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 1.76', 'Historical demand drop: orders contracted by 11.7% following prior price adjustments', 'Substantial financial exposure: $277,729.48 annual item revenue at stake', 'Current gross profit margin: 22.8% at current base price of $13.99', 'Repeated price sensitivity signals: 2 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-016 (DineIQ Smash Double Cheeseburger) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 1.76
+  * Historical demand drop: orders contracted by 11.7% following prior price adjustments
+  * Substantial financial exposure: $277,729.48 annual item revenue at stake
+  * Current gross profit margin: 22.8% at current base price of $13.99
+  * Repeated price sensitivity signals: 2 significant negative volume reactions on record",22218.36,"Protects $22,218.36 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-026
+Review pricing of price-sensitive dishes,Menu Item,ITEM-048,Dry-Aged Bone-in NY Strip (16oz),Review Pricing of Price-Sensitive Dish: ITEM-048 (Dry-Aged Bone-in NY Strip (16oz)) (Avoid Unbundled Price Hikes),"['High price elasticity of demand: empirical elasticity |ε| = 1.07', 'Historical demand drop: orders contracted by -0.8% following prior price adjustments', 'Substantial financial exposure: $260,792.00 annual item revenue at stake', 'Current gross profit margin: 53.6% at current base price of $56.00', 'Repeated price sensitivity signals: 0 significant negative volume reactions on record']","Recommended Action:
+  Review Pricing of Price-Sensitive Dish: ITEM-048 (Dry-Aged Bone-in NY Strip (16oz)) (Avoid Unbundled Price Hikes)
+
+Reason:
+  * High price elasticity of demand: empirical elasticity |ε| = 1.07
+  * Historical demand drop: orders contracted by -0.8% following prior price adjustments
+  * Substantial financial exposure: $260,792.00 annual item revenue at stake
+  * Current gross profit margin: 53.6% at current base price of $56.00
+  * Repeated price sensitivity signals: 0 significant negative volume reactions on record",20863.36,"Protects $20,863.36 in revenue from price-induced volume migration and customer defection.",Medium,Medium,REC-027
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-101,Thai Coconut Green Curry Tofu,Promote Item ITEM-101 (Thai Coconut Green Curry Tofu),"['High contribution margin: 69.4% ($12.50 per portion)', '3.73 average customer satisfaction rating', 'Low wastage rate: 7.5% (highly efficient kitchen preparation)', 'Low current order frequency: 8,270 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 6.1% repeat order rate']","Recommended Action:
+  Promote Item ITEM-101 (Thai Coconut Green Curry Tofu)
+
+Reason:
+  * High contribution margin: 69.4% ($12.50 per portion)
+  * 3.73 average customer satisfaction rating
+  * Low wastage rate: 7.5% (highly efficient kitchen preparation)
+  * Low current order frequency: 8,270 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 6.1% repeat order rate",20673.68,"Estimated 20% sales volume uplift yielding +$20,673.68 in annual gross profit.",Medium,Low,REC-003
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-036,Slow-Braised Wild Boar Pappardelle,Promote Item ITEM-036 (Slow-Braised Wild Boar Pappardelle),"['High contribution margin: 63.5% ($16.50 per portion)', '3.75 average customer satisfaction rating', 'Low wastage rate: 10.5% (highly efficient kitchen preparation)', 'Low current order frequency: 5,630 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 3.3% repeat order rate']","Recommended Action:
+  Promote Item ITEM-036 (Slow-Braised Wild Boar Pappardelle)
+
+Reason:
+  * High contribution margin: 63.5% ($16.50 per portion)
+  * 3.75 average customer satisfaction rating
+  * Low wastage rate: 10.5% (highly efficient kitchen preparation)
+  * Low current order frequency: 5,630 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 3.3% repeat order rate",18578.55,"Estimated 20% sales volume uplift yielding +$18,578.55 in annual gross profit.",Medium,Low,REC-007
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-094,Creamy Cashew Alfredo Tagliatelle,Promote Item ITEM-094 (Creamy Cashew Alfredo Tagliatelle),"['High contribution margin: 69.5% ($13.20 per portion)', '3.63 average customer satisfaction rating', 'Low wastage rate: 8.3% (highly efficient kitchen preparation)', 'Low current order frequency: 7,019 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 4.3% repeat order rate']","Recommended Action:
+  Promote Item ITEM-094 (Creamy Cashew Alfredo Tagliatelle)
+
+Reason:
+  * High contribution margin: 69.5% ($13.20 per portion)
+  * 3.63 average customer satisfaction rating
+  * Low wastage rate: 8.3% (highly efficient kitchen preparation)
+  * Low current order frequency: 7,019 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 4.3% repeat order rate",18529.18,"Estimated 20% sales volume uplift yielding +$18,529.18 in annual gross profit.",Medium,Low,REC-002
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-097,Jackfruit Smoky Carnitas Tacos,Promote Item ITEM-097 (Jackfruit Smoky Carnitas Tacos),"['High contribution margin: 67.1% ($10.40 per portion)', '3.82 average customer satisfaction rating', 'Low wastage rate: 7.7% (highly efficient kitchen preparation)', 'Low current order frequency: 8,319 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 5.5% repeat order rate']","Recommended Action:
+  Promote Item ITEM-097 (Jackfruit Smoky Carnitas Tacos)
+
+Reason:
+  * High contribution margin: 67.1% ($10.40 per portion)
+  * 3.82 average customer satisfaction rating
+  * Low wastage rate: 7.7% (highly efficient kitchen preparation)
+  * Low current order frequency: 8,319 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 5.5% repeat order rate",17304.35,"Estimated 20% sales volume uplift yielding +$17,304.35 in annual gross profit.",Medium,Low,REC-005
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-102,Mushroom & Walnut Bolognese,Promote Item ITEM-102 (Mushroom & Walnut Bolognese),"['High contribution margin: 69.7% ($12.90 per portion)', '3.55 average customer satisfaction rating', 'Low wastage rate: 9.7% (highly efficient kitchen preparation)', 'Low current order frequency: 6,663 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 4.0% repeat order rate']","Recommended Action:
+  Promote Item ITEM-102 (Mushroom & Walnut Bolognese)
+
+Reason:
+  * High contribution margin: 69.7% ($12.90 per portion)
+  * 3.55 average customer satisfaction rating
+  * Low wastage rate: 9.7% (highly efficient kitchen preparation)
+  * Low current order frequency: 6,663 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 4.0% repeat order rate",17190.61,"Estimated 20% sales volume uplift yielding +$17,190.61 in annual gross profit.",Medium,Low,REC-004
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-117,Artisanal Macaron Assortment (6pcs),Promote Item ITEM-117 (Artisanal Macaron Assortment (6pcs)),"['High contribution margin: 72.0% ($10.80 per portion)', '3.58 average customer satisfaction rating', 'Low wastage rate: 7.8% (highly efficient kitchen preparation)', 'Low current order frequency: 7,137 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 4.6% repeat order rate']","Recommended Action:
+  Promote Item ITEM-117 (Artisanal Macaron Assortment (6pcs))
+
+Reason:
+  * High contribution margin: 72.0% ($10.80 per portion)
+  * 3.58 average customer satisfaction rating
+  * Low wastage rate: 7.8% (highly efficient kitchen preparation)
+  * Low current order frequency: 7,137 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 4.6% repeat order rate",15415.92,"Estimated 20% sales volume uplift yielding +$15,415.92 in annual gross profit.",Medium,Low,REC-008
+Bundle frequently purchased items,Bundle,BUNDLE-001,Yuzu Lavender Gin Tonic + Hibiscus Berry Botanical Fizz (Mocktail),Bundle Frequently Purchased Items: 'Yuzu Lavender Gin Tonic' + 'Hibiscus Berry Botanical Fizz (Mocktail)' (Frequently Paired Dishes),"['Strong association lift: 1.13x greater co-occurrence than random chance', 'High pairing confidence: 8.1% of patrons ordering Yuzu Lavender Gin Tonic also select Hibiscus Berry Botanical Fizz (Mocktail)', 'Network transaction support: present in 0.58% of all customer order baskets', 'Category synergy: pairs dishes across Signature Cocktails & Mocktails + Signature Cocktails & Mocktails', 'Commercial strategy: High behavioral affinity (Lift = 1.13, ordered together in 527 transactions).']","Recommended Action:
+  Bundle Frequently Purchased Items: 'Yuzu Lavender Gin Tonic' + 'Hibiscus Berry Botanical Fizz (Mocktail)' (Frequently Paired Dishes)
+
+Reason:
+  * Strong association lift: 1.13x greater co-occurrence than random chance
+  * High pairing confidence: 8.1% of patrons ordering Yuzu Lavender Gin Tonic also select Hibiscus Berry Botanical Fizz (Mocktail)
+  * Network transaction support: present in 0.58% of all customer order baskets
+  * Category synergy: pairs dishes across Signature Cocktails & Mocktails + Signature Cocktails & Mocktails
+  * Commercial strategy: High behavioral affinity (Lift = 1.13, ordered together in 527 transactions).",14116.25,"Estimated basket size uplift generating +$14,116.25 in incremental combo revenue.",Medium,Low,REC-028
+Bundle frequently purchased items,Bundle,BUNDLE-002,Creamy Cashew Alfredo Tagliatelle + Classic Madagascar Vanilla Bean Gelato,Bundle Frequently Purchased Items: 'Creamy Cashew Alfredo Tagliatelle' + 'Classic Madagascar Vanilla Bean Gelato' (Frequently Paired Dishes),"['Strong association lift: 1.12x greater co-occurrence than random chance', 'High pairing confidence: 11.8% of patrons ordering Creamy Cashew Alfredo Tagliatelle also select Classic Madagascar Vanilla Bean Gelato', 'Network transaction support: present in 0.63% of all customer order baskets', 'Category synergy: pairs dishes across Vegan & Plant-Based Creations + Handcrafted Desserts & Pastries', 'Commercial strategy: High behavioral affinity (Lift = 1.12, ordered together in 566 transactions).']","Recommended Action:
+  Bundle Frequently Purchased Items: 'Creamy Cashew Alfredo Tagliatelle' + 'Classic Madagascar Vanilla Bean Gelato' (Frequently Paired Dishes)
+
+Reason:
+  * Strong association lift: 1.12x greater co-occurrence than random chance
+  * High pairing confidence: 11.8% of patrons ordering Creamy Cashew Alfredo Tagliatelle also select Classic Madagascar Vanilla Bean Gelato
+  * Network transaction support: present in 0.63% of all customer order baskets
+  * Category synergy: pairs dishes across Vegan & Plant-Based Creations + Handcrafted Desserts & Pastries
+  * Commercial strategy: High behavioral affinity (Lift = 1.12, ordered together in 566 transactions).",14058.75,"Estimated basket size uplift generating +$14,058.75 in incremental combo revenue.",Medium,Low,REC-029
+Bundle frequently purchased items,Bundle,BUNDLE-003,Chipotle Fish Tacos (3pcs) + Molten Chocolate Lava Cake,Bundle Frequently Purchased Items: 'Chipotle Fish Tacos (3pcs)' + 'Molten Chocolate Lava Cake' (Frequently Paired Dishes),"['Strong association lift: 1.12x greater co-occurrence than random chance', 'High pairing confidence: 13.6% of patrons ordering Chipotle Fish Tacos (3pcs) also select Molten Chocolate Lava Cake', 'Network transaction support: present in 0.72% of all customer order baskets', 'Category synergy: pairs dishes across Artisanal Burgers & Handhelds + Handcrafted Desserts & Pastries', 'Commercial strategy: High behavioral affinity (Lift = 1.12, ordered together in 647 transactions).']","Recommended Action:
+  Bundle Frequently Purchased Items: 'Chipotle Fish Tacos (3pcs)' + 'Molten Chocolate Lava Cake' (Frequently Paired Dishes)
+
+Reason:
+  * Strong association lift: 1.12x greater co-occurrence than random chance
+  * High pairing confidence: 13.6% of patrons ordering Chipotle Fish Tacos (3pcs) also select Molten Chocolate Lava Cake
+  * Network transaction support: present in 0.72% of all customer order baskets
+  * Category synergy: pairs dishes across Artisanal Burgers & Handhelds + Handcrafted Desserts & Pastries
+  * Commercial strategy: High behavioral affinity (Lift = 1.12, ordered together in 647 transactions).",13996.25,"Estimated basket size uplift generating +$13,996.25 in incremental combo revenue.",Medium,Low,REC-030
+Bundle frequently purchased items,Bundle,BUNDLE-004,Chipotle Fish Tacos (3pcs) + Molten Chocolate Lava Cake,Bundle Frequently Purchased Items: 'Chipotle Fish Tacos (3pcs)' + 'Molten Chocolate Lava Cake' (Combo Meal),"['Strong association lift: 1.12x greater co-occurrence than random chance', 'High pairing confidence: 13.6% of patrons ordering Chipotle Fish Tacos (3pcs) also select Molten Chocolate Lava Cake', 'Network transaction support: present in 0.72% of all customer order baskets', 'Category synergy: pairs dishes across Artisanal Burgers & Handhelds + Handcrafted Desserts & Pastries', ""Commercial strategy: Bundle into 'Chipotle Fish Tacos (3pcs) & Molten Chocolate Lava Cake Duo'. Reg: $27.49 -> Combo: $24.19 (Save $3.30).""]","Recommended Action:
+  Bundle Frequently Purchased Items: 'Chipotle Fish Tacos (3pcs)' + 'Molten Chocolate Lava Cake' (Combo Meal)
+
+Reason:
+  * Strong association lift: 1.12x greater co-occurrence than random chance
+  * High pairing confidence: 13.6% of patrons ordering Chipotle Fish Tacos (3pcs) also select Molten Chocolate Lava Cake
+  * Network transaction support: present in 0.72% of all customer order baskets
+  * Category synergy: pairs dishes across Artisanal Burgers & Handhelds + Handcrafted Desserts & Pastries
+  * Commercial strategy: Bundle into 'Chipotle Fish Tacos (3pcs) & Molten Chocolate Lava Cake Duo'. Reg: $27.49 -> Combo: $24.19 (Save $3.30).",13996.25,"Estimated basket size uplift generating +$13,996.25 in incremental combo revenue.",Medium,Low,REC-031
+Bundle frequently purchased items,Bundle,BUNDLE-005,Chipotle Fish Tacos (3pcs) + Molten Chocolate Lava Cake,Bundle Frequently Purchased Items: 'Chipotle Fish Tacos (3pcs)' + 'Molten Chocolate Lava Cake' (Cross-Sell Opportunity),"['Strong association lift: 1.12x greater co-occurrence than random chance', 'High pairing confidence: 13.6% of patrons ordering Chipotle Fish Tacos (3pcs) also select Molten Chocolate Lava Cake', 'Network transaction support: present in 0.72% of all customer order baskets', 'Category synergy: pairs dishes across Artisanal Burgers & Handhelds -> Handcrafted Desserts & Pastries', ""Commercial strategy: Prompt: 'Add Molten Chocolate Lava Cake for the perfect pairing!' (Confidence: 13.6%).""]","Recommended Action:
+  Bundle Frequently Purchased Items: 'Chipotle Fish Tacos (3pcs)' + 'Molten Chocolate Lava Cake' (Cross-Sell Opportunity)
+
+Reason:
+  * Strong association lift: 1.12x greater co-occurrence than random chance
+  * High pairing confidence: 13.6% of patrons ordering Chipotle Fish Tacos (3pcs) also select Molten Chocolate Lava Cake
+  * Network transaction support: present in 0.72% of all customer order baskets
+  * Category synergy: pairs dishes across Artisanal Burgers & Handhelds -> Handcrafted Desserts & Pastries
+  * Commercial strategy: Prompt: 'Add Molten Chocolate Lava Cake for the perfect pairing!' (Confidence: 13.6%).",13996.25,"Estimated basket size uplift generating +$13,996.25 in incremental combo revenue.",Medium,Low,REC-032
+Bundle frequently purchased items,Bundle,BUNDLE-006,Truffle Wild Mushroom Risotto + Quattro Formaggi Bianca,Bundle Frequently Purchased Items: 'Truffle Wild Mushroom Risotto' + 'Quattro Formaggi Bianca' (Frequently Paired Dishes),"['Strong association lift: 1.11x greater co-occurrence than random chance', 'High pairing confidence: 9.2% of patrons ordering Truffle Wild Mushroom Risotto also select Quattro Formaggi Bianca', 'Network transaction support: present in 0.52% of all customer order baskets', 'Category synergy: pairs dishes across Vegan & Plant-Based Creations + Wood-Fired Pizzas & Pastas', 'Commercial strategy: High behavioral affinity (Lift = 1.11, ordered together in 468 transactions).']","Recommended Action:
+  Bundle Frequently Purchased Items: 'Truffle Wild Mushroom Risotto' + 'Quattro Formaggi Bianca' (Frequently Paired Dishes)
+
+Reason:
+  * Strong association lift: 1.11x greater co-occurrence than random chance
+  * High pairing confidence: 9.2% of patrons ordering Truffle Wild Mushroom Risotto also select Quattro Formaggi Bianca
+  * Network transaction support: present in 0.52% of all customer order baskets
+  * Category synergy: pairs dishes across Vegan & Plant-Based Creations + Wood-Fired Pizzas & Pastas
+  * Commercial strategy: High behavioral affinity (Lift = 1.11, ordered together in 468 transactions).",13862.5,"Estimated basket size uplift generating +$13,862.50 in incremental combo revenue.",Medium,Low,REC-033
+Bundle frequently purchased items,Bundle,BUNDLE-007,Cold Pressed Green Detox Juice + New York Style Cheesecake,Bundle Frequently Purchased Items: 'Cold Pressed Green Detox Juice' + 'New York Style Cheesecake' (Combo Meal),"['Strong association lift: 1.11x greater co-occurrence than random chance', 'High pairing confidence: 12.0% of patrons ordering Cold Pressed Green Detox Juice also select New York Style Cheesecake', 'Network transaction support: present in 0.51% of all customer order baskets', 'Category synergy: pairs dishes across Specialty Coffee & Beverages + Handcrafted Desserts & Pastries', ""Commercial strategy: Bundle into 'Cold Pressed Green Detox Juice & New York Style Cheesecake Duo'. Reg: $18.49 -> Combo: $16.27 (Save $2.22).""]","Recommended Action:
+  Bundle Frequently Purchased Items: 'Cold Pressed Green Detox Juice' + 'New York Style Cheesecake' (Combo Meal)
+
+Reason:
+  * Strong association lift: 1.11x greater co-occurrence than random chance
+  * High pairing confidence: 12.0% of patrons ordering Cold Pressed Green Detox Juice also select New York Style Cheesecake
+  * Network transaction support: present in 0.51% of all customer order baskets
+  * Category synergy: pairs dishes across Specialty Coffee & Beverages + Handcrafted Desserts & Pastries
+  * Commercial strategy: Bundle into 'Cold Pressed Green Detox Juice & New York Style Cheesecake Duo'. Reg: $18.49 -> Combo: $16.27 (Save $2.22).",13826.25,"Estimated basket size uplift generating +$13,826.25 in incremental combo revenue.",Medium,Low,REC-034
+Bundle frequently purchased items,Bundle,BUNDLE-008,Cold Pressed Green Detox Juice + New York Style Cheesecake,Bundle Frequently Purchased Items: 'Cold Pressed Green Detox Juice' + 'New York Style Cheesecake' (Cross-Sell Opportunity),"['Strong association lift: 1.11x greater co-occurrence than random chance', 'High pairing confidence: 12.0% of patrons ordering Cold Pressed Green Detox Juice also select New York Style Cheesecake', 'Network transaction support: present in 0.51% of all customer order baskets', 'Category synergy: pairs dishes across Specialty Coffee & Beverages -> Handcrafted Desserts & Pastries', ""Commercial strategy: Prompt: 'Add New York Style Cheesecake for the perfect pairing!' (Confidence: 12.0%).""]","Recommended Action:
+  Bundle Frequently Purchased Items: 'Cold Pressed Green Detox Juice' + 'New York Style Cheesecake' (Cross-Sell Opportunity)
+
+Reason:
+  * Strong association lift: 1.11x greater co-occurrence than random chance
+  * High pairing confidence: 12.0% of patrons ordering Cold Pressed Green Detox Juice also select New York Style Cheesecake
+  * Network transaction support: present in 0.51% of all customer order baskets
+  * Category synergy: pairs dishes across Specialty Coffee & Beverages -> Handcrafted Desserts & Pastries
+  * Commercial strategy: Prompt: 'Add New York Style Cheesecake for the perfect pairing!' (Confidence: 12.0%).",13826.25,"Estimated basket size uplift generating +$13,826.25 in incremental combo revenue.",Medium,Low,REC-035
+Promote high-margin Hidden Opportunities,Menu Item,ITEM-116,Key Lime Tart Graham Crust,Promote Item ITEM-116 (Key Lime Tart Graham Crust),"['High contribution margin: 71.6% ($6.80 per portion)', '3.72 average customer satisfaction rating', 'Low wastage rate: 7.9% (highly efficient kitchen preparation)', 'Low current order frequency: 8,340 total units sold (under-promoted catalog asset)', 'Strong repeat purchase among existing buyers: 5.8% repeat order rate']","Recommended Action:
+  Promote Item ITEM-116 (Key Lime Tart Graham Crust)
+
+Reason:
+  * High contribution margin: 71.6% ($6.80 per portion)
+  * 3.72 average customer satisfaction rating
+  * Low wastage rate: 7.9% (highly efficient kitchen preparation)
+  * Low current order frequency: 8,340 total units sold (under-promoted catalog asset)
+  * Strong repeat purchase among existing buyers: 5.8% repeat order rate",11342.57,"Estimated 20% sales volume uplift yielding +$11,342.57 in annual gross profit.",Medium,Low,REC-006
+Increase stock before predicted peak periods,Peak Period,PEAK-DAY-SATURDAY,Saturday Surge,Increase Weekend Pre-Stocking for Saturday Network Volume Surge,"['Peak sales day of the week: average daily revenue of $72,094.12 (17.9% weekly share)', 'Substantial transaction velocity: average of 310 orders across network', 'Weekend prep requirement: Friday afternoon replenishment must be boosted by +30%', 'Forecast model validation: weekend volume uplift validated with high predictive accuracy (R² = 0.8035)', 'Inventory holding efficiency: perishable inventory turnover optimized for 48-hour shelf-life']","Recommended Action:
+  Increase Weekend Pre-Stocking for Saturday Network Volume Surge
+
+Reason:
+  * Peak sales day of the week: average daily revenue of $72,094.12 (17.9% weekly share)
+  * Substantial transaction velocity: average of 310 orders across network
+  * Weekend prep requirement: Friday afternoon replenishment must be boosted by +30%
+  * Forecast model validation: weekend volume uplift validated with high predictive accuracy (R² = 0.8035)
+  * Inventory holding efficiency: perishable inventory turnover optimized for 48-hour shelf-life",5767.53,"Safeguards $5,767.53 in high-margin weekend throughput against component shortages.",Low,Low,REC-045
