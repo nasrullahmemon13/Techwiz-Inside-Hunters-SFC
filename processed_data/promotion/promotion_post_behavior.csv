@@ -1,0 +1,13 @@
+promotion_id,promotion_name,total_campaign_customers,acquired_new_customers,repeat_acquired_customers,post_promo_retained_customers,post_promo_retention_pct,post_promo_revenue
+PROMO-001,New Year Kickoff 20% Off,2589,1294,837,420,16.22,161715.73
+PROMO-002,Valentine Dinner Date $15 Off,2488,1230,778,418,16.8,163474.19
+PROMO-003,Mega Feast 50% Off (Fine Print: $120 Min),1629,771,469,325,19.95,141099.92
+PROMO-004,Spring Weekend Flash 15%,2554,1268,844,514,20.13,198503.37
+PROMO-005,Free Dessert Illusion (Min $80 Order),1812,865,531,399,22.02,178799.72
+PROMO-006,Summer Happy Hour BOGO Drink,2622,1284,821,453,17.28,168916.47
+PROMO-007,Back-to-School Family Combo $10 Off,2525,1227,762,481,19.05,185250.5
+PROMO-008,70% Mega Sale (Hidden Exclusions),1877,873,540,497,26.48,220192.12
+PROMO-009,VIP Platinum Royalty 25% Off,2661,1281,793,0,0.0,0.0
+PROMO-010,Black Friday Week Blowout $20 Off,2551,1249,806,621,24.34,243094.21
+PROMO-011,Holiday Season Cheers 15%,2625,1257,795,0,0.0,0.0
+PROMO-012,Late Night Craver 20% Off,2626,1246,778,0,0.0,0.0

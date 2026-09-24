@@ -1,0 +1,7 @@
+promotion_id,promotion_name,category_id,promotional_category_revenue,non_promotional_category_revenue,cannibalization_revenue_share_pct,is_cannibalistic
+PROMO-002,Valentine Dinner Date $15 Off,CAT-01,964.72,18847.85,4.87,False
+PROMO-003,Mega Feast 50% Off (Fine Print: $120 Min),CAT-02,2685.15,119125.75,2.2,False
+PROMO-005,Free Dessert Illusion (Min $80 Order),CAT-05,2762.85,129389.85,2.09,False
+PROMO-006,Summer Happy Hour BOGO Drink,CAT-04,24840.72,582175.68,4.09,False
+PROMO-008,70% Mega Sale (Hidden Exclusions),CAT-07,3531.58,97507.55,3.5,False
+PROMO-012,Late Night Craver 20% Off,CAT-06,65925.77,1362020.79,4.62,True
