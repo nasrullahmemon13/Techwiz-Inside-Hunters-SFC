@@ -15,7 +15,7 @@ import {
 const DASHBOARD_TABS = [
   { id: 'executive', name: 'Executive Dashboard (Step 42)', icon: LayoutDashboard, available: true },
   { id: 'menu', name: 'Menu Intelligence (Step 43)', icon: UtensilsCrossed, available: true },
-  { id: 'customer', name: 'Customer Intelligence (Step 44)', icon: Users, available: false },
+  { id: 'customer', name: 'Customer Intelligence (Step 44)', icon: Users, available: true },
   { id: 'wastage', name: 'Wastage Dashboard (Step 45)', icon: Trash2, available: false },
   { id: 'forecast', name: 'Forecast Dashboard (Step 46)', icon: TrendingUp, available: false },
   { id: 'comparison', name: 'Dual-Pipeline Comparison (Step 47)', icon: GitCompare, available: false },
