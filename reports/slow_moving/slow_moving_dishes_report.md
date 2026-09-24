@@ -1,5 +1,5 @@
 # DineIQ Analytics - Slow-Moving Dish Detection Report
-**Generated:** 2026-09-24 16:11:37  
+**Generated:** 2026-09-24 16:14:34  
 **Specification:** SRS Step 32 (Slow-Moving Dish Detection)  
 
 ## 1. Executive Summary
