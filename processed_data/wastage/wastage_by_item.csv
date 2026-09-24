@@ -1,0 +1,151 @@
+item_id,wasted_quantity,total_loss_amount,incident_count,avg_loss_per_incident,name,category_name,base_price,cost_price,shelf_life_days,complexity_profile,total_sold,wastage_rate_pct
+ITEM-064,9564,224754.0,1357,165.63,Butter Poached Maine Lobster Tail,Chef Specials & Seafood,52.0,23.5,2,HIGH_WASTAGE,11370,45.69
+ITEM-075,9215,152047.5,1309,116.16,Seafood Bouillabaisse Saffron Rouille,Chef Specials & Seafood,37.0,16.5,2,HIGH_WASTAGE,11158,45.23
+ITEM-066,8933,150074.4,1277,117.52,Seared Diver Scallops Sweet Corn,Chef Specials & Seafood,36.0,16.8,2,HIGH_WASTAGE,10377,46.26
+ITEM-072,8505,148837.5,1224,121.6,Whole Grilled Red Snapper Mojo,Chef Specials & Seafood,42.0,17.5,2,HIGH_WASTAGE,11859,41.76
+ITEM-062,8631,138096.0,1230,112.27,Crispy Skin Mediterranean Branzino,Chef Specials & Seafood,38.0,16.0,2,HIGH_WASTAGE,11570,42.73
+ITEM-067,8465,135440.0,1216,111.38,Seafood Paella Valenciana,Chef Specials & Seafood,35.0,16.0,2,HIGH_WASTAGE,11671,42.04
+ITEM-069,8832,130713.6,1258,103.91,Grilled Yellowfin Ahi Tuna Steak,Chef Specials & Seafood,33.0,14.8,2,HIGH_WASTAGE,12819,40.79
+ITEM-065,7916,118740.0,1138,104.34,Jumbo Lump Crab Cakes (2pcs),Chef Specials & Seafood,32.0,15.0,3,HIGH_WASTAGE,10946,41.97
+ITEM-045,9147,109764.0,1303,84.24,Linguine alle Vongole (Clams),Wood-Fired Pizzas & Pastas,25.0,12.0,2,HIGH_WASTAGE,13640,40.14
+ITEM-005,9217,105995.5,1298,81.66,Wild Alaskan Salmon Tartare,Appetizers & Small Plates,21.0,11.5,2,HIGH_WASTAGE,12836,41.79
+ITEM-074,8501,102012.0,1213,84.1,Fried Softshell Crab Basket,Chef Specials & Seafood,26.0,12.0,2,HIGH_WASTAGE,11414,42.69
+ITEM-039,8400,94080.0,1198,78.53,Handcrafted Lobster Ravioli,Wood-Fired Pizzas & Pastas,29.5,11.2,3,HIGH_WASTAGE,10242,45.06
+ITEM-011,8872,86945.6,1278,68.03,Spicy Tuna Crispy Rice,Appetizers & Small Plates,21.56,9.8,2,HIGH_WASTAGE,11653,43.23
+ITEM-006,8519,86893.8,1222,71.11,Soft-Shell Crab Sliders,Appetizers & Small Plates,22.44,10.2,2,HIGH_WASTAGE,10325,45.21
+ITEM-086,8364,85312.8,1234,69.14,Sesame Ahi Tuna Poke Bowl,Farm-Fresh Salads & Grain Bowls,19.5,10.2,2,HIGH_WASTAGE,12282,40.51
+ITEM-071,8782,83429.0,1257,66.37,Steamed Blue Mussels White Wine,Chef Specials & Seafood,22.0,9.5,2,HIGH_WASTAGE,10092,46.53
+ITEM-034,7207,70628.6,1037,68.11,Prosciutto e Rucola Pizza,Wood-Fired Pizzas & Pastas,21.0,9.8,3,HIGH_WASTAGE,11070,39.43
+ITEM-027,8015,69730.5,1153,60.48,Chipotle Fish Tacos (3pcs),Artisanal Burgers & Handhelds,16.5,8.7,30,HIGH_WASTAGE,10877,42.43
+ITEM-078,8423,65699.4,1190,55.21,Burrata Caprese Heirloom Salad,Farm-Fresh Salads & Grain Bowls,16.5,7.8,3,HIGH_WASTAGE,12265,40.71
+ITEM-021,7365,65548.5,1049,62.49,California Turkey Avocado Club,Artisanal Burgers & Handhelds,16.0,8.9,3,HIGH_WASTAGE,11258,39.55
+ITEM-082,8638,64785.0,1237,52.37,Wild Rice & Avocado Harvest Bowl,Farm-Fresh Salads & Grain Bowls,15.5,7.5,2,HIGH_WASTAGE,11519,42.85
+ITEM-043,7308,62118.0,1062,58.49,Burrata Caprese Pizza,Wood-Fired Pizzas & Pastas,20.5,8.5,3,HIGH_WASTAGE,10531,40.97
+ITEM-098,8357,56827.6,1210,46.96,Avocado Supergreen Toast Sourdough,Vegan & Plant-Based Creations,13.5,6.8,2,HIGH_WASTAGE,12821,39.46
+ITEM-110,9210,53418.0,1302,41.03,Fresh Wild Berry Pavlova,Handcrafted Desserts & Pastries,13.5,5.8,1,HIGH_WASTAGE,12167,43.08
+ITEM-148,8865,36346.5,1263,28.78,Cold Pressed Green Detox Juice,Specialty Coffee & Beverages,8.5,4.1,2,HIGH_WASTAGE,10226,46.44
+ITEM-146,8191,27849.4,1151,24.2,Acai Berry Superfood Smoothie,Specialty Coffee & Beverages,7.99,3.4,2,HIGH_WASTAGE,10364,44.14
+ITEM-051,869,27808.0,177,157.11,A5 Miyazaki Japanese Wagyu (4oz),Prime Steaks & Butcher Cuts,95.0,32.0,5,PROFITABLE_LOW_SELLING,10672,7.53
+ITEM-119,7900,25280.0,1155,21.89,Matcha Green Tea Crepe Cake,Handcrafted Desserts & Pastries,11.5,3.2,3,HIGH_WASTAGE,11056,41.68
+ITEM-061,1334,24679.0,297,83.09,Pan-Seared Chilean Sea Bass,Chef Specials & Seafood,46.0,18.5,3,PROFITABLE_LOW_SELLING,11649,10.27
+ITEM-073,1315,23670.0,291,81.34,Pacific Black Cod Miso Glaze,Chef Specials & Seafood,44.0,18.0,3,PROFITABLE_LOW_SELLING,12504,9.52
+ITEM-029,1573,22808.5,349,65.35,Truffle Lobster Roll,Artisanal Burgers & Handhelds,34.0,14.5,30,PROFITABLE_LOW_SELLING,11764,11.79
+ITEM-144,8700,22620.0,1243,18.2,Fresh Squeezed Orange Juice,Specialty Coffee & Beverages,5.5,2.6,2,HIGH_WASTAGE,10827,44.55
+ITEM-060,829,20725.0,183,113.25,Pepper-Crusted Bison Tenderloin,Prime Steaks & Butcher Cuts,58.0,25.0,4,PROFITABLE_LOW_SELLING,10466,7.34
+ITEM-049,1056,20592.0,222,92.76,Colorado Rosemary Lamb Chops,Prime Steaks & Butcher Cuts,44.0,19.5,4,STANDARD,10243,9.35
+ITEM-047,529,20102.0,131,153.45,Dry-Aged Tomahawk Ribeye (36oz),Prime Steaks & Butcher Cuts,125.0,38.0,6,PROFITABLE_LOW_SELLING,12405,4.09
+ITEM-063,1240,20088.0,272,73.85,Wild King Salmon Lemon Herb,Chef Specials & Seafood,34.0,16.2,3,STANDARD,12913,8.76
+ITEM-048,763,19838.0,168,118.08,Dry-Aged Bone-in NY Strip (16oz),Prime Steaks & Butcher Cuts,56.0,26.0,5,STANDARD,11687,6.13
+ITEM-046,796,19502.0,171,114.05,USDA Prime Center-Cut Filet Mignon (8oz),Prime Steaks & Butcher Cuts,48.0,24.5,5,STANDARD,11612,6.42
+ITEM-054,775,17825.0,171,104.24,Coffee-Crusted Prime Ribeye (14oz),Prime Steaks & Butcher Cuts,52.0,23.0,5,STANDARD,10986,6.59
+ITEM-056,1222,17108.0,251,68.16,Pan-Roasted Duck Breast Plum Glaze,Prime Steaks & Butcher Cuts,35.0,14.0,4,STANDARD,11204,9.83
+ITEM-008,1019,16813.5,244,68.91,Reserve Osetra Caviar Blinis,Appetizers & Small Plates,36.3,16.5,7,PROFITABLE_LOW_SELLING,11589,8.08
+ITEM-057,747,16434.0,167,98.41,Roasted Veal Chop Chanterelles,Prime Steaks & Butcher Cuts,49.0,22.0,4,PROFITABLE_LOW_SELLING,10423,6.69
+ITEM-052,687,12709.5,147,86.46,Steak Frites Garlic Herb Butter,Prime Steaks & Butcher Cuts,29.99,18.5,5,POPULAR_LOW_MARGIN,10346,6.23
+ITEM-053,771,10639.8,168,63.33,Smoked Bone-in Kurobuta Pork Chop,Prime Steaks & Butcher Cuts,34.0,13.8,5,STANDARD,9565,7.46
+ITEM-018,914,10511.0,176,59.72,Prime Wagyu Truffle Burger,Artisanal Burgers & Handhelds,28.0,11.5,4,PROFITABLE_LOW_SELLING,11588,7.31
+ITEM-085,990,9702.0,223,43.51,Blackened Salmon Cobb Salad,Farm-Fresh Salads & Grain Bowls,21.0,9.8,3,STANDARD,11787,7.75
+ITEM-070,804,9246.0,180,51.37,Garlic Butter Tiger Prawns Skewer,Chef Specials & Seafood,27.0,11.5,3,STANDARD,11814,6.37
+ITEM-055,672,8870.4,139,63.82,Steakhouse Flat Iron Chimichurri,Prime Steaks & Butcher Cuts,26.5,13.2,5,PRICE_SENSITIVE,10729,5.89
+ITEM-058,626,8764.0,134,65.4,BBQ Glazed St. Louis Ribs (Full),Prime Steaks & Butcher Cuts,31.0,14.0,6,STANDARD,12330,4.83
+ITEM-035,750,8625.0,179,48.18,Black Truffle Tagliolini Caviar,Wood-Fired Pizzas & Pastas,42.0,11.5,5,PROFITABLE_LOW_SELLING,10880,6.45
+ITEM-068,581,8424.5,127,66.33,Classic Fish & Chips Tartar,Chef Specials & Seafood,19.99,14.5,4,POPULAR_LOW_MARGIN,11360,4.87
+ITEM-050,565,8192.5,124,66.07,Slow-Braised Beef Short Ribs,Prime Steaks & Butcher Cuts,36.0,14.5,6,STANDARD,10244,5.23
+ITEM-009,1029,8026.2,223,35.99,Truffle Whipped Burrata,Appetizers & Small Plates,17.16,7.8,4,STANDARD,14980,6.43
+ITEM-059,578,7803.0,143,54.57,Bistro Hanger Steak Shallot Jus,Prime Steaks & Butcher Cuts,28.0,13.5,5,STANDARD,12368,4.46
+ITEM-007,963,7222.5,203,35.58,Crispy Calamari Fritti,Appetizers & Small Plates,16.5,7.5,3,STANDARD,10567,8.35
+ITEM-025,755,6946.0,149,46.62,Philly Ribeye Cheesesteak,Artisanal Burgers & Handhelds,18.0,9.2,4,STANDARD,11406,6.21
+ITEM-040,873,6809.4,185,36.81,Truffled Wild Mushroom Gnocchi,Wood-Fired Pizzas & Pastas,22.0,7.8,4,STANDARD,11287,7.18
+ITEM-017,577,6347.0,114,55.68,Crispy Buttermilk Chicken Sandwich,Artisanal Burgers & Handhelds,14.5,11.0,5,POPULAR_LOW_MARGIN,11203,4.9
+ITEM-010,906,6342.0,189,33.56,Smoked Duck Croquettes,Appetizers & Small Plates,15.4,7.0,4,STANDARD,10859,7.7
+ITEM-036,663,6298.5,144,43.74,Slow-Braised Wild Boar Pappardelle,Wood-Fired Pizzas & Pastas,26.0,9.5,5,STANDARD,12575,5.01
+ITEM-105,735,6247.5,163,38.33,Artisanal Vegan Charcuterie Board,Vegan & Plant-Based Creations,26.0,8.5,8,PROFITABLE_LOW_SELLING,12347,5.62
+ITEM-002,534,5980.8,126,47.47,Classic Buffalo Chicken Wings,Appetizers & Small Plates,14.5,11.2,5,POPULAR_LOW_MARGIN,10997,4.63
+ITEM-092,794,5716.8,173,33.05,Truffle Wild Mushroom Risotto,Vegan & Plant-Based Creations,23.0,7.2,5,STANDARD,12550,5.95
+ITEM-016,520,5616.0,124,45.29,DineIQ Smash Double Cheeseburger,Artisanal Burgers & Handhelds,13.99,10.8,5,POPULAR_LOW_MARGIN,11529,4.32
+ITEM-091,475,5462.5,111,49.21,Beyond Meat Gourmet Burger,Vegan & Plant-Based Creations,16.99,11.5,7,POPULAR_LOW_MARGIN,12398,3.69
+ITEM-031,449,5388.0,103,52.31,Margherita Sourdough Pizza,Wood-Fired Pizzas & Pastas,15.99,12.0,30,POPULAR_LOW_MARGIN,11248,3.84
+ITEM-079,1075,5375.0,253,21.25,Strawberry Gorgonzola Pecan Salad,Farm-Fresh Salads & Grain Bowls,14.0,5.0,3,STANDARD,10851,9.01
+ITEM-032,388,5354.4,87,61.54,Double Pepperoni Hot Honey Pizza,Wood-Fired Pizzas & Pastas,18.5,13.8,30,POPULAR_LOW_MARGIN,9811,3.8
+ITEM-081,830,5146.0,172,29.92,Thai Crunch Peanut Chicken Salad,Farm-Fresh Salads & Grain Bowls,16.0,6.2,4,STANDARD,11888,6.53
+ITEM-080,921,4973.4,195,25.5,Roasted Beet & Goat Cheese Bowl,Farm-Fresh Salads & Grain Bowls,15.0,5.4,5,STANDARD,12064,7.09
+ITEM-022,621,4968.0,144,34.5,Black Angus Bacon Cheddar,Artisanal Burgers & Handhelds,17.5,8.0,5,STANDARD,9469,6.15
+ITEM-076,562,4945.6,127,38.94,DineIQ Signature Caesar Salad,Farm-Fresh Salads & Grain Bowls,12.99,8.8,4,POPULAR_LOW_MARGIN,11996,4.48
+ITEM-023,598,4903.6,132,37.15,Smoked Brisket Panini,Artisanal Burgers & Handhelds,17.0,8.2,5,STANDARD,11298,5.03
+ITEM-118,1144,4576.0,243,18.83,Dark Chocolate Souffle Grand Marnier,Handcrafted Desserts & Pastries,16.5,4.0,2,PROFITABLE_LOW_SELLING,10581,9.76
+ITEM-019,635,4572.0,138,33.13,BBQ Pulled Pork Brioche,Artisanal Burgers & Handhelds,15.0,7.2,6,STANDARD,11277,5.33
+ITEM-113,811,4460.5,200,22.3,Vintage Champagne Berry Float,Handcrafted Desserts & Pastries,24.0,5.5,3,PROFITABLE_LOW_SELLING,11708,6.48
+ITEM-020,564,4230.0,124,34.11,Spicy Nashville Hot Chicken Bun,Artisanal Burgers & Handhelds,15.5,7.5,5,STANDARD,11759,4.58
+ITEM-024,702,4071.6,156,26.1,Portobello Mushroom Swiss Burger,Artisanal Burgers & Handhelds,15.0,5.8,4,STANDARD,11436,5.78
+ITEM-102,716,4009.6,157,25.54,Mushroom & Walnut Bolognese,Vegan & Plant-Based Creations,18.5,5.6,5,STANDARD,10662,6.29
+ITEM-108,575,3967.5,116,34.2,New York Style Cheesecake,Handcrafted Desserts & Pastries,9.99,6.9,6,POPULAR_LOW_MARGIN,12621,4.36
+ITEM-041,579,3937.2,126,31.25,Calabrian Sausage Rigatoni,Wood-Fired Pizzas & Pastas,20.0,6.8,5,STANDARD,12038,4.59
+ITEM-033,523,3922.5,120,32.69,Quattro Formaggi Bianca,Wood-Fired Pizzas & Pastas,18.0,7.5,5,STANDARD,11766,4.26
+ITEM-030,707,3888.5,149,26.1,Grilled Halloumi Flatbread,Artisanal Burgers & Handhelds,14.0,5.5,30,STANDARD,11307,5.88
+ITEM-012,924,3880.8,198,19.6,Heirloom Tomato Bruschetta,Appetizers & Small Plates,22.5,15.0,3,PRICE_SENSITIVE,11207,7.62
+ITEM-094,633,3671.4,138,26.6,Creamy Cashew Alfredo Tagliatelle,Vegan & Plant-Based Creations,19.0,5.8,5,STANDARD,12985,4.65
+ITEM-101,666,3663.0,147,24.92,Thai Coconut Green Curry Tofu,Vegan & Plant-Based Creations,18.0,5.5,5,STANDARD,12154,5.2
+ITEM-090,809,3640.5,167,21.8,Warm Roasted Butternut Squash Bowl,Farm-Fresh Salads & Grain Bowls,14.0,4.5,6,STANDARD,11358,6.65
+ITEM-044,459,3626.1,104,34.87,Lasagna Bolognese Al Forno,Wood-Fired Pizzas & Pastas,21.0,7.9,5,STANDARD,12288,3.6
+ITEM-095,736,3606.4,164,21.99,Spicy Tofu Peanut Noodle Bowl,Vegan & Plant-Based Creations,16.5,4.9,5,STANDARD,10984,6.28
+ITEM-028,497,3578.4,105,34.08,Cubano Roast Pork Sandwich,Artisanal Burgers & Handhelds,15.5,7.2,30,STANDARD,11825,4.03
+ITEM-097,692,3529.2,131,26.94,Jackfruit Smoky Carnitas Tacos,Vegan & Plant-Based Creations,15.5,5.1,5,STANDARD,11338,5.75
+ITEM-096,784,3528.0,170,20.75,Roasted Eggplant Harissa Shakshuka,Vegan & Plant-Based Creations,15.0,4.5,4,STANDARD,13052,5.67
+ITEM-083,734,3523.2,152,23.18,Classic Greek Village Salad,Farm-Fresh Salads & Grain Bowls,13.5,4.8,4,PRICE_SENSITIVE,12070,5.73
+ITEM-077,671,3489.2,145,24.06,Mediterranean Quinoa Crunch Bowl,Farm-Fresh Salads & Grain Bowls,14.5,5.2,4,STANDARD,10840,5.83
+ITEM-100,685,3425.0,140,24.46,Crispy Falafel Mezze Platter,Vegan & Plant-Based Creations,16.0,5.0,6,STANDARD,11128,5.8
+ITEM-014,734,3303.0,150,22.02,Spanakopita Herb Triangles,Appetizers & Small Plates,11.0,4.5,7,STANDARD,13541,5.14
+ITEM-026,681,3268.8,140,23.35,Classic BLT Sourdough,Artisanal Burgers & Handhelds,11.99,4.8,4,PRICE_SENSITIVE,10590,6.04
+ITEM-106,418,3260.4,88,37.05,Molten Chocolate Lava Cake,Handcrafted Desserts & Pastries,10.99,7.8,7,POPULAR_LOW_MARGIN,12229,3.31
+ITEM-087,678,3254.4,152,21.41,Green Goddess Farro Bowl,Farm-Fresh Salads & Grain Bowls,14.5,4.8,5,STANDARD,11804,5.43
+ITEM-099,582,3026.4,120,25.22,Lentil Shepherd's Pie Sweet Potato,Vegan & Plant-Based Creations,17.5,5.2,6,STANDARD,11687,4.74
+ITEM-084,598,2930.2,148,19.8,Kale Tahini Caesar Roasted Chickpeas,Farm-Fresh Salads & Grain Bowls,13.99,4.9,5,STANDARD,10418,5.43
+ITEM-001,431,2909.25,104,27.97,Crispy Parmesan Truffle Fries,Appetizers & Small Plates,8.99,6.75,14,POPULAR_LOW_MARGIN,12597,3.31
+ITEM-112,864,2678.4,189,14.17,Salted Caramel Creme Brulee,Handcrafted Desserts & Pastries,11.0,3.1,4,STANDARD,10929,7.33
+ITEM-117,606,2545.2,133,19.14,Artisanal Macaron Assortment (6pcs),Handcrafted Desserts & Pastries,15.0,4.2,10,STANDARD,10554,5.43
+ITEM-015,488,2537.6,101,25.12,Bacon Wrapped Stuffed Dates,Appetizers & Small Plates,13.5,5.2,7,STANDARD,11979,3.91
+ITEM-089,436,2528.8,120,21.07,Southwest Chipotle Chicken Bowl,Farm-Fresh Salads & Grain Bowls,15.5,5.8,4,STANDARD,11887,3.54
+ITEM-111,788,2521.6,163,15.47,Traditional Italian Tiramisu,Handcrafted Desserts & Pastries,10.5,3.2,4,STANDARD,11578,6.37
+ITEM-103,566,2490.4,124,20.08,Korean Gochujang Crispy Tofu,Vegan & Plant-Based Creations,14.5,4.4,6,STANDARD,11198,4.81
+ITEM-042,359,2477.1,83,29.84,Spicy Diavola Pizza,Wood-Fired Pizzas & Pastas,19.0,6.9,5,STANDARD,10360,3.35
+ITEM-037,443,2436.5,97,25.12,Spaghetti All'Amatriciana,Wood-Fired Pizzas & Pastas,17.5,5.5,6,PRICE_SENSITIVE,11158,3.82
+ITEM-093,570,2394.0,115,20.82,Crispy Cauliflower Buffalo Bites,Vegan & Plant-Based Creations,12.0,4.2,5,STANDARD,9749,5.52
+ITEM-013,407,2238.5,92,24.33,Loaded Queso Nachos,Appetizers & Small Plates,22.5,15.0,10,STANDARD,11804,3.33
+ITEM-038,395,2054.0,86,23.88,Creamy Fettuccine Alfredo,Wood-Fired Pizzas & Pastas,16.99,5.2,6,PRICE_SENSITIVE,11036,3.46
+ITEM-088,633,2025.6,124,16.34,Simple Garden House Salad,Farm-Fresh Salads & Grain Bowls,8.99,3.2,4,PRICE_SENSITIVE,11630,5.16
+ITEM-003,285,2023.5,61,33.17,Golden Mozzarella Sticks,Appetizers & Small Plates,9.5,7.1,30,POPULAR_LOW_MARGIN,10905,2.55
+ITEM-109,694,1943.2,152,12.78,Warm Apple Cinnamon Crisp,Handcrafted Desserts & Pastries,9.5,2.8,5,STANDARD,10603,6.14
+ITEM-116,715,1930.5,161,11.99,Key Lime Tart Graham Crust,Handcrafted Desserts & Pastries,9.5,2.7,5,STANDARD,11885,5.67
+ITEM-135,307,1903.4,57,33.39,Red Sangria Pitcher (House Wine),Signature Cocktails & Mocktails,29.0,6.2,30,STANDARD,12204,2.45
+ITEM-115,629,1887.0,133,14.19,Pecan Pie Bourbon Whipped Cream,Handcrafted Desserts & Pastries,10.0,3.0,7,STANDARD,10695,5.55
+ITEM-004,360,1728.0,73,23.67,Garlic Herb Breadsticks,Appetizers & Small Plates,6.99,4.8,4,POPULAR_LOW_MARGIN,11761,2.97
+ITEM-134,827,1405.9,174,8.08,Strawberry Basil Smash Lemonade (Mocktail),Signature Cocktails & Mocktails,8.5,1.7,5,PRICE_SENSITIVE,11046,6.97
+ITEM-133,88,1232.0,18,68.44,Rare Japanese Whisky Flight (3-pour),Signature Cocktails & Mocktails,55.0,14.0,365,PROFITABLE_LOW_SELLING,11128,0.78
+ITEM-126,419,1215.1,78,15.58,Espresso Martini Vanilla Foam,Signature Cocktails & Mocktails,15.0,2.9,30,STANDARD,12139,3.34
+ITEM-104,387,1083.6,84,12.9,Golden Turmeric Lentil Soup Bowl,Vegan & Plant-Based Creations,9.99,2.8,7,PRICE_SENSITIVE,9923,3.75
+ITEM-124,266,957.6,61,15.7,Elderflower French 75 Champagne,Signature Cocktails & Mocktails,17.0,3.6,180,STANDARD,10946,2.37
+ITEM-114,388,931.2,90,10.35,Warm Churros with Spiced Dulce,Handcrafted Desserts & Pastries,9.0,2.4,4,STANDARD,11164,3.36
+ITEM-127,568,908.8,123,7.39,Zero-Proof Cucumber Mint Cooler,Signature Cocktails & Mocktails,8.5,1.6,7,PRICE_SENSITIVE,13186,4.13
+ITEM-128,493,887.4,119,7.46,Hibiscus Berry Botanical Fizz (Mocktail),Signature Cocktails & Mocktails,8.99,1.8,7,STANDARD,11527,4.1
+ITEM-121,178,854.4,40,21.36,DineIQ House Draft Lager (Pint),Signature Cocktails & Mocktails,6.5,4.8,60,POPULAR_LOW_MARGIN,11143,1.57
+ITEM-123,268,830.8,56,14.84,Spicy Passionfruit Mezcalita,Signature Cocktails & Mocktails,15.5,3.1,60,STANDARD,11032,2.37
+ITEM-129,278,778.4,67,11.62,Smoked Rosemary Paloma Tequila,Signature Cocktails & Mocktails,14.5,2.8,60,STANDARD,10653,2.54
+ITEM-131,284,766.8,68,11.28,Yuzu Lavender Gin Tonic,Signature Cocktails & Mocktails,14.0,2.7,180,STANDARD,12321,2.25
+ITEM-125,162,729.0,38,19.18,Black Truffle Infused Manhattan,Signature Cocktails & Mocktails,28.0,4.5,180,PROFITABLE_LOW_SELLING,10283,1.55
+ITEM-122,207,662.4,42,15.77,Signature Smoked Old Fashioned,Signature Cocktails & Mocktails,16.0,3.2,365,STANDARD,12243,1.66
+ITEM-107,355,639.0,71,9.0,Classic Madagascar Vanilla Bean Gelato,Handcrafted Desserts & Pastries,7.5,1.8,30,PRICE_SENSITIVE,11604,2.97
+ITEM-132,229,595.4,56,10.63,Aperol Spritz Prosecco Orange,Signature Cocktails & Mocktails,13.99,2.6,90,STANDARD,11219,2.0
+ITEM-120,287,430.5,61,7.06,Affogato al Caffe Espresso Scoop,Handcrafted Desserts & Pastries,6.99,1.5,20,PRICE_SENSITIVE,12539,2.24
+ITEM-130,144,360.0,32,11.25,Classic Moscow Mule Copper Mug,Signature Cocktails & Mocktails,13.5,2.5,180,STANDARD,13481,1.06
+ITEM-141,218,305.2,55,5.55,Ceremonial Iced Matcha Latte,Specialty Coffee & Beverages,6.5,1.4,30,STANDARD,11657,1.84
+ITEM-139,253,303.6,54,5.62,Vanilla Bean Oat Milk Latte,Specialty Coffee & Beverages,5.75,1.2,14,STANDARD,10836,2.28
+ITEM-140,185,231.25,35,6.61,Caramel Macchiato Sea Salt,Specialty Coffee & Beverages,5.99,1.25,14,STANDARD,10294,1.77
+ITEM-150,121,217.8,32,6.81,Artisanal Kombucha Peach Ginger,Specialty Coffee & Beverages,6.25,1.8,45,STANDARD,11076,1.08
+ITEM-137,185,203.5,40,5.09,Nitro Cold Brew Sweet Cream,Specialty Coffee & Beverages,5.99,1.1,14,STANDARD,9814,1.85
+ITEM-147,183,201.3,40,5.03,Belgian Hot Chocolate Marshmallows,Specialty Coffee & Beverages,5.5,1.1,60,STANDARD,11899,1.51
+ITEM-145,133,199.5,25,7.98,Sparkling San Pellegrino (750ml),Specialty Coffee & Beverages,6.0,1.5,365,STANDARD,11102,1.18
+ITEM-149,55,137.5,19,7.24,Rare Blue Mountain Jamaican Pour-Over,Specialty Coffee & Beverages,12.0,2.5,90,PROFITABLE_LOW_SELLING,11260,0.49
+ITEM-142,141,126.9,33,3.85,Spiced Masala Chai Latte,Specialty Coffee & Beverages,5.25,0.9,30,STANDARD,11800,1.18
+ITEM-143,114,51.3,25,2.05,Organic Earl Grey Loose Leaf Tea,Specialty Coffee & Beverages,4.25,0.45,180,STANDARD,11562,0.98
+ITEM-138,100,50.0,21,2.38,Double Espresso Single Origin,Specialty Coffee & Beverages,3.5,0.5,60,PRICE_SENSITIVE,10601,0.93
+ITEM-136,74,44.4,17,2.61,DineIQ House Drip Roast Coffee,Specialty Coffee & Beverages,3.99,0.6,60,PRICE_SENSITIVE,12702,0.58

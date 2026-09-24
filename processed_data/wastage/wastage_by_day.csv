@@ -1,0 +1,8 @@
+day_name,day_of_week,wasted_quantity,total_loss_amount,incident_count,unique_dates,daily_avg_loss,daily_avg_wasted_units,loss_share_pct
+Monday,0,44311,466821.0,7116,52,8977.33,852.1,14.37
+Thursday,3,43933,465375.75,7053,52,8949.53,844.9,14.33
+Tuesday,1,44544,463813.0,7155,52,8919.48,856.6,14.28
+Wednesday,2,45607,471522.35,7267,53,8896.65,860.5,14.52
+Sunday,6,44042,462481.3,7125,52,8893.87,847.0,14.24
+Saturday,5,44258,460579.0,7118,52,8857.29,851.1,14.18
+Friday,4,44123,457377.6,7111,52,8795.72,848.5,14.08

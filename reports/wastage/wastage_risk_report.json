@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-09-24 15:43:30",
+  "evaluation_summary": {
+    "regression_metrics": {
+      "mae": 0.987,
+      "rmse": 1.366,
+      "r2_score": 0.4143
+    },
+    "classification_metrics": {
+      "accuracy": 0.9384,
+      "f1_score": 0.7925,
+      "roc_auc": 0.9659
+    },
+    "feature_importance": [
+      {
+        "feature_name": "historical_wastage_7d",
+        "importance_delta_mae": 0.4803,
+        "relative_importance_pct": 95.28
+      },
+      {
+        "feature_name": "popularity_weight",
+        "importance_delta_mae": 0.0094,
+        "relative_importance_pct": 1.86
+      },
+      {
+        "feature_name": "historical_demand_7d",
+        "importance_delta_mae": 0.004,
+        "relative_importance_pct": 0.79
+      },
+      {
+        "feature_name": "preparation_quantity",
+        "importance_delta_mae": 0.003,
+        "relative_importance_pct": 0.6
+      },
+      {
+        "feature_name": "location_code",
+        "importance_delta_mae": 0.003,
+        "relative_importance_pct": 0.6
+      },
+      {
+        "feature_name": "is_promo_active",
+        "importance_delta_mae": 0.0017,
+        "relative_importance_pct": 0.34
+      },
+      {
+        "feature_name": "dow_code",
+        "importance_delta_mae": 0.0017,
+        "relative_importance_pct": 0.34
+      },
+      {
+        "feature_name": "forecast_demand",
+        "importance_delta_mae": 0.001,
+        "relative_importance_pct": 0.2
+      },
+      {
+        "feature_name": "season_code",
+        "importance_delta_mae": 0.0,
+        "relative_importance_pct": 0.0
+      }
+    ],
+    "test_sample_count": 2499,
+    "high_risk_alerts_identified": 429
+  },
+  "top_wastage_items": [
+    {
+      "item_id": "ITEM-064",
+      "wasted_quantity": 9564,
+      "total_loss_amount": 224754.0,
+      "incident_count": 1357,
+      "avg_loss_per_incident": 165.63,
+      "name": "Butter Poached Maine Lobster Tail",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 52.0,
+      "cost_price": 23.5,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 11370,
+      "wastage_rate_pct": 45.69
+    },
+    {
+      "item_id": "ITEM-075",
+      "wasted_quantity": 9215,
+      "total_loss_amount": 152047.5,
+      "incident_count": 1309,
+      "avg_loss_per_incident": 116.16,
+      "name": "Seafood Bouillabaisse Saffron Rouille",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 37.0,
+      "cost_price": 16.5,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 11158,
+      "wastage_rate_pct": 45.23
+    },
+    {
+      "item_id": "ITEM-066",
+      "wasted_quantity": 8933,
+      "total_loss_amount": 150074.4,
+      "incident_count": 1277,
+      "avg_loss_per_incident": 117.52,
+      "name": "Seared Diver Scallops Sweet Corn",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 36.0,
+      "cost_price": 16.8,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 10377,
+      "wastage_rate_pct": 46.26
+    },
+    {
+      "item_id": "ITEM-072",
+      "wasted_quantity": 8505,
+      "total_loss_amount": 148837.5,
+      "incident_count": 1224,
+      "avg_loss_per_incident": 121.6,
+      "name": "Whole Grilled Red Snapper Mojo",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 42.0,
+      "cost_price": 17.5,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 11859,
+      "wastage_rate_pct": 41.76
+    },
+    {
+      "item_id": "ITEM-062",
+      "wasted_quantity": 8631,
+      "total_loss_amount": 138096.0,
+      "incident_count": 1230,
+      "avg_loss_per_incident": 112.27,
+      "name": "Crispy Skin Mediterranean Branzino",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 38.0,
+      "cost_price": 16.0,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 11570,
+      "wastage_rate_pct": 42.73
+    },
+    {
+      "item_id": "ITEM-067",
+      "wasted_quantity": 8465,
+      "total_loss_amount": 135440.0,
+      "incident_count": 1216,
+      "avg_loss_per_incident": 111.38,
+      "name": "Seafood Paella Valenciana",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 35.0,
+      "cost_price": 16.0,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 11671,
+      "wastage_rate_pct": 42.04
+    },
+    {
+      "item_id": "ITEM-069",
+      "wasted_quantity": 8832,
+      "total_loss_amount": 130713.6,
+      "incident_count": 1258,
+      "avg_loss_per_incident": 103.91,
+      "name": "Grilled Yellowfin Ahi Tuna Steak",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 33.0,
+      "cost_price": 14.8,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 12819,
+      "wastage_rate_pct": 40.79
+    },
+    {
+      "item_id": "ITEM-065",
+      "wasted_quantity": 7916,
+      "total_loss_amount": 118740.0,
+      "incident_count": 1138,
+      "avg_loss_per_incident": 104.34,
+      "name": "Jumbo Lump Crab Cakes (2pcs)",
+      "category_name": "Chef Specials & Seafood",
+      "base_price": 32.0,
+      "cost_price": 15.0,
+      "shelf_life_days": 3,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 10946,
+      "wastage_rate_pct": 41.97
+    },
+    {
+      "item_id": "ITEM-045",
+      "wasted_quantity": 9147,
+      "total_loss_amount": 109764.0,
+      "incident_count": 1303,
+      "avg_loss_per_incident": 84.24,
+      "name": "Linguine alle Vongole (Clams)",
+      "category_name": "Wood-Fired Pizzas & Pastas",
+      "base_price": 25.0,
+      "cost_price": 12.0,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 13640,
+      "wastage_rate_pct": 40.14
+    },
+    {
+      "item_id": "ITEM-005",
+      "wasted_quantity": 9217,
+      "total_loss_amount": 105995.5,
+      "incident_count": 1298,
+      "avg_loss_per_incident": 81.66,
+      "name": "Wild Alaskan Salmon Tartare",
+      "category_name": "Appetizers & Small Plates",
+      "base_price": 21.0,
+      "cost_price": 11.5,
+      "shelf_life_days": 2,
+      "complexity_profile": "HIGH_WASTAGE",
+      "total_sold": 12836,
+      "wastage_rate_pct": 41.79
+    }
+  ],
+  "category_wastage": [
+    {
+      "category_name": "Chef Specials & Seafood",
+      "wasted_quantity": 92618,
+      "total_loss_amount": 1470251.5,
+      "incident_count": 13646,
+      "avg_loss_per_incident": 107.74,
+      "loss_share_pct": 45.27
+    },
+    {
+      "category_name": "Wood-Fired Pizzas & Pastas",
+      "wasted_quantity": 37943,
+      "total_loss_amount": 387519.3,
+      "incident_count": 5914,
+      "avg_loss_per_incident": 65.53,
+      "loss_share_pct": 11.93
+    },
+    {
+      "category_name": "Appetizers & Small Plates",
+      "wasted_quantity": 34688,
+      "total_loss_amount": 342840.55,
+      "incident_count": 5562,
+      "avg_loss_per_incident": 61.64,
+      "loss_share_pct": 10.56
+    },
+    {
+      "category_name": "Farm-Fresh Salads & Grain Bowls",
+      "wasted_quantity": 34362,
+      "total_loss_amount": 267331.1,
+      "incident_count": 5639,
+      "avg_loss_per_incident": 47.41,
+      "loss_share_pct": 8.23
+    },
+    {
+      "category_name": "Prime Steaks & Butcher Cuts",
+      "wasted_quantity": 11485,
+      "total_loss_amount": 236913.2,
+      "incident_count": 2496,
+      "avg_loss_per_incident": 94.92,
+      "loss_share_pct": 7.29
+    },
+    {
+      "category_name": "Artisanal Burgers & Handhelds",
+      "wasted_quantity": 24724,
+      "total_loss_amount": 220988.4,
+      "incident_count": 4202,
+      "avg_loss_per_incident": 52.59,
+      "loss_share_pct": 6.8
+    },
+    {
+      "category_name": "Handcrafted Desserts & Pastries",
+      "wasted_quantity": 25384,
+      "total_loss_amount": 110469.0,
+      "incident_count": 4257,
+      "avg_loss_per_incident": 25.95,
+      "loss_share_pct": 3.4
+    },
+    {
+      "category_name": "Vegan & Plant-Based Creations",
+      "wasted_quantity": 17378,
+      "total_loss_amount": 108681.4,
+      "incident_count": 3147,
+      "avg_loss_per_incident": 34.53,
+      "loss_share_pct": 3.35
+    },
+    {
+      "category_name": "Specialty Coffee & Beverages",
+      "wasted_quantity": 27518,
+      "total_loss_amount": 88888.15,
+      "incident_count": 4053,
+      "avg_loss_per_incident": 21.93,
+      "loss_share_pct": 2.74
+    },
+    {
+      "category_name": "Signature Cocktails & Mocktails",
+      "wasted_quantity": 4718,
+      "total_loss_amount": 14087.4,
+      "incident_count": 1029,
+      "avg_loss_per_incident": 13.69,
+      "loss_share_pct": 0.43
+    }
+  ],
+  "shift_wastage": [
+    {
+      "shift_period": "Night Closing Shift",
+      "wasted_quantity": 154075,
+      "total_loss_amount": 1611922.45,
+      "incident_count": 24750,
+      "loss_share_pct": 49.63,
+      "avg_loss_per_incident": 65.13,
+      "CUSTOMER_SEND_BACK": 6844,
+      "EQUIPMENT_COOLER_FAILURE": 7295,
+      "EXPIRED_SHELF_LIFE": 71657,
+      "OVERCOOKED_OR_BURNT": 9692,
+      "OVERPRODUCTION_UNSOLD": 39081,
+      "PREPARATION_ERROR": 19506
+    },
+    {
+      "shift_period": "Afternoon Restock Shift",
+      "wasted_quantity": 78504,
+      "total_loss_amount": 823723.1,
+      "incident_count": 12651,
+      "loss_share_pct": 25.36,
+      "avg_loss_per_incident": 65.11,
+      "CUSTOMER_SEND_BACK": 3666,
+      "EQUIPMENT_COOLER_FAILURE": 3727,
+      "EXPIRED_SHELF_LIFE": 37210,
+      "OVERCOOKED_OR_BURNT": 4624,
+      "OVERPRODUCTION_UNSOLD": 19563,
+      "PREPARATION_ERROR": 9714
+    },
+    {
+      "shift_period": "Lunch Service Shift",
+      "wasted_quantity": 78239,
+      "total_loss_amount": 812324.45,
+      "incident_count": 12544,
+      "loss_share_pct": 25.01,
+      "avg_loss_per_incident": 64.76,
+      "CUSTOMER_SEND_BACK": 3337,
+      "EQUIPMENT_COOLER_FAILURE": 3585,
+      "EXPIRED_SHELF_LIFE": 37111,
+      "OVERCOOKED_OR_BURNT": 5109,
+      "OVERPRODUCTION_UNSOLD": 19135,
+      "PREPARATION_ERROR": 9962
+    }
+  ],
+  "preparation_analysis": [
+    {
+      "prep_tier": "Low Prep (<80)",
+      "snapshots_count": 6592,
+      "avg_preparation_quantity": 74.75333737864078,
+      "total_prepared_quantity": 492774,
+      "total_units_sold": 297033,
+      "total_units_wasted": 10436,
+      "avg_units_wasted": 1.583131067961165,
+      "over_preparation_units": 195741,
+      "over_prep_index_pct": 39.72,
+      "prep_wastage_rate_pct": 2.12
+    },
+    {
+      "prep_tier": "Standard Prep (80-120)",
+      "snapshots_count": 6493,
+      "avg_preparation_quantity": 113.4032034498691,
+      "total_prepared_quantity": 736327,
+      "total_units_sold": 417594,
+      "total_units_wasted": 10177,
+      "avg_units_wasted": 1.5673802556599414,
+      "over_preparation_units": 318733,
+      "over_prep_index_pct": 43.29,
+      "prep_wastage_rate_pct": 1.38
+    },
+    {
+      "prep_tier": "High Prep (120-160)",
+      "snapshots_count": 6487,
+      "avg_preparation_quantity": 145.92554339448128,
+      "total_prepared_quantity": 946619,
+      "total_units_sold": 504511,
+      "total_units_wasted": 9983,
+      "avg_units_wasted": 1.5389240018498536,
+      "over_preparation_units": 442108,
+      "over_prep_index_pct": 46.7,
+      "prep_wastage_rate_pct": 1.05
+    },
+    {
+      "prep_tier": "Excess Prep (>160)",
+      "snapshots_count": 6428,
+      "avg_preparation_quantity": 185.5502489110143,
+      "total_prepared_quantity": 1192717,
+      "total_units_sold": 497893,
+      "total_units_wasted": 10156,
+      "avg_units_wasted": 1.5799626633478532,
+      "over_preparation_units": 694824,
+      "over_prep_index_pct": 58.26,
+      "prep_wastage_rate_pct": 0.85
+    }
+  ]
+}

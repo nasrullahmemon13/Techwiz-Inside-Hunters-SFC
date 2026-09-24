@@ -1,0 +1,21 @@
+location_id,wasted_quantity,total_loss_amount,incident_count,restaurant_name,restaurant_city,location_tier,total_sold,wastage_rate_pct
+LOC-020,16127,169904.7,2508,DineIQ Boston Back Bay,Boston,Historic Urban,86764,15.67
+LOC-005,15726,168167.1,2563,DineIQ West Loop Bistro,Chicago,Urban Dining,85101,15.6
+LOC-010,15984,167616.2,2503,DineIQ San Francisco Embarcadero,San Francisco,Flagship,87442,15.45
+LOC-001,16054,165596.15,2583,DineIQ Flagship Downtown,New York,Flagship,88208,15.4
+LOC-012,16007,165491.35,2565,DineIQ Los Angeles Beverly,Los Angeles,Flagship,85877,15.71
+LOC-009,15611,164796.5,2516,DineIQ Dallas Arts District,Dallas,Urban Dining,88249,15.03
+LOC-008,15631,163835.8,2505,DineIQ Houston Galleria,Houston,Suburban Mall,85744,15.42
+LOC-016,15785,163460.95,2546,DineIQ Miami South Beach,Miami,Coastal Boardwalk,83983,15.82
+LOC-002,15370,163071.25,2519,DineIQ Financial Center,New York,Urban Corporate,85265,15.27
+LOC-006,15331,162681.55,2458,DineIQ Austin Downtown,Austin,Urban Dining,85885,15.15
+LOC-019,15615,161964.8,2506,DineIQ Atlanta Midtown,Atlanta,Urban Dining,84765,15.56
+LOC-007,15786,161926.85,2470,DineIQ Austin Domain Drive-Thru,Austin,Drive-Thru Express,84590,15.73
+LOC-015,15339,161231.5,2475,DineIQ Bellevue Tech Plaza,Bellevue,Urban Corporate,86934,15.0
+LOC-011,15319,160710.25,2509,DineIQ Silicon Valley Hub,San Jose,Urban Corporate,83742,15.46
+LOC-004,15492,159643.45,2463,DineIQ Chicago Magnificent Mile,Chicago,Flagship,87149,15.09
+LOC-013,15456,158611.3,2522,DineIQ Santa Monica Promenade,Santa Monica,Coastal Boardwalk,85248,15.35
+LOC-003,15157,158599.55,2402,DineIQ Brooklyn Heights,Brooklyn,Suburban Upscale,86336,14.93
+LOC-014,15240,157690.8,2455,DineIQ Seattle Pike Place,Seattle,Urban Dining,83613,15.42
+LOC-017,14827,157613.8,2426,DineIQ Orlando Theme Park Outpost,Orlando,Family Destination,85713,14.75
+LOC-018,14961,155356.15,2451,DineIQ Denver LoDo,Denver,Urban Dining,86423,14.76

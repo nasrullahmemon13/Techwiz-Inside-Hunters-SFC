@@ -1,0 +1,4 @@
+stock_status,snapshots_count,total_available_stock,total_units_sold,total_units_wasted,avg_ending_stock,avg_reorder_point,stock_consumption_ratio_pct,inventory_wastage_rate_pct
+CRITICAL_OUT_OF_STOCK,599,52553,51673,1706,0.0,27.45075125208681,96.8,3.25
+OPTIMAL,19411,2734598,1183785,29479,78.37483900880943,26.778115501519757,97.57,1.08
+REORDER_TRIGGERED,5990,581286,481573,9567,15.04941569282137,29.6906510851419,98.05,1.65
