@@ -1,0 +1,5 @@
+season,total_revenue,total_items,order_count,distinct_days,daily_avg_revenue,seasonal_demand_index,revenue_share_pct
+Winter,4694384.51,293206,20228,90,52159.83,0.9074,22.37
+Spring,4903085.78,306313,21039,92,53294.41,0.9271,23.37
+Summer,5956539.68,372184,25806,92,64745.0,1.1263,28.39
+Fall,5428188.81,339205,23391,91,59650.43,1.0377,25.87

@@ -1,0 +1,301 @@
+order_date,category_name,actual_demand,predicted_demand,forecast_error,granularity
+2025-12-02,Appetizers & Small Plates,364.0,429.56,-65.56,Menu Categories
+2025-12-02,Artisanal Burgers & Handhelds,341.0,404.31,-63.31,Menu Categories
+2025-12-02,Chef Specials & Seafood,223.0,209.84,13.16,Menu Categories
+2025-12-02,Farm-Fresh Salads & Grain Bowls,362.0,413.06,-51.06,Menu Categories
+2025-12-02,Handcrafted Desserts & Pastries,372.0,420.64,-48.64,Menu Categories
+2025-12-02,Prime Steaks & Butcher Cuts,237.0,207.15,29.85,Menu Categories
+2025-12-02,Signature Cocktails & Mocktails,391.0,514.22,-123.22,Menu Categories
+2025-12-02,Specialty Coffee & Beverages,445.0,523.98,-78.98,Menu Categories
+2025-12-02,Vegan & Plant-Based Creations,312.0,344.7,-32.7,Menu Categories
+2025-12-02,Wood-Fired Pizzas & Pastas,423.0,432.06,-9.06,Menu Categories
+2025-12-03,Appetizers & Small Plates,411.0,356.18,54.82,Menu Categories
+2025-12-03,Artisanal Burgers & Handhelds,417.0,354.21,62.79,Menu Categories
+2025-12-03,Chef Specials & Seafood,245.0,197.51,47.49,Menu Categories
+2025-12-03,Farm-Fresh Salads & Grain Bowls,376.0,352.91,23.09,Menu Categories
+2025-12-03,Handcrafted Desserts & Pastries,374.0,377.38,-3.38,Menu Categories
+2025-12-03,Prime Steaks & Butcher Cuts,209.0,205.49,3.51,Menu Categories
+2025-12-03,Signature Cocktails & Mocktails,431.0,405.35,25.65,Menu Categories
+2025-12-03,Specialty Coffee & Beverages,477.0,450.99,26.01,Menu Categories
+2025-12-03,Vegan & Plant-Based Creations,335.0,341.67,-6.67,Menu Categories
+2025-12-03,Wood-Fired Pizzas & Pastas,397.0,370.45,26.55,Menu Categories
+2025-12-04,Appetizers & Small Plates,418.0,533.96,-115.96,Menu Categories
+2025-12-04,Artisanal Burgers & Handhelds,424.0,472.27,-48.27,Menu Categories
+2025-12-04,Chef Specials & Seafood,223.0,265.25,-42.25,Menu Categories
+2025-12-04,Farm-Fresh Salads & Grain Bowls,401.0,475.98,-74.98,Menu Categories
+2025-12-04,Handcrafted Desserts & Pastries,425.0,478.06,-53.06,Menu Categories
+2025-12-04,Prime Steaks & Butcher Cuts,214.0,273.88,-59.88,Menu Categories
+2025-12-04,Signature Cocktails & Mocktails,410.0,557.22,-147.22,Menu Categories
+2025-12-04,Specialty Coffee & Beverages,479.0,712.91,-233.91,Menu Categories
+2025-12-04,Vegan & Plant-Based Creations,351.0,410.24,-59.24,Menu Categories
+2025-12-04,Wood-Fired Pizzas & Pastas,435.0,562.08,-127.08,Menu Categories
+2025-12-05,Appetizers & Small Plates,608.0,665.4,-57.4,Menu Categories
+2025-12-05,Artisanal Burgers & Handhelds,621.0,681.31,-60.31,Menu Categories
+2025-12-05,Chef Specials & Seafood,345.0,365.74,-20.74,Menu Categories
+2025-12-05,Farm-Fresh Salads & Grain Bowls,598.0,671.22,-73.22,Menu Categories
+2025-12-05,Handcrafted Desserts & Pastries,571.0,661.66,-90.66,Menu Categories
+2025-12-05,Prime Steaks & Butcher Cuts,370.0,373.64,-3.64,Menu Categories
+2025-12-05,Signature Cocktails & Mocktails,709.0,744.96,-35.96,Menu Categories
+2025-12-05,Specialty Coffee & Beverages,755.0,805.81,-50.81,Menu Categories
+2025-12-05,Vegan & Plant-Based Creations,518.0,617.53,-99.53,Menu Categories
+2025-12-05,Wood-Fired Pizzas & Pastas,657.0,707.9,-50.9,Menu Categories
+2025-12-06,Appetizers & Small Plates,559.0,641.85,-82.85,Menu Categories
+2025-12-06,Artisanal Burgers & Handhelds,619.0,645.97,-26.97,Menu Categories
+2025-12-06,Chef Specials & Seafood,346.0,361.9,-15.9,Menu Categories
+2025-12-06,Farm-Fresh Salads & Grain Bowls,609.0,636.01,-27.01,Menu Categories
+2025-12-06,Handcrafted Desserts & Pastries,525.0,635.92,-110.92,Menu Categories
+2025-12-06,Prime Steaks & Butcher Cuts,335.0,392.35,-57.35,Menu Categories
+2025-12-06,Signature Cocktails & Mocktails,699.0,724.27,-25.27,Menu Categories
+2025-12-06,Specialty Coffee & Beverages,756.0,776.17,-20.17,Menu Categories
+2025-12-06,Vegan & Plant-Based Creations,485.0,608.87,-123.87,Menu Categories
+2025-12-06,Wood-Fired Pizzas & Pastas,613.0,668.12,-55.12,Menu Categories
+2025-12-07,Appetizers & Small Plates,521.0,631.04,-110.04,Menu Categories
+2025-12-07,Artisanal Burgers & Handhelds,531.0,637.8,-106.8,Menu Categories
+2025-12-07,Chef Specials & Seafood,322.0,445.01,-123.01,Menu Categories
+2025-12-07,Farm-Fresh Salads & Grain Bowls,525.0,625.79,-100.79,Menu Categories
+2025-12-07,Handcrafted Desserts & Pastries,506.0,625.48,-119.48,Menu Categories
+2025-12-07,Prime Steaks & Butcher Cuts,296.0,421.9,-125.9,Menu Categories
+2025-12-07,Signature Cocktails & Mocktails,622.0,689.95,-67.95,Menu Categories
+2025-12-07,Specialty Coffee & Beverages,676.0,769.93,-93.93,Menu Categories
+2025-12-07,Vegan & Plant-Based Creations,465.0,637.26,-172.26,Menu Categories
+2025-12-07,Wood-Fired Pizzas & Pastas,582.0,689.42,-107.42,Menu Categories
+2025-12-08,Appetizers & Small Plates,458.0,493.0,-35.0,Menu Categories
+2025-12-08,Artisanal Burgers & Handhelds,421.0,498.19,-77.19,Menu Categories
+2025-12-08,Chef Specials & Seafood,242.0,275.87,-33.87,Menu Categories
+2025-12-08,Farm-Fresh Salads & Grain Bowls,432.0,491.87,-59.87,Menu Categories
+2025-12-08,Handcrafted Desserts & Pastries,461.0,484.4,-23.4,Menu Categories
+2025-12-08,Prime Steaks & Butcher Cuts,274.0,276.68,-2.68,Menu Categories
+2025-12-08,Signature Cocktails & Mocktails,546.0,504.63,41.37,Menu Categories
+2025-12-08,Specialty Coffee & Beverages,529.0,664.98,-135.98,Menu Categories
+2025-12-08,Vegan & Plant-Based Creations,382.0,434.7,-52.7,Menu Categories
+2025-12-08,Wood-Fired Pizzas & Pastas,453.0,509.02,-56.02,Menu Categories
+2025-12-09,Appetizers & Small Plates,358.0,419.62,-61.62,Menu Categories
+2025-12-09,Artisanal Burgers & Handhelds,348.0,436.57,-88.57,Menu Categories
+2025-12-09,Chef Specials & Seafood,189.0,228.49,-39.49,Menu Categories
+2025-12-09,Farm-Fresh Salads & Grain Bowls,319.0,384.5,-65.5,Menu Categories
+2025-12-09,Handcrafted Desserts & Pastries,297.0,388.0,-91.0,Menu Categories
+2025-12-09,Prime Steaks & Butcher Cuts,223.0,231.73,-8.73,Menu Categories
+2025-12-09,Signature Cocktails & Mocktails,400.0,538.82,-138.82,Menu Categories
+2025-12-09,Specialty Coffee & Beverages,439.0,562.5,-123.5,Menu Categories
+2025-12-09,Vegan & Plant-Based Creations,273.0,355.6,-82.6,Menu Categories
+2025-12-09,Wood-Fired Pizzas & Pastas,351.0,488.69,-137.69,Menu Categories
+2025-12-10,Appetizers & Small Plates,418.0,343.88,74.12,Menu Categories
+2025-12-10,Artisanal Burgers & Handhelds,337.0,347.8,-10.8,Menu Categories
+2025-12-10,Chef Specials & Seafood,186.0,216.65,-30.65,Menu Categories
+2025-12-10,Farm-Fresh Salads & Grain Bowls,329.0,332.31,-3.31,Menu Categories
+2025-12-10,Handcrafted Desserts & Pastries,328.0,342.34,-14.34,Menu Categories
+2025-12-10,Prime Steaks & Butcher Cuts,196.0,221.44,-25.44,Menu Categories
+2025-12-10,Signature Cocktails & Mocktails,407.0,419.21,-12.21,Menu Categories
+2025-12-10,Specialty Coffee & Beverages,475.0,480.81,-5.81,Menu Categories
+2025-12-10,Vegan & Plant-Based Creations,297.0,339.03,-42.03,Menu Categories
+2025-12-10,Wood-Fired Pizzas & Pastas,380.0,383.47,-3.47,Menu Categories
+2025-12-11,Appetizers & Small Plates,460.0,516.99,-56.99,Menu Categories
+2025-12-11,Artisanal Burgers & Handhelds,480.0,451.5,28.5,Menu Categories
+2025-12-11,Chef Specials & Seafood,263.0,279.33,-16.33,Menu Categories
+2025-12-11,Farm-Fresh Salads & Grain Bowls,454.0,448.23,5.77,Menu Categories
+2025-12-11,Handcrafted Desserts & Pastries,503.0,442.38,60.62,Menu Categories
+2025-12-11,Prime Steaks & Butcher Cuts,258.0,281.14,-23.14,Menu Categories
+2025-12-11,Signature Cocktails & Mocktails,535.0,629.31,-94.31,Menu Categories
+2025-12-11,Specialty Coffee & Beverages,604.0,727.22,-123.22,Menu Categories
+2025-12-11,Vegan & Plant-Based Creations,364.0,425.24,-61.24,Menu Categories
+2025-12-11,Wood-Fired Pizzas & Pastas,446.0,602.34,-156.34,Menu Categories
+2025-12-12,Appetizers & Small Plates,606.0,627.85,-21.85,Menu Categories
+2025-12-12,Artisanal Burgers & Handhelds,645.0,631.04,13.96,Menu Categories
+2025-12-12,Chef Specials & Seafood,338.0,352.28,-14.28,Menu Categories
+2025-12-12,Farm-Fresh Salads & Grain Bowls,625.0,626.19,-1.19,Menu Categories
+2025-12-12,Handcrafted Desserts & Pastries,574.0,632.71,-58.71,Menu Categories
+2025-12-12,Prime Steaks & Butcher Cuts,341.0,385.52,-44.52,Menu Categories
+2025-12-12,Signature Cocktails & Mocktails,671.0,706.13,-35.13,Menu Categories
+2025-12-12,Specialty Coffee & Beverages,752.0,745.13,6.87,Menu Categories
+2025-12-12,Vegan & Plant-Based Creations,500.0,610.12,-110.12,Menu Categories
+2025-12-12,Wood-Fired Pizzas & Pastas,639.0,686.21,-47.21,Menu Categories
+2025-12-13,Appetizers & Small Plates,602.0,609.12,-7.12,Menu Categories
+2025-12-13,Artisanal Burgers & Handhelds,598.0,602.03,-4.03,Menu Categories
+2025-12-13,Chef Specials & Seafood,369.0,343.59,25.41,Menu Categories
+2025-12-13,Farm-Fresh Salads & Grain Bowls,640.0,603.11,36.89,Menu Categories
+2025-12-13,Handcrafted Desserts & Pastries,667.0,598.52,68.48,Menu Categories
+2025-12-13,Prime Steaks & Butcher Cuts,373.0,383.87,-10.87,Menu Categories
+2025-12-13,Signature Cocktails & Mocktails,647.0,694.77,-47.77,Menu Categories
+2025-12-13,Specialty Coffee & Beverages,816.0,735.52,80.48,Menu Categories
+2025-12-13,Vegan & Plant-Based Creations,517.0,577.36,-60.36,Menu Categories
+2025-12-13,Wood-Fired Pizzas & Pastas,657.0,669.45,-12.45,Menu Categories
+2025-12-14,Appetizers & Small Plates,558.0,603.62,-45.62,Menu Categories
+2025-12-14,Artisanal Burgers & Handhelds,563.0,588.85,-25.85,Menu Categories
+2025-12-14,Chef Specials & Seafood,286.0,431.98,-145.98,Menu Categories
+2025-12-14,Farm-Fresh Salads & Grain Bowls,576.0,590.9,-14.9,Menu Categories
+2025-12-14,Handcrafted Desserts & Pastries,521.0,586.2,-65.2,Menu Categories
+2025-12-14,Prime Steaks & Butcher Cuts,321.0,406.3,-85.3,Menu Categories
+2025-12-14,Signature Cocktails & Mocktails,630.0,702.46,-72.46,Menu Categories
+2025-12-14,Specialty Coffee & Beverages,706.0,726.88,-20.88,Menu Categories
+2025-12-14,Vegan & Plant-Based Creations,460.0,555.06,-95.06,Menu Categories
+2025-12-14,Wood-Fired Pizzas & Pastas,566.0,675.91,-109.91,Menu Categories
+2025-12-15,Appetizers & Small Plates,458.0,386.32,71.68,Menu Categories
+2025-12-15,Artisanal Burgers & Handhelds,451.0,385.13,65.87,Menu Categories
+2025-12-15,Chef Specials & Seafood,214.0,270.86,-56.86,Menu Categories
+2025-12-15,Farm-Fresh Salads & Grain Bowls,419.0,394.46,24.54,Menu Categories
+2025-12-15,Handcrafted Desserts & Pastries,363.0,402.17,-39.17,Menu Categories
+2025-12-15,Prime Steaks & Butcher Cuts,272.0,263.7,8.3,Menu Categories
+2025-12-15,Signature Cocktails & Mocktails,522.0,432.12,89.88,Menu Categories
+2025-12-15,Specialty Coffee & Beverages,612.0,690.25,-78.25,Menu Categories
+2025-12-15,Vegan & Plant-Based Creations,376.0,395.66,-19.66,Menu Categories
+2025-12-15,Wood-Fired Pizzas & Pastas,481.0,501.94,-20.94,Menu Categories
+2025-12-16,Appetizers & Small Plates,397.0,371.89,25.11,Menu Categories
+2025-12-16,Artisanal Burgers & Handhelds,417.0,402.57,14.43,Menu Categories
+2025-12-16,Chef Specials & Seafood,188.0,228.4,-40.4,Menu Categories
+2025-12-16,Farm-Fresh Salads & Grain Bowls,357.0,373.92,-16.92,Menu Categories
+2025-12-16,Handcrafted Desserts & Pastries,358.0,381.04,-23.04,Menu Categories
+2025-12-16,Prime Steaks & Butcher Cuts,224.0,222.75,1.25,Menu Categories
+2025-12-16,Signature Cocktails & Mocktails,392.0,527.03,-135.03,Menu Categories
+2025-12-16,Specialty Coffee & Beverages,481.0,625.87,-144.87,Menu Categories
+2025-12-16,Vegan & Plant-Based Creations,318.0,338.61,-20.61,Menu Categories
+2025-12-16,Wood-Fired Pizzas & Pastas,447.0,433.09,13.91,Menu Categories
+2025-12-17,Appetizers & Small Plates,381.0,359.72,21.28,Menu Categories
+2025-12-17,Artisanal Burgers & Handhelds,351.0,353.19,-2.19,Menu Categories
+2025-12-17,Chef Specials & Seafood,194.0,226.14,-32.14,Menu Categories
+2025-12-17,Farm-Fresh Salads & Grain Bowls,310.0,361.2,-51.2,Menu Categories
+2025-12-17,Handcrafted Desserts & Pastries,392.0,354.03,37.97,Menu Categories
+2025-12-17,Prime Steaks & Butcher Cuts,199.0,227.98,-28.98,Menu Categories
+2025-12-17,Signature Cocktails & Mocktails,418.0,425.29,-7.29,Menu Categories
+2025-12-17,Specialty Coffee & Beverages,457.0,440.53,16.47,Menu Categories
+2025-12-17,Vegan & Plant-Based Creations,337.0,345.84,-8.84,Menu Categories
+2025-12-17,Wood-Fired Pizzas & Pastas,392.0,388.51,3.49,Menu Categories
+2025-12-18,Appetizers & Small Plates,466.0,522.89,-56.89,Menu Categories
+2025-12-18,Artisanal Burgers & Handhelds,445.0,458.74,-13.74,Menu Categories
+2025-12-18,Chef Specials & Seafood,278.0,278.77,-0.77,Menu Categories
+2025-12-18,Farm-Fresh Salads & Grain Bowls,470.0,452.67,17.33,Menu Categories
+2025-12-18,Handcrafted Desserts & Pastries,412.0,453.81,-41.81,Menu Categories
+2025-12-18,Prime Steaks & Butcher Cuts,218.0,279.7,-61.7,Menu Categories
+2025-12-18,Signature Cocktails & Mocktails,470.0,683.0,-213.0,Menu Categories
+2025-12-18,Specialty Coffee & Beverages,561.0,733.87,-172.87,Menu Categories
+2025-12-18,Vegan & Plant-Based Creations,360.0,413.91,-53.91,Menu Categories
+2025-12-18,Wood-Fired Pizzas & Pastas,468.0,663.69,-195.69,Menu Categories
+2025-12-19,Appetizers & Small Plates,572.0,663.4,-91.4,Menu Categories
+2025-12-19,Artisanal Burgers & Handhelds,557.0,658.76,-101.76,Menu Categories
+2025-12-19,Chef Specials & Seafood,346.0,356.44,-10.44,Menu Categories
+2025-12-19,Farm-Fresh Salads & Grain Bowls,591.0,641.68,-50.68,Menu Categories
+2025-12-19,Handcrafted Desserts & Pastries,630.0,633.85,-3.85,Menu Categories
+2025-12-19,Prime Steaks & Butcher Cuts,369.0,370.25,-1.25,Menu Categories
+2025-12-19,Signature Cocktails & Mocktails,653.0,725.52,-72.52,Menu Categories
+2025-12-19,Specialty Coffee & Beverages,675.0,762.6,-87.6,Menu Categories
+2025-12-19,Vegan & Plant-Based Creations,471.0,607.14,-136.14,Menu Categories
+2025-12-19,Wood-Fired Pizzas & Pastas,603.0,706.65,-103.65,Menu Categories
+2025-12-20,Appetizers & Small Plates,556.0,620.09,-64.09,Menu Categories
+2025-12-20,Artisanal Burgers & Handhelds,535.0,629.9,-94.9,Menu Categories
+2025-12-20,Chef Specials & Seafood,309.0,365.64,-56.64,Menu Categories
+2025-12-20,Farm-Fresh Salads & Grain Bowls,609.0,629.42,-20.42,Menu Categories
+2025-12-20,Handcrafted Desserts & Pastries,576.0,610.0,-34.0,Menu Categories
+2025-12-20,Prime Steaks & Butcher Cuts,336.0,409.52,-73.52,Menu Categories
+2025-12-20,Signature Cocktails & Mocktails,616.0,702.9,-86.9,Menu Categories
+2025-12-20,Specialty Coffee & Beverages,747.0,743.7,3.3,Menu Categories
+2025-12-20,Vegan & Plant-Based Creations,427.0,608.4,-181.4,Menu Categories
+2025-12-20,Wood-Fired Pizzas & Pastas,593.0,690.15,-97.15,Menu Categories
+2025-12-21,Appetizers & Small Plates,578.0,629.79,-51.79,Menu Categories
+2025-12-21,Artisanal Burgers & Handhelds,611.0,608.23,2.77,Menu Categories
+2025-12-21,Chef Specials & Seafood,356.0,482.14,-126.14,Menu Categories
+2025-12-21,Farm-Fresh Salads & Grain Bowls,597.0,604.16,-7.16,Menu Categories
+2025-12-21,Handcrafted Desserts & Pastries,577.0,590.52,-13.52,Menu Categories
+2025-12-21,Prime Steaks & Butcher Cuts,314.0,450.56,-136.56,Menu Categories
+2025-12-21,Signature Cocktails & Mocktails,600.0,710.98,-110.98,Menu Categories
+2025-12-21,Specialty Coffee & Beverages,654.0,744.14,-90.14,Menu Categories
+2025-12-21,Vegan & Plant-Based Creations,511.0,605.25,-94.25,Menu Categories
+2025-12-21,Wood-Fired Pizzas & Pastas,577.0,691.04,-114.04,Menu Categories
+2025-12-22,Appetizers & Small Plates,448.0,423.18,24.82,Menu Categories
+2025-12-22,Artisanal Burgers & Handhelds,446.0,424.49,21.51,Menu Categories
+2025-12-22,Chef Specials & Seafood,235.0,303.74,-68.74,Menu Categories
+2025-12-22,Farm-Fresh Salads & Grain Bowls,426.0,422.87,3.13,Menu Categories
+2025-12-22,Handcrafted Desserts & Pastries,370.0,405.49,-35.49,Menu Categories
+2025-12-22,Prime Steaks & Butcher Cuts,206.0,281.63,-75.63,Menu Categories
+2025-12-22,Signature Cocktails & Mocktails,416.0,449.82,-33.82,Menu Categories
+2025-12-22,Specialty Coffee & Beverages,534.0,712.25,-178.25,Menu Categories
+2025-12-22,Vegan & Plant-Based Creations,342.0,421.9,-79.9,Menu Categories
+2025-12-22,Wood-Fired Pizzas & Pastas,360.0,449.68,-89.68,Menu Categories
+2025-12-23,Appetizers & Small Plates,359.0,378.85,-19.85,Menu Categories
+2025-12-23,Artisanal Burgers & Handhelds,328.0,381.57,-53.57,Menu Categories
+2025-12-23,Chef Specials & Seafood,243.0,241.91,1.09,Menu Categories
+2025-12-23,Farm-Fresh Salads & Grain Bowls,390.0,376.75,13.25,Menu Categories
+2025-12-23,Handcrafted Desserts & Pastries,341.0,374.65,-33.65,Menu Categories
+2025-12-23,Prime Steaks & Butcher Cuts,226.0,245.42,-19.42,Menu Categories
+2025-12-23,Signature Cocktails & Mocktails,401.0,550.12,-149.12,Menu Categories
+2025-12-23,Specialty Coffee & Beverages,436.0,694.8,-258.8,Menu Categories
+2025-12-23,Vegan & Plant-Based Creations,319.0,349.43,-30.43,Menu Categories
+2025-12-23,Wood-Fired Pizzas & Pastas,387.0,436.63,-49.63,Menu Categories
+2025-12-24,Appetizers & Small Plates,278.0,343.56,-65.56,Menu Categories
+2025-12-24,Artisanal Burgers & Handhelds,346.0,334.16,11.84,Menu Categories
+2025-12-24,Chef Specials & Seafood,189.0,252.36,-63.36,Menu Categories
+2025-12-24,Farm-Fresh Salads & Grain Bowls,334.0,349.9,-15.9,Menu Categories
+2025-12-24,Handcrafted Desserts & Pastries,306.0,335.34,-29.34,Menu Categories
+2025-12-24,Prime Steaks & Butcher Cuts,181.0,247.99,-66.99,Menu Categories
+2025-12-24,Signature Cocktails & Mocktails,360.0,428.04,-68.04,Menu Categories
+2025-12-24,Specialty Coffee & Beverages,372.0,437.79,-65.79,Menu Categories
+2025-12-24,Vegan & Plant-Based Creations,274.0,340.56,-66.56,Menu Categories
+2025-12-24,Wood-Fired Pizzas & Pastas,356.0,392.27,-36.27,Menu Categories
+2025-12-25,Appetizers & Small Plates,498.0,515.28,-17.28,Menu Categories
+2025-12-25,Artisanal Burgers & Handhelds,420.0,463.25,-43.25,Menu Categories
+2025-12-25,Chef Specials & Seafood,236.0,269.55,-33.55,Menu Categories
+2025-12-25,Farm-Fresh Salads & Grain Bowls,436.0,465.38,-29.38,Menu Categories
+2025-12-25,Handcrafted Desserts & Pastries,420.0,460.74,-40.74,Menu Categories
+2025-12-25,Prime Steaks & Butcher Cuts,279.0,271.19,7.81,Menu Categories
+2025-12-25,Signature Cocktails & Mocktails,476.0,693.45,-217.45,Menu Categories
+2025-12-25,Specialty Coffee & Beverages,507.0,735.68,-228.68,Menu Categories
+2025-12-25,Vegan & Plant-Based Creations,360.0,417.15,-57.15,Menu Categories
+2025-12-25,Wood-Fired Pizzas & Pastas,459.0,667.77,-208.77,Menu Categories
+2025-12-26,Appetizers & Small Plates,546.0,640.29,-94.29,Menu Categories
+2025-12-26,Artisanal Burgers & Handhelds,524.0,641.18,-117.18,Menu Categories
+2025-12-26,Chef Specials & Seafood,291.0,350.49,-59.49,Menu Categories
+2025-12-26,Farm-Fresh Salads & Grain Bowls,490.0,640.35,-150.35,Menu Categories
+2025-12-26,Handcrafted Desserts & Pastries,544.0,610.34,-66.34,Menu Categories
+2025-12-26,Prime Steaks & Butcher Cuts,339.0,400.91,-61.91,Menu Categories
+2025-12-26,Signature Cocktails & Mocktails,596.0,710.95,-114.95,Menu Categories
+2025-12-26,Specialty Coffee & Beverages,661.0,746.73,-85.73,Menu Categories
+2025-12-26,Vegan & Plant-Based Creations,430.0,606.84,-176.84,Menu Categories
+2025-12-26,Wood-Fired Pizzas & Pastas,628.0,691.84,-63.84,Menu Categories
+2025-12-27,Appetizers & Small Plates,642.0,612.77,29.23,Menu Categories
+2025-12-27,Artisanal Burgers & Handhelds,630.0,624.64,5.36,Menu Categories
+2025-12-27,Chef Specials & Seafood,330.0,372.06,-42.06,Menu Categories
+2025-12-27,Farm-Fresh Salads & Grain Bowls,590.0,623.5,-33.5,Menu Categories
+2025-12-27,Handcrafted Desserts & Pastries,596.0,594.12,1.88,Menu Categories
+2025-12-27,Prime Steaks & Butcher Cuts,379.0,450.06,-71.06,Menu Categories
+2025-12-27,Signature Cocktails & Mocktails,642.0,697.57,-55.57,Menu Categories
+2025-12-27,Specialty Coffee & Beverages,745.0,728.36,16.64,Menu Categories
+2025-12-27,Vegan & Plant-Based Creations,499.0,594.93,-95.93,Menu Categories
+2025-12-27,Wood-Fired Pizzas & Pastas,631.0,680.14,-49.14,Menu Categories
+2025-12-28,Appetizers & Small Plates,589.0,622.33,-33.33,Menu Categories
+2025-12-28,Artisanal Burgers & Handhelds,620.0,631.73,-11.73,Menu Categories
+2025-12-28,Chef Specials & Seafood,299.0,495.05,-196.05,Menu Categories
+2025-12-28,Farm-Fresh Salads & Grain Bowls,590.0,627.61,-37.61,Menu Categories
+2025-12-28,Handcrafted Desserts & Pastries,583.0,587.89,-4.89,Menu Categories
+2025-12-28,Prime Steaks & Butcher Cuts,360.0,496.83,-136.83,Menu Categories
+2025-12-28,Signature Cocktails & Mocktails,694.0,700.87,-6.87,Menu Categories
+2025-12-28,Specialty Coffee & Beverages,706.0,733.0,-27.0,Menu Categories
+2025-12-28,Vegan & Plant-Based Creations,496.0,590.3,-94.3,Menu Categories
+2025-12-28,Wood-Fired Pizzas & Pastas,653.0,682.65,-29.65,Menu Categories
+2025-12-29,Appetizers & Small Plates,437.0,422.24,14.76,Menu Categories
+2025-12-29,Artisanal Burgers & Handhelds,415.0,435.13,-20.13,Menu Categories
+2025-12-29,Chef Specials & Seafood,208.0,318.5,-110.5,Menu Categories
+2025-12-29,Farm-Fresh Salads & Grain Bowls,403.0,433.45,-30.45,Menu Categories
+2025-12-29,Handcrafted Desserts & Pastries,436.0,412.23,23.77,Menu Categories
+2025-12-29,Prime Steaks & Butcher Cuts,244.0,325.62,-81.62,Menu Categories
+2025-12-29,Signature Cocktails & Mocktails,447.0,458.71,-11.71,Menu Categories
+2025-12-29,Specialty Coffee & Beverages,522.0,712.5,-190.5,Menu Categories
+2025-12-29,Vegan & Plant-Based Creations,311.0,409.33,-98.33,Menu Categories
+2025-12-29,Wood-Fired Pizzas & Pastas,437.0,460.42,-23.42,Menu Categories
+2025-12-30,Appetizers & Small Plates,405.0,360.9,44.1,Menu Categories
+2025-12-30,Artisanal Burgers & Handhelds,389.0,381.8,7.2,Menu Categories
+2025-12-30,Chef Specials & Seafood,239.0,245.72,-6.72,Menu Categories
+2025-12-30,Farm-Fresh Salads & Grain Bowls,340.0,374.08,-34.08,Menu Categories
+2025-12-30,Handcrafted Desserts & Pastries,379.0,360.58,18.42,Menu Categories
+2025-12-30,Prime Steaks & Butcher Cuts,151.0,257.46,-106.46,Menu Categories
+2025-12-30,Signature Cocktails & Mocktails,405.0,606.25,-201.25,Menu Categories
+2025-12-30,Specialty Coffee & Beverages,445.0,694.66,-249.66,Menu Categories
+2025-12-30,Vegan & Plant-Based Creations,308.0,330.63,-22.63,Menu Categories
+2025-12-30,Wood-Fired Pizzas & Pastas,377.0,427.29,-50.29,Menu Categories
+2025-12-31,Appetizers & Small Plates,392.0,337.87,54.13,Menu Categories
+2025-12-31,Artisanal Burgers & Handhelds,314.0,332.51,-18.51,Menu Categories
+2025-12-31,Chef Specials & Seafood,220.0,251.89,-31.89,Menu Categories
+2025-12-31,Farm-Fresh Salads & Grain Bowls,354.0,333.12,20.88,Menu Categories
+2025-12-31,Handcrafted Desserts & Pastries,375.0,340.05,34.95,Menu Categories
+2025-12-31,Prime Steaks & Butcher Cuts,173.0,255.57,-82.57,Menu Categories
+2025-12-31,Signature Cocktails & Mocktails,349.0,402.44,-53.44,Menu Categories
+2025-12-31,Specialty Coffee & Beverages,429.0,419.44,9.56,Menu Categories
+2025-12-31,Vegan & Plant-Based Creations,331.0,342.7,-11.7,Menu Categories
+2025-12-31,Wood-Fired Pizzas & Pastas,381.0,384.78,-3.78,Menu Categories

@@ -1,0 +1,5 @@
+granularity,mae,rmse,mape_pct,r2_score,eval_sample_count
+Menu Categories,59.61,78.74,14.65,0.6771,300
+Restaurant Locations,47.29,60.22,30.5,0.5578,600
+Menu Items,6.31,8.15,35.2,0.8035,4500
+Total Chain Aggregate,518.58,593.33,12.06,0.5987,30
