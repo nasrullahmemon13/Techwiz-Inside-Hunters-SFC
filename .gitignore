@@ -54,3 +54,6 @@ database/*.db
 database/*.sqlite
 database/mongodb_exports/
 
+# Large generated datasets (>100MB exceeds GitHub limit)
+processed_data/joined/master_analytical_cube/*.csv
+

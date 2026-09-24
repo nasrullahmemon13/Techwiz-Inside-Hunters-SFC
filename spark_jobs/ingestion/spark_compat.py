@@ -166,19 +166,41 @@ else:
         def coalesce(self, num_partitions):
             return MockDataFrame(self._df, schema=self.schema, partitions=num_partitions)
 
-        def join(self, other, on, how="inner"):
+        def join(self, other, on=None, how="inner"):
             if how == "left_anti":
-                # on is tuple of (left_col, right_col) or string
                 if isinstance(on, tuple):
                     l_col, r_col = on
                 elif isinstance(on, str):
                     l_col, r_col = on, on
+                elif hasattr(on, "name"):
+                    l_col, r_col = on.name, on.name
                 else:
                     l_col, r_col = "order_id", "order_id"
                 right_keys = set(other._df[r_col].dropna())
                 anti_df = self._df[~self._df[l_col].isin(right_keys)]
                 return MockDataFrame(anti_df)
-            return self
+
+            # Normal inner / left / right join
+            if isinstance(on, str):
+                merged = pd.merge(self._df, other._df, on=on, how=how, suffixes=("", "_right"))
+            elif isinstance(on, (list, tuple)):
+                if len(on) == 2 and isinstance(on[0], str) and isinstance(on[1], str) and on[0] not in other._df.columns:
+                    merged = pd.merge(self._df, other._df, left_on=on[0], right_on=on[1], how=how, suffixes=("", "_right"))
+                else:
+                    merged = pd.merge(self._df, other._df, on=list(on), how=how, suffixes=("", "_right"))
+            elif hasattr(on, "name"):
+                col_name = on.name
+                merged = pd.merge(self._df, other._df, on=col_name, how=how, suffixes=("", "_right"))
+            else:
+                common = [c for c in self._df.columns if c in other._df.columns]
+                if common:
+                    merged = pd.merge(self._df, other._df, on=common[0], how=how, suffixes=("", "_right"))
+                else:
+                    merged = self._df
+            return MockDataFrame(merged)
+
+        def createOrReplaceTempView(self, view_name: str):
+            MockSparkSession._global_temp_views[view_name] = self._df
 
         def printSchema(self):
             print("root")
@@ -236,9 +258,22 @@ else:
                 return MockDataFrame(df, schema=self._schema)
 
     class MockSparkSession:
+        _global_temp_views = {}
+
         def __init__(self, app_name):
             self.app_name = app_name
             self.read = MockDataFrameReader()
+            self._temp_views = {}
+
+        def sql(self, query: str):
+            import sqlite3
+            conn = sqlite3.connect(":memory:")
+            views = {**MockSparkSession._global_temp_views, **self._temp_views}
+            for v_name, v_df in views.items():
+                v_df.to_sql(v_name, conn, index=False, if_exists="replace")
+            res_df = pd.read_sql_query(query, conn)
+            conn.close()
+            return MockDataFrame(res_df)
 
         def stop(self):
             pass
