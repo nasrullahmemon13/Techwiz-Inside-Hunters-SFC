@@ -1,21 +1,21 @@
-restaurant_id,name,city,state,country,postal_code,latitude,longitude,location_tier,seating_capacity,cost_index,has_drive_thru,has_outdoor_seating,opened_date,manager_name,phone_number,operating_status
-LOC-001,DineIQ Flagship Downtown,New York,NY,USA,84311,-60.114793,-166.572454,Flagship,220,1.35,False,True,2023-02-01,Danielle Taylor,581-296-0013,ACTIVE
-LOC-002,DineIQ Financial Center,New York,NY,USA,74064,-36.624926,168.904049,Urban Corporate,180,1.3,False,False,2023-05-08,Jennifer Cole,302-765-4235x116,ACTIVE
-LOC-003,DineIQ Brooklyn Heights,Brooklyn,NY,USA,45583,72.061472,-37.986444,Suburban Upscale,140,1.15,False,True,2019-03-24,Monica Herrera,(518)349-5931x0341,ACTIVE
-LOC-004,DineIQ Chicago Magnificent Mile,Chicago,IL,USA,50324,-15.382029,63.422802,Flagship,200,1.25,False,True,2018-11-24,Holly Wood,841.692.8327,ACTIVE
-LOC-005,DineIQ West Loop Bistro,Chicago,IL,USA,84387,59.50506,-62.095004,Urban Dining,160,1.2,False,True,2022-02-19,Sarah Parsons,505.964.1395,ACTIVE
-LOC-006,DineIQ Austin Downtown,Austin,TX,USA,52357,82.564235,66.344213,Urban Dining,175,1.1,False,True,2021-01-01,Charles Mcgee,+1-949-369-6532,ACTIVE
-LOC-007,DineIQ Austin Domain Drive-Thru,Austin,TX,USA,99562,-77.352295,-121.13257,Drive-Thru Express,85,0.95,True,False,2018-04-08,Christopher Becker,+1-616-769-7848x018,ACTIVE
-LOC-008,DineIQ Houston Galleria,Houston,TX,USA,15122,-11.214159,53.412819,Suburban Mall,190,1.05,False,False,2022-10-01,Aaron Bowen,001-248-728-1489x3252,ACTIVE
-LOC-009,DineIQ Dallas Arts District,Dallas,TX,USA,64543,-84.771752,-119.941473,Urban Dining,165,1.12,False,True,2022-04-23,Sherry Decker,430-639-1171x8227,ACTIVE
-LOC-010,DineIQ San Francisco Embarcadero,San Francisco,CA,USA,69664,72.831314,47.170451,Flagship,195,1.4,False,True,2023-12-18,Tanya Campos,001-734-265-7871x331,ACTIVE
-LOC-011,DineIQ Silicon Valley Hub,San Jose,CA,USA,77611,58.692176,-56.458094,Urban Corporate,150,1.3,False,True,2021-04-15,Adrienne Zimmerman,9315051834,ACTIVE
-LOC-012,DineIQ Los Angeles Beverly,Los Angeles,CA,USA,71179,-54.48281,126.576427,Flagship,210,1.38,False,True,2022-05-26,Dana Kennedy,(331)516-5667x01065,ACTIVE
-LOC-013,DineIQ Santa Monica Promenade,Santa Monica,CA,USA,25613,-38.941186,107.91622,Coastal Boardwalk,185,1.32,False,True,2024-01-25,Javier Ramirez,517.481.0801,ACTIVE
-LOC-014,DineIQ Seattle Pike Place,Seattle,WA,USA,53770,40.363297,78.427335,Urban Dining,155,1.22,False,False,2024-03-23,James Brown,(206)247-4687x2343,ACTIVE
-LOC-015,DineIQ Bellevue Tech Plaza,Bellevue,WA,USA,98539,-5.817348,-149.309627,Urban Corporate,145,1.2,False,True,2021-06-09,John Calhoun,220.381.2191x36193,ACTIVE
-LOC-016,DineIQ Miami South Beach,Miami,FL,USA,55449,86.462265,133.356673,Coastal Boardwalk,190,1.28,False,True,2019-04-25,Emily Green,+1-353-346-2475x10799,ACTIVE
-LOC-017,DineIQ Orlando Theme Park Outpost,Orlando,FL,USA,70969,-32.781825,91.594777,Family Destination,240,1.08,True,True,2020-02-03,Timothy Ibarra,254.627.8498,ACTIVE
-LOC-018,DineIQ Denver LoDo,Denver,CO,USA,87452,-62.193711,-107.903007,Urban Dining,150,1.1,False,True,2021-02-12,Steve Newton,(944)693-5348,ACTIVE
-LOC-019,DineIQ Atlanta Midtown,Atlanta,GA,USA,07159,-65.22382,160.528868,Urban Dining,160,1.05,False,True,2024-06-20,Donald Smith,001-724-427-8680x11280,ACTIVE
-LOC-020,DineIQ Boston Back Bay,Boston,MA,USA,56834,-55.789104,-157.543301,Historic Urban,140,1.25,False,False,2020-01-24,Steven Flynn,4535315869,ACTIVE
+restaurant_id,location_id,name,city,state,country,postal_code,latitude,longitude,location_tier,seating_capacity,cost_index,has_drive_thru,has_outdoor_seating,opened_date,manager_name,phone_number,operating_status
+LOC-001,LOC-001,DineIQ Flagship Downtown,New York,NY,USA,84311,-60.114793,-166.572454,Flagship,220,1.35,False,True,2023-02-01,Danielle Taylor,581-296-0013,ACTIVE
+LOC-002,LOC-002,DineIQ Financial Center,New York,NY,USA,74064,-36.624926,168.904049,Urban Corporate,180,1.3,False,False,2023-05-08,Jennifer Cole,302-765-4235x116,ACTIVE
+LOC-003,LOC-003,DineIQ Brooklyn Heights,Brooklyn,NY,USA,45583,72.061472,-37.986444,Suburban Upscale,140,1.15,False,True,2019-03-24,Monica Herrera,(518)349-5931x0341,ACTIVE
+LOC-004,LOC-004,DineIQ Chicago Magnificent Mile,Chicago,IL,USA,50324,-15.382029,63.422802,Flagship,200,1.25,False,True,2018-11-24,Holly Wood,841.692.8327,ACTIVE
+LOC-005,LOC-005,DineIQ West Loop Bistro,Chicago,IL,USA,84387,59.50506,-62.095004,Urban Dining,160,1.2,False,True,2022-02-19,Sarah Parsons,505.964.1395,ACTIVE
+LOC-006,LOC-006,DineIQ Austin Downtown,Austin,TX,USA,52357,82.564235,66.344213,Urban Dining,175,1.1,False,True,2021-01-01,Charles Mcgee,+1-949-369-6532,ACTIVE
+LOC-007,LOC-007,DineIQ Austin Domain Drive-Thru,Austin,TX,USA,99562,-77.352295,-121.13257,Drive-Thru Express,85,0.95,True,False,2018-04-08,Christopher Becker,+1-616-769-7848x018,ACTIVE
+LOC-008,LOC-008,DineIQ Houston Galleria,Houston,TX,USA,15122,-11.214159,53.412819,Suburban Mall,190,1.05,False,False,2022-10-01,Aaron Bowen,001-248-728-1489x3252,ACTIVE
+LOC-009,LOC-009,DineIQ Dallas Arts District,Dallas,TX,USA,64543,-84.771752,-119.941473,Urban Dining,165,1.12,False,True,2022-04-23,Sherry Decker,430-639-1171x8227,ACTIVE
+LOC-010,LOC-010,DineIQ San Francisco Embarcadero,San Francisco,CA,USA,69664,72.831314,47.170451,Flagship,195,1.4,False,True,2023-12-18,Tanya Campos,001-734-265-7871x331,ACTIVE
+LOC-011,LOC-011,DineIQ Silicon Valley Hub,San Jose,CA,USA,77611,58.692176,-56.458094,Urban Corporate,150,1.3,False,True,2021-04-15,Adrienne Zimmerman,9315051834,ACTIVE
+LOC-012,LOC-012,DineIQ Los Angeles Beverly,Los Angeles,CA,USA,71179,-54.48281,126.576427,Flagship,210,1.38,False,True,2022-05-26,Dana Kennedy,(331)516-5667x01065,ACTIVE
+LOC-013,LOC-013,DineIQ Santa Monica Promenade,Santa Monica,CA,USA,25613,-38.941186,107.91622,Coastal Boardwalk,185,1.32,False,True,2024-01-25,Javier Ramirez,517.481.0801,ACTIVE
+LOC-014,LOC-014,DineIQ Seattle Pike Place,Seattle,WA,USA,53770,40.363297,78.427335,Urban Dining,155,1.22,False,False,2024-03-23,James Brown,(206)247-4687x2343,ACTIVE
+LOC-015,LOC-015,DineIQ Bellevue Tech Plaza,Bellevue,WA,USA,98539,-5.817348,-149.309627,Urban Corporate,145,1.2,False,True,2021-06-09,John Calhoun,220.381.2191x36193,ACTIVE
+LOC-016,LOC-016,DineIQ Miami South Beach,Miami,FL,USA,55449,86.462265,133.356673,Coastal Boardwalk,190,1.28,False,True,2019-04-25,Emily Green,+1-353-346-2475x10799,ACTIVE
+LOC-017,LOC-017,DineIQ Orlando Theme Park Outpost,Orlando,FL,USA,70969,-32.781825,91.594777,Family Destination,240,1.08,True,True,2020-02-03,Timothy Ibarra,254.627.8498,ACTIVE
+LOC-018,LOC-018,DineIQ Denver LoDo,Denver,CO,USA,87452,-62.193711,-107.903007,Urban Dining,150,1.1,False,True,2021-02-12,Steve Newton,(944)693-5348,ACTIVE
+LOC-019,LOC-019,DineIQ Atlanta Midtown,Atlanta,GA,USA,07159,-65.22382,160.528868,Urban Dining,160,1.05,False,True,2024-06-20,Donald Smith,001-724-427-8680x11280,ACTIVE
+LOC-020,LOC-020,DineIQ Boston Back Bay,Boston,MA,USA,56834,-55.789104,-157.543301,Historic Urban,140,1.25,False,False,2020-01-24,Steven Flynn,4535315869,ACTIVE
