@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-24T16:11:34.898444",
+  "anomaly_counts": {
+    "sudden_sales_spikes": 110,
+    "sudden_sales_drops": 522,
+    "abnormally_high_order_values": 124,
+    "unusual_discounts": 23,
+    "unexpected_demand": 85,
+    "duplicate_transactions": 200,
+    "total_sales_anomalies_flagged": 1064
+  }
+}

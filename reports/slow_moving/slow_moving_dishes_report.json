@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-24T16:11:37.651684",
+  "summary_stats": {
+    "total_dishes_evaluated": 150,
+    "movement_class_distribution": {
+      "Active Mover": 43,
+      "Critical Slow-Moving": 40,
+      "Watchlist / Marginal": 34,
+      "Moderate Slow-Moving": 33
+    },
+    "critical_slow_moving_count": 40,
+    "moderate_slow_moving_count": 33,
+    "total_slow_moving_count": 73,
+    "total_wastage_loss_slow_moving": 2983575.2,
+    "avg_gap_days_critical": 1.0480113031855909,
+    "avg_repeat_pct_critical": 2.319006040319572,
+    "avg_margin_pct_critical": 60.78207580642611
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-09-24T16:11:33.689327",
+  "satisfaction_summary": {
+    "menu_items_evaluated": 150,
+    "locations_evaluated": 20,
+    "profitability_analysis": {
+      "pearson_correlation": 0.0469,
+      "pearson_p_value": 0.568722,
+      "spearman_rho": 0.003,
+      "spearman_p_value": 0.970856,
+      "profit_tier_summary": [
+        {
+          "profit_tier": "Low Margin",
+          "item_count": 38,
+          "avg_margin_pct": 37.396079922719636,
+          "avg_rating": 3.606905792089406,
+          "avg_csat_pct": 63.88994743867719
+        },
+        {
+          "profit_tier": "Mid-Low Margin",
+          "item_count": 37,
+          "avg_margin_pct": 56.59087049152477,
+          "avg_rating": 3.6273857197380623,
+          "avg_csat_pct": 64.64822195755366
+        },
+        {
+          "profit_tier": "Mid-High Margin",
+          "item_count": 37,
+          "avg_margin_pct": 66.47097766095102,
+          "avg_rating": 3.6180701094026477,
+          "avg_csat_pct": 64.01872927991069
+        },
+        {
+          "profit_tier": "High Margin",
+          "item_count": 38,
+          "avg_margin_pct": 78.32117109308332,
+          "avg_rating": 3.6125803357350046,
+          "avg_csat_pct": 63.78204655808033
+        }
+      ],
+      "interpretation": "Weak or zero correlation indicates customer ratings are largely independent of restaurant profit margins: high-margin dishes can achieve stellar satisfaction if ingredient quality and portion execution remain top-tier."
+    },
+    "sales_analysis": {
+      "sales_rating_correlation": -0.0891,
+      "sales_rating_p_value": 0.278397,
+      "median_volume": 8344.5,
+      "median_rating": 3.614,
+      "quadrant_distribution": {
+        "Hidden Gem (Low Volume, High Rating)": 40,
+        "Quality Risk (High Volume, Low Rating)": 40,
+        "Star Performer (High Volume, High Rating)": 35,
+        "Problem Dish (Low Volume, Low Rating)": 35
+      }
+    },
+    "repeat_purchase_analysis": {
+      "repeat_rate_vs_rating_correlation": -0.09,
+      "repeat_rate_vs_rating_p_value": 0.273611,
+      "customer_type_satisfaction": [
+        {
+          "customer_type": "One-Time Customer",
+          "count": 18063,
+          "mean": 3.469191164258429,
+          "std": 1.5090727881853554
+        },
+        {
+          "customer_type": "Repeat Customer",
+          "count": 76501,
+          "mean": 3.6897295460190063,
+          "std": 1.3727098361175827
+        }
+      ],
+      "key_takeaway": "Repeat customers demonstrate higher loyalty and provide consistent ratings, validating that high product quality directly reinforces repeat patronage."
+    },
+    "time_period_analysis": {
+      "monthly_satisfaction_trend": [
+        {
+          "month": "2025-01",
+          "reviews": 5994,
+          "avg_rating": 3.610276943610277,
+          "std_rating": 1.4279285579724903
+        },
+        {
+          "month": "2025-02",
+          "reviews": 5776,
+          "avg_rating": 3.6222299168975067,
+          "std_rating": 1.4306300297494265
+        },
+        {
+          "month": "2025-03",
+          "reviews": 7902,
+          "avg_rating": 3.603264996203493,
+          "std_rating": 1.4264766245711058
+        },
+        {
+          "month": "2025-04",
+          "reviews": 7479,
+          "avg_rating": 3.6068993180906537,
+          "std_rating": 1.4226177045676636
+        },
+        {
+          "month": "2025-05",
+          "reviews": 7761,
+          "avg_rating": 3.6192500966370313,
+          "std_rating": 1.4311467193889786
+        },
+        {
+          "month": "2025-06",
+          "reviews": 9427,
+          "avg_rating": 3.613026413493158,
+          "std_rating": 1.4196911844633153
+        },
+        {
+          "month": "2025-07",
+          "reviews": 9508,
+          "avg_rating": 3.6448254101809003,
+          "std_rating": 1.4065907244456903
+        },
+        {
+          "month": "2025-08",
+          "reviews": 9862,
+          "avg_rating": 3.6356722774285135,
+          "std_rating": 1.4213651629178263
+        },
+        {
+          "month": "2025-09",
+          "reviews": 7557,
+          "avg_rating": 3.573243350535927,
+          "std_rating": 1.4439735210786504
+        },
+        {
+          "month": "2025-10",
+          "reviews": 7601,
+          "avg_rating": 3.592816734640179,
+          "std_rating": 1.4339294463352392
+        },
+        {
+          "month": "2025-11",
+          "reviews": 10581,
+          "avg_rating": 3.594650789150364,
+          "std_rating": 1.4382191136184705
+        },
+        {
+          "month": "2025-12",
+          "reviews": 10626,
+          "avg_rating": 3.6196122717861847,
+          "std_rating": 1.4119647655180503
+        },
+        {
+          "month": "2026-01",
+          "reviews": 226,
+          "avg_rating": 3.663716814159292,
+          "std_rating": 1.3959345382233783
+        }
+      ],
+      "day_of_week_satisfaction": [
+        {
+          "day_name": "Monday",
+          "reviews": 16036,
+          "avg_rating": 3.6227238712895984
+        },
+        {
+          "day_name": "Tuesday",
+          "reviews": 13726,
+          "avg_rating": 3.6059303511583853
+        },
+        {
+          "day_name": "Wednesday",
+          "reviews": 11464,
+          "avg_rating": 3.62238311235171
+        },
+        {
+          "day_name": "Thursday",
+          "reviews": 11403,
+          "avg_rating": 3.609751819696571
+        },
+        {
+          "day_name": "Friday",
+          "reviews": 13890,
+          "avg_rating": 3.613462922966163
+        },
+        {
+          "day_name": "Saturday",
+          "reviews": 15969,
+          "avg_rating": 3.6096812574362827
+        },
+        {
+          "day_name": "Sunday",
+          "reviews": 17812,
+          "avg_rating": 3.6040309903435888
+        }
+      ],
+      "weekend_vs_weekday": [
+        {
+          "label": "Weekday (Mon-Fri)",
+          "reviews": 66519,
+          "avg_rating": 3.615042318736
+        },
+        {
+          "label": "Weekend (Sat-Sun)",
+          "reviews": 33781,
+          "avg_rating": 3.6067019922441608
+        }
+      ]
+    },
+    "promotion_analysis": {
+      "promoted_vs_non_promoted": [
+        {
+          "status": "Standard Non-Promoted Orders",
+          "reviews": 69647,
+          "avg_rating": 3.6238890404468247,
+          "std_rating": 1.4172499370686742,
+          "csat_pct": 64.30571309604146
+        },
+        {
+          "status": "Promoted Orders",
+          "reviews": 30653,
+          "avg_rating": 3.5857501712719797,
+          "std_rating": 1.4435736861807482,
+          "csat_pct": 63.41304276906013
+        }
+      ],
+      "campaign_breakdown": [
+        {
+          "promotion_id": "PROMO-008",
+          "reviews": 2060,
+          "avg_rating": 2.0024271844660193,
+          "star_1_count": 1392,
+          "star_1_pct": 67.57281553398057
+        },
+        {
+          "promotion_id": "PROMO-005",
+          "reviews": 1943,
+          "avg_rating": 2.0283067421513126,
+          "star_1_count": 1312,
+          "star_1_pct": 67.52444673185795
+        },
+        {
+          "promotion_id": "PROMO-003",
+          "reviews": 1729,
+          "avg_rating": 2.104684788895315,
+          "star_1_count": 1117,
+          "star_1_pct": 64.60381723539619
+        },
+        {
+          "promotion_id": "PROMO-001",
+          "reviews": 2754,
+          "avg_rating": 3.9255628177196806,
+          "star_1_count": 145,
+          "star_1_pct": 5.265068990559187
+        },
+        {
+          "promotion_id": "PROMO-006",
+          "reviews": 2715,
+          "avg_rating": 3.9307550644567217,
+          "star_1_count": 151,
+          "star_1_pct": 5.5616942909760585
+        },
+        {
+          "promotion_id": "PROMO-012",
+          "reviews": 2763,
+          "avg_rating": 3.932319942091929,
+          "star_1_count": 152,
+          "star_1_pct": 5.501266739051755
+        },
+        {
+          "promotion_id": "PROMO-011",
+          "reviews": 2830,
+          "avg_rating": 3.934982332155477,
+          "star_1_count": 145,
+          "star_1_pct": 5.123674911660777
+        },
+        {
+          "promotion_id": "PROMO-007",
+          "reviews": 2777,
+          "avg_rating": 3.9405833633417355,
+          "star_1_count": 160,
+          "star_1_pct": 5.761613251710479
+        },
+        {
+          "promotion_id": "PROMO-004",
+          "reviews": 2744,
+          "avg_rating": 3.943513119533528,
+          "star_1_count": 155,
+          "star_1_pct": 5.64868804664723
+        },
+        {
+          "promotion_id": "PROMO-010",
+          "reviews": 2726,
+          "avg_rating": 3.9493763756419664,
+          "star_1_count": 134,
+          "star_1_pct": 4.91562729273661
+        },
+        {
+          "promotion_id": "PROMO-002",
+          "reviews": 2713,
+          "avg_rating": 3.9539255436785847,
+          "star_1_count": 118,
+          "star_1_pct": 4.349428676741614
+        },
+        {
+          "promotion_id": "PROMO-009",
+          "reviews": 2899,
+          "avg_rating": 3.9558468437392205,
+          "star_1_count": 135,
+          "star_1_pct": 4.656778199379096
+        }
+      ],
+      "misleading_backlash_by_campaign": {
+        "PROMO-008": 1353,
+        "PROMO-005": 1276,
+        "PROMO-003": 1092
+      }
+    }
+  },
+  "anomaly_summary": {
+    "sudden_rating_spikes": 19,
+    "sudden_rating_drops": 97,
+    "excessive_identical_ratings": 11449,
+    "high_volume_bursts": 38,
+    "inconsistent_ratings": 1790,
+    "total_flagged_anomalies": 13393
+  }
+}

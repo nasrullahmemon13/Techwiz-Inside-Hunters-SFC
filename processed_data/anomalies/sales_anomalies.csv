@@ -1,0 +1,1065 @@
+anomaly_category,anomaly_type,entity_id,date,description,financial_impact_or_score
+sudden_sales_spikes,Sudden Sales Spike,LOC-018,2025-11-29,"Location LOC-018 daily revenue surged to $8,323.62 (28 orders) on 2025-11-29 (Z-Score: +5.11, baseline: $2,605.65)",8323.62
+sudden_sales_spikes,Sudden Sales Spike,LOC-013,2025-11-16,"Location LOC-013 daily revenue surged to $10,862.59 (35 orders) on 2025-11-16 (Z-Score: +4.33, baseline: $3,890.70)",10862.59
+sudden_sales_spikes,Sudden Sales Spike,LOC-002,2025-11-09,"Location LOC-002 daily revenue surged to $9,786.28 (33 orders) on 2025-11-09 (Z-Score: +4.23, baseline: $3,673.02)",9786.28
+sudden_sales_spikes,Sudden Sales Spike,LOC-020,2025-11-07,"Location LOC-020 daily revenue surged to $7,628.41 (25 orders) on 2025-11-07 (Z-Score: +4.04, baseline: $2,760.27)",7628.41
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-08-02,"Location LOC-009 daily revenue surged to $8,221.27 (24 orders) on 2025-08-02 (Z-Score: +4.03, baseline: $2,937.78)",8221.27
+sudden_sales_spikes,Sudden Sales Spike,LOC-011,2025-06-20,"Location LOC-011 daily revenue surged to $8,317.89 (30 orders) on 2025-06-20 (Z-Score: +3.96, baseline: $3,123.95)",8317.89
+sudden_sales_spikes,Sudden Sales Spike,LOC-001,2025-11-23,"Location LOC-001 daily revenue surged to $11,725.14 (39 orders) on 2025-11-23 (Z-Score: +3.75, baseline: $4,828.59)",11725.14
+sudden_sales_spikes,Sudden Sales Spike,LOC-014,2025-12-12,"Location LOC-014 daily revenue surged to $7,688.00 (29 orders) on 2025-12-12 (Z-Score: +3.55, baseline: $3,038.76)",7688.0
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-11-22,"Location LOC-008 daily revenue surged to $8,218.04 (30 orders) on 2025-11-22 (Z-Score: +3.54, baseline: $3,204.29)",8218.04
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-11-02,"Location LOC-016 daily revenue surged to $9,173.02 (34 orders) on 2025-11-02 (Z-Score: +3.47, baseline: $3,917.04)",9173.02
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-12-05,"Location LOC-010 daily revenue surged to $10,789.46 (35 orders) on 2025-12-05 (Z-Score: +3.47, baseline: $4,415.10)",10789.46
+sudden_sales_spikes,Sudden Sales Spike,LOC-002,2025-08-09,"Location LOC-002 daily revenue surged to $8,663.46 (31 orders) on 2025-08-09 (Z-Score: +3.45, baseline: $3,673.02)",8663.460000000001
+sudden_sales_spikes,Sudden Sales Spike,LOC-018,2025-04-26,"Location LOC-018 daily revenue surged to $6,442.61 (23 orders) on 2025-04-26 (Z-Score: +3.43, baseline: $2,605.65)",6442.61
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-07-20,"Location LOC-009 daily revenue surged to $7,438.56 (24 orders) on 2025-07-20 (Z-Score: +3.43, baseline: $2,937.78)",7438.56
+sudden_sales_spikes,Sudden Sales Spike,LOC-020,2025-11-09,"Location LOC-020 daily revenue surged to $6,873.32 (25 orders) on 2025-11-09 (Z-Score: +3.41, baseline: $2,760.27)",6873.32
+sudden_sales_spikes,Sudden Sales Spike,LOC-019,2025-11-20,"Location LOC-019 daily revenue surged to $6,399.74 (24 orders) on 2025-11-20 (Z-Score: +3.39, baseline: $2,679.80)",6399.74
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-11-01,"Location LOC-009 daily revenue surged to $7,334.76 (25 orders) on 2025-11-01 (Z-Score: +3.35, baseline: $2,937.78)",7334.76
+sudden_sales_spikes,Sudden Sales Spike,LOC-020,2025-08-10,"Location LOC-020 daily revenue surged to $6,779.23 (23 orders) on 2025-08-10 (Z-Score: +3.34, baseline: $2,760.27)",6779.2300000000005
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-11-01,"Location LOC-008 daily revenue surged to $7,856.36 (26 orders) on 2025-11-01 (Z-Score: +3.28, baseline: $3,204.29)",7856.36
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-08-17,"Location LOC-015 daily revenue surged to $6,606.47 (23 orders) on 2025-08-17 (Z-Score: +3.28, baseline: $2,712.62)",6606.47
+sudden_sales_spikes,Sudden Sales Spike,LOC-011,2025-07-18,"Location LOC-011 daily revenue surged to $7,400.18 (25 orders) on 2025-07-18 (Z-Score: +3.26, baseline: $3,123.95)",7400.18
+sudden_sales_spikes,Sudden Sales Spike,LOC-011,2025-11-08,"Location LOC-011 daily revenue surged to $7,347.30 (26 orders) on 2025-11-08 (Z-Score: +3.22, baseline: $3,123.95)",7347.3
+sudden_sales_spikes,Sudden Sales Spike,LOC-012,2025-08-23,"Location LOC-012 daily revenue surged to $10,311.29 (32 orders) on 2025-08-23 (Z-Score: +3.21, baseline: $4,604.47)",10311.29
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-12-19,"Location LOC-015 daily revenue surged to $6,527.20 (22 orders) on 2025-12-19 (Z-Score: +3.21, baseline: $2,712.62)",6527.2
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-11-16,"Location LOC-009 daily revenue surged to $7,146.92 (25 orders) on 2025-11-16 (Z-Score: +3.21, baseline: $2,937.78)",7146.92
+sudden_sales_spikes,Sudden Sales Spike,LOC-012,2025-06-29,"Location LOC-012 daily revenue surged to $10,261.70 (38 orders) on 2025-06-29 (Z-Score: +3.18, baseline: $4,604.47)",10261.699999999999
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-07-19,"Location LOC-010 daily revenue surged to $10,234.70 (40 orders) on 2025-07-19 (Z-Score: +3.17, baseline: $4,415.10)",10234.7
+sudden_sales_spikes,Sudden Sales Spike,LOC-005,2025-12-25,"Location LOC-005 daily revenue surged to $7,006.74 (22 orders) on 2025-12-25 (Z-Score: +3.16, baseline: $3,058.02)",7006.74
+sudden_sales_spikes,Sudden Sales Spike,LOC-006,2025-12-14,"Location LOC-006 daily revenue surged to $7,047.75 (25 orders) on 2025-12-14 (Z-Score: +3.16, baseline: $3,155.05)",7047.75
+sudden_sales_spikes,Sudden Sales Spike,LOC-003,2025-08-09,"Location LOC-003 daily revenue surged to $6,058.66 (21 orders) on 2025-08-09 (Z-Score: +3.12, baseline: $2,604.62)",6058.66
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-12-13,"Location LOC-009 daily revenue surged to $7,021.55 (22 orders) on 2025-12-13 (Z-Score: +3.11, baseline: $2,937.78)",7021.55
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-11-28,"Location LOC-009 daily revenue surged to $6,968.13 (24 orders) on 2025-11-28 (Z-Score: +3.07, baseline: $2,937.78)",6968.13
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-12-07,"Location LOC-009 daily revenue surged to $6,944.06 (22 orders) on 2025-12-07 (Z-Score: +3.05, baseline: $2,937.78)",6944.0599999999995
+sudden_sales_spikes,Sudden Sales Spike,LOC-001,2025-07-12,"Location LOC-001 daily revenue surged to $10,402.02 (32 orders) on 2025-07-12 (Z-Score: +3.03, baseline: $4,828.59)",10402.02
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-11-29,"Location LOC-007 daily revenue surged to $3,491.85 (13 orders) on 2025-11-29 (Z-Score: +3.02, baseline: $1,346.38)",3491.85
+sudden_sales_spikes,Sudden Sales Spike,LOC-013,2025-10-12,"Location LOC-013 daily revenue surged to $8,714.72 (30 orders) on 2025-10-12 (Z-Score: +3.00, baseline: $3,890.70)",8714.72
+sudden_sales_spikes,Sudden Sales Spike,LOC-014,2025-12-27,"Location LOC-014 daily revenue surged to $6,952.66 (26 orders) on 2025-12-27 (Z-Score: +2.99, baseline: $3,038.76)",6952.66
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-05-17,"Location LOC-004 daily revenue surged to $8,787.36 (28 orders) on 2025-05-17 (Z-Score: +2.95, baseline: $4,051.02)",8787.36
+sudden_sales_spikes,Sudden Sales Spike,LOC-006,2025-12-28,"Location LOC-006 daily revenue surged to $6,798.16 (23 orders) on 2025-12-28 (Z-Score: +2.95, baseline: $3,155.05)",6798.16
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-07-19,"Location LOC-016 daily revenue surged to $8,379.98 (30 orders) on 2025-07-19 (Z-Score: +2.95, baseline: $3,917.04)",8379.98
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-06-22,"Location LOC-007 daily revenue surged to $3,432.39 (14 orders) on 2025-06-22 (Z-Score: +2.94, baseline: $1,346.38)",3432.39
+sudden_sales_spikes,Sudden Sales Spike,LOC-006,2025-11-09,"Location LOC-006 daily revenue surged to $6,770.21 (26 orders) on 2025-11-09 (Z-Score: +2.93, baseline: $3,155.05)",6770.21
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-08-03,"Location LOC-007 daily revenue surged to $3,423.33 (11 orders) on 2025-08-03 (Z-Score: +2.92, baseline: $1,346.38)",3423.33
+sudden_sales_spikes,Sudden Sales Spike,LOC-003,2025-08-22,"Location LOC-003 daily revenue surged to $5,822.96 (22 orders) on 2025-08-22 (Z-Score: +2.90, baseline: $2,604.62)",5822.96
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-06-13,"Location LOC-015 daily revenue surged to $6,155.18 (22 orders) on 2025-06-13 (Z-Score: +2.90, baseline: $2,712.62)",6155.18
+sudden_sales_spikes,Sudden Sales Spike,LOC-014,2025-09-21,"Location LOC-014 daily revenue surged to $6,811.41 (22 orders) on 2025-09-21 (Z-Score: +2.88, baseline: $3,038.76)",6811.41
+sudden_sales_spikes,Sudden Sales Spike,LOC-012,2025-06-22,"Location LOC-012 daily revenue surged to $9,718.46 (32 orders) on 2025-06-22 (Z-Score: +2.88, baseline: $4,604.47)",9718.46
+sudden_sales_spikes,Sudden Sales Spike,LOC-018,2025-07-13,"Location LOC-018 daily revenue surged to $5,820.13 (18 orders) on 2025-07-13 (Z-Score: +2.87, baseline: $2,605.65)",5820.13
+sudden_sales_spikes,Sudden Sales Spike,LOC-013,2025-12-28,"Location LOC-013 daily revenue surged to $8,497.10 (25 orders) on 2025-12-28 (Z-Score: +2.86, baseline: $3,890.70)",8497.1
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-07-05,"Location LOC-004 daily revenue surged to $8,632.66 (33 orders) on 2025-07-05 (Z-Score: +2.86, baseline: $4,051.02)",8632.66
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-12-25,"Location LOC-016 daily revenue surged to $8,235.88 (24 orders) on 2025-12-25 (Z-Score: +2.85, baseline: $3,917.04)",8235.880000000001
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-08-17,"Location LOC-008 daily revenue surged to $7,228.69 (26 orders) on 2025-08-17 (Z-Score: +2.84, baseline: $3,204.29)",7228.69
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-12-12,"Location LOC-004 daily revenue surged to $8,575.74 (28 orders) on 2025-12-12 (Z-Score: +2.82, baseline: $4,051.02)",8575.74
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-08-16,"Location LOC-004 daily revenue surged to $8,539.00 (28 orders) on 2025-08-16 (Z-Score: +2.80, baseline: $4,051.02)",8539.0
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-11-07,"Location LOC-015 daily revenue surged to $6,039.29 (23 orders) on 2025-11-07 (Z-Score: +2.80, baseline: $2,712.62)",6039.29
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-11-23,"Location LOC-010 daily revenue surged to $9,558.77 (32 orders) on 2025-11-23 (Z-Score: +2.80, baseline: $4,415.10)",9558.77
+sudden_sales_spikes,Sudden Sales Spike,LOC-019,2025-06-14,"Location LOC-019 daily revenue surged to $5,733.28 (21 orders) on 2025-06-14 (Z-Score: +2.78, baseline: $2,679.80)",5733.28
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-08-23,"Location LOC-008 daily revenue surged to $7,151.62 (22 orders) on 2025-08-23 (Z-Score: +2.78, baseline: $3,204.29)",7151.62
+sudden_sales_spikes,Sudden Sales Spike,LOC-005,2025-07-19,"Location LOC-005 daily revenue surged to $6,524.49 (25 orders) on 2025-07-19 (Z-Score: +2.77, baseline: $3,058.02)",6524.49
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-07-20,"Location LOC-007 daily revenue surged to $3,309.68 (12 orders) on 2025-07-20 (Z-Score: +2.76, baseline: $1,346.38)",3309.68
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-11-21,"Location LOC-008 daily revenue surged to $7,120.19 (22 orders) on 2025-11-21 (Z-Score: +2.76, baseline: $3,204.29)",7120.19
+sudden_sales_spikes,Sudden Sales Spike,LOC-018,2025-10-03,"Location LOC-018 daily revenue surged to $5,692.00 (15 orders) on 2025-10-03 (Z-Score: +2.76, baseline: $2,605.65)",5692.0
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-08-30,"Location LOC-007 daily revenue surged to $3,306.46 (14 orders) on 2025-08-30 (Z-Score: +2.76, baseline: $1,346.38)",3306.46
+sudden_sales_spikes,Sudden Sales Spike,LOC-006,2025-11-14,"Location LOC-006 daily revenue surged to $6,546.40 (22 orders) on 2025-11-14 (Z-Score: +2.75, baseline: $3,155.05)",6546.4
+sudden_sales_spikes,Sudden Sales Spike,LOC-003,2025-10-25,"Location LOC-003 daily revenue surged to $5,649.27 (20 orders) on 2025-10-25 (Z-Score: +2.75, baseline: $2,604.62)",5649.27
+sudden_sales_spikes,Sudden Sales Spike,LOC-014,2025-11-23,"Location LOC-014 daily revenue surged to $6,632.23 (25 orders) on 2025-11-23 (Z-Score: +2.74, baseline: $3,038.76)",6632.23
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-11-22,"Location LOC-009 daily revenue surged to $6,530.04 (24 orders) on 2025-11-22 (Z-Score: +2.74, baseline: $2,937.78)",6530.04
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-06-13,"Location LOC-009 daily revenue surged to $6,523.74 (21 orders) on 2025-06-13 (Z-Score: +2.73, baseline: $2,937.78)",6523.74
+sudden_sales_spikes,Sudden Sales Spike,LOC-020,2025-06-20,"Location LOC-020 daily revenue surged to $6,045.57 (20 orders) on 2025-06-20 (Z-Score: +2.73, baseline: $2,760.27)",6045.57
+sudden_sales_spikes,Sudden Sales Spike,LOC-012,2025-11-07,"Location LOC-012 daily revenue surged to $9,423.40 (35 orders) on 2025-11-07 (Z-Score: +2.71, baseline: $4,604.47)",9423.4
+sudden_sales_spikes,Sudden Sales Spike,LOC-006,2025-08-29,"Location LOC-006 daily revenue surged to $6,494.80 (22 orders) on 2025-08-29 (Z-Score: +2.71, baseline: $3,155.05)",6494.8
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-06-22,"Location LOC-010 daily revenue surged to $9,388.38 (31 orders) on 2025-06-22 (Z-Score: +2.71, baseline: $4,415.10)",9388.38
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-12-12,"Location LOC-015 daily revenue surged to $5,922.92 (22 orders) on 2025-12-12 (Z-Score: +2.70, baseline: $2,712.62)",5922.92
+sudden_sales_spikes,Sudden Sales Spike,LOC-012,2025-06-15,"Location LOC-012 daily revenue surged to $9,374.46 (33 orders) on 2025-06-15 (Z-Score: +2.68, baseline: $4,604.47)",9374.46
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-07-19,"Location LOC-015 daily revenue surged to $5,897.22 (19 orders) on 2025-07-19 (Z-Score: +2.68, baseline: $2,712.62)",5897.22
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-11-28,"Location LOC-008 daily revenue surged to $6,992.48 (26 orders) on 2025-11-28 (Z-Score: +2.67, baseline: $3,204.29)",6992.48
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-12-06,"Location LOC-004 daily revenue surged to $8,320.78 (31 orders) on 2025-12-06 (Z-Score: +2.66, baseline: $4,051.02)",8320.78
+sudden_sales_spikes,Sudden Sales Spike,LOC-014,2025-04-06,"Location LOC-014 daily revenue surged to $6,523.07 (22 orders) on 2025-04-06 (Z-Score: +2.66, baseline: $3,038.76)",6523.07
+sudden_sales_spikes,Sudden Sales Spike,LOC-002,2025-12-27,"Location LOC-002 daily revenue surged to $7,513.51 (25 orders) on 2025-12-27 (Z-Score: +2.66, baseline: $3,673.02)",7513.51
+sudden_sales_spikes,Sudden Sales Spike,LOC-008,2025-11-14,"Location LOC-008 daily revenue surged to $6,967.95 (22 orders) on 2025-11-14 (Z-Score: +2.65, baseline: $3,204.29)",6967.95
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-06-08,"Location LOC-010 daily revenue surged to $9,278.24 (33 orders) on 2025-06-08 (Z-Score: +2.65, baseline: $4,415.10)",9278.24
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-06-06,"Location LOC-016 daily revenue surged to $7,914.83 (25 orders) on 2025-06-06 (Z-Score: +2.64, baseline: $3,917.04)",7914.83
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-12-14,"Location LOC-007 daily revenue surged to $3,209.74 (10 orders) on 2025-12-14 (Z-Score: +2.62, baseline: $1,346.38)",3209.74
+sudden_sales_spikes,Sudden Sales Spike,LOC-018,2025-04-06,"Location LOC-018 daily revenue surged to $5,535.49 (18 orders) on 2025-04-06 (Z-Score: +2.62, baseline: $2,605.65)",5535.49
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-12-13,"Location LOC-010 daily revenue surged to $9,227.15 (31 orders) on 2025-12-13 (Z-Score: +2.62, baseline: $4,415.10)",9227.15
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-11-27,"Location LOC-004 daily revenue surged to $8,227.58 (27 orders) on 2025-11-27 (Z-Score: +2.60, baseline: $4,051.02)",8227.58
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-11-15,"Location LOC-016 daily revenue surged to $7,848.13 (32 orders) on 2025-11-15 (Z-Score: +2.60, baseline: $3,917.04)",7848.13
+sudden_sales_spikes,Sudden Sales Spike,LOC-017,2025-07-25,"Location LOC-017 daily revenue surged to $8,596.81 (33 orders) on 2025-07-25 (Z-Score: +2.60, baseline: $4,162.13)",8596.81
+sudden_sales_spikes,Sudden Sales Spike,LOC-005,2025-10-03,"Location LOC-005 daily revenue surged to $6,300.58 (24 orders) on 2025-10-03 (Z-Score: +2.59, baseline: $3,058.02)",6300.58
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-07-13,"Location LOC-004 daily revenue surged to $8,195.03 (26 orders) on 2025-07-13 (Z-Score: +2.58, baseline: $4,051.02)",8195.03
+sudden_sales_spikes,Sudden Sales Spike,LOC-003,2025-08-24,"Location LOC-003 daily revenue surged to $5,469.27 (17 orders) on 2025-08-24 (Z-Score: +2.58, baseline: $2,604.62)",5469.27
+sudden_sales_spikes,Sudden Sales Spike,LOC-019,2025-11-16,"Location LOC-019 daily revenue surged to $5,512.58 (20 orders) on 2025-11-16 (Z-Score: +2.58, baseline: $2,679.80)",5512.58
+sudden_sales_spikes,Sudden Sales Spike,LOC-003,2025-10-31,"Location LOC-003 daily revenue surged to $5,462.93 (23 orders) on 2025-10-31 (Z-Score: +2.58, baseline: $2,604.62)",5462.93
+sudden_sales_spikes,Sudden Sales Spike,LOC-015,2025-11-28,"Location LOC-015 daily revenue surged to $5,776.76 (21 orders) on 2025-11-28 (Z-Score: +2.58, baseline: $2,712.62)",5776.76
+sudden_sales_spikes,Sudden Sales Spike,LOC-014,2025-12-13,"Location LOC-014 daily revenue surged to $6,417.59 (22 orders) on 2025-12-13 (Z-Score: +2.58, baseline: $3,038.76)",6417.59
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-11-07,"Location LOC-016 daily revenue surged to $7,815.22 (27 orders) on 2025-11-07 (Z-Score: +2.58, baseline: $3,917.04)",7815.22
+sudden_sales_spikes,Sudden Sales Spike,LOC-016,2025-11-08,"Location LOC-016 daily revenue surged to $7,803.72 (27 orders) on 2025-11-08 (Z-Score: +2.57, baseline: $3,917.04)",7803.72
+sudden_sales_spikes,Sudden Sales Spike,LOC-005,2025-12-19,"Location LOC-005 daily revenue surged to $6,262.56 (22 orders) on 2025-12-19 (Z-Score: +2.56, baseline: $3,058.02)",6262.5599999999995
+sudden_sales_spikes,Sudden Sales Spike,LOC-019,2025-12-21,"Location LOC-019 daily revenue surged to $5,485.41 (19 orders) on 2025-12-21 (Z-Score: +2.56, baseline: $2,679.80)",5485.41
+sudden_sales_spikes,Sudden Sales Spike,LOC-011,2025-12-19,"Location LOC-011 daily revenue surged to $6,473.92 (26 orders) on 2025-12-19 (Z-Score: +2.55, baseline: $3,123.95)",6473.92
+sudden_sales_spikes,Sudden Sales Spike,LOC-007,2025-11-07,"Location LOC-007 daily revenue surged to $3,159.04 (9 orders) on 2025-11-07 (Z-Score: +2.55, baseline: $1,346.38)",3159.04
+sudden_sales_spikes,Sudden Sales Spike,LOC-010,2025-07-04,"Location LOC-010 daily revenue surged to $9,105.97 (35 orders) on 2025-07-04 (Z-Score: +2.55, baseline: $4,415.10)",9105.97
+sudden_sales_spikes,Sudden Sales Spike,LOC-018,2025-11-21,"Location LOC-018 daily revenue surged to $5,452.07 (17 orders) on 2025-11-21 (Z-Score: +2.55, baseline: $2,605.65)",5452.07
+sudden_sales_spikes,Sudden Sales Spike,LOC-020,2025-06-08,"Location LOC-020 daily revenue surged to $5,822.09 (22 orders) on 2025-06-08 (Z-Score: +2.54, baseline: $2,760.27)",5822.09
+sudden_sales_spikes,Sudden Sales Spike,LOC-013,2025-12-21,"Location LOC-013 daily revenue surged to $7,973.88 (29 orders) on 2025-12-21 (Z-Score: +2.54, baseline: $3,890.70)",7973.88
+sudden_sales_spikes,Sudden Sales Spike,LOC-013,2025-11-28,"Location LOC-013 daily revenue surged to $7,966.36 (26 orders) on 2025-11-28 (Z-Score: +2.53, baseline: $3,890.70)",7966.36
+sudden_sales_spikes,Sudden Sales Spike,LOC-009,2025-11-02,"Location LOC-009 daily revenue surged to $6,244.99 (24 orders) on 2025-11-02 (Z-Score: +2.52, baseline: $2,937.78)",6244.99
+sudden_sales_spikes,Sudden Sales Spike,LOC-003,2025-08-30,"Location LOC-003 daily revenue surged to $5,394.65 (23 orders) on 2025-08-30 (Z-Score: +2.52, baseline: $2,604.62)",5394.65
+sudden_sales_spikes,Sudden Sales Spike,LOC-001,2025-11-15,"Location LOC-001 daily revenue surged to $9,452.15 (34 orders) on 2025-11-15 (Z-Score: +2.51, baseline: $4,828.59)",9452.15
+sudden_sales_spikes,Sudden Sales Spike,LOC-004,2025-12-05,"Location LOC-004 daily revenue surged to $8,065.49 (34 orders) on 2025-12-05 (Z-Score: +2.50, baseline: $4,051.02)",8065.49
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-02-25,"Location LOC-001 daily revenue dropped to $870.36 on 2025-02-25 (75.8% below 7d mean, Z-Score: -2.15)",870.36
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-01-07,"Location LOC-020 daily revenue dropped to $190.06 on 2025-01-07 (89.8% below 7d mean, Z-Score: -2.13)",190.06
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-01-21,"Location LOC-003 daily revenue dropped to $240.31 on 2025-01-21 (83.7% below 7d mean, Z-Score: -2.13)",240.31
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-01-07,"Location LOC-014 daily revenue dropped to $243.71 on 2025-01-07 (88.4% below 7d mean, Z-Score: -2.13)",243.71
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-02-24,"Location LOC-008 daily revenue dropped to $217.94 on 2025-02-24 (89.4% below 7d mean, Z-Score: -2.11)",217.94
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-04-23,"Location LOC-003 daily revenue dropped to $270.61 on 2025-04-23 (83.2% below 7d mean, Z-Score: -2.11)",270.61
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-03-26,"Location LOC-001 daily revenue dropped to $970.98 on 2025-03-26 (74.4% below 7d mean, Z-Score: -2.10)",970.98
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-02-11,"Location LOC-010 daily revenue dropped to $588.33 on 2025-02-11 (77.8% below 7d mean, Z-Score: -2.08)",588.3299999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-01-27,"Location LOC-009 daily revenue dropped to $236.49 on 2025-01-27 (87.4% below 7d mean, Z-Score: -2.06)",236.49
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-02-27,"Location LOC-001 daily revenue dropped to $1,043.89 on 2025-02-27 (70.7% below 7d mean, Z-Score: -2.06)",1043.8899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-09-03,"Location LOC-004 daily revenue dropped to $772.61 on 2025-09-03 (81.9% below 7d mean, Z-Score: -2.04)",772.61
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-11-25,"Location LOC-002 daily revenue dropped to $720.10 on 2025-11-25 (79.1% below 7d mean, Z-Score: -2.04)",720.0999999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-01-30,"Location LOC-002 daily revenue dropped to $731.24 on 2025-01-30 (76.7% below 7d mean, Z-Score: -2.04)",731.24
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-10-07,"Location LOC-011 daily revenue dropped to $462.27 on 2025-10-07 (83.4% below 7d mean, Z-Score: -2.03)",462.27
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-10-21,"Location LOC-012 daily revenue dropped to $1,014.51 on 2025-10-21 (79.9% below 7d mean, Z-Score: -2.02)",1014.51
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-04-02,"Location LOC-011 daily revenue dropped to $480.82 on 2025-04-02 (77.2% below 7d mean, Z-Score: -2.01)",480.82
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-10-28,"Location LOC-012 daily revenue dropped to $1,025.21 on 2025-10-28 (76.7% below 7d mean, Z-Score: -2.01)",1025.21
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-07-29,"Location LOC-014 daily revenue dropped to $418.21 on 2025-07-29 (87.1% below 7d mean, Z-Score: -2.00)",418.21000000000004
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-05-14,"Location LOC-012 daily revenue dropped to $1,052.31 on 2025-05-14 (70.0% below 7d mean, Z-Score: -2.00)",1052.31
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-03-04,"Location LOC-020 daily revenue dropped to $359.24 on 2025-03-04 (86.1% below 7d mean, Z-Score: -1.99)",359.24
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-02-21,"Location LOC-006 daily revenue dropped to $696.55 on 2025-02-21 (63.6% below 7d mean, Z-Score: -1.99)",696.55
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-09-16,"Location LOC-018 daily revenue dropped to $383.02 on 2025-09-16 (84.3% below 7d mean, Z-Score: -1.99)",383.02
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-02-25,"Location LOC-010 daily revenue dropped to $788.09 on 2025-02-25 (76.4% below 7d mean, Z-Score: -1.97)",788.0899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-02-05,"Location LOC-003 daily revenue dropped to $417.80 on 2025-02-05 (80.9% below 7d mean, Z-Score: -1.97)",417.79999999999995
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-04-28,"Location LOC-012 daily revenue dropped to $1,115.08 on 2025-04-28 (68.0% below 7d mean, Z-Score: -1.96)",1115.08
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-01-13,"Location LOC-010 daily revenue dropped to $815.35 on 2025-01-13 (70.9% below 7d mean, Z-Score: -1.96)",815.35
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-10-29,"Location LOC-017 daily revenue dropped to $817.04 on 2025-10-29 (77.0% below 7d mean, Z-Score: -1.96)",817.04
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-01-21,"Location LOC-004 daily revenue dropped to $929.14 on 2025-01-21 (65.1% below 7d mean, Z-Score: -1.95)",929.14
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-01-25,"Location LOC-016 daily revenue dropped to $973.45 on 2025-01-25 (52.6% below 7d mean, Z-Score: -1.95)",973.45
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-05-13,"Location LOC-011 daily revenue dropped to $576.06 on 2025-05-13 (74.6% below 7d mean, Z-Score: -1.94)",576.06
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-01-22,"Location LOC-006 daily revenue dropped to $764.27 on 2025-01-22 (68.6% below 7d mean, Z-Score: -1.94)",764.27
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-02-12,"Location LOC-009 daily revenue dropped to $405.96 on 2025-02-12 (79.9% below 7d mean, Z-Score: -1.93)",405.96
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-02-26,"Location LOC-012 daily revenue dropped to $1,175.90 on 2025-02-26 (62.8% below 7d mean, Z-Score: -1.93)",1175.8999999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-01-07,"Location LOC-016 daily revenue dropped to $998.66 on 2025-01-07 (66.8% below 7d mean, Z-Score: -1.93)",998.66
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-01-13,"Location LOC-003 daily revenue dropped to $471.31 on 2025-01-13 (72.3% below 7d mean, Z-Score: -1.92)",471.31
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-02-11,"Location LOC-006 daily revenue dropped to $783.47 on 2025-02-11 (68.3% below 7d mean, Z-Score: -1.92)",783.47
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-01-14,"Location LOC-012 daily revenue dropped to $1,188.60 on 2025-01-14 (63.8% below 7d mean, Z-Score: -1.92)",1188.6
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-05-21,"Location LOC-003 daily revenue dropped to $481.49 on 2025-05-21 (81.0% below 7d mean, Z-Score: -1.92)",481.49
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-09-18,"Location LOC-014 daily revenue dropped to $535.85 on 2025-09-18 (80.9% below 7d mean, Z-Score: -1.91)",535.85
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-03-26,"Location LOC-012 daily revenue dropped to $1,219.79 on 2025-03-26 (68.9% below 7d mean, Z-Score: -1.90)",1219.79
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-01-07,"Location LOC-002 daily revenue dropped to $928.62 on 2025-01-07 (58.5% below 7d mean, Z-Score: -1.90)",928.62
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-01-30,"Location LOC-003 daily revenue dropped to $502.75 on 2025-01-30 (73.4% below 7d mean, Z-Score: -1.90)",502.75
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-02-21,"Location LOC-019 daily revenue dropped to $602.61 on 2025-02-21 (58.8% below 7d mean, Z-Score: -1.89)",602.61
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-01-21,"Location LOC-002 daily revenue dropped to $941.05 on 2025-01-21 (66.3% below 7d mean, Z-Score: -1.89)",941.05
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-02-11,"Location LOC-013 daily revenue dropped to $849.09 on 2025-02-11 (69.1% below 7d mean, Z-Score: -1.89)",849.09
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-01-07,"Location LOC-017 daily revenue dropped to $954.13 on 2025-01-07 (66.9% below 7d mean, Z-Score: -1.88)",954.13
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-06-04,"Location LOC-010 daily revenue dropped to $964.63 on 2025-06-04 (77.5% below 7d mean, Z-Score: -1.88)",964.6299999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-07-29,"Location LOC-020 daily revenue dropped to $499.55 on 2025-07-29 (84.9% below 7d mean, Z-Score: -1.88)",499.55
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-02-18,"Location LOC-013 daily revenue dropped to $876.82 on 2025-02-18 (70.0% below 7d mean, Z-Score: -1.87)",876.82
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-01-14,"Location LOC-006 daily revenue dropped to $846.13 on 2025-01-14 (59.2% below 7d mean, Z-Score: -1.87)",846.13
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-02-04,"Location LOC-009 daily revenue dropped to $485.36 on 2025-02-04 (83.3% below 7d mean, Z-Score: -1.87)",485.36
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-10-07,"Location LOC-019 daily revenue dropped to $630.17 on 2025-10-07 (69.6% below 7d mean, Z-Score: -1.87)",630.1700000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-09-30,"Location LOC-014 daily revenue dropped to $589.32 on 2025-09-30 (80.8% below 7d mean, Z-Score: -1.87)",589.3199999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-03-11,"Location LOC-011 daily revenue dropped to $673.22 on 2025-03-11 (71.4% below 7d mean, Z-Score: -1.87)",673.22
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-04-15,"Location LOC-011 daily revenue dropped to $674.52 on 2025-04-15 (72.9% below 7d mean, Z-Score: -1.87)",674.52
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-09-09,"Location LOC-003 daily revenue dropped to $535.17 on 2025-09-09 (74.2% below 7d mean, Z-Score: -1.87)",535.17
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-04-22,"Location LOC-017 daily revenue dropped to $1,006.71 on 2025-04-22 (76.2% below 7d mean, Z-Score: -1.85)",1006.71
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-02-03,"Location LOC-018 daily revenue dropped to $541.84 on 2025-02-03 (64.4% below 7d mean, Z-Score: -1.85)",541.8399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-04-28,"Location LOC-013 daily revenue dropped to $926.41 on 2025-04-28 (71.9% below 7d mean, Z-Score: -1.84)",926.4100000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-05-06,"Location LOC-019 daily revenue dropped to $661.03 on 2025-05-06 (64.0% below 7d mean, Z-Score: -1.84)",661.03
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-04-08,"Location LOC-011 daily revenue dropped to $711.60 on 2025-04-08 (73.6% below 7d mean, Z-Score: -1.84)",711.6
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-03-12,"Location LOC-015 daily revenue dropped to $533.49 on 2025-03-12 (78.3% below 7d mean, Z-Score: -1.83)",533.49
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-05-06,"Location LOC-020 daily revenue dropped to $557.59 on 2025-05-06 (78.4% below 7d mean, Z-Score: -1.83)",557.5899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-02-18,"Location LOC-020 daily revenue dropped to $558.37 on 2025-02-18 (67.6% below 7d mean, Z-Score: -1.83)",558.37
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-05-22,"Location LOC-005 daily revenue dropped to $773.94 on 2025-05-22 (73.0% below 7d mean, Z-Score: -1.83)",773.94
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-01-30,"Location LOC-005 daily revenue dropped to $775.49 on 2025-01-30 (63.8% below 7d mean, Z-Score: -1.83)",775.49
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-07-23,"Location LOC-009 daily revenue dropped to $550.26 on 2025-07-23 (84.1% below 7d mean, Z-Score: -1.82)",550.26
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-04-01,"Location LOC-003 daily revenue dropped to $595.38 on 2025-04-01 (68.5% below 7d mean, Z-Score: -1.81)",595.38
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-07-23,"Location LOC-018 daily revenue dropped to $579.04 on 2025-07-23 (80.1% below 7d mean, Z-Score: -1.81)",579.04
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-01-21,"Location LOC-016 daily revenue dropped to $1,175.76 on 2025-01-21 (54.9% below 7d mean, Z-Score: -1.81)",1175.76
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-05-13,"Location LOC-015 daily revenue dropped to $564.84 on 2025-05-13 (77.4% below 7d mean, Z-Score: -1.81)",564.84
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-02-24,"Location LOC-002 daily revenue dropped to $1,069.34 on 2025-02-24 (57.6% below 7d mean, Z-Score: -1.80)",1069.34
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-04-02,"Location LOC-015 daily revenue dropped to $576.17 on 2025-04-02 (75.3% below 7d mean, Z-Score: -1.80)",576.17
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-01-14,"Location LOC-002 daily revenue dropped to $1,075.39 on 2025-01-14 (58.1% below 7d mean, Z-Score: -1.80)",1075.39
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-04-22,"Location LOC-009 daily revenue dropped to $583.66 on 2025-04-22 (75.5% below 7d mean, Z-Score: -1.79)",583.66
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-01-08,"Location LOC-011 daily revenue dropped to $777.35 on 2025-01-08 (64.8% below 7d mean, Z-Score: -1.79)",777.35
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-04-29,"Location LOC-015 daily revenue dropped to $588.43 on 2025-04-29 (73.6% below 7d mean, Z-Score: -1.79)",588.4300000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-01-14,"Location LOC-017 daily revenue dropped to $1,111.46 on 2025-01-14 (64.5% below 7d mean, Z-Score: -1.79)",1111.46
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-04-30,"Location LOC-018 daily revenue dropped to $610.71 on 2025-04-30 (76.5% below 7d mean, Z-Score: -1.78)",610.71
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-01-22,"Location LOC-012 daily revenue dropped to $1,435.05 on 2025-01-22 (65.5% below 7d mean, Z-Score: -1.78)",1435.05
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-04-01,"Location LOC-001 daily revenue dropped to $1,550.95 on 2025-04-01 (59.8% below 7d mean, Z-Score: -1.78)",1550.95
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-02-17,"Location LOC-015 daily revenue dropped to $598.40 on 2025-02-17 (62.5% below 7d mean, Z-Score: -1.78)",598.4
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-02-26,"Location LOC-020 daily revenue dropped to $618.17 on 2025-02-26 (65.9% below 7d mean, Z-Score: -1.78)",618.1700000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-02-11,"Location LOC-019 daily revenue dropped to $730.80 on 2025-02-11 (64.0% below 7d mean, Z-Score: -1.78)",730.8
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-02-06,"Location LOC-014 daily revenue dropped to $709.14 on 2025-02-06 (53.7% below 7d mean, Z-Score: -1.78)",709.14
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-06-10,"Location LOC-019 daily revenue dropped to $736.01 on 2025-06-10 (68.6% below 7d mean, Z-Score: -1.77)",736.01
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-04-16,"Location LOC-002 daily revenue dropped to $1,112.13 on 2025-04-16 (66.1% below 7d mean, Z-Score: -1.77)",1112.13
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-12-02,"Location LOC-020 daily revenue dropped to $638.44 on 2025-12-02 (76.0% below 7d mean, Z-Score: -1.76)",638.44
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-04-02,"Location LOC-008 daily revenue dropped to $713.43 on 2025-04-02 (76.3% below 7d mean, Z-Score: -1.76)",713.43
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-03-03,"Location LOC-018 daily revenue dropped to $647.91 on 2025-03-03 (69.4% below 7d mean, Z-Score: -1.75)",647.91
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-03-31,"Location LOC-005 daily revenue dropped to $871.84 on 2025-03-31 (64.6% below 7d mean, Z-Score: -1.75)",871.84
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-05-27,"Location LOC-003 daily revenue dropped to $672.53 on 2025-05-27 (73.3% below 7d mean, Z-Score: -1.74)",672.53
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-08-06,"Location LOC-005 daily revenue dropped to $882.29 on 2025-08-06 (73.2% below 7d mean, Z-Score: -1.74)",882.29
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-01-15,"Location LOC-006 daily revenue dropped to $1,010.18 on 2025-01-15 (50.5% below 7d mean, Z-Score: -1.74)",1010.1800000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-04-09,"Location LOC-006 daily revenue dropped to $1,012.50 on 2025-04-09 (63.1% below 7d mean, Z-Score: -1.74)",1012.5
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-10-21,"Location LOC-009 daily revenue dropped to $660.10 on 2025-10-21 (75.7% below 7d mean, Z-Score: -1.74)",660.1
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-03-25,"Location LOC-018 daily revenue dropped to $664.23 on 2025-03-25 (71.1% below 7d mean, Z-Score: -1.74)",664.23
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-03-19,"Location LOC-015 daily revenue dropped to $649.07 on 2025-03-19 (72.3% below 7d mean, Z-Score: -1.74)",649.0699999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-05-14,"Location LOC-015 daily revenue dropped to $649.78 on 2025-05-14 (70.1% below 7d mean, Z-Score: -1.74)",649.78
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-02-03,"Location LOC-007 daily revenue dropped to $117.30 on 2025-02-03 (86.7% below 7d mean, Z-Score: -1.73)",117.3
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-02-19,"Location LOC-015 daily revenue dropped to $659.62 on 2025-02-19 (53.4% below 7d mean, Z-Score: -1.73)",659.62
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-01-22,"Location LOC-020 daily revenue dropped to $682.19 on 2025-01-22 (65.2% below 7d mean, Z-Score: -1.73)",682.19
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-05-26,"Location LOC-012 daily revenue dropped to $1,538.94 on 2025-05-26 (65.5% below 7d mean, Z-Score: -1.72)",1538.94
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-07-16,"Location LOC-001 daily revenue dropped to $1,658.68 on 2025-07-16 (71.6% below 7d mean, Z-Score: -1.72)",1658.68
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-05-28,"Location LOC-013 daily revenue dropped to $1,116.07 on 2025-05-28 (68.4% below 7d mean, Z-Score: -1.72)",1116.0700000000002
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-01-21,"Location LOC-005 daily revenue dropped to $906.38 on 2025-01-21 (59.0% below 7d mean, Z-Score: -1.72)",906.38
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-10-15,"Location LOC-011 daily revenue dropped to $868.99 on 2025-10-15 (71.4% below 7d mean, Z-Score: -1.72)",868.99
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-06-10,"Location LOC-017 daily revenue dropped to $1,226.35 on 2025-06-10 (72.5% below 7d mean, Z-Score: -1.72)",1226.35
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-10-14,"Location LOC-017 daily revenue dropped to $1,226.76 on 2025-10-14 (65.6% below 7d mean, Z-Score: -1.72)",1226.76
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-02-17,"Location LOC-011 daily revenue dropped to $869.97 on 2025-02-17 (56.5% below 7d mean, Z-Score: -1.72)",869.97
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-01-22,"Location LOC-018 daily revenue dropped to $690.37 on 2025-01-22 (58.3% below 7d mean, Z-Score: -1.71)",690.37
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-04-23,"Location LOC-012 daily revenue dropped to $1,560.58 on 2025-04-23 (61.7% below 7d mean, Z-Score: -1.71)",1560.58
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-10-15,"Location LOC-004 daily revenue dropped to $1,315.47 on 2025-10-15 (61.2% below 7d mean, Z-Score: -1.71)",1315.47
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-01-29,"Location LOC-004 daily revenue dropped to $1,317.33 on 2025-01-29 (51.8% below 7d mean, Z-Score: -1.71)",1317.33
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-02-13,"Location LOC-015 daily revenue dropped to $686.94 on 2025-02-13 (56.7% below 7d mean, Z-Score: -1.70)",686.94
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-05-22,"Location LOC-001 daily revenue dropped to $1,695.22 on 2025-05-22 (61.7% below 7d mean, Z-Score: -1.70)",1695.22
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-05-19,"Location LOC-004 daily revenue dropped to $1,318.96 on 2025-05-19 (68.5% below 7d mean, Z-Score: -1.70)",1318.96
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-09-04,"Location LOC-004 daily revenue dropped to $1,325.85 on 2025-09-04 (64.8% below 7d mean, Z-Score: -1.70)",1325.85
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-01-09,"Location LOC-014 daily revenue dropped to $812.36 on 2025-01-09 (59.7% below 7d mean, Z-Score: -1.70)",812.36
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-03-03,"Location LOC-013 daily revenue dropped to $1,163.58 on 2025-03-03 (56.5% below 7d mean, Z-Score: -1.69)",1163.58
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-09-02,"Location LOC-001 daily revenue dropped to $1,724.39 on 2025-09-02 (65.9% below 7d mean, Z-Score: -1.69)",1724.3899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-10-13,"Location LOC-003 daily revenue dropped to $733.48 on 2025-10-13 (68.0% below 7d mean, Z-Score: -1.69)",733.48
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-01-29,"Location LOC-013 daily revenue dropped to $1,177.05 on 2025-01-29 (56.0% below 7d mean, Z-Score: -1.69)",1177.05
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-02-19,"Location LOC-011 daily revenue dropped to $914.56 on 2025-02-19 (51.6% below 7d mean, Z-Score: -1.68)",914.56
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-03-25,"Location LOC-001 daily revenue dropped to $1,743.11 on 2025-03-25 (57.3% below 7d mean, Z-Score: -1.68)",1743.1100000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-03-18,"Location LOC-015 daily revenue dropped to $721.38 on 2025-03-18 (69.0% below 7d mean, Z-Score: -1.68)",721.38
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-04-01,"Location LOC-011 daily revenue dropped to $928.80 on 2025-04-01 (59.5% below 7d mean, Z-Score: -1.67)",928.8
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-03-18,"Location LOC-005 daily revenue dropped to $965.89 on 2025-03-18 (66.8% below 7d mean, Z-Score: -1.67)",965.89
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-09-23,"Location LOC-010 daily revenue dropped to $1,347.91 on 2025-09-23 (61.6% below 7d mean, Z-Score: -1.67)",1347.91
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-09-16,"Location LOC-013 daily revenue dropped to $1,209.93 on 2025-09-16 (69.3% below 7d mean, Z-Score: -1.67)",1209.9299999999998
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-02-10,"Location LOC-006 daily revenue dropped to $1,100.94 on 2025-02-10 (58.9% below 7d mean, Z-Score: -1.67)",1100.94
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-12-23,"Location LOC-002 daily revenue dropped to $1,268.58 on 2025-12-23 (66.1% below 7d mean, Z-Score: -1.66)",1268.58
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-01-08,"Location LOC-009 daily revenue dropped to $757.32 on 2025-01-08 (61.3% below 7d mean, Z-Score: -1.66)",757.3199999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-04-09,"Location LOC-018 daily revenue dropped to $747.50 on 2025-04-09 (70.2% below 7d mean, Z-Score: -1.66)",747.5
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-02-12,"Location LOC-020 daily revenue dropped to $759.60 on 2025-02-12 (64.6% below 7d mean, Z-Score: -1.66)",759.5999999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-01-16,"Location LOC-009 daily revenue dropped to $763.02 on 2025-01-16 (53.2% below 7d mean, Z-Score: -1.66)",763.02
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-05-08,"Location LOC-016 daily revenue dropped to $1,408.57 on 2025-05-08 (58.1% below 7d mean, Z-Score: -1.66)",1408.57
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-09-09,"Location LOC-016 daily revenue dropped to $1,411.06 on 2025-09-09 (56.2% below 7d mean, Z-Score: -1.66)",1411.06
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-03-04,"Location LOC-007 daily revenue dropped to $170.48 on 2025-03-04 (87.7% below 7d mean, Z-Score: -1.66)",170.48
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-05-12,"Location LOC-011 daily revenue dropped to $953.38 on 2025-05-12 (65.1% below 7d mean, Z-Score: -1.65)",953.3800000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-01-07,"Location LOC-018 daily revenue dropped to $755.65 on 2025-01-07 (53.7% below 7d mean, Z-Score: -1.65)",755.65
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-09-24,"Location LOC-020 daily revenue dropped to $767.57 on 2025-09-24 (53.5% below 7d mean, Z-Score: -1.65)",767.57
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-05-21,"Location LOC-015 daily revenue dropped to $746.46 on 2025-05-21 (66.8% below 7d mean, Z-Score: -1.65)",746.46
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-07-23,"Location LOC-019 daily revenue dropped to $870.44 on 2025-07-23 (72.9% below 7d mean, Z-Score: -1.65)",870.44
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-10-13,"Location LOC-013 daily revenue dropped to $1,238.70 on 2025-10-13 (68.3% below 7d mean, Z-Score: -1.65)",1238.7
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-10-08,"Location LOC-018 daily revenue dropped to $768.11 on 2025-10-08 (71.0% below 7d mean, Z-Score: -1.64)",768.11
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-01-11,"Location LOC-009 daily revenue dropped to $784.36 on 2025-01-11 (55.0% below 7d mean, Z-Score: -1.64)",784.36
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-02-09,"Location LOC-011 daily revenue dropped to $970.78 on 2025-02-09 (51.3% below 7d mean, Z-Score: -1.64)",970.78
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-09-23,"Location LOC-011 daily revenue dropped to $970.95 on 2025-09-23 (63.4% below 7d mean, Z-Score: -1.64)",970.95
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-10-22,"Location LOC-016 daily revenue dropped to $1,435.59 on 2025-10-22 (61.6% below 7d mean, Z-Score: -1.64)",1435.5900000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-05-21,"Location LOC-016 daily revenue dropped to $1,437.48 on 2025-05-21 (59.0% below 7d mean, Z-Score: -1.64)",1437.48
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-02-17,"Location LOC-005 daily revenue dropped to $1,009.26 on 2025-02-17 (58.6% below 7d mean, Z-Score: -1.64)",1009.26
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-08-13,"Location LOC-014 daily revenue dropped to $894.21 on 2025-08-13 (73.5% below 7d mean, Z-Score: -1.64)",894.21
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-12-09,"Location LOC-007 daily revenue dropped to $184.84 on 2025-12-09 (87.6% below 7d mean, Z-Score: -1.64)",184.84
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-07-08,"Location LOC-018 daily revenue dropped to $777.06 on 2025-07-08 (73.8% below 7d mean, Z-Score: -1.64)",777.06
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-03-06,"Location LOC-008 daily revenue dropped to $889.25 on 2025-03-06 (70.3% below 7d mean, Z-Score: -1.63)",889.25
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-07-15,"Location LOC-011 daily revenue dropped to $983.73 on 2025-07-15 (72.9% below 7d mean, Z-Score: -1.63)",983.73
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-09-21,"Location LOC-005 daily revenue dropped to $1,019.30 on 2025-09-21 (61.5% below 7d mean, Z-Score: -1.63)",1019.3
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-04-08,"Location LOC-006 daily revenue dropped to $1,146.19 on 2025-04-08 (60.6% below 7d mean, Z-Score: -1.63)",1146.19
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-03-18,"Location LOC-002 daily revenue dropped to $1,320.81 on 2025-03-18 (55.2% below 7d mean, Z-Score: -1.63)",1320.81
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-02-26,"Location LOC-014 daily revenue dropped to $906.54 on 2025-02-26 (60.8% below 7d mean, Z-Score: -1.63)",906.54
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-05-06,"Location LOC-014 daily revenue dropped to $907.43 on 2025-05-06 (64.6% below 7d mean, Z-Score: -1.63)",907.4300000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-09-10,"Location LOC-015 daily revenue dropped to $780.77 on 2025-09-10 (69.4% below 7d mean, Z-Score: -1.63)",780.77
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-04-22,"Location LOC-002 daily revenue dropped to $1,334.50 on 2025-04-22 (66.1% below 7d mean, Z-Score: -1.62)",1334.5
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-07-28,"Location LOC-002 daily revenue dropped to $1,336.51 on 2025-07-28 (64.2% below 7d mean, Z-Score: -1.62)",1336.51
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-10-23,"Location LOC-019 daily revenue dropped to $908.27 on 2025-10-23 (57.6% below 7d mean, Z-Score: -1.62)",908.27
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-10-30,"Location LOC-006 daily revenue dropped to $1,164.30 on 2025-10-30 (52.6% below 7d mean, Z-Score: -1.61)",1164.3
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-02-26,"Location LOC-004 daily revenue dropped to $1,463.91 on 2025-02-26 (64.0% below 7d mean, Z-Score: -1.61)",1463.9099999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-01-21,"Location LOC-017 daily revenue dropped to $1,409.43 on 2025-01-21 (53.3% below 7d mean, Z-Score: -1.61)",1409.43
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-02-20,"Location LOC-014 daily revenue dropped to $926.97 on 2025-02-20 (54.9% below 7d mean, Z-Score: -1.61)",926.97
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-07-01,"Location LOC-012 daily revenue dropped to $1,741.79 on 2025-07-01 (69.9% below 7d mean, Z-Score: -1.61)",1741.79
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-09-23,"Location LOC-001 daily revenue dropped to $1,868.82 on 2025-09-23 (57.5% below 7d mean, Z-Score: -1.61)",1868.82
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-09-08,"Location LOC-017 daily revenue dropped to $1,412.28 on 2025-09-08 (65.5% below 7d mean, Z-Score: -1.61)",1412.28
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-10-13,"Location LOC-006 daily revenue dropped to $1,169.77 on 2025-10-13 (52.2% below 7d mean, Z-Score: -1.61)",1169.77
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-12-07,"Location LOC-007 daily revenue dropped to $203.84 on 2025-12-07 (86.1% below 7d mean, Z-Score: -1.61)",203.84
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-03-19,"Location LOC-003 daily revenue dropped to $822.41 on 2025-03-19 (61.6% below 7d mean, Z-Score: -1.61)",822.4100000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-05-27,"Location LOC-015 daily revenue dropped to $801.76 on 2025-05-27 (58.3% below 7d mean, Z-Score: -1.61)",801.76
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-04-29,"Location LOC-014 daily revenue dropped to $936.88 on 2025-04-29 (59.8% below 7d mean, Z-Score: -1.60)",936.8799999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-10-14,"Location LOC-004 daily revenue dropped to $1,491.08 on 2025-10-14 (56.9% below 7d mean, Z-Score: -1.60)",1491.08
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-02-13,"Location LOC-020 daily revenue dropped to $838.76 on 2025-02-13 (59.5% below 7d mean, Z-Score: -1.60)",838.76
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-09-09,"Location LOC-017 daily revenue dropped to $1,438.87 on 2025-09-09 (61.3% below 7d mean, Z-Score: -1.59)",1438.87
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-01-15,"Location LOC-013 daily revenue dropped to $1,328.35 on 2025-01-15 (55.9% below 7d mean, Z-Score: -1.59)",1328.35
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-05-17,"Location LOC-007 daily revenue dropped to $217.76 on 2025-05-17 (77.8% below 7d mean, Z-Score: -1.59)",217.76
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-02-13,"Location LOC-008 daily revenue dropped to $951.02 on 2025-02-13 (53.5% below 7d mean, Z-Score: -1.59)",951.02
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-10-29,"Location LOC-006 daily revenue dropped to $1,195.45 on 2025-10-29 (54.3% below 7d mean, Z-Score: -1.59)",1195.45
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-05-20,"Location LOC-008 daily revenue dropped to $953.14 on 2025-05-20 (60.1% below 7d mean, Z-Score: -1.59)",953.1400000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-04-03,"Location LOC-002 daily revenue dropped to $1,381.54 on 2025-04-03 (58.8% below 7d mean, Z-Score: -1.59)",1381.54
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-09-11,"Location LOC-015 daily revenue dropped to $831.07 on 2025-09-11 (63.1% below 7d mean, Z-Score: -1.58)",831.0699999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-05-01,"Location LOC-006 daily revenue dropped to $1,204.24 on 2025-05-01 (58.7% below 7d mean, Z-Score: -1.58)",1204.24
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-09-04,"Location LOC-003 daily revenue dropped to $854.04 on 2025-09-04 (63.3% below 7d mean, Z-Score: -1.58)",854.04
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-12-09,"Location LOC-018 daily revenue dropped to $845.24 on 2025-12-09 (69.8% below 7d mean, Z-Score: -1.57)",845.24
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-03-27,"Location LOC-002 daily revenue dropped to $1,399.56 on 2025-03-27 (57.0% below 7d mean, Z-Score: -1.57)",1399.56
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-04-22,"Location LOC-007 daily revenue dropped to $229.15 on 2025-04-22 (80.5% below 7d mean, Z-Score: -1.57)",229.15
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-01-08,"Location LOC-015 daily revenue dropped to $843.02 on 2025-01-08 (62.6% below 7d mean, Z-Score: -1.57)",843.02
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-07-08,"Location LOC-005 daily revenue dropped to $1,091.20 on 2025-07-08 (65.9% below 7d mean, Z-Score: -1.57)",1091.2
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-01-22,"Location LOC-013 daily revenue dropped to $1,359.47 on 2025-01-22 (53.7% below 7d mean, Z-Score: -1.57)",1359.47
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-10-16,"Location LOC-014 daily revenue dropped to $978.90 on 2025-10-16 (62.9% below 7d mean, Z-Score: -1.57)",978.9000000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-01-17,"Location LOC-003 daily revenue dropped to $863.91 on 2025-01-17 (50.7% below 7d mean, Z-Score: -1.57)",863.91
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-11-19,"Location LOC-003 daily revenue dropped to $864.49 on 2025-11-19 (72.8% below 7d mean, Z-Score: -1.57)",864.49
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-05-01,"Location LOC-005 daily revenue dropped to $1,095.24 on 2025-05-01 (58.5% below 7d mean, Z-Score: -1.57)",1095.24
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-10-15,"Location LOC-020 daily revenue dropped to $872.29 on 2025-10-15 (60.3% below 7d mean, Z-Score: -1.57)",872.29
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-09-08,"Location LOC-003 daily revenue dropped to $870.22 on 2025-09-08 (62.1% below 7d mean, Z-Score: -1.56)",870.22
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-02-03,"Location LOC-002 daily revenue dropped to $1,413.61 on 2025-02-03 (54.2% below 7d mean, Z-Score: -1.56)",1413.61
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-01-28,"Location LOC-002 daily revenue dropped to $1,413.73 on 2025-01-28 (57.1% below 7d mean, Z-Score: -1.56)",1413.73
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-04-21,"Location LOC-015 daily revenue dropped to $855.89 on 2025-04-21 (62.6% below 7d mean, Z-Score: -1.56)",855.89
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-03-06,"Location LOC-014 daily revenue dropped to $992.41 on 2025-03-06 (64.7% below 7d mean, Z-Score: -1.56)",992.41
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-09-02,"Location LOC-019 daily revenue dropped to $970.21 on 2025-09-02 (64.3% below 7d mean, Z-Score: -1.56)",970.21
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-10-13,"Location LOC-008 daily revenue dropped to $996.61 on 2025-10-13 (67.7% below 7d mean, Z-Score: -1.56)",996.6099999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-10-30,"Location LOC-010 daily revenue dropped to $1,559.28 on 2025-10-30 (63.4% below 7d mean, Z-Score: -1.55)",1559.28
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-10-27,"Location LOC-006 daily revenue dropped to $1,238.66 on 2025-10-27 (57.0% below 7d mean, Z-Score: -1.55)",1238.66
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-05-12,"Location LOC-019 daily revenue dropped to $976.42 on 2025-05-12 (51.2% below 7d mean, Z-Score: -1.55)",976.4200000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-09-23,"Location LOC-014 daily revenue dropped to $1,004.31 on 2025-09-23 (70.0% below 7d mean, Z-Score: -1.55)",1004.31
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-09-03,"Location LOC-008 daily revenue dropped to $1,007.74 on 2025-09-03 (64.8% below 7d mean, Z-Score: -1.55)",1007.74
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-03-04,"Location LOC-001 daily revenue dropped to $1,985.14 on 2025-03-04 (55.1% below 7d mean, Z-Score: -1.55)",1985.1399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-02-26,"Location LOC-003 daily revenue dropped to $890.21 on 2025-02-26 (65.0% below 7d mean, Z-Score: -1.55)",890.21
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-02-24,"Location LOC-018 daily revenue dropped to $876.37 on 2025-02-24 (58.5% below 7d mean, Z-Score: -1.55)",876.37
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-04-29,"Location LOC-007 daily revenue dropped to $251.87 on 2025-04-29 (79.8% below 7d mean, Z-Score: -1.54)",251.87
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-01-08,"Location LOC-006 daily revenue dropped to $1,256.87 on 2025-01-08 (52.8% below 7d mean, Z-Score: -1.54)",1256.87
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-05-27,"Location LOC-013 daily revenue dropped to $1,421.05 on 2025-05-27 (61.1% below 7d mean, Z-Score: -1.53)",1421.0500000000002
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-09-03,"Location LOC-016 daily revenue dropped to $1,595.41 on 2025-09-03 (60.0% below 7d mean, Z-Score: -1.53)",1595.41
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-09-30,"Location LOC-015 daily revenue dropped to $893.46 on 2025-09-30 (66.0% below 7d mean, Z-Score: -1.53)",893.46
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-01-21,"Location LOC-008 daily revenue dropped to $1,036.36 on 2025-01-21 (54.2% below 7d mean, Z-Score: -1.53)",1036.3600000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-02-25,"Location LOC-016 daily revenue dropped to $1,604.48 on 2025-02-25 (51.9% below 7d mean, Z-Score: -1.53)",1604.48
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-03-11,"Location LOC-002 daily revenue dropped to $1,464.82 on 2025-03-11 (53.5% below 7d mean, Z-Score: -1.53)",1464.82
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-04-23,"Location LOC-010 daily revenue dropped to $1,610.29 on 2025-04-23 (55.8% below 7d mean, Z-Score: -1.53)",1610.29
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-03-28,"Location LOC-009 daily revenue dropped to $936.61 on 2025-03-28 (64.2% below 7d mean, Z-Score: -1.53)",936.61
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-01-28,"Location LOC-007 daily revenue dropped to $262.82 on 2025-01-28 (72.1% below 7d mean, Z-Score: -1.53)",262.82
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-02-23,"Location LOC-017 daily revenue dropped to $1,567.82 on 2025-02-23 (52.3% below 7d mean, Z-Score: -1.52)",1567.82
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-03-27,"Location LOC-019 daily revenue dropped to $1,014.85 on 2025-03-27 (58.9% below 7d mean, Z-Score: -1.52)",1014.85
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-03-12,"Location LOC-003 daily revenue dropped to $923.87 on 2025-03-12 (60.9% below 7d mean, Z-Score: -1.52)",923.87
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-02-17,"Location LOC-009 daily revenue dropped to $953.33 on 2025-02-17 (55.0% below 7d mean, Z-Score: -1.51)",953.3299999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-09-24,"Location LOC-017 daily revenue dropped to $1,577.88 on 2025-09-24 (55.0% below 7d mean, Z-Score: -1.51)",1577.88
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-05-14,"Location LOC-008 daily revenue dropped to $1,059.12 on 2025-05-14 (64.1% below 7d mean, Z-Score: -1.51)",1059.12
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-07-30,"Location LOC-011 daily revenue dropped to $1,139.59 on 2025-07-30 (63.9% below 7d mean, Z-Score: -1.51)",1139.59
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-08-20,"Location LOC-003 daily revenue dropped to $929.36 on 2025-08-20 (62.3% below 7d mean, Z-Score: -1.51)",929.3599999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-09-17,"Location LOC-007 daily revenue dropped to $273.85 on 2025-09-17 (79.4% below 7d mean, Z-Score: -1.51)",273.85
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-06-12,"Location LOC-019 daily revenue dropped to $1,026.68 on 2025-06-12 (55.3% below 7d mean, Z-Score: -1.51)",1026.68
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-03-04,"Location LOC-006 daily revenue dropped to $1,295.64 on 2025-03-04 (50.5% below 7d mean, Z-Score: -1.51)",1295.6399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-02-05,"Location LOC-004 daily revenue dropped to $1,634.90 on 2025-02-05 (53.5% below 7d mean, Z-Score: -1.51)",1634.9
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-04-23,"Location LOC-019 daily revenue dropped to $1,027.40 on 2025-04-23 (61.0% below 7d mean, Z-Score: -1.51)",1027.4
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-05-01,"Location LOC-007 daily revenue dropped to $276.70 on 2025-05-01 (76.9% below 7d mean, Z-Score: -1.51)",276.7
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-02-17,"Location LOC-002 daily revenue dropped to $1,499.31 on 2025-02-17 (52.4% below 7d mean, Z-Score: -1.50)",1499.31
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-08-21,"Location LOC-018 daily revenue dropped to $924.44 on 2025-08-21 (60.0% below 7d mean, Z-Score: -1.50)",924.44
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-10-20,"Location LOC-010 daily revenue dropped to $1,652.31 on 2025-10-20 (59.4% below 7d mean, Z-Score: -1.50)",1652.31
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-10-07,"Location LOC-004 daily revenue dropped to $1,641.30 on 2025-10-07 (52.6% below 7d mean, Z-Score: -1.50)",1641.3
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-09-29,"Location LOC-009 daily revenue dropped to $969.37 on 2025-09-29 (66.8% below 7d mean, Z-Score: -1.50)",969.3700000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-02-18,"Location LOC-016 daily revenue dropped to $1,646.69 on 2025-02-18 (58.8% below 7d mean, Z-Score: -1.50)",1646.69
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-11-04,"Location LOC-015 daily revenue dropped to $929.70 on 2025-11-04 (63.9% below 7d mean, Z-Score: -1.50)",929.7
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-02-12,"Location LOC-005 daily revenue dropped to $1,182.89 on 2025-02-12 (52.5% below 7d mean, Z-Score: -1.50)",1182.89
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-11-19,"Location LOC-006 daily revenue dropped to $1,305.40 on 2025-11-19 (66.2% below 7d mean, Z-Score: -1.50)",1305.4
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-06-30,"Location LOC-017 daily revenue dropped to $1,600.76 on 2025-06-30 (61.7% below 7d mean, Z-Score: -1.50)",1600.76
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-01-27,"Location LOC-014 daily revenue dropped to $1,075.84 on 2025-01-27 (56.6% below 7d mean, Z-Score: -1.50)",1075.84
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-02-03,"Location LOC-015 daily revenue dropped to $933.16 on 2025-02-03 (56.1% below 7d mean, Z-Score: -1.50)",933.16
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-03-05,"Location LOC-008 daily revenue dropped to $1,081.46 on 2025-03-05 (65.0% below 7d mean, Z-Score: -1.50)",1081.46
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-06-18,"Location LOC-015 daily revenue dropped to $934.48 on 2025-06-18 (65.6% below 7d mean, Z-Score: -1.50)",934.48
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-04-09,"Location LOC-003 daily revenue dropped to $951.41 on 2025-04-09 (58.9% below 7d mean, Z-Score: -1.49)",951.41
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-04-15,"Location LOC-014 daily revenue dropped to $1,085.30 on 2025-04-15 (64.1% below 7d mean, Z-Score: -1.49)",1085.3
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-11-24,"Location LOC-002 daily revenue dropped to $1,522.14 on 2025-11-24 (59.5% below 7d mean, Z-Score: -1.49)",1522.1399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-04-02,"Location LOC-005 daily revenue dropped to $1,198.39 on 2025-04-02 (52.3% below 7d mean, Z-Score: -1.49)",1198.39
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-07-30,"Location LOC-017 daily revenue dropped to $1,623.30 on 2025-07-30 (67.2% below 7d mean, Z-Score: -1.49)",1623.3
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-05-05,"Location LOC-018 daily revenue dropped to $945.43 on 2025-05-05 (57.8% below 7d mean, Z-Score: -1.48)",945.43
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-04-09,"Location LOC-017 daily revenue dropped to $1,631.06 on 2025-04-09 (61.3% below 7d mean, Z-Score: -1.48)",1631.06
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-02-18,"Location LOC-010 daily revenue dropped to $1,692.61 on 2025-02-18 (52.9% below 7d mean, Z-Score: -1.48)",1692.61
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-03-31,"Location LOC-015 daily revenue dropped to $955.20 on 2025-03-31 (65.4% below 7d mean, Z-Score: -1.48)",955.2
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-04-09,"Location LOC-011 daily revenue dropped to $1,185.90 on 2025-04-09 (57.6% below 7d mean, Z-Score: -1.48)",1185.9
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-09-16,"Location LOC-017 daily revenue dropped to $1,638.60 on 2025-09-16 (57.8% below 7d mean, Z-Score: -1.48)",1638.6
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-05-05,"Location LOC-007 daily revenue dropped to $297.72 on 2025-05-05 (64.6% below 7d mean, Z-Score: -1.48)",297.72
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-09-30,"Location LOC-012 daily revenue dropped to $1,981.94 on 2025-09-30 (52.0% below 7d mean, Z-Score: -1.48)",1981.94
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-02-05,"Location LOC-002 daily revenue dropped to $1,541.07 on 2025-02-05 (50.9% below 7d mean, Z-Score: -1.48)",1541.07
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-02-04,"Location LOC-008 daily revenue dropped to $1,112.45 on 2025-02-04 (56.4% below 7d mean, Z-Score: -1.48)",1112.45
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-06-09,"Location LOC-013 daily revenue dropped to $1,522.98 on 2025-06-09 (57.1% below 7d mean, Z-Score: -1.47)",1522.98
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-10-13,"Location LOC-015 daily revenue dropped to $965.92 on 2025-10-13 (53.6% below 7d mean, Z-Score: -1.47)",965.9200000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-05-21,"Location LOC-006 daily revenue dropped to $1,342.80 on 2025-05-21 (54.0% below 7d mean, Z-Score: -1.47)",1342.8000000000002
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-09-01,"Location LOC-007 daily revenue dropped to $306.15 on 2025-09-01 (80.6% below 7d mean, Z-Score: -1.46)",306.15
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-05-19,"Location LOC-007 daily revenue dropped to $306.33 on 2025-05-19 (66.4% below 7d mean, Z-Score: -1.46)",306.33
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-07-30,"Location LOC-006 daily revenue dropped to $1,349.24 on 2025-07-30 (64.1% below 7d mean, Z-Score: -1.46)",1349.24
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-07-22,"Location LOC-015 daily revenue dropped to $972.80 on 2025-07-22 (66.0% below 7d mean, Z-Score: -1.46)",972.8
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-01-14,"Location LOC-011 daily revenue dropped to $1,207.06 on 2025-01-14 (53.0% below 7d mean, Z-Score: -1.46)",1207.06
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-06-09,"Location LOC-015 daily revenue dropped to $977.18 on 2025-06-09 (60.5% below 7d mean, Z-Score: -1.46)",977.1800000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-04-14,"Location LOC-020 daily revenue dropped to $1,009.19 on 2025-04-14 (50.2% below 7d mean, Z-Score: -1.45)",1009.1899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-10-28,"Location LOC-014 daily revenue dropped to $1,133.42 on 2025-10-28 (59.0% below 7d mean, Z-Score: -1.45)",1133.42
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-11-25,"Location LOC-006 daily revenue dropped to $1,362.34 on 2025-11-25 (55.4% below 7d mean, Z-Score: -1.45)",1362.3400000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-05-20,"Location LOC-016 daily revenue dropped to $1,718.48 on 2025-05-20 (51.5% below 7d mean, Z-Score: -1.45)",1718.48
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-05-07,"Location LOC-014 daily revenue dropped to $1,136.08 on 2025-05-07 (52.6% below 7d mean, Z-Score: -1.45)",1136.08
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-08-05,"Location LOC-008 daily revenue dropped to $1,146.38 on 2025-08-05 (64.9% below 7d mean, Z-Score: -1.45)",1146.3799999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-09-16,"Location LOC-011 daily revenue dropped to $1,221.60 on 2025-09-16 (61.7% below 7d mean, Z-Score: -1.45)",1221.6
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-10-08,"Location LOC-014 daily revenue dropped to $1,140.65 on 2025-10-08 (58.7% below 7d mean, Z-Score: -1.45)",1140.65
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-05-06,"Location LOC-002 daily revenue dropped to $1,582.35 on 2025-05-06 (57.1% below 7d mean, Z-Score: -1.45)",1582.35
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-06-23,"Location LOC-018 daily revenue dropped to $989.58 on 2025-06-23 (56.7% below 7d mean, Z-Score: -1.45)",989.58
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-09-02,"Location LOC-006 daily revenue dropped to $1,373.23 on 2025-09-02 (62.1% below 7d mean, Z-Score: -1.44)",1373.23
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-10-08,"Location LOC-016 daily revenue dropped to $1,733.14 on 2025-10-08 (51.3% below 7d mean, Z-Score: -1.44)",1733.1399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-01-14,"Location LOC-008 daily revenue dropped to $1,158.38 on 2025-01-14 (52.2% below 7d mean, Z-Score: -1.44)",1158.38
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-10-01,"Location LOC-014 daily revenue dropped to $1,147.43 on 2025-10-01 (59.2% below 7d mean, Z-Score: -1.44)",1147.43
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-02-14,"Location LOC-003 daily revenue dropped to $1,006.14 on 2025-02-14 (53.9% below 7d mean, Z-Score: -1.44)",1006.14
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-03-13,"Location LOC-003 daily revenue dropped to $1,007.00 on 2025-03-13 (54.1% below 7d mean, Z-Score: -1.44)",1007.0
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-01-27,"Location LOC-008 daily revenue dropped to $1,161.61 on 2025-01-27 (55.0% below 7d mean, Z-Score: -1.44)",1161.6100000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-05-07,"Location LOC-003 daily revenue dropped to $1,008.25 on 2025-05-07 (50.9% below 7d mean, Z-Score: -1.44)",1008.25
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-06-18,"Location LOC-013 daily revenue dropped to $1,574.66 on 2025-06-18 (58.2% below 7d mean, Z-Score: -1.44)",1574.66
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-01-23,"Location LOC-009 daily revenue dropped to $1,053.20 on 2025-01-23 (56.9% below 7d mean, Z-Score: -1.44)",1053.2
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-10-06,"Location LOC-004 daily revenue dropped to $1,747.45 on 2025-10-06 (53.7% below 7d mean, Z-Score: -1.44)",1747.45
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-01-16,"Location LOC-020 daily revenue dropped to $1,029.64 on 2025-01-16 (51.8% below 7d mean, Z-Score: -1.44)",1029.6399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-12-29,"Location LOC-017 daily revenue dropped to $1,709.34 on 2025-12-29 (62.4% below 7d mean, Z-Score: -1.44)",1709.3400000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-01-08,"Location LOC-007 daily revenue dropped to $327.07 on 2025-01-08 (70.4% below 7d mean, Z-Score: -1.44)",327.07
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-06-05,"Location LOC-009 daily revenue dropped to $1,057.10 on 2025-06-05 (60.8% below 7d mean, Z-Score: -1.43)",1057.1
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-05-28,"Location LOC-017 daily revenue dropped to $1,714.64 on 2025-05-28 (58.5% below 7d mean, Z-Score: -1.43)",1714.64
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-11-06,"Location LOC-006 daily revenue dropped to $1,396.02 on 2025-11-06 (61.6% below 7d mean, Z-Score: -1.43)",1396.02
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-09-09,"Location LOC-009 daily revenue dropped to $1,068.63 on 2025-09-09 (56.0% below 7d mean, Z-Score: -1.43)",1068.63
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-10-14,"Location LOC-005 daily revenue dropped to $1,279.25 on 2025-10-14 (55.1% below 7d mean, Z-Score: -1.42)",1279.25
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-04-23,"Location LOC-020 daily revenue dropped to $1,047.87 on 2025-04-23 (56.0% below 7d mean, Z-Score: -1.42)",1047.87
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-12-22,"Location LOC-002 daily revenue dropped to $1,622.05 on 2025-12-22 (59.0% below 7d mean, Z-Score: -1.42)",1622.05
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-10-28,"Location LOC-013 daily revenue dropped to $1,613.90 on 2025-10-28 (51.4% below 7d mean, Z-Score: -1.41)",1613.9
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-12-10,"Location LOC-001 daily revenue dropped to $2,228.79 on 2025-12-10 (58.2% below 7d mean, Z-Score: -1.41)",2228.79
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-05-13,"Location LOC-010 daily revenue dropped to $1,821.15 on 2025-05-13 (56.8% below 7d mean, Z-Score: -1.41)",1821.1499999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-09-03,"Location LOC-009 daily revenue dropped to $1,092.96 on 2025-09-03 (59.5% below 7d mean, Z-Score: -1.41)",1092.96
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-05-29,"Location LOC-007 daily revenue dropped to $348.39 on 2025-05-29 (70.9% below 7d mean, Z-Score: -1.41)",348.39
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-02-11,"Location LOC-020 daily revenue dropped to $1,069.84 on 2025-02-11 (52.6% below 7d mean, Z-Score: -1.40)",1069.84
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-07-23,"Location LOC-011 daily revenue dropped to $1,284.60 on 2025-07-23 (63.7% below 7d mean, Z-Score: -1.40)",1284.6
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-04-23,"Location LOC-004 daily revenue dropped to $1,803.65 on 2025-04-23 (51.7% below 7d mean, Z-Score: -1.40)",1803.65
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-08-27,"Location LOC-008 daily revenue dropped to $1,218.23 on 2025-08-27 (66.9% below 7d mean, Z-Score: -1.40)",1218.23
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-03-05,"Location LOC-018 daily revenue dropped to $1,039.86 on 2025-03-05 (51.0% below 7d mean, Z-Score: -1.40)",1039.8600000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-06-24,"Location LOC-019 daily revenue dropped to $1,151.50 on 2025-06-24 (59.3% below 7d mean, Z-Score: -1.39)",1151.5
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-06-25,"Location LOC-013 daily revenue dropped to $1,648.89 on 2025-06-25 (66.4% below 7d mean, Z-Score: -1.39)",1648.8899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-02-19,"Location LOC-016 daily revenue dropped to $1,810.34 on 2025-02-19 (52.6% below 7d mean, Z-Score: -1.39)",1810.3400000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-11-17,"Location LOC-016 daily revenue dropped to $1,812.07 on 2025-11-17 (62.8% below 7d mean, Z-Score: -1.39)",1812.07
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-09-10,"Location LOC-019 daily revenue dropped to $1,156.54 on 2025-09-10 (62.5% below 7d mean, Z-Score: -1.39)",1156.54
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-07-10,"Location LOC-014 daily revenue dropped to $1,225.07 on 2025-07-10 (52.7% below 7d mean, Z-Score: -1.38)",1225.07
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-07-23,"Location LOC-002 daily revenue dropped to $1,675.37 on 2025-07-23 (60.9% below 7d mean, Z-Score: -1.38)",1675.37
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-10-21,"Location LOC-010 daily revenue dropped to $1,877.38 on 2025-10-21 (54.1% below 7d mean, Z-Score: -1.38)",1877.38
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-03-19,"Location LOC-019 daily revenue dropped to $1,166.66 on 2025-03-19 (56.5% below 7d mean, Z-Score: -1.38)",1166.66
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-09-14,"Location LOC-010 daily revenue dropped to $1,885.01 on 2025-09-14 (51.0% below 7d mean, Z-Score: -1.38)",1885.01
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-08-19,"Location LOC-017 daily revenue dropped to $1,813.27 on 2025-08-19 (63.9% below 7d mean, Z-Score: -1.37)",1813.27
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-10-06,"Location LOC-007 daily revenue dropped to $370.13 on 2025-10-06 (69.2% below 7d mean, Z-Score: -1.37)",370.13
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-12-09,"Location LOC-016 daily revenue dropped to $1,837.76 on 2025-12-09 (60.3% below 7d mean, Z-Score: -1.37)",1837.76
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-04-14,"Location LOC-009 daily revenue dropped to $1,135.57 on 2025-04-14 (51.2% below 7d mean, Z-Score: -1.37)",1135.57
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-07-07,"Location LOC-005 daily revenue dropped to $1,340.74 on 2025-07-07 (60.9% below 7d mean, Z-Score: -1.37)",1340.7399999999998
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-01-15,"Location LOC-007 daily revenue dropped to $373.68 on 2025-01-15 (65.0% below 7d mean, Z-Score: -1.37)",373.68
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-10-21,"Location LOC-007 daily revenue dropped to $374.64 on 2025-10-21 (56.7% below 7d mean, Z-Score: -1.37)",374.64
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-09-16,"Location LOC-004 daily revenue dropped to $1,861.28 on 2025-09-16 (54.9% below 7d mean, Z-Score: -1.37)",1861.28
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-07-15,"Location LOC-015 daily revenue dropped to $1,089.79 on 2025-07-15 (63.2% below 7d mean, Z-Score: -1.37)",1089.79
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-08-28,"Location LOC-007 daily revenue dropped to $379.57 on 2025-08-28 (68.8% below 7d mean, Z-Score: -1.36)",379.57
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-06-09,"Location LOC-019 daily revenue dropped to $1,190.61 on 2025-06-09 (55.9% below 7d mean, Z-Score: -1.36)",1190.61
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-09-10,"Location LOC-009 daily revenue dropped to $1,161.61 on 2025-09-10 (52.4% below 7d mean, Z-Score: -1.35)",1161.6100000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-12-16,"Location LOC-018 daily revenue dropped to $1,091.62 on 2025-12-16 (63.4% below 7d mean, Z-Score: -1.35)",1091.62
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-06-03,"Location LOC-015 daily revenue dropped to $1,103.72 on 2025-06-03 (52.8% below 7d mean, Z-Score: -1.35)",1103.72
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-03-20,"Location LOC-007 daily revenue dropped to $385.07 on 2025-03-20 (66.0% below 7d mean, Z-Score: -1.35)",385.07
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-09-10,"Location LOC-013 daily revenue dropped to $1,717.40 on 2025-09-10 (52.7% below 7d mean, Z-Score: -1.35)",1717.4
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-08-20,"Location LOC-001 daily revenue dropped to $2,348.01 on 2025-08-20 (58.1% below 7d mean, Z-Score: -1.35)",2348.01
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-05-15,"Location LOC-014 daily revenue dropped to $1,270.10 on 2025-05-15 (50.2% below 7d mean, Z-Score: -1.35)",1270.1
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-06-10,"Location LOC-004 daily revenue dropped to $1,888.39 on 2025-06-10 (50.5% below 7d mean, Z-Score: -1.35)",1888.39
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-02-19,"Location LOC-007 daily revenue dropped to $388.54 on 2025-02-19 (54.4% below 7d mean, Z-Score: -1.35)",388.54
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-05-20,"Location LOC-011 daily revenue dropped to $1,355.55 on 2025-05-20 (52.0% below 7d mean, Z-Score: -1.35)",1355.55
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-03-26,"Location LOC-002 daily revenue dropped to $1,732.57 on 2025-03-26 (56.2% below 7d mean, Z-Score: -1.34)",1732.57
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-18,"Location LOC-007 daily revenue dropped to $393.11 on 2025-06-18 (64.8% below 7d mean, Z-Score: -1.34)",393.11
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-10-13,"Location LOC-007 daily revenue dropped to $396.05 on 2025-10-13 (67.1% below 7d mean, Z-Score: -1.34)",396.05
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-07-21,"Location LOC-015 daily revenue dropped to $1,122.60 on 2025-07-21 (61.0% below 7d mean, Z-Score: -1.34)",1122.6000000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-23,"Location LOC-007 daily revenue dropped to $398.30 on 2025-06-23 (73.4% below 7d mean, Z-Score: -1.33)",398.3
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-07-16,"Location LOC-010 daily revenue dropped to $1,963.71 on 2025-07-16 (67.4% below 7d mean, Z-Score: -1.33)",1963.71
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-06-16,"Location LOC-013 daily revenue dropped to $1,747.15 on 2025-06-16 (55.4% below 7d mean, Z-Score: -1.33)",1747.15
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-09-01,"Location LOC-016 daily revenue dropped to $1,902.32 on 2025-09-01 (54.5% below 7d mean, Z-Score: -1.33)",1902.32
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-12-22,"Location LOC-017 daily revenue dropped to $1,896.19 on 2025-12-22 (64.3% below 7d mean, Z-Score: -1.33)",1896.19
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-03-10,"Location LOC-009 daily revenue dropped to $1,200.25 on 2025-03-10 (58.5% below 7d mean, Z-Score: -1.32)",1200.25
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-02-10,"Location LOC-018 daily revenue dropped to $1,124.96 on 2025-02-10 (50.3% below 7d mean, Z-Score: -1.32)",1124.96
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-03-11,"Location LOC-010 daily revenue dropped to $1,983.05 on 2025-03-11 (53.5% below 7d mean, Z-Score: -1.32)",1983.05
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-03-19,"Location LOC-020 daily revenue dropped to $1,167.25 on 2025-03-19 (59.0% below 7d mean, Z-Score: -1.32)",1167.25
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-03-31,"Location LOC-010 daily revenue dropped to $1,986.11 on 2025-03-31 (58.3% below 7d mean, Z-Score: -1.32)",1986.11
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-10-08,"Location LOC-008 daily revenue dropped to $1,331.18 on 2025-10-08 (50.1% below 7d mean, Z-Score: -1.32)",1331.18
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-07-09,"Location LOC-014 daily revenue dropped to $1,308.36 on 2025-07-09 (50.7% below 7d mean, Z-Score: -1.32)",1308.3600000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-07-01,"Location LOC-007 daily revenue dropped to $411.27 on 2025-07-01 (70.4% below 7d mean, Z-Score: -1.32)",411.27
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-06-04,"Location LOC-017 daily revenue dropped to $1,913.73 on 2025-06-04 (51.0% below 7d mean, Z-Score: -1.32)",1913.73
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-01-23,"Location LOC-011 daily revenue dropped to $1,402.68 on 2025-01-23 (54.8% below 7d mean, Z-Score: -1.31)",1402.68
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-08-07,"Location LOC-005 daily revenue dropped to $1,418.20 on 2025-08-07 (56.4% below 7d mean, Z-Score: -1.31)",1418.2
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-12-05,"Location LOC-008 daily revenue dropped to $1,345.14 on 2025-12-05 (60.7% below 7d mean, Z-Score: -1.31)",1345.1399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-06-30,"Location LOC-002 daily revenue dropped to $1,781.66 on 2025-06-30 (56.6% below 7d mean, Z-Score: -1.31)",1781.66
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-02-25,"Location LOC-004 daily revenue dropped to $1,952.84 on 2025-02-25 (53.6% below 7d mean, Z-Score: -1.31)",1952.8400000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-08-27,"Location LOC-009 daily revenue dropped to $1,221.47 on 2025-08-27 (58.3% below 7d mean, Z-Score: -1.31)",1221.47
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-08-13,"Location LOC-006 daily revenue dropped to $1,541.99 on 2025-08-13 (59.1% below 7d mean, Z-Score: -1.31)",1541.9899999999998
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-08-21,"Location LOC-009 daily revenue dropped to $1,222.88 on 2025-08-21 (55.1% below 7d mean, Z-Score: -1.31)",1222.88
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-06-12,"Location LOC-003 daily revenue dropped to $1,158.37 on 2025-06-12 (54.6% below 7d mean, Z-Score: -1.30)",1158.37
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-08-28,"Location LOC-008 daily revenue dropped to $1,366.90 on 2025-08-28 (60.8% below 7d mean, Z-Score: -1.30)",1366.9
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-12-25,"Location LOC-001 daily revenue dropped to $2,446.76 on 2025-12-25 (52.9% below 7d mean, Z-Score: -1.30)",2446.76
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-09-25,"Location LOC-019 daily revenue dropped to $1,259.64 on 2025-09-25 (51.2% below 7d mean, Z-Score: -1.30)",1259.6399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-10-20,"Location LOC-009 daily revenue dropped to $1,248.09 on 2025-10-20 (56.6% below 7d mean, Z-Score: -1.29)",1248.09
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-09-24,"Location LOC-003 daily revenue dropped to $1,178.24 on 2025-09-24 (60.7% below 7d mean, Z-Score: -1.29)",1178.24
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-06-11,"Location LOC-018 daily revenue dropped to $1,167.49 on 2025-06-11 (55.5% below 7d mean, Z-Score: -1.29)",1167.49
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-05-07,"Location LOC-005 daily revenue dropped to $1,455.54 on 2025-05-07 (50.7% below 7d mean, Z-Score: -1.28)",1455.54
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-01-14,"Location LOC-007 daily revenue dropped to $438.30 on 2025-01-14 (58.7% below 7d mean, Z-Score: -1.28)",438.3
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-08-12,"Location LOC-007 daily revenue dropped to $439.93 on 2025-08-12 (66.9% below 7d mean, Z-Score: -1.28)",439.93
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-03-18,"Location LOC-017 daily revenue dropped to $1,984.03 on 2025-03-18 (52.0% below 7d mean, Z-Score: -1.28)",1984.03
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-09-30,"Location LOC-007 daily revenue dropped to $441.28 on 2025-09-30 (68.1% below 7d mean, Z-Score: -1.27)",441.28
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-07-09,"Location LOC-007 daily revenue dropped to $442.02 on 2025-07-09 (75.2% below 7d mean, Z-Score: -1.27)",442.02
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-04-09,"Location LOC-007 daily revenue dropped to $443.32 on 2025-04-09 (64.7% below 7d mean, Z-Score: -1.27)",443.32
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-12-03,"Location LOC-019 daily revenue dropped to $1,286.98 on 2025-12-03 (60.1% below 7d mean, Z-Score: -1.27)",1286.98
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-07-28,"Location LOC-008 daily revenue dropped to $1,404.05 on 2025-07-28 (62.1% below 7d mean, Z-Score: -1.27)",1404.05
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-07-09,"Location LOC-017 daily revenue dropped to $1,996.44 on 2025-07-09 (57.5% below 7d mean, Z-Score: -1.27)",1996.44
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-07-10,"Location LOC-008 daily revenue dropped to $1,406.98 on 2025-07-10 (57.2% below 7d mean, Z-Score: -1.27)",1406.98
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-08-19,"Location LOC-014 daily revenue dropped to $1,377.27 on 2025-08-19 (57.2% below 7d mean, Z-Score: -1.27)",1377.27
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-03-28,"Location LOC-007 daily revenue dropped to $448.13 on 2025-03-28 (68.3% below 7d mean, Z-Score: -1.26)",448.13
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-17,"Location LOC-007 daily revenue dropped to $448.97 on 2025-06-17 (61.7% below 7d mean, Z-Score: -1.26)",448.96999999999997
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-10-21,"Location LOC-005 daily revenue dropped to $1,478.79 on 2025-10-21 (58.2% below 7d mean, Z-Score: -1.26)",1478.79
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-03-12,"Location LOC-020 daily revenue dropped to $1,248.21 on 2025-03-12 (51.8% below 7d mean, Z-Score: -1.26)",1248.21
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-12-31,"Location LOC-017 daily revenue dropped to $2,019.37 on 2025-12-31 (54.0% below 7d mean, Z-Score: -1.25)",2019.37
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-07-28,"Location LOC-017 daily revenue dropped to $2,024.06 on 2025-07-28 (58.9% below 7d mean, Z-Score: -1.25)",2024.06
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-07-31,"Location LOC-008 daily revenue dropped to $1,430.15 on 2025-07-31 (53.7% below 7d mean, Z-Score: -1.25)",1430.15
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-08-09,"Location LOC-020 daily revenue dropped to $1,259.28 on 2025-08-09 (52.3% below 7d mean, Z-Score: -1.25)",1259.2800000000002
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-08-04,"Location LOC-016 daily revenue dropped to $2,045.64 on 2025-08-04 (56.4% below 7d mean, Z-Score: -1.24)",2045.6399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-01-21,"Location LOC-007 daily revenue dropped to $468.08 on 2025-01-21 (53.6% below 7d mean, Z-Score: -1.24)",468.08
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-08-31,"Location LOC-003 daily revenue dropped to $1,236.64 on 2025-08-31 (57.4% below 7d mean, Z-Score: -1.23)",1236.64
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-03-06,"Location LOC-020 daily revenue dropped to $1,274.79 on 2025-03-06 (52.2% below 7d mean, Z-Score: -1.23)",1274.79
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-05-26,"Location LOC-008 daily revenue dropped to $1,460.24 on 2025-05-26 (52.3% below 7d mean, Z-Score: -1.23)",1460.24
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-05-02,"Location LOC-007 daily revenue dropped to $473.51 on 2025-05-02 (59.0% below 7d mean, Z-Score: -1.23)",473.51
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-05-28,"Location LOC-010 daily revenue dropped to $2,159.36 on 2025-05-28 (51.9% below 7d mean, Z-Score: -1.23)",2159.36
+sudden_sales_drops,Sudden Sales Drop,LOC-001,2025-08-13,"Location LOC-001 daily revenue dropped to $2,576.66 on 2025-08-13 (52.8% below 7d mean, Z-Score: -1.22)",2576.66
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-07-09,"Location LOC-004 daily revenue dropped to $2,087.71 on 2025-07-09 (58.7% below 7d mean, Z-Score: -1.22)",2087.71
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-06-24,"Location LOC-017 daily revenue dropped to $2,071.64 on 2025-06-24 (60.6% below 7d mean, Z-Score: -1.22)",2071.64
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-07-31,"Location LOC-013 daily revenue dropped to $1,926.74 on 2025-07-31 (57.7% below 7d mean, Z-Score: -1.22)",1926.74
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-02-22,"Location LOC-007 daily revenue dropped to $479.98 on 2025-02-22 (51.8% below 7d mean, Z-Score: -1.22)",479.98
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-06-11,"Location LOC-016 daily revenue dropped to $2,072.90 on 2025-06-11 (54.5% below 7d mean, Z-Score: -1.22)",2072.9
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-08-26,"Location LOC-017 daily revenue dropped to $2,081.63 on 2025-08-26 (52.2% below 7d mean, Z-Score: -1.22)",2081.63
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-12-16,"Location LOC-011 daily revenue dropped to $1,527.83 on 2025-12-16 (62.5% below 7d mean, Z-Score: -1.22)",1527.83
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-02-24,"Location LOC-004 daily revenue dropped to $2,102.04 on 2025-02-24 (51.7% below 7d mean, Z-Score: -1.22)",2102.04
+sudden_sales_drops,Sudden Sales Drop,LOC-012,2025-06-18,"Location LOC-012 daily revenue dropped to $2,446.30 on 2025-06-18 (51.6% below 7d mean, Z-Score: -1.21)",2446.3
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-10-08,"Location LOC-007 daily revenue dropped to $484.77 on 2025-10-08 (59.1% below 7d mean, Z-Score: -1.21)",484.77
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-06-20,"Location LOC-018 daily revenue dropped to $1,250.67 on 2025-06-20 (50.5% below 7d mean, Z-Score: -1.21)",1250.67
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-09-01,"Location LOC-017 daily revenue dropped to $2,102.16 on 2025-09-01 (54.2% below 7d mean, Z-Score: -1.21)",2102.16
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-11-24,"Location LOC-007 daily revenue dropped to $491.00 on 2025-11-24 (67.7% below 7d mean, Z-Score: -1.20)",491.0
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-10-23,"Location LOC-014 daily revenue dropped to $1,460.41 on 2025-10-23 (50.8% below 7d mean, Z-Score: -1.20)",1460.4099999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-11-12,"Location LOC-011 daily revenue dropped to $1,545.72 on 2025-11-12 (59.8% below 7d mean, Z-Score: -1.20)",1545.72
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-06-10,"Location LOC-002 daily revenue dropped to $1,939.47 on 2025-06-10 (52.0% below 7d mean, Z-Score: -1.20)",1939.4699999999998
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-09-01,"Location LOC-020 daily revenue dropped to $1,320.27 on 2025-09-01 (55.5% below 7d mean, Z-Score: -1.20)",1320.27
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-06-16,"Location LOC-015 daily revenue dropped to $1,293.12 on 2025-06-16 (58.4% below 7d mean, Z-Score: -1.19)",1293.12
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-10-28,"Location LOC-003 daily revenue dropped to $1,282.78 on 2025-10-28 (60.3% below 7d mean, Z-Score: -1.19)",1282.78
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-03-12,"Location LOC-007 daily revenue dropped to $499.84 on 2025-03-12 (59.7% below 7d mean, Z-Score: -1.19)",499.84
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-09-01,"Location LOC-014 daily revenue dropped to $1,477.04 on 2025-09-01 (50.9% below 7d mean, Z-Score: -1.19)",1477.04
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-07-03,"Location LOC-011 daily revenue dropped to $1,562.89 on 2025-07-03 (54.8% below 7d mean, Z-Score: -1.19)",1562.8899999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-11-12,"Location LOC-019 daily revenue dropped to $1,382.01 on 2025-11-12 (55.8% below 7d mean, Z-Score: -1.18)",1382.01
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-07-15,"Location LOC-004 daily revenue dropped to $2,153.98 on 2025-07-15 (56.0% below 7d mean, Z-Score: -1.18)",2153.98
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-10-07,"Location LOC-005 daily revenue dropped to $1,583.10 on 2025-10-07 (53.5% below 7d mean, Z-Score: -1.18)",1583.1
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-12-30,"Location LOC-003 daily revenue dropped to $1,299.65 on 2025-12-30 (56.9% below 7d mean, Z-Score: -1.18)",1299.65
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-07-01,"Location LOC-019 daily revenue dropped to $1,388.94 on 2025-07-01 (50.7% below 7d mean, Z-Score: -1.18)",1388.94
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-07-07,"Location LOC-009 daily revenue dropped to $1,393.93 on 2025-07-07 (50.5% below 7d mean, Z-Score: -1.18)",1393.93
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-05-07,"Location LOC-008 daily revenue dropped to $1,536.09 on 2025-05-07 (58.6% below 7d mean, Z-Score: -1.18)",1536.09
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-08-14,"Location LOC-007 daily revenue dropped to $512.22 on 2025-08-14 (60.1% below 7d mean, Z-Score: -1.17)",512.22
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-08-12,"Location LOC-017 daily revenue dropped to $2,159.64 on 2025-08-12 (51.4% below 7d mean, Z-Score: -1.17)",2159.64
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-04-21,"Location LOC-017 daily revenue dropped to $2,160.94 on 2025-04-21 (52.9% below 7d mean, Z-Score: -1.17)",2160.94
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-04-01,"Location LOC-008 daily revenue dropped to $1,544.44 on 2025-04-01 (53.2% below 7d mean, Z-Score: -1.17)",1544.44
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-07-21,"Location LOC-010 daily revenue dropped to $2,270.08 on 2025-07-21 (58.3% below 7d mean, Z-Score: -1.17)",2270.08
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-04-16,"Location LOC-008 daily revenue dropped to $1,558.86 on 2025-04-16 (50.5% below 7d mean, Z-Score: -1.16)",1558.8600000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-12-03,"Location LOC-006 daily revenue dropped to $1,724.95 on 2025-12-03 (58.4% below 7d mean, Z-Score: -1.16)",1724.95
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-12-30,"Location LOC-005 daily revenue dropped to $1,609.20 on 2025-12-30 (58.5% below 7d mean, Z-Score: -1.16)",1609.2
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-11-12,"Location LOC-002 daily revenue dropped to $2,001.46 on 2025-11-12 (60.3% below 7d mean, Z-Score: -1.16)",2001.46
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-12-23,"Location LOC-009 daily revenue dropped to $1,421.68 on 2025-12-23 (53.7% below 7d mean, Z-Score: -1.16)",1421.68
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-11-25,"Location LOC-004 daily revenue dropped to $2,200.00 on 2025-11-25 (54.3% below 7d mean, Z-Score: -1.15)",2200.0
+sudden_sales_drops,Sudden Sales Drop,LOC-017,2025-07-21,"Location LOC-017 daily revenue dropped to $2,191.68 on 2025-07-21 (50.7% below 7d mean, Z-Score: -1.15)",2191.68
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-03-19,"Location LOC-007 daily revenue dropped to $528.54 on 2025-03-19 (59.7% below 7d mean, Z-Score: -1.15)",528.54
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-08-26,"Location LOC-007 daily revenue dropped to $530.16 on 2025-08-26 (55.8% below 7d mean, Z-Score: -1.15)",530.16
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-12-31,"Location LOC-016 daily revenue dropped to $2,182.49 on 2025-12-31 (57.2% below 7d mean, Z-Score: -1.15)",2182.49
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-09-03,"Location LOC-011 daily revenue dropped to $1,623.93 on 2025-09-03 (53.7% below 7d mean, Z-Score: -1.14)",1623.9299999999998
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-02-03,"Location LOC-009 daily revenue dropped to $1,440.69 on 2025-02-03 (54.8% below 7d mean, Z-Score: -1.14)",1440.69
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-01-13,"Location LOC-007 daily revenue dropped to $537.18 on 2025-01-13 (52.7% below 7d mean, Z-Score: -1.14)",537.1800000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-08-18,"Location LOC-015 daily revenue dropped to $1,363.82 on 2025-08-18 (54.7% below 7d mean, Z-Score: -1.13)",1363.8200000000002
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-06-04,"Location LOC-008 daily revenue dropped to $1,595.86 on 2025-06-04 (50.4% below 7d mean, Z-Score: -1.13)",1595.8600000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-06-17,"Location LOC-020 daily revenue dropped to $1,404.70 on 2025-06-17 (57.8% below 7d mean, Z-Score: -1.13)",1404.7
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-12-24,"Location LOC-010 daily revenue dropped to $2,355.60 on 2025-12-24 (50.7% below 7d mean, Z-Score: -1.12)",2355.6
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-12-04,"Location LOC-004 daily revenue dropped to $2,255.16 on 2025-12-04 (51.2% below 7d mean, Z-Score: -1.12)",2255.16
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-08-07,"Location LOC-002 daily revenue dropped to $2,054.48 on 2025-08-07 (50.2% below 7d mean, Z-Score: -1.12)",2054.48
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-30,"Location LOC-007 daily revenue dropped to $557.38 on 2025-06-30 (62.3% below 7d mean, Z-Score: -1.11)",557.38
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-08-11,"Location LOC-006 daily revenue dropped to $1,786.83 on 2025-08-11 (56.3% below 7d mean, Z-Score: -1.11)",1786.83
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-08-20,"Location LOC-018 daily revenue dropped to $1,366.80 on 2025-08-20 (50.8% below 7d mean, Z-Score: -1.11)",1366.8
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-11-27,"Location LOC-010 daily revenue dropped to $2,381.38 on 2025-11-27 (56.5% below 7d mean, Z-Score: -1.11)",2381.38
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-08-20,"Location LOC-004 daily revenue dropped to $2,278.09 on 2025-08-20 (52.9% below 7d mean, Z-Score: -1.11)",2278.09
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-03,"Location LOC-007 daily revenue dropped to $562.27 on 2025-06-03 (51.9% below 7d mean, Z-Score: -1.10)",562.27
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-09-03,"Location LOC-015 daily revenue dropped to $1,400.71 on 2025-09-03 (50.5% below 7d mean, Z-Score: -1.10)",1400.71
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-12-17,"Location LOC-014 daily revenue dropped to $1,593.18 on 2025-12-17 (62.5% below 7d mean, Z-Score: -1.10)",1593.18
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-08-19,"Location LOC-020 daily revenue dropped to $1,435.43 on 2025-08-19 (52.8% below 7d mean, Z-Score: -1.10)",1435.43
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-11-08,"Location LOC-015 daily revenue dropped to $1,406.58 on 2025-11-08 (51.1% below 7d mean, Z-Score: -1.10)",1406.58
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-10-15,"Location LOC-018 daily revenue dropped to $1,377.95 on 2025-10-15 (50.4% below 7d mean, Z-Score: -1.10)",1377.95
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-08-20,"Location LOC-015 daily revenue dropped to $1,424.11 on 2025-08-20 (50.1% below 7d mean, Z-Score: -1.08)",1424.11
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-09-10,"Location LOC-007 daily revenue dropped to $578.93 on 2025-09-10 (57.7% below 7d mean, Z-Score: -1.08)",578.9300000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-08-26,"Location LOC-010 daily revenue dropped to $2,429.87 on 2025-08-26 (55.8% below 7d mean, Z-Score: -1.08)",2429.87
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-12-17,"Location LOC-020 daily revenue dropped to $1,460.25 on 2025-12-17 (58.4% below 7d mean, Z-Score: -1.08)",1460.25
+sudden_sales_drops,Sudden Sales Drop,LOC-002,2025-10-23,"Location LOC-002 daily revenue dropped to $2,114.42 on 2025-10-23 (50.7% below 7d mean, Z-Score: -1.08)",2114.42
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-06-27,"Location LOC-014 daily revenue dropped to $1,626.00 on 2025-06-27 (51.8% below 7d mean, Z-Score: -1.08)",1626.0
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-08-07,"Location LOC-020 daily revenue dropped to $1,465.91 on 2025-08-07 (53.6% below 7d mean, Z-Score: -1.07)",1465.9099999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-08-05,"Location LOC-009 daily revenue dropped to $1,529.54 on 2025-08-05 (61.2% below 7d mean, Z-Score: -1.07)",1529.54
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-02-15,"Location LOC-007 daily revenue dropped to $586.68 on 2025-02-15 (51.5% below 7d mean, Z-Score: -1.07)",586.6800000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-06-11,"Location LOC-010 daily revenue dropped to $2,465.06 on 2025-06-11 (55.0% below 7d mean, Z-Score: -1.06)",2465.06
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-12-06,"Location LOC-006 daily revenue dropped to $1,852.41 on 2025-12-06 (50.5% below 7d mean, Z-Score: -1.06)",1852.4099999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-016,2025-06-10,"Location LOC-016 daily revenue dropped to $2,329.87 on 2025-06-10 (50.5% below 7d mean, Z-Score: -1.05)",2329.87
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-10-30,"Location LOC-003 daily revenue dropped to $1,454.54 on 2025-10-30 (52.8% below 7d mean, Z-Score: -1.04)",1454.54
+sudden_sales_drops,Sudden Sales Drop,LOC-003,2025-07-10,"Location LOC-003 daily revenue dropped to $1,455.03 on 2025-07-10 (53.3% below 7d mean, Z-Score: -1.04)",1455.03
+sudden_sales_drops,Sudden Sales Drop,LOC-011,2025-09-02,"Location LOC-011 daily revenue dropped to $1,765.01 on 2025-09-02 (51.0% below 7d mean, Z-Score: -1.04)",1765.01
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-08-05,"Location LOC-019 daily revenue dropped to $1,550.36 on 2025-08-05 (56.8% below 7d mean, Z-Score: -1.03)",1550.36
+sudden_sales_drops,Sudden Sales Drop,LOC-005,2025-09-02,"Location LOC-005 daily revenue dropped to $1,776.64 on 2025-09-02 (50.3% below 7d mean, Z-Score: -1.02)",1776.6399999999999
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-07-14,"Location LOC-019 daily revenue dropped to $1,558.37 on 2025-07-14 (50.1% below 7d mean, Z-Score: -1.02)",1558.37
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-07-31,"Location LOC-010 daily revenue dropped to $2,554.10 on 2025-07-31 (51.1% below 7d mean, Z-Score: -1.01)",2554.1
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-08-27,"Location LOC-014 daily revenue dropped to $1,714.68 on 2025-08-27 (55.1% below 7d mean, Z-Score: -1.01)",1714.68
+sudden_sales_drops,Sudden Sales Drop,LOC-013,2025-12-31,"Location LOC-013 daily revenue dropped to $2,279.99 on 2025-12-31 (54.2% below 7d mean, Z-Score: -1.00)",2279.99
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-11-17,"Location LOC-007 daily revenue dropped to $636.14 on 2025-11-17 (59.0% below 7d mean, Z-Score: -1.00)",636.14
+sudden_sales_drops,Sudden Sales Drop,LOC-004,2025-06-24,"Location LOC-004 daily revenue dropped to $2,449.15 on 2025-06-24 (53.8% below 7d mean, Z-Score: -1.00)",2449.15
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-25,"Location LOC-007 daily revenue dropped to $658.42 on 2025-06-25 (59.3% below 7d mean, Z-Score: -0.97)",658.4200000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-006,2025-11-11,"Location LOC-006 daily revenue dropped to $1,967.26 on 2025-11-11 (53.2% below 7d mean, Z-Score: -0.96)",1967.26
+sudden_sales_drops,Sudden Sales Drop,LOC-020,2025-05-27,"Location LOC-020 daily revenue dropped to $1,607.31 on 2025-05-27 (52.5% below 7d mean, Z-Score: -0.96)",1607.31
+sudden_sales_drops,Sudden Sales Drop,LOC-019,2025-11-25,"Location LOC-019 daily revenue dropped to $1,631.72 on 2025-11-25 (61.1% below 7d mean, Z-Score: -0.96)",1631.72
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-11-13,"Location LOC-007 daily revenue dropped to $677.42 on 2025-11-13 (59.0% below 7d mean, Z-Score: -0.94)",677.4200000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-008,2025-11-05,"Location LOC-008 daily revenue dropped to $1,872.37 on 2025-11-05 (59.6% below 7d mean, Z-Score: -0.94)",1872.37
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-06-10,"Location LOC-007 daily revenue dropped to $703.22 on 2025-06-10 (54.2% below 7d mean, Z-Score: -0.91)",703.22
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-12-02,"Location LOC-007 daily revenue dropped to $706.67 on 2025-12-02 (57.5% below 7d mean, Z-Score: -0.90)",706.6700000000001
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-08-26,"Location LOC-014 daily revenue dropped to $1,867.76 on 2025-08-26 (55.0% below 7d mean, Z-Score: -0.89)",1867.7599999999998
+sudden_sales_drops,Sudden Sales Drop,LOC-010,2025-12-10,"Location LOC-010 daily revenue dropped to $2,773.73 on 2025-12-10 (55.4% below 7d mean, Z-Score: -0.89)",2773.73
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-11-18,"Location LOC-009 daily revenue dropped to $1,788.10 on 2025-11-18 (53.2% below 7d mean, Z-Score: -0.88)",1788.1
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-09-15,"Location LOC-007 daily revenue dropped to $733.77 on 2025-09-15 (50.8% below 7d mean, Z-Score: -0.86)",733.77
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-11-18,"Location LOC-007 daily revenue dropped to $738.13 on 2025-11-18 (52.3% below 7d mean, Z-Score: -0.86)",738.13
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-09-26,"Location LOC-007 daily revenue dropped to $749.21 on 2025-09-26 (57.5% below 7d mean, Z-Score: -0.84)",749.21
+sudden_sales_drops,Sudden Sales Drop,LOC-018,2025-12-03,"Location LOC-018 daily revenue dropped to $1,672.52 on 2025-12-03 (59.5% below 7d mean, Z-Score: -0.83)",1672.52
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-12-29,"Location LOC-007 daily revenue dropped to $757.40 on 2025-12-29 (59.3% below 7d mean, Z-Score: -0.83)",757.4
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-11-11,"Location LOC-007 daily revenue dropped to $764.54 on 2025-11-11 (54.4% below 7d mean, Z-Score: -0.82)",764.54
+sudden_sales_drops,Sudden Sales Drop,LOC-007,2025-12-01,"Location LOC-007 daily revenue dropped to $766.26 on 2025-12-01 (59.1% below 7d mean, Z-Score: -0.82)",766.26
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-11-26,"Location LOC-009 daily revenue dropped to $1,885.19 on 2025-11-26 (55.8% below 7d mean, Z-Score: -0.80)",1885.19
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-11-20,"Location LOC-014 daily revenue dropped to $2,023.97 on 2025-11-20 (50.7% below 7d mean, Z-Score: -0.77)",2023.97
+sudden_sales_drops,Sudden Sales Drop,LOC-014,2025-11-26,"Location LOC-014 daily revenue dropped to $2,067.48 on 2025-11-26 (52.1% below 7d mean, Z-Score: -0.74)",2067.48
+sudden_sales_drops,Sudden Sales Drop,LOC-009,2025-12-09,"Location LOC-009 daily revenue dropped to $1,978.90 on 2025-12-09 (54.8% below 7d mean, Z-Score: -0.73)",1978.9
+sudden_sales_drops,Sudden Sales Drop,LOC-015,2025-11-26,"Location LOC-015 daily revenue dropped to $1,963.59 on 2025-11-26 (51.7% below 7d mean, Z-Score: -0.63)",1963.59
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-008913,2025-11-24,"Order ORD-008913 total $1183.04 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-46279, Loc: LOC-012)",1183.04
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-087028,2025-03-01,"Order ORD-087028 total $1163.41 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-32259, Loc: LOC-014)",1163.41
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-010865,2025-02-12,"Order ORD-010865 total $1137.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-GUEST, Loc: LOC-002)",1137.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-067459,2025-11-08,"Order ORD-067459 total $1127.05 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-21718, Loc: LOC-002)",1127.05
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-029458,2025-11-28,"Order ORD-029458 total $1096.94 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-37392, Loc: LOC-013)",1096.94
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-045196,2025-07-13,"Order ORD-045196 total $1058.56 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-47851, Loc: LOC-004)",1058.56
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-080715,2025-11-28,"Order ORD-080715 total $1037.12 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-10367, Loc: LOC-012)",1037.12
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-034639,2025-01-31,"Order ORD-034639 total $1035.34 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-48566, Loc: LOC-017)",1035.34
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-051649,2025-08-30,"Order ORD-051649 total $1024.15 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-03036, Loc: LOC-019)",1024.15
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-040877,2025-03-15,"Order ORD-040877 total $1013.16 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-39796, Loc: LOC-012)",1013.16
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-075161,2025-08-06,"Order ORD-075161 total $1011.89 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-08643, Loc: LOC-015)",1011.89
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-045566,2025-03-13,"Order ORD-045566 total $1007.34 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-33666, Loc: LOC-008)",1007.34
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-005998,2025-10-22,"Order ORD-005998 total $993.85 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-22584, Loc: LOC-001)",993.85
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-048292,2025-05-08,"Order ORD-048292 total $992.23 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-15745, Loc: LOC-014)",992.23
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-049809,2025-03-03,"Order ORD-049809 total $983.50 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-41682, Loc: LOC-001)",983.5
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-022295,2025-02-27,"Order ORD-022295 total $973.25 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-29956, Loc: LOC-003)",973.25
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-034265,2025-01-30,"Order ORD-034265 total $958.25 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-33459, Loc: LOC-009)",958.25
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-096141,2025-12-09,"Order ORD-096141 total $953.35 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-03637, Loc: LOC-011)",953.35
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-099614,2025-02-16,"Order ORD-099614 total $949.80 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-32046, Loc: LOC-008)",949.8
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-088037,2025-10-02,"Order ORD-088037 total $934.24 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-GUEST, Loc: LOC-018)",934.24
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-016104,2025-01-09,"Order ORD-016104 total $924.95 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-33801, Loc: LOC-003)",924.95
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-053834,2025-08-08,"Order ORD-053834 total $915.89 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-39658, Loc: LOC-002)",915.89
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-040869,2025-04-07,"Order ORD-040869 total $912.77 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-18438, Loc: LOC-016)",912.77
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-000850,2025-08-18,"Order ORD-000850 total $911.96 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-22145, Loc: LOC-012)",911.96
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-009317,2025-11-05,"Order ORD-009317 total $910.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-22240, Loc: LOC-005)",910.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-090412,2025-05-28,"Order ORD-090412 total $907.63 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-17633, Loc: LOC-008)",907.63
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-085138,2025-04-24,"Order ORD-085138 total $904.08 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-19757, Loc: LOC-013)",904.08
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-072504,2025-01-18,"Order ORD-072504 total $897.57 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-15566, Loc: LOC-009)",897.57
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-009833,2025-03-17,"Order ORD-009833 total $896.87 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-47924, Loc: LOC-005)",896.87
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-065472,2025-04-21,"Order ORD-065472 total $896.82 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-44542, Loc: LOC-002)",896.82
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-058514,2025-10-07,"Order ORD-058514 total $896.38 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-06399, Loc: LOC-010)",896.38
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-016776,2025-06-12,"Order ORD-016776 total $895.67 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-34414, Loc: LOC-001)",895.67
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-008823,2025-03-03,"Order ORD-008823 total $893.52 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-45694, Loc: LOC-008)",893.52
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-041403,2025-03-31,"Order ORD-041403 total $890.56 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24319, Loc: LOC-006)",890.56
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-002850,2025-06-03,"Order ORD-002850 total $889.19 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-10073, Loc: LOC-006)",889.19
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-011882,2025-04-08,"Order ORD-011882 total $888.29 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-27078, Loc: LOC-016)",888.29
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-016795,2025-05-25,"Order ORD-016795 total $888.07 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-18168, Loc: LOC-005)",888.07
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-059815,2025-04-01,"Order ORD-059815 total $887.49 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-06475, Loc: LOC-013)",887.49
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-085350,2025-05-01,"Order ORD-085350 total $887.22 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-39879, Loc: LOC-008)",887.22
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-024599,2025-07-17,"Order ORD-024599 total $882.38 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-47229, Loc: LOC-013)",882.38
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-029541,2025-05-21,"Order ORD-029541 total $881.79 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-12668, Loc: LOC-020)",881.79
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-017226,2025-03-07,"Order ORD-017226 total $881.02 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-GUEST, Loc: LOC-009)",881.02
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-063630,2025-12-15,"Order ORD-063630 total $875.81 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-31132, Loc: LOC-001)",875.81
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-052936,2025-02-23,"Order ORD-052936 total $871.63 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-07064, Loc: LOC-010)",871.63
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-076779,2025-06-02,"Order ORD-076779 total $871.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-35311, Loc: LOC-013)",871.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-063332,2025-05-10,"Order ORD-063332 total $865.94 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-45410, Loc: LOC-007)",865.94
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-089130,2025-06-20,"Order ORD-089130 total $863.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-18208, Loc: LOC-002)",863.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-047953,2025-12-11,"Order ORD-047953 total $862.72 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24160, Loc: LOC-019)",862.72
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-060246,2025-06-17,"Order ORD-060246 total $862.20 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-30516, Loc: LOC-001)",862.2
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-033624,2025-08-10,"Order ORD-033624 total $860.11 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-09871, Loc: LOC-020)",860.11
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-005972,2025-04-02,"Order ORD-005972 total $858.39 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-42963, Loc: LOC-013)",858.39
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-082977,2025-02-01,"Order ORD-082977 total $856.74 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-35234, Loc: LOC-015)",856.74
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-004197,2025-01-13,"Order ORD-004197 total $854.02 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24355, Loc: LOC-013)",854.02
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-096495,2025-12-11,"Order ORD-096495 total $853.66 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-04410, Loc: LOC-004)",853.66
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-036834,2025-10-30,"Order ORD-036834 total $853.30 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-18662, Loc: LOC-001)",853.3
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-081024,2025-11-28,"Order ORD-081024 total $850.27 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-46692, Loc: LOC-008)",850.27
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-072013,2025-05-10,"Order ORD-072013 total $850.11 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-36882, Loc: LOC-013)",850.11
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-017776,2025-10-03,"Order ORD-017776 total $848.12 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-15927, Loc: LOC-018)",848.12
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-036559,2025-03-07,"Order ORD-036559 total $845.95 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-28454, Loc: LOC-020)",845.95
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-054798,2025-08-25,"Order ORD-054798 total $844.25 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-36350, Loc: LOC-001)",844.25
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-040928,2025-05-04,"Order ORD-040928 total $843.24 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-42450, Loc: LOC-013)",843.24
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-038531,2025-11-09,"Order ORD-038531 total $842.71 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-02605, Loc: LOC-001)",842.71
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-006797,2025-12-20,"Order ORD-006797 total $842.65 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-22944, Loc: LOC-011)",842.65
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-022385,2025-04-06,"Order ORD-022385 total $841.34 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-17347, Loc: LOC-018)",841.34
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-072520,2025-04-23,"Order ORD-072520 total $840.73 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-28433, Loc: LOC-002)",840.73
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-037353,2025-11-15,"Order ORD-037353 total $839.54 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-08361, Loc: LOC-020)",839.54
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-027796,2025-11-10,"Order ORD-027796 total $839.06 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-17381, Loc: LOC-004)",839.06
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-090136,2025-03-20,"Order ORD-090136 total $838.87 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-10685, Loc: LOC-012)",838.87
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-066294,2025-12-25,"Order ORD-066294 total $835.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-26703, Loc: LOC-019)",835.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-099160,2025-04-03,"Order ORD-099160 total $834.50 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-19568, Loc: LOC-017)",834.5
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-063187,2025-10-24,"Order ORD-063187 total $831.85 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-38174, Loc: LOC-010)",831.85
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-073296,2025-09-12,"Order ORD-073296 total $828.24 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-25780, Loc: LOC-005)",828.24
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-024016,2025-04-08,"Order ORD-024016 total $827.53 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-06753, Loc: LOC-001)",827.53
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-055345,2025-11-11,"Order ORD-055345 total $827.13 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-02291, Loc: LOC-013)",827.13
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-045808,2025-03-15,"Order ORD-045808 total $827.03 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-29081, Loc: LOC-020)",827.03
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-082330,2025-12-13,"Order ORD-082330 total $826.96 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-38136, Loc: LOC-005)",826.96
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-068701,2025-03-28,"Order ORD-068701 total $826.35 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-01024, Loc: LOC-018)",826.35
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-053533,2025-04-02,"Order ORD-053533 total $824.40 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-17368, Loc: LOC-006)",824.4
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-028267,2025-07-11,"Order ORD-028267 total $819.62 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-34931, Loc: LOC-006)",819.62
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-073989,2025-10-18,"Order ORD-073989 total $819.30 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-41230, Loc: LOC-017)",819.3
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-098635,2025-08-11,"Order ORD-098635 total $818.88 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-11961, Loc: LOC-012)",818.88
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-072569,2025-06-05,"Order ORD-072569 total $818.68 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-13590, Loc: LOC-008)",818.68
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-014121,2025-09-11,"Order ORD-014121 total $818.34 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-49954, Loc: LOC-009)",818.34
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-004746,2025-01-27,"Order ORD-004746 total $818.05 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-04573, Loc: LOC-002)",818.05
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-032994,2025-04-03,"Order ORD-032994 total $817.19 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-04763, Loc: LOC-004)",817.19
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-069829,2025-06-06,"Order ORD-069829 total $816.25 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-GUEST, Loc: LOC-017)",816.25
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-016552,2025-06-11,"Order ORD-016552 total $815.26 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-03156, Loc: LOC-012)",815.26
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-016491,2025-01-16,"Order ORD-016491 total $815.11 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-28648, Loc: LOC-005)",815.11
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-056295,2025-09-10,"Order ORD-056295 total $813.99 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-40645, Loc: LOC-003)",813.99
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-051185,2025-05-01,"Order ORD-051185 total $810.81 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-13148, Loc: LOC-002)",810.81
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-057759,2025-11-16,"Order ORD-057759 total $810.39 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-14235, Loc: LOC-009)",810.39
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-053109,2025-09-09,"Order ORD-053109 total $808.57 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-25083, Loc: LOC-004)",808.57
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-074256,2025-11-09,"Order ORD-074256 total $807.28 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-05530, Loc: LOC-002)",807.28
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-028980,2025-12-05,"Order ORD-028980 total $806.41 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24869, Loc: LOC-009)",806.41
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-088504,2025-09-16,"Order ORD-088504 total $806.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-49140, Loc: LOC-012)",806.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-097433,2025-06-30,"Order ORD-097433 total $805.21 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-03792, Loc: LOC-001)",805.21
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-061756,2025-06-21,"Order ORD-061756 total $804.86 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-49063, Loc: LOC-019)",804.86
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-077047,2025-11-29,"Order ORD-077047 total $804.54 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-26333, Loc: LOC-009)",804.54
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-046144,2025-11-16,"Order ORD-046144 total $803.90 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-38612, Loc: LOC-008)",803.9
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-027179,2025-02-09,"Order ORD-027179 total $803.36 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-03184, Loc: LOC-020)",803.36
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-028583,2025-11-29,"Order ORD-028583 total $802.92 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24076, Loc: LOC-001)",802.92
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-030103,2025-02-27,"Order ORD-030103 total $802.32 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-36289, Loc: LOC-019)",802.32
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-074139,2025-09-08,"Order ORD-074139 total $801.12 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-30914, Loc: LOC-002)",801.12
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-030616,2025-09-10,"Order ORD-030616 total $800.51 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-14476, Loc: LOC-002)",800.51
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-092641,2025-06-22,"Order ORD-092641 total $800.49 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-09372, Loc: LOC-010)",800.49
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-024559,2025-11-14,"Order ORD-024559 total $795.88 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-10643, Loc: LOC-001)",795.88
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-044833,2025-07-05,"Order ORD-044833 total $795.14 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-14612, Loc: LOC-010)",795.14
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-060691,2025-07-14,"Order ORD-060691 total $794.69 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-20698, Loc: LOC-010)",794.69
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-035459,2025-05-26,"Order ORD-035459 total $794.67 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-29906, Loc: LOC-013)",794.67
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-064960,2025-02-15,"Order ORD-064960 total $794.13 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-21571, Loc: LOC-001)",794.13
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-000127,2025-11-09,"Order ORD-000127 total $793.46 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24839, Loc: LOC-012)",793.46
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-065729,2025-08-12,"Order ORD-065729 total $792.41 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-10840, Loc: LOC-013)",792.41
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-020882,2025-08-29,"Order ORD-020882 total $791.75 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-26857, Loc: LOC-019)",791.75
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-048545,2025-12-26,"Order ORD-048545 total $791.74 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-36107, Loc: LOC-006)",791.74
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-004522,2025-08-12,"Order ORD-004522 total $790.54 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-33447, Loc: LOC-016)",790.54
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-039353,2025-07-11,"Order ORD-039353 total $789.37 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-10680, Loc: LOC-007)",789.37
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-036868,2025-05-17,"Order ORD-036868 total $789.31 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-48651, Loc: LOC-004)",789.31
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-044311,2025-07-04,"Order ORD-044311 total $788.68 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-37618, Loc: LOC-001)",788.68
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-062075,2025-12-06,"Order ORD-062075 total $788.56 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-34668, Loc: LOC-011)",788.56
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-021259,2025-07-22,"Order ORD-021259 total $788.06 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-49779, Loc: LOC-011)",788.06
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-010954,2025-02-09,"Order ORD-010954 total $787.67 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-42049, Loc: LOC-018)",787.67
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-084864,2025-04-18,"Order ORD-084864 total $787.10 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-24740, Loc: LOC-007)",787.1
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-086689,2025-06-07,"Order ORD-086689 total $786.85 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-16902, Loc: LOC-019)",786.85
+abnormally_high_order_values,Abnormally High Order Value (Whale Order),ORD-087232,2025-04-05,"Order ORD-087232 total $785.77 exceeds extreme 3-IQR fence of $784.03 (Cust: CUST-45854, Loc: LOC-020)",785.77
+unusual_discounts,Unusual Discount,ORD-000320,2025-04-21,"Order ORD-000320: $412.44 discount (Excessive discount (100.0%), Discount without valid promotion ID)",412.44
+unusual_discounts,Unusual Discount,ORD-000304,2025-09-01,"Order ORD-000304: $406.49 discount (Excessive discount (100.0%), Discount without valid promotion ID)",406.49
+unusual_discounts,Unusual Discount,ORD-000312,2025-02-08,"Order ORD-000312: $391.66 discount (Excessive discount (100.0%), Discount without valid promotion ID)",391.66
+unusual_discounts,Unusual Discount,ORD-000324,2025-05-03,"Order ORD-000324: $353.74 discount (Excessive discount (100.0%), Discount without valid promotion ID)",353.74
+unusual_discounts,Unusual Discount,ORD-000321,2025-08-03,Order ORD-000321: $319.96 discount (Excessive discount (100.0%)),319.96
+unusual_discounts,Unusual Discount,ORD-000314,2025-12-20,"Order ORD-000314: $293.48 discount (Excessive discount (100.0%), Discount without valid promotion ID)",293.48
+unusual_discounts,Unusual Discount,ORD-000313,2025-01-13,"Order ORD-000313: $263.23 discount (Excessive discount (100.0%), Discount without valid promotion ID)",263.23
+unusual_discounts,Unusual Discount,ORD-000318,2025-03-22,Order ORD-000318: $262.70 discount (Excessive discount (100.0%)),262.7
+unusual_discounts,Unusual Discount,ORD-000323,2025-09-10,"Order ORD-000323: $259.47 discount (Excessive discount (100.0%), Discount without valid promotion ID)",259.47
+unusual_discounts,Unusual Discount,ORD-000310,2025-04-30,"Order ORD-000310: $251.95 discount (Excessive discount (100.0%), Discount without valid promotion ID)",251.95
+unusual_discounts,Unusual Discount,ORD-000306,2025-12-25,"Order ORD-000306: $246.44 discount (Excessive discount (100.0%), Discount without valid promotion ID)",246.44
+unusual_discounts,Unusual Discount,ORD-000301,2025-01-26,"Order ORD-000301: $243.25 discount (Excessive discount (100.0%), Discount without valid promotion ID)",243.25
+unusual_discounts,Unusual Discount,ORD-000315,2025-11-14,"Order ORD-000315: $232.97 discount (Excessive discount (100.0%), Discount without valid promotion ID)",232.97
+unusual_discounts,Unusual Discount,ORD-000319,2025-03-15,"Order ORD-000319: $231.91 discount (Excessive discount (100.0%), Discount without valid promotion ID)",231.91
+unusual_discounts,Unusual Discount,ORD-000325,2025-12-19,Order ORD-000325: $223.72 discount (Excessive discount (100.0%)),223.72
+unusual_discounts,Unusual Discount,ORD-000302,2025-07-28,Order ORD-000302: $196.98 discount (Excessive discount (100.0%)),196.98
+unusual_discounts,Unusual Discount,ORD-000316,2025-09-24,"Order ORD-000316: $194.99 discount (Excessive discount (100.0%), Discount without valid promotion ID)",194.99
+unusual_discounts,Unusual Discount,ORD-000305,2025-10-06,"Order ORD-000305: $190.22 discount (Excessive discount (100.0%), Discount without valid promotion ID)",190.22
+unusual_discounts,Unusual Discount,ORD-000303,2025-08-01,"Order ORD-000303: $185.21 discount (Excessive discount (100.0%), Discount without valid promotion ID)",185.21
+unusual_discounts,Unusual Discount,ORD-000309,2025-11-02,"Order ORD-000309: $173.43 discount (Excessive discount (100.0%), Discount without valid promotion ID)",173.43
+unusual_discounts,Unusual Discount,ORD-000308,2025-05-20,Order ORD-000308: $164.94 discount (Excessive discount (100.0%)),164.94
+unusual_discounts,Unusual Discount,ORD-000307,2025-07-24,"Order ORD-000307: $158.71 discount (Excessive discount (100.0%), Discount without valid promotion ID)",158.71
+unusual_discounts,Unusual Discount,ORD-000311,2025-06-29,"Order ORD-000311: $146.00 discount (Excessive discount (100.0%), Discount without valid promotion ID)",146.0
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-095343,2025-11-27,Order ORD-095343 placed at uncharacteristic hour 01:59:08 ($582.84 at LOC-010),582.84
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-063153,2025-10-13,Order ORD-063153 placed at uncharacteristic hour 01:48:29 ($582.29 at LOC-018),582.29
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-042723,2025-07-08,Order ORD-042723 placed at uncharacteristic hour 01:31:27 ($542.89 at LOC-003),542.89
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-019815,2025-08-01,Order ORD-019815 placed at uncharacteristic hour 01:25:35 ($508.38 at LOC-007),508.38
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-017948,2025-08-11,Order ORD-017948 placed at uncharacteristic hour 01:35:57 ($503.27 at LOC-019),503.27
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-038165,2025-08-15,Order ORD-038165 placed at uncharacteristic hour 01:44:04 ($477.77 at LOC-014),477.77
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-025231,2025-11-02,Order ORD-025231 placed at uncharacteristic hour 01:37:07 ($440.58 at LOC-013),440.58
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-044131,2025-09-07,Order ORD-044131 placed at uncharacteristic hour 01:25:55 ($427.66 at LOC-003),427.66
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-050638,2025-10-04,Order ORD-050638 placed at uncharacteristic hour 01:10:43 ($424.49 at LOC-009),424.49
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-098096,2025-12-10,Order ORD-098096 placed at uncharacteristic hour 01:13:24 ($417.79 at LOC-008),417.79
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-069750,2025-05-22,Order ORD-069750 placed at uncharacteristic hour 01:16:58 ($409.12 at LOC-011),409.12
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-083054,2025-09-08,Order ORD-083054 placed at uncharacteristic hour 01:28:10 ($397.72 at LOC-001),397.72
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-087921,2025-02-16,Order ORD-087921 placed at uncharacteristic hour 01:34:52 ($396.67 at LOC-001),396.67
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-048228,2025-04-30,Order ORD-048228 placed at uncharacteristic hour 01:41:40 ($382.09 at LOC-008),382.09
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-041936,2025-10-12,Order ORD-041936 placed at uncharacteristic hour 01:35:59 ($372.80 at LOC-016),372.8
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-046587,2025-12-06,Order ORD-046587 placed at uncharacteristic hour 01:02:06 ($372.57 at LOC-011),372.57
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-022387,2025-09-10,Order ORD-022387 placed at uncharacteristic hour 01:32:01 ($369.33 at LOC-016),369.33
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-006781,2025-06-02,Order ORD-006781 placed at uncharacteristic hour 01:55:15 ($360.96 at LOC-016),360.96
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-096879,2025-11-21,Order ORD-096879 placed at uncharacteristic hour 01:10:52 ($357.39 at LOC-003),357.39
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-073886,2025-06-12,Order ORD-073886 placed at uncharacteristic hour 01:30:05 ($347.59 at LOC-009),347.59
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-023682,2025-12-29,Order ORD-023682 placed at uncharacteristic hour 01:06:04 ($338.00 at LOC-012),338.0
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-075709,2025-12-16,Order ORD-075709 placed at uncharacteristic hour 01:20:08 ($331.74 at LOC-012),331.74
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-013822,2025-04-20,Order ORD-013822 placed at uncharacteristic hour 01:26:01 ($325.03 at LOC-002),325.03
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-076165,2025-05-02,Order ORD-076165 placed at uncharacteristic hour 01:58:39 ($318.22 at LOC-006),318.22
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-061724,2025-10-18,Order ORD-061724 placed at uncharacteristic hour 01:05:32 ($313.69 at LOC-019),313.69
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-086760,2025-03-16,Order ORD-086760 placed at uncharacteristic hour 01:36:06 ($311.14 at LOC-012),311.14
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-056799,2025-03-27,Order ORD-056799 placed at uncharacteristic hour 01:50:28 ($308.60 at LOC-011),308.6
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-053653,2025-09-04,Order ORD-053653 placed at uncharacteristic hour 01:20:59 ($305.76 at LOC-015),305.76
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-057448,2025-10-31,Order ORD-057448 placed at uncharacteristic hour 01:29:50 ($299.17 at LOC-003),299.17
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-065006,2025-03-17,Order ORD-065006 placed at uncharacteristic hour 01:16:52 ($298.19 at LOC-012),298.19
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-065284,2025-02-26,Order ORD-065284 placed at uncharacteristic hour 01:58:26 ($298.11 at LOC-001),298.11
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-031903,2025-08-10,Order ORD-031903 placed at uncharacteristic hour 01:57:54 ($291.17 at LOC-005),291.17
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-074296,2025-10-18,Order ORD-074296 placed at uncharacteristic hour 01:16:36 ($289.05 at LOC-002),289.05
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-012176,2025-09-19,Order ORD-012176 placed at uncharacteristic hour 01:21:59 ($283.48 at LOC-010),283.48
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-030409,2025-08-20,Order ORD-030409 placed at uncharacteristic hour 01:00:09 ($278.72 at LOC-014),278.72
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-096439,2025-10-12,Order ORD-096439 placed at uncharacteristic hour 01:20:30 ($278.69 at LOC-006),278.69
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-054129,2025-03-26,Order ORD-054129 placed at uncharacteristic hour 01:26:08 ($277.43 at LOC-016),277.43
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-072112,2025-10-08,Order ORD-072112 placed at uncharacteristic hour 01:45:46 ($276.63 at LOC-002),276.63
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-096253,2025-02-13,Order ORD-096253 placed at uncharacteristic hour 01:07:32 ($255.42 at LOC-016),255.42
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-054177,2025-04-20,Order ORD-054177 placed at uncharacteristic hour 01:08:48 ($250.36 at LOC-004),250.36
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-039634,2025-04-18,Order ORD-039634 placed at uncharacteristic hour 01:12:48 ($249.97 at LOC-018),249.97
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-002726,2025-05-12,Order ORD-002726 placed at uncharacteristic hour 01:25:30 ($248.70 at LOC-001),248.7
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-033253,2025-04-24,Order ORD-033253 placed at uncharacteristic hour 01:09:19 ($246.47 at LOC-011),246.47
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-041467,2025-06-14,Order ORD-041467 placed at uncharacteristic hour 01:22:08 ($246.19 at LOC-005),246.19
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-070753,2025-12-17,Order ORD-070753 placed at uncharacteristic hour 01:10:30 ($245.31 at LOC-007),245.31
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-012091,2025-05-01,Order ORD-012091 placed at uncharacteristic hour 01:39:45 ($245.15 at LOC-009),245.15
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-065497,2025-03-14,Order ORD-065497 placed at uncharacteristic hour 01:57:25 ($232.13 at LOC-014),232.13
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-080767,2025-04-03,Order ORD-080767 placed at uncharacteristic hour 01:23:32 ($231.98 at LOC-016),231.98
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-008960,2025-11-19,Order ORD-008960 placed at uncharacteristic hour 01:34:13 ($231.55 at LOC-017),231.55
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-068970,2025-06-15,Order ORD-068970 placed at uncharacteristic hour 01:20:25 ($230.92 at LOC-020),230.92
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-064212,2025-11-25,Order ORD-064212 placed at uncharacteristic hour 01:59:58 ($227.18 at LOC-012),227.18
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-055763,2025-08-13,Order ORD-055763 placed at uncharacteristic hour 01:26:15 ($221.49 at LOC-013),221.49
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-002472,2025-12-21,Order ORD-002472 placed at uncharacteristic hour 01:40:29 ($219.88 at LOC-004),219.88
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-078022,2025-12-04,Order ORD-078022 placed at uncharacteristic hour 01:28:57 ($219.81 at LOC-017),219.81
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-053502,2025-09-06,Order ORD-053502 placed at uncharacteristic hour 01:24:21 ($216.99 at LOC-002),216.99
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-003745,2025-01-04,Order ORD-003745 placed at uncharacteristic hour 01:11:45 ($209.47 at LOC-001),209.47
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-027196,2025-06-13,Order ORD-027196 placed at uncharacteristic hour 01:54:17 ($205.86 at LOC-016),205.86
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-089476,2025-07-04,Order ORD-089476 placed at uncharacteristic hour 01:04:03 ($202.06 at LOC-002),202.06
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-022415,2025-12-17,Order ORD-022415 placed at uncharacteristic hour 01:49:07 ($200.77 at LOC-010),200.77
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-013376,2025-08-09,Order ORD-013376 placed at uncharacteristic hour 01:12:32 ($197.85 at LOC-013),197.85
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-014550,2025-09-07,Order ORD-014550 placed at uncharacteristic hour 01:53:11 ($197.12 at LOC-017),197.12
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-062866,2025-07-05,Order ORD-062866 placed at uncharacteristic hour 01:53:28 ($195.99 at LOC-007),195.99
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-065670,2025-09-07,Order ORD-065670 placed at uncharacteristic hour 01:39:59 ($187.23 at LOC-015),187.23
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-054018,2025-02-27,Order ORD-054018 placed at uncharacteristic hour 01:16:34 ($186.97 at LOC-010),186.97
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-091301,2025-10-25,Order ORD-091301 placed at uncharacteristic hour 01:30:52 ($186.17 at LOC-012),186.17
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-070024,2025-03-05,Order ORD-070024 placed at uncharacteristic hour 01:37:17 ($186.14 at LOC-006),186.14
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-072734,2025-11-28,Order ORD-072734 placed at uncharacteristic hour 01:58:56 ($174.64 at LOC-002),174.64
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-061142,2025-12-30,Order ORD-061142 placed at uncharacteristic hour 01:09:38 ($170.48 at LOC-008),170.48
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-064152,2025-11-19,Order ORD-064152 placed at uncharacteristic hour 01:26:54 ($160.95 at LOC-017),160.95
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-029389,2025-07-31,Order ORD-029389 placed at uncharacteristic hour 01:13:51 ($151.90 at LOC-020),151.9
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-011059,2025-03-20,Order ORD-011059 placed at uncharacteristic hour 01:13:04 ($151.57 at LOC-017),151.57
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-081553,2025-10-31,Order ORD-081553 placed at uncharacteristic hour 01:01:10 ($151.49 at LOC-015),151.49
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-079176,2025-05-15,Order ORD-079176 placed at uncharacteristic hour 01:25:20 ($150.45 at LOC-001),150.45
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-075828,2025-01-28,Order ORD-075828 placed at uncharacteristic hour 01:54:37 ($144.49 at LOC-006),144.49
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-050769,2025-05-23,Order ORD-050769 placed at uncharacteristic hour 01:44:50 ($140.65 at LOC-008),140.65
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-086723,2025-05-13,Order ORD-086723 placed at uncharacteristic hour 01:03:24 ($134.31 at LOC-010),134.31
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-095000,2025-08-22,Order ORD-095000 placed at uncharacteristic hour 01:12:54 ($120.32 at LOC-011),120.32
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-095171,2025-08-07,Order ORD-095171 placed at uncharacteristic hour 01:09:08 ($117.44 at LOC-001),117.44
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-019071,2025-03-19,Order ORD-019071 placed at uncharacteristic hour 01:45:49 ($117.07 at LOC-001),117.07
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-073563,2025-12-18,Order ORD-073563 placed at uncharacteristic hour 01:35:41 ($110.52 at LOC-010),110.52
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-073709,2025-09-29,Order ORD-073709 placed at uncharacteristic hour 01:46:48 ($86.57 at LOC-002),86.57
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-044554,2025-12-07,Order ORD-044554 placed at uncharacteristic hour 01:58:02 ($56.28 at LOC-002),56.28
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-090430,2025-09-21,Order ORD-090430 placed at uncharacteristic hour 01:48:30 ($55.16 at LOC-018),55.16
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-085839,2025-05-30,Order ORD-085839 placed at uncharacteristic hour 01:36:49 ($53.21 at LOC-008),53.21
+unexpected_demand,Unexpected Demand (Off-Peak Hour),ORD-029165,2025-05-04,Order ORD-029165 placed at uncharacteristic hour 01:33:10 ($51.94 at LOC-020),51.94
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-075722,2025-04-17,"Quarantined duplicate order_id ORD-075722 (Customer: CUST-37825, Amount: $254.97)",254.97
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-080185,2025-02-01,"Quarantined duplicate order_id ORD-080185 (Customer: CUST-26819, Amount: $341.96)",341.96
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-019865,2025-10-25,"Quarantined duplicate order_id ORD-019865 (Customer: CUST-48614, Amount: $130.12)",130.12
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-076700,2025-11-06,"Quarantined duplicate order_id ORD-076700 (Customer: CUST-24500, Amount: $144.51)",144.51
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-092992,2025-05-02,"Quarantined duplicate order_id ORD-092992 (Customer: CUST-12388, Amount: $250.81)",250.81
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-076435,2025-05-03,"Quarantined duplicate order_id ORD-076435 (Customer: CUST-49021, Amount: $166.98)",166.98
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-084005,2025-09-08,"Quarantined duplicate order_id ORD-084005 (Customer: CUST-21866, Amount: $354.97)",354.97
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-080918,2025-10-12,"Quarantined duplicate order_id ORD-080918 (Customer: CUST-37958, Amount: $352.31)",352.31
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-060768,2025-11-07,"Quarantined duplicate order_id ORD-060768 (Customer: nan, Amount: $333.37)",333.37
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-050075,2025-03-25,"Quarantined duplicate order_id ORD-050075 (Customer: CUST-17799, Amount: $246.80)",246.8
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-027702,2025-12-23,"Quarantined duplicate order_id ORD-027702 (Customer: CUST-18120, Amount: $413.39)",413.39
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-042142,2025-06-12,"Quarantined duplicate order_id ORD-042142 (Customer: CUST-42316, Amount: $140.97)",140.97
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-045081,2025-10-17,"Quarantined duplicate order_id ORD-045081 (Customer: CUST-07366, Amount: $225.16)",225.16
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-016639,2025-05-31,"Quarantined duplicate order_id ORD-016639 (Customer: CUST-06056, Amount: $137.20)",137.2
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-020425,2025-12-10,"Quarantined duplicate order_id ORD-020425 (Customer: CUST-02453, Amount: $207.56)",207.56
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-088703,2025-11-24,"Quarantined duplicate order_id ORD-088703 (Customer: CUST-11971, Amount: $162.97)",162.97
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-000150,2025-05-03,"Quarantined duplicate order_id ORD-000150 (Customer: CUST-11145, Amount: $-152.09)",-152.09
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-001762,2025-11-16,"Quarantined duplicate order_id ORD-001762 (Customer: CUST-08074, Amount: $196.71)",196.71
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-063121,2025-10-30,"Quarantined duplicate order_id ORD-063121 (Customer: CUST-10569, Amount: $251.26)",251.26
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-069162,2025-07-29,"Quarantined duplicate order_id ORD-069162 (Customer: CUST-06884, Amount: $132.01)",132.01
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-064884,2025-03-22,"Quarantined duplicate order_id ORD-064884 (Customer: CUST-13861, Amount: $448.11)",448.11
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-002496,2025-07-16,"Quarantined duplicate order_id ORD-002496 (Customer: CUST-25357, Amount: $366.73)",366.73
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-080297,2025-06-30,"Quarantined duplicate order_id ORD-080297 (Customer: CUST-41754, Amount: $103.08)",103.08
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-019448,2025-07-26,"Quarantined duplicate order_id ORD-019448 (Customer: CUST-09650, Amount: $258.71)",258.71
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-041332,2025-01-24,"Quarantined duplicate order_id ORD-041332 (Customer: CUST-34504, Amount: $724.69)",724.69
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-014889,2025-12-16,"Quarantined duplicate order_id ORD-014889 (Customer: CUST-27563, Amount: $318.22)",318.22
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-088637,2025-06-01,"Quarantined duplicate order_id ORD-088637 (Customer: CUST-34150, Amount: $252.20)",252.2
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-094893,2025-02-23,"Quarantined duplicate order_id ORD-094893 (Customer: CUST-14683, Amount: $386.67)",386.67
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-092732,2025-07-11,"Quarantined duplicate order_id ORD-092732 (Customer: CUST-41359, Amount: $206.32)",206.32
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-029131,2025-12-01,"Quarantined duplicate order_id ORD-029131 (Customer: CUST-26393, Amount: $161.93)",161.93
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-079023,2025-12-13,"Quarantined duplicate order_id ORD-079023 (Customer: CUST-38789, Amount: $201.30)",201.3
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-084937,2025-03-14,"Quarantined duplicate order_id ORD-084937 (Customer: CUST-03231, Amount: $365.86)",365.86
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-016822,2025-07-27,"Quarantined duplicate order_id ORD-016822 (Customer: nan, Amount: $509.99)",509.99
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-036734,2025-07-26,"Quarantined duplicate order_id ORD-036734 (Customer: CUST-33662, Amount: $310.66)",310.66
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-015603,2025-08-18,"Quarantined duplicate order_id ORD-015603 (Customer: CUST-47282, Amount: $245.17)",245.17
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-028534,2025-10-19,"Quarantined duplicate order_id ORD-028534 (Customer: CUST-26513, Amount: $258.86)",258.86
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-069770,2025-06-14,"Quarantined duplicate order_id ORD-069770 (Customer: CUST-08016, Amount: $365.98)",365.98
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-011406,2025-08-17,"Quarantined duplicate order_id ORD-011406 (Customer: CUST-04822, Amount: $427.07)",427.07
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-096853,2025-01-29,"Quarantined duplicate order_id ORD-096853 (Customer: CUST-46723, Amount: $369.34)",369.34
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-016131,2025-10-14,"Quarantined duplicate order_id ORD-016131 (Customer: CUST-06854, Amount: $396.23)",396.23
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-019793,2025-07-18,"Quarantined duplicate order_id ORD-019793 (Customer: CUST-29707, Amount: $143.99)",143.99
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-089578,2025-12-22,"Quarantined duplicate order_id ORD-089578 (Customer: CUST-45093, Amount: $235.11)",235.11
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-040164,2025-05-02,"Quarantined duplicate order_id ORD-040164 (Customer: CUST-19955, Amount: $315.60)",315.6
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-031777,2025-02-16,"Quarantined duplicate order_id ORD-031777 (Customer: CUST-19315, Amount: $127.16)",127.16
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-025331,2025-01-21,"Quarantined duplicate order_id ORD-025331 (Customer: CUST-11254, Amount: $206.42)",206.42
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-079157,2025-11-12,"Quarantined duplicate order_id ORD-079157 (Customer: CUST-44021, Amount: $244.07)",244.07
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-051686,2025-08-22,"Quarantined duplicate order_id ORD-051686 (Customer: CUST-32366, Amount: $326.98)",326.98
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-075499,2025-12-29,"Quarantined duplicate order_id ORD-075499 (Customer: nan, Amount: $240.02)",240.02
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-004728,2025-11-16,"Quarantined duplicate order_id ORD-004728 (Customer: CUST-05196, Amount: $234.66)",234.66
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-085199,2025-05-24,"Quarantined duplicate order_id ORD-085199 (Customer: CUST-04045, Amount: $275.16)",275.16
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-035796,2025-09-05,"Quarantined duplicate order_id ORD-035796 (Customer: CUST-35035, Amount: $177.45)",177.45
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-012257,2025-05-17,"Quarantined duplicate order_id ORD-012257 (Customer: CUST-31468, Amount: $258.67)",258.67
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-035719,2025-12-26,"Quarantined duplicate order_id ORD-035719 (Customer: CUST-44490, Amount: $395.63)",395.63
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-070552,2025-10-10,"Quarantined duplicate order_id ORD-070552 (Customer: CUST-25950, Amount: $193.77)",193.77
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-054375,2025-07-27,"Quarantined duplicate order_id ORD-054375 (Customer: CUST-47747, Amount: $254.47)",254.47
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-039692,2025-08-13,"Quarantined duplicate order_id ORD-039692 (Customer: CUST-41634, Amount: $188.34)",188.34
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-093703,2025-03-29,"Quarantined duplicate order_id ORD-093703 (Customer: CUST-35869, Amount: $172.91)",172.91
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-073692,2025-07-02,"Quarantined duplicate order_id ORD-073692 (Customer: CUST-31838, Amount: $256.35)",256.35
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-098071,2025-02-15,"Quarantined duplicate order_id ORD-098071 (Customer: CUST-46518, Amount: $509.94)",509.94
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-000576,2025-12-17,"Quarantined duplicate order_id ORD-000576 (Customer: CUST-31088, Amount: $234.01)",234.01
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-084611,2025-07-17,"Quarantined duplicate order_id ORD-084611 (Customer: CUST-25695, Amount: $90.02)",90.02
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-061770,2025-05-29,"Quarantined duplicate order_id ORD-061770 (Customer: CUST-02004, Amount: $109.03)",109.03
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-032261,2025-07-18,"Quarantined duplicate order_id ORD-032261 (Customer: CUST-40605, Amount: $233.25)",233.25
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-082200,2025-05-20,"Quarantined duplicate order_id ORD-082200 (Customer: CUST-28202, Amount: $100.79)",100.79
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-036291,2025-03-22,"Quarantined duplicate order_id ORD-036291 (Customer: CUST-33891, Amount: $176.64)",176.64
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-078450,2025-02-02,"Quarantined duplicate order_id ORD-078450 (Customer: nan, Amount: $252.19)",252.19
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-060056,2025-04-18,"Quarantined duplicate order_id ORD-060056 (Customer: CUST-32553, Amount: $279.29)",279.29
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-045949,2025-10-25,"Quarantined duplicate order_id ORD-045949 (Customer: CUST-08202, Amount: $262.50)",262.5
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-028178,2025-04-15,"Quarantined duplicate order_id ORD-028178 (Customer: CUST-36680, Amount: $233.81)",233.81
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-084464,2025-01-07,"Quarantined duplicate order_id ORD-084464 (Customer: CUST-26553, Amount: $155.30)",155.3
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-000579,2025-07-16,"Quarantined duplicate order_id ORD-000579 (Customer: CUST-30136, Amount: $260.17)",260.17
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-030960,2025-11-12,"Quarantined duplicate order_id ORD-030960 (Customer: CUST-22907, Amount: $253.87)",253.87
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-064291,2025-01-11,"Quarantined duplicate order_id ORD-064291 (Customer: CUST-26217, Amount: $55.60)",55.6
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-014532,2025-12-26,"Quarantined duplicate order_id ORD-014532 (Customer: CUST-32576, Amount: $256.31)",256.31
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-017934,2025-03-05,"Quarantined duplicate order_id ORD-017934 (Customer: CUST-00568, Amount: $80.66)",80.66
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-033609,2025-04-14,"Quarantined duplicate order_id ORD-033609 (Customer: CUST-28881, Amount: $129.64)",129.64
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-049960,2025-06-23,"Quarantined duplicate order_id ORD-049960 (Customer: CUST-09957, Amount: $143.94)",143.94
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-066599,2025-05-20,"Quarantined duplicate order_id ORD-066599 (Customer: CUST-25889, Amount: $358.64)",358.64
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-099090,2025-10-17,"Quarantined duplicate order_id ORD-099090 (Customer: CUST-26316, Amount: $253.04)",253.04
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-034452,2025-02-07,"Quarantined duplicate order_id ORD-034452 (Customer: CUST-17476, Amount: $251.40)",251.4
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-034081,2025-12-15,"Quarantined duplicate order_id ORD-034081 (Customer: CUST-00664, Amount: $345.00)",345.0
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-063588,2025-03-02,"Quarantined duplicate order_id ORD-063588 (Customer: CUST-06912, Amount: $233.55)",233.55
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-004294,2025-12-05,"Quarantined duplicate order_id ORD-004294 (Customer: CUST-21342, Amount: $219.30)",219.3
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-069103,2025-01-10,"Quarantined duplicate order_id ORD-069103 (Customer: CUST-40828, Amount: $331.74)",331.74
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-086412,2025-06-21,"Quarantined duplicate order_id ORD-086412 (Customer: CUST-43661, Amount: $97.66)",97.66
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-099477,2025-04-30,"Quarantined duplicate order_id ORD-099477 (Customer: CUST-23183, Amount: $195.87)",195.87
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-053930,2025-08-30,"Quarantined duplicate order_id ORD-053930 (Customer: CUST-08794, Amount: $386.95)",386.95
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-087071,2025-05-13,"Quarantined duplicate order_id ORD-087071 (Customer: CUST-33982, Amount: $173.19)",173.19
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-065084,2025-07-14,"Quarantined duplicate order_id ORD-065084 (Customer: CUST-02687, Amount: $200.76)",200.76
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-030713,2025-08-29,"Quarantined duplicate order_id ORD-030713 (Customer: CUST-39964, Amount: $392.92)",392.92
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-049183,2025-03-30,"Quarantined duplicate order_id ORD-049183 (Customer: CUST-39788, Amount: $297.58)",297.58
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-057235,2025-06-15,"Quarantined duplicate order_id ORD-057235 (Customer: CUST-29826, Amount: $306.88)",306.88
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-015664,2025-06-09,"Quarantined duplicate order_id ORD-015664 (Customer: CUST-41595, Amount: $197.57)",197.57
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-019967,2025-10-11,"Quarantined duplicate order_id ORD-019967 (Customer: CUST-01446, Amount: $233.37)",233.37
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-091913,2025-02-13,"Quarantined duplicate order_id ORD-091913 (Customer: CUST-02686, Amount: $234.85)",234.85
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-091958,2025-03-29,"Quarantined duplicate order_id ORD-091958 (Customer: CUST-12326, Amount: $592.47)",592.47
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-081347,2025-10-31,"Quarantined duplicate order_id ORD-081347 (Customer: CUST-03435, Amount: $90.35)",90.35
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-055326,2025-11-02,"Quarantined duplicate order_id ORD-055326 (Customer: CUST-10712, Amount: $200.77)",200.77
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-029858,2025-02-05,"Quarantined duplicate order_id ORD-029858 (Customer: CUST-28350, Amount: $188.85)",188.85
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-071223,2025-07-04,"Quarantined duplicate order_id ORD-071223 (Customer: CUST-48069, Amount: $347.95)",347.95
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-052459,2025-05-17,"Quarantined duplicate order_id ORD-052459 (Customer: CUST-24683, Amount: $259.20)",259.2
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-088346,2025-03-30,"Quarantined duplicate order_id ORD-088346 (Customer: CUST-12346, Amount: $350.28)",350.28
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-082364,2025-04-30,"Quarantined duplicate order_id ORD-082364 (Customer: CUST-35970, Amount: $159.10)",159.1
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-065350,2025-07-27,"Quarantined duplicate order_id ORD-065350 (Customer: CUST-46844, Amount: $228.39)",228.39
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-059650,2025-03-28,"Quarantined duplicate order_id ORD-059650 (Customer: CUST-47579, Amount: $257.33)",257.33
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-044953,2025-06-07,"Quarantined duplicate order_id ORD-044953 (Customer: CUST-16948, Amount: $310.09)",310.09
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-039526,2025-01-12,"Quarantined duplicate order_id ORD-039526 (Customer: CUST-11117, Amount: $180.52)",180.52
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-013936,2025-03-26,"Quarantined duplicate order_id ORD-013936 (Customer: CUST-22812, Amount: $191.27)",191.27
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-093781,2025-06-24,"Quarantined duplicate order_id ORD-093781 (Customer: CUST-31708, Amount: $265.66)",265.66
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-089885,2025-02-20,"Quarantined duplicate order_id ORD-089885 (Customer: CUST-22568, Amount: $238.10)",238.1
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-081144,2025-05-30,"Quarantined duplicate order_id ORD-081144 (Customer: CUST-19681, Amount: $361.15)",361.15
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-095800,2025-11-22,"Quarantined duplicate order_id ORD-095800 (Customer: CUST-41588, Amount: $387.53)",387.53
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-089405,2025-09-29,"Quarantined duplicate order_id ORD-089405 (Customer: CUST-29691, Amount: $172.60)",172.6
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-055224,2025-08-29,"Quarantined duplicate order_id ORD-055224 (Customer: CUST-44137, Amount: $176.85)",176.85
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-073646,2025-08-10,"Quarantined duplicate order_id ORD-073646 (Customer: CUST-30588, Amount: $356.06)",356.06
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-066294,2025-12-25,"Quarantined duplicate order_id ORD-066294 (Customer: CUST-26703, Amount: $835.36)",835.36
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-065540,2025-02-14,"Quarantined duplicate order_id ORD-065540 (Customer: CUST-41295, Amount: $153.83)",153.83
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-028111,2025-11-17,"Quarantined duplicate order_id ORD-028111 (Customer: CUST-48924, Amount: $360.34)",360.34
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-041929,2025-03-13,"Quarantined duplicate order_id ORD-041929 (Customer: CUST-47234, Amount: $204.52)",204.52
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-086547,2025-11-12,"Quarantined duplicate order_id ORD-086547 (Customer: CUST-34177, Amount: $181.38)",181.38
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-082586,2025-08-19,"Quarantined duplicate order_id ORD-082586 (Customer: CUST-49075, Amount: $232.34)",232.34
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-038604,2025-12-15,"Quarantined duplicate order_id ORD-038604 (Customer: CUST-36350, Amount: $131.51)",131.51
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-091658,2025-09-07,"Quarantined duplicate order_id ORD-091658 (Customer: CUST-32430, Amount: $94.12)",94.12
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-062787,2025-12-14,"Quarantined duplicate order_id ORD-062787 (Customer: CUST-05548, Amount: $339.01)",339.01
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-084341,2025-10-12,"Quarantined duplicate order_id ORD-084341 (Customer: CUST-00962, Amount: $308.86)",308.86
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-039875,2025-02-22,"Quarantined duplicate order_id ORD-039875 (Customer: CUST-06443, Amount: $464.11)",464.11
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-078469,2025-02-21,"Quarantined duplicate order_id ORD-078469 (Customer: CUST-05557, Amount: $252.21)",252.21
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-031632,2025-11-19,"Quarantined duplicate order_id ORD-031632 (Customer: CUST-31840, Amount: $311.71)",311.71
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-014953,2025-10-30,"Quarantined duplicate order_id ORD-014953 (Customer: CUST-48552, Amount: $144.24)",144.24
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-039332,2025-07-25,"Quarantined duplicate order_id ORD-039332 (Customer: CUST-05480, Amount: $172.55)",172.55
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-048588,2025-07-10,"Quarantined duplicate order_id ORD-048588 (Customer: CUST-23252, Amount: $140.12)",140.12
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-083595,2025-05-09,"Quarantined duplicate order_id ORD-083595 (Customer: CUST-40581, Amount: $173.71)",173.71
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-041488,2025-08-09,"Quarantined duplicate order_id ORD-041488 (Customer: CUST-11315, Amount: $132.89)",132.89
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-039628,2025-04-17,"Quarantined duplicate order_id ORD-039628 (Customer: CUST-23383, Amount: $207.90)",207.9
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-087895,2025-10-17,"Quarantined duplicate order_id ORD-087895 (Customer: CUST-33113, Amount: $242.84)",242.84
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-026304,2025-04-22,"Quarantined duplicate order_id ORD-026304 (Customer: CUST-18625, Amount: $181.84)",181.84
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-067404,2025-11-23,"Quarantined duplicate order_id ORD-067404 (Customer: CUST-04504, Amount: $285.21)",285.21
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-098085,2025-04-19,"Quarantined duplicate order_id ORD-098085 (Customer: CUST-01163, Amount: $154.04)",154.04
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-095602,2025-11-28,"Quarantined duplicate order_id ORD-095602 (Customer: CUST-05779, Amount: $382.05)",382.05
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-005020,2025-11-21,"Quarantined duplicate order_id ORD-005020 (Customer: CUST-38787, Amount: $310.64)",310.64
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-005224,2025-06-02,"Quarantined duplicate order_id ORD-005224 (Customer: CUST-12641, Amount: $333.67)",333.67
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-015781,2025-02-18,"Quarantined duplicate order_id ORD-015781 (Customer: CUST-19719, Amount: $64.40)",64.4
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-045557,2025-11-09,"Quarantined duplicate order_id ORD-045557 (Customer: nan, Amount: $175.57)",175.57
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-012897,2025-07-17,"Quarantined duplicate order_id ORD-012897 (Customer: CUST-26757, Amount: $166.63)",166.63
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-034305,2025-11-10,"Quarantined duplicate order_id ORD-034305 (Customer: CUST-42583, Amount: $265.68)",265.68
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-093323,2025-11-24,"Quarantined duplicate order_id ORD-093323 (Customer: CUST-15915, Amount: $320.49)",320.49
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-005325,2025-01-27,"Quarantined duplicate order_id ORD-005325 (Customer: CUST-38321, Amount: $150.97)",150.97
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-052926,2025-08-15,"Quarantined duplicate order_id ORD-052926 (Customer: nan, Amount: $233.51)",233.51
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-062865,2025-09-09,"Quarantined duplicate order_id ORD-062865 (Customer: CUST-08164, Amount: $223.77)",223.77
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-008019,2025-07-05,"Quarantined duplicate order_id ORD-008019 (Customer: CUST-46259, Amount: $467.36)",467.36
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-082945,2025-03-22,"Quarantined duplicate order_id ORD-082945 (Customer: CUST-23759, Amount: $260.11)",260.11
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-090377,2025-10-14,"Quarantined duplicate order_id ORD-090377 (Customer: CUST-14347, Amount: $252.16)",252.16
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-041721,2025-06-19,"Quarantined duplicate order_id ORD-041721 (Customer: CUST-20704, Amount: $709.18)",709.18
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-000867,2025-03-15,"Quarantined duplicate order_id ORD-000867 (Customer: CUST-01727, Amount: $61.58)",61.58
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-098444,2025-04-09,"Quarantined duplicate order_id ORD-098444 (Customer: CUST-27909, Amount: $196.58)",196.58
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-083040,2025-08-23,"Quarantined duplicate order_id ORD-083040 (Customer: CUST-26800, Amount: $258.46)",258.46
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-013925,2025-08-07,"Quarantined duplicate order_id ORD-013925 (Customer: CUST-20532, Amount: $125.69)",125.69
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-079893,2025-05-30,"Quarantined duplicate order_id ORD-079893 (Customer: CUST-13059, Amount: $253.79)",253.79
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-031184,2025-06-16,"Quarantined duplicate order_id ORD-031184 (Customer: CUST-48768, Amount: $188.85)",188.85
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-013800,2025-11-06,"Quarantined duplicate order_id ORD-013800 (Customer: CUST-39581, Amount: $255.38)",255.38
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-040989,2025-04-27,"Quarantined duplicate order_id ORD-040989 (Customer: CUST-32470, Amount: $199.17)",199.17
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-066734,2025-06-26,"Quarantined duplicate order_id ORD-066734 (Customer: CUST-21500, Amount: $467.71)",467.71
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-078331,2025-08-01,"Quarantined duplicate order_id ORD-078331 (Customer: CUST-44713, Amount: $171.28)",171.28
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-024379,2025-01-08,"Quarantined duplicate order_id ORD-024379 (Customer: CUST-31015, Amount: $205.09)",205.09
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-023415,2025-08-12,"Quarantined duplicate order_id ORD-023415 (Customer: CUST-06949, Amount: $288.11)",288.11
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-097560,2025-04-20,"Quarantined duplicate order_id ORD-097560 (Customer: CUST-22458, Amount: $187.93)",187.93
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-022993,2025-01-03,"Quarantined duplicate order_id ORD-022993 (Customer: CUST-25040, Amount: $234.14)",234.14
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-003232,2025-08-22,"Quarantined duplicate order_id ORD-003232 (Customer: CUST-24261, Amount: $262.52)",262.52
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-041996,2025-11-25,"Quarantined duplicate order_id ORD-041996 (Customer: CUST-37307, Amount: $104.44)",104.44
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-049188,2025-06-27,"Quarantined duplicate order_id ORD-049188 (Customer: CUST-03628, Amount: $293.82)",293.82
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-022515,2025-07-12,"Quarantined duplicate order_id ORD-022515 (Customer: CUST-49054, Amount: $137.86)",137.86
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-021326,2025-07-28,"Quarantined duplicate order_id ORD-021326 (Customer: CUST-10164, Amount: $203.14)",203.14
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-086234,2025-09-10,"Quarantined duplicate order_id ORD-086234 (Customer: CUST-46716, Amount: $418.36)",418.36
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-088127,2025-07-31,"Quarantined duplicate order_id ORD-088127 (Customer: CUST-18865, Amount: $423.90)",423.9
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-029824,2025-04-18,"Quarantined duplicate order_id ORD-029824 (Customer: CUST-34309, Amount: $344.21)",344.21
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-092485,2025-01-25,"Quarantined duplicate order_id ORD-092485 (Customer: CUST-06834, Amount: $236.96)",236.96
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-068425,2025-03-13,"Quarantined duplicate order_id ORD-068425 (Customer: CUST-48650, Amount: $150.79)",150.79
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-064484,2025-04-26,"Quarantined duplicate order_id ORD-064484 (Customer: CUST-28069, Amount: $340.41)",340.41
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-051020,2025-07-31,"Quarantined duplicate order_id ORD-051020 (Customer: CUST-30715, Amount: $290.91)",290.91
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-026754,2025-04-18,"Quarantined duplicate order_id ORD-026754 (Customer: CUST-46557, Amount: $185.02)",185.02
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-049964,2025-11-15,"Quarantined duplicate order_id ORD-049964 (Customer: CUST-11449, Amount: $176.01)",176.01
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-042732,2025-07-07,"Quarantined duplicate order_id ORD-042732 (Customer: CUST-05217, Amount: $336.97)",336.97
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-029057,2025-08-09,"Quarantined duplicate order_id ORD-029057 (Customer: CUST-40306, Amount: $257.05)",257.05
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-055318,2025-06-25,"Quarantined duplicate order_id ORD-055318 (Customer: CUST-48864, Amount: $330.02)",330.02
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-035497,2025-06-23,"Quarantined duplicate order_id ORD-035497 (Customer: CUST-36455, Amount: $313.39)",313.39
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-056338,2025-03-24,"Quarantined duplicate order_id ORD-056338 (Customer: CUST-47051, Amount: $183.64)",183.64
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-079278,2025-03-29,"Quarantined duplicate order_id ORD-079278 (Customer: CUST-05243, Amount: $182.94)",182.94
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-005465,2025-04-28,"Quarantined duplicate order_id ORD-005465 (Customer: CUST-34221, Amount: $426.99)",426.99
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-070156,2025-03-04,"Quarantined duplicate order_id ORD-070156 (Customer: nan, Amount: $186.99)",186.99
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-070670,2025-10-29,"Quarantined duplicate order_id ORD-070670 (Customer: CUST-26591, Amount: $183.01)",183.01
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-056014,2025-02-24,"Quarantined duplicate order_id ORD-056014 (Customer: CUST-23325, Amount: $195.56)",195.56
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-012086,2025-05-07,"Quarantined duplicate order_id ORD-012086 (Customer: CUST-13949, Amount: $283.99)",283.99
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-056819,2025-11-06,"Quarantined duplicate order_id ORD-056819 (Customer: CUST-27893, Amount: $162.35)",162.35
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-020001,2025-10-08,"Quarantined duplicate order_id ORD-020001 (Customer: CUST-46978, Amount: $311.46)",311.46
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-069067,2025-07-08,"Quarantined duplicate order_id ORD-069067 (Customer: CUST-26053, Amount: $230.01)",230.01
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-050453,2025-05-27,"Quarantined duplicate order_id ORD-050453 (Customer: CUST-48962, Amount: $154.55)",154.55
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-090710,2025-02-12,"Quarantined duplicate order_id ORD-090710 (Customer: CUST-35619, Amount: $112.99)",112.99
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-052885,2025-10-24,"Quarantined duplicate order_id ORD-052885 (Customer: CUST-03529, Amount: $258.26)",258.26
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-030964,2025-01-28,"Quarantined duplicate order_id ORD-030964 (Customer: CUST-20532, Amount: $180.23)",180.23
+duplicate_transactions,Duplicate Transaction (Quarantined Exact Match),ORD-034574,2025-11-19,"Quarantined duplicate order_id ORD-034574 (Customer: CUST-06219, Amount: $350.60)",350.6
