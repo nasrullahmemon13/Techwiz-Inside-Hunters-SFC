@@ -25,6 +25,8 @@ except ImportError:
 
 if HAVE_PYSPARK:
     def get_spark_session(app_name="DineIQ-Analytics"):
+        os.environ["PYSPARK_PYTHON"] = sys.executable
+        os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
         spark = NativeSparkSession.builder \
             .appName(app_name) \
             .master("local[*]") \

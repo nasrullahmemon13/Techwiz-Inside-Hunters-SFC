@@ -1,0 +1,11 @@
+feature_name,importance_weight
+customer_recency,0.9934
+discount_percentage,0.002
+average_order_value,0.0014
+promotion_dependency,0.001
+basket_size,0.0008
+customer_monetary_value,0.0006
+location_performance,0.0006
+weekend_order_ratio,0.0003
+customer_frequency,0.0
+peak_hour_frequency,0.0

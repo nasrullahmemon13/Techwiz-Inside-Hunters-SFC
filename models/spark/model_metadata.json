@@ -1,0 +1,98 @@
+{
+  "model_name": "Decision Tree",
+  "algorithm_family": "DecisionTreeClassifier",
+  "training_timestamp": "2026-09-24 14:59:49",
+  "evaluation_metrics": {
+    "model_name": "Decision Tree",
+    "accuracy": 0.7832,
+    "precision": 0.8554,
+    "recall": 0.7832,
+    "f1_score": 0.7829,
+    "f1_macro": 0.7832,
+    "roc_auc": 0.822,
+    "log_loss": 0.3999,
+    "confusion_matrix": [
+      [
+        3952,
+        31
+      ],
+      [
+        2137,
+        3880
+      ]
+    ],
+    "training_time_sec": 0.061,
+    "inference_throughput_samples_sec": 5900821.6
+  },
+  "feature_names": [
+    "customer_recency",
+    "customer_frequency",
+    "customer_monetary_value",
+    "average_order_value",
+    "basket_size",
+    "discount_percentage",
+    "promotion_dependency",
+    "peak_hour_frequency",
+    "weekend_order_ratio",
+    "location_performance"
+  ],
+  "feature_importances": [
+    {
+      "feature_name": "customer_recency",
+      "importance_weight": 0.9934
+    },
+    {
+      "feature_name": "discount_percentage",
+      "importance_weight": 0.002
+    },
+    {
+      "feature_name": "average_order_value",
+      "importance_weight": 0.0014
+    },
+    {
+      "feature_name": "promotion_dependency",
+      "importance_weight": 0.001
+    },
+    {
+      "feature_name": "basket_size",
+      "importance_weight": 0.0008
+    },
+    {
+      "feature_name": "customer_monetary_value",
+      "importance_weight": 0.0006
+    },
+    {
+      "feature_name": "location_performance",
+      "importance_weight": 0.0006
+    },
+    {
+      "feature_name": "weekend_order_ratio",
+      "importance_weight": 0.0003
+    },
+    {
+      "feature_name": "customer_frequency",
+      "importance_weight": 0.0
+    },
+    {
+      "feature_name": "peak_hour_frequency",
+      "importance_weight": 0.0
+    }
+  ],
+  "hyperparameters": {
+    "ccp_alpha": "0.0",
+    "class_weight": "None",
+    "criterion": "gini",
+    "max_depth": "6",
+    "max_features": "None",
+    "max_leaf_nodes": "None",
+    "min_impurity_decrease": "0.0",
+    "min_samples_leaf": "20",
+    "min_samples_split": "2",
+    "min_weight_fraction_leaf": "0.0",
+    "monotonic_cst": "None",
+    "random_state": "42",
+    "splitter": "best"
+  },
+  "training_samples_count": 40000,
+  "test_samples_count": 10000
+}

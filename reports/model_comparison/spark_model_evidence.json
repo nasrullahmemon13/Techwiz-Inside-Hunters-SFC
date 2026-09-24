@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-24 14:59:49",
+  "champion_model": "Decision Tree",
+  "classification_benchmarks": [
+    {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.723,
+      "precision": 0.7287,
+      "recall": 0.723,
+      "f1_score": 0.7248,
+      "f1_macro": 0.7152,
+      "roc_auc": 0.8158,
+      "log_loss": 0.4739,
+      "confusion_matrix": [
+        [
+          2789,
+          1194
+        ],
+        [
+          1576,
+          4441
+        ]
+      ],
+      "training_time_sec": 0.044,
+      "inference_throughput_samples_sec": 22770380.0
+    },
+    {
+      "model_name": "Decision Tree",
+      "accuracy": 0.7832,
+      "precision": 0.8554,
+      "recall": 0.7832,
+      "f1_score": 0.7829,
+      "f1_macro": 0.7832,
+      "roc_auc": 0.822,
+      "log_loss": 0.3999,
+      "confusion_matrix": [
+        [
+          3952,
+          31
+        ],
+        [
+          2137,
+          3880
+        ]
+      ],
+      "training_time_sec": 0.061,
+      "inference_throughput_samples_sec": 5900821.6
+    },
+    {
+      "model_name": "Random Forest",
+      "accuracy": 0.785,
+      "precision": 0.8604,
+      "recall": 0.785,
+      "f1_score": 0.7845,
+      "f1_macro": 0.785,
+      "roc_auc": 0.8158,
+      "log_loss": 0.4026,
+      "confusion_matrix": [
+        [
+          3983,
+          0
+        ],
+        [
+          2150,
+          3867
+        ]
+      ],
+      "training_time_sec": 0.248,
+      "inference_throughput_samples_sec": 339216.0
+    },
+    {
+      "model_name": "Gradient-Boosted Trees",
+      "accuracy": 0.7845,
+      "precision": 0.8584,
+      "recall": 0.7845,
+      "f1_score": 0.7841,
+      "f1_macro": 0.7845,
+      "roc_auc": 0.8157,
+      "log_loss": 0.4005,
+      "confusion_matrix": [
+        [
+          3970,
+          13
+        ],
+        [
+          2142,
+          3875
+        ]
+      ],
+      "training_time_sec": 2.715,
+      "inference_throughput_samples_sec": 1159352.1
+    }
+  ],
+  "clustering_benchmarks": {
+    "model_name": "K-Means Clustering (k=4)",
+    "k_clusters": 4,
+    "inertia": 152098.67,
+    "silhouette_score": -0.0211,
+    "training_time_sec": 0.201
+  },
+  "selection_rationale": "Selected Decision Tree based on highest holdout ROC-AUC (0.8220) and F1-Score (0.7829)."
+}
