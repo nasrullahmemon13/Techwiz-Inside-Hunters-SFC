@@ -16,12 +16,16 @@ from backend.routers.search_filter import router as search_filter_router
 from backend.routers.reports import router as reports_router
 from backend.routers.exports import router as exports_router
 from src.routes import router as crud_router
+from src.error_handlers import register_error_handlers
 
 app = FastAPI(
     title="DineIQ Analytics Platform API",
-    description="Backend API powering the DineIQ Analytics Dashboard Suite (SRS Steps 42-50)",
+    description="Backend API powering the DineIQ Analytics Dashboard Suite (SRS Steps 42-50, 61-66)",
     version="1.0.0"
 )
+
+# Register Centralized Error Handling Framework (SRS Requirement lxiv)
+register_error_handlers(app)
 
 # Enable CORS for React frontend (Vite default port 5173, 3000, 8000)
 app.add_middleware(

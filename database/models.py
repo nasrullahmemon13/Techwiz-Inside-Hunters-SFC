@@ -216,3 +216,73 @@ class Inventory(Base):
     ending_stock = Column(Integer)
     reorder_point = Column(Integer)
     stock_status = Column(String(30))
+
+class AuditLog(Base):
+    __tablename__ = "audit_log"
+
+    audit_id = Column(String(50), primary_key=True)
+    event_type = Column(String(50), nullable=False, index=True)  # DATA_PROCESSING_JOB, PREDICTION, DATA_EXPORT, ADMIN_ACTION, etc.
+    action = Column(String(100), nullable=False, index=True)
+    actor = Column(String(100), nullable=False, index=True)
+    resource_id = Column(String(100), nullable=True)
+    status = Column(String(30), nullable=False, default="SUCCESS", index=True)
+    details = Column(Text, nullable=True)
+    ip_address = Column(String(50), nullable=True)
+    timestamp = Column(DateTime, nullable=False, index=True)
+
+class ModelVersion(Base):
+    __tablename__ = "model_versions"
+
+    version_id = Column(String(50), primary_key=True)
+    model_name = Column(String(100), nullable=False, index=True)
+    version_tag = Column(String(50), nullable=False, index=True)
+    framework = Column(String(50), nullable=False)
+    pipeline_type = Column(String(50), nullable=False)
+    task_type = Column(String(50), nullable=False, index=True)
+    metrics = Column(Text, nullable=True)
+    parameters = Column(Text, nullable=True)
+    artifact_uri = Column(String(255), nullable=True)
+    is_active = Column(Boolean, default=True, index=True)
+    trained_at = Column(DateTime)
+    created_at = Column(DateTime)
+
+class SystemConfig(Base):
+    __tablename__ = "system_configs"
+
+    config_key = Column(String(100), primary_key=True)
+    config_value = Column(Text, nullable=False)
+    category = Column(String(50), nullable=False, index=True)
+    description = Column(Text, nullable=True)
+    is_secret = Column(Boolean, default=False)
+    updated_by = Column(String(100), nullable=True)
+    updated_at = Column(DateTime)
+
+class PredictionResult(Base):
+    __tablename__ = "prediction_results"
+
+    prediction_id = Column(String(50), primary_key=True)
+    model_version_id = Column(String(50), ForeignKey("model_versions.version_id"), nullable=False, index=True)
+    task_type = Column(String(50), nullable=False, index=True)
+    entity_type = Column(String(50), nullable=False)
+    entity_id = Column(String(100), nullable=False, index=True)
+    predicted_value = Column(Text, nullable=False)
+    actual_value = Column(Text, nullable=True)
+    confidence_score = Column(Float, nullable=True)
+    metadata_json = Column(Text, nullable=True)
+    prediction_timestamp = Column(DateTime, nullable=False)
+
+class SparkJob(Base):
+    __tablename__ = "spark_jobs"
+
+    job_id = Column(String(50), primary_key=True)
+    job_name = Column(String(150), nullable=False)
+    pipeline_type = Column(String(50), nullable=False, default="Spark")
+    status = Column(String(30), nullable=False, default="SUBMITTED", index=True)
+    stages_completed = Column(Integer, default=0)
+    total_stages = Column(Integer, default=1)
+    records_processed = Column(BigInteger, default=0)
+    duration_seconds = Column(Float, default=0.0)
+    metrics = Column(Text, nullable=True)
+    error_message = Column(Text, nullable=True)
+    start_time = Column(DateTime, nullable=False, index=True)
+    end_time = Column(DateTime, nullable=True)

@@ -79,4 +79,17 @@ def seed_default_auth():
                 ))
             db.commit()
 
+        # Seed Model Versions, Configs, Audit Trail, and Spark Jobs (SRS lxi - lxv)
+        try:
+            from src.model_version_tracker import seed_default_model_versions
+            from src.audit_logger import seed_default_audit_trail
+            from src.spark_monitor import seed_default_spark_jobs
+
+            seed_default_model_versions(db)
+            seed_default_audit_trail(db)
+            seed_default_spark_jobs(db)
+        except Exception as e:
+            print(f"Notice: Initial telemetry seeding skipped: {e}")
+
 seed_default_auth()
+

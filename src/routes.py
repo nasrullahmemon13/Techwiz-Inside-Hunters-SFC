@@ -37,6 +37,11 @@ from database.models import (
     Role,
     User,
     Wastage,
+    AuditLog,
+    ModelVersion,
+    SystemConfig,
+    PredictionResult,
+    SparkJob,
 )
 
 router = APIRouter(prefix="/api/v1", tags=["SRS Functional Requirements (i-xi)"])
@@ -1327,3 +1332,518 @@ def delete_wastage(
     db.delete(w)
     db.commit()
     return {"message": f"Wastage record '{wastage_id}' deleted successfully"}
+
+
+# =============================================================================
+# (lxi) DATABASE STORAGE (Config, Metadata, Users, Recommendations, Results)
+# =============================================================================
+
+class SystemConfigUpdate(BaseModel):
+    config_value: str
+    description: Optional[str] = None
+
+@router.get("/system/config", tags=["(lxi) Database Storage"])
+def list_system_configs(
+    category: Optional[str] = None,
+    db: Session = Depends(get_db)
+):
+    """Retrieve all securely stored system configurations and metadata."""
+    query = db.query(SystemConfig)
+    if category:
+        query = query.filter(SystemConfig.category == category)
+    configs = query.all()
+    return [
+        {
+            "config_key": c.config_key,
+            "config_value": "******" if c.is_secret else c.config_value,
+            "category": c.category,
+            "description": c.description,
+            "is_secret": c.is_secret,
+            "updated_by": c.updated_by,
+            "updated_at": str(c.updated_at) if c.updated_at else None
+        }
+        for c in configs
+    ]
+
+
+@router.put("/system/config/{config_key}", tags=["(lxi) Database Storage"])
+def update_system_config(
+    config_key: str,
+    req: SystemConfigUpdate,
+    user: Dict[str, Any] = Depends(require_roles(["admin"])),
+    db: Session = Depends(get_db)
+):
+    """Admin only: Update a persistent system configuration parameter."""
+    cfg = db.query(SystemConfig).filter(SystemConfig.config_key == config_key).first()
+    if not cfg:
+        raise HTTPException(status_code=404, detail=f"Configuration key '{config_key}' not found")
+
+    cfg.config_value = req.config_value
+    if req.description:
+        cfg.description = req.description
+    cfg.updated_by = user.get("username", "admin")
+    cfg.updated_at = datetime.now()
+    db.commit()
+
+    # Log audit event (SRS lxiii)
+    from src.audit_logger import log_audit_event
+    log_audit_event(
+        db=db,
+        event_type="ADMIN_ACTION",
+        action="UPDATE_CONFIG",
+        actor=user.get("username", "admin"),
+        resource_id=config_key,
+        details=f"Updated config key '{config_key}' to value '{req.config_value}'"
+    )
+
+    return {"message": f"Config '{config_key}' updated successfully"}
+
+
+@router.get("/system/storage-metrics", tags=["(lxi) Database Storage"])
+def get_storage_metrics(db: Session = Depends(get_db)):
+    """Summary of database storage across all entities and metadata tables."""
+    return {
+        "database_engine": "PostgreSQL / SQLite",
+        "persistence_tier": "Enterprise Relational & Parquet Storage",
+        "entity_counts": {
+            "users": db.query(User).count(),
+            "roles": db.query(Role).count(),
+            "restaurants": db.query(Restaurant).count(),
+            "menu_categories": db.query(MenuCategory).count(),
+            "menu_items": db.query(MenuItem).count(),
+            "customers": db.query(Customer).count(),
+            "orders": db.query(Order).count(),
+            "order_items": db.query(OrderItem).count(),
+            "promotions": db.query(Promotion).count(),
+            "ratings": db.query(Rating).count(),
+            "inventory": db.query(Inventory).count(),
+            "wastage": db.query(Wastage).count(),
+            "audit_logs": db.query(AuditLog).count(),
+            "model_versions": db.query(ModelVersion).count(),
+            "system_configs": db.query(SystemConfig).count(),
+            "spark_jobs": db.query(SparkJob).count(),
+            "prediction_results": db.query(PredictionResult).count()
+        },
+        "storage_status": "ONLINE_SECURE"
+    }
+
+
+# =============================================================================
+# (lxii) MODEL VERSION TRACKING (Every Prediction Tagged With Model Version)
+# =============================================================================
+
+class ModelVersionCreate(BaseModel):
+    version_id: Optional[str] = None
+    model_name: str
+    version_tag: str
+    framework: str = "PySpark MLlib"
+    pipeline_type: str = "Spark"
+    task_type: str = "Churn"
+    metrics: Optional[str] = None
+    parameters: Optional[str] = None
+    artifact_uri: Optional[str] = None
+    is_active: Optional[bool] = True
+
+class TaggedPredictionRequest(BaseModel):
+    task_type: str = "Churn"  # Churn, Demand, Wastage
+    pipeline_type: str = "Spark"  # Spark, Python
+    entity_type: str = "CUSTOMER"  # CUSTOMER, ITEM, LOCATION
+    entity_id: str
+    features: Optional[Dict[str, Any]] = None
+
+@router.get("/models/versions", tags=["(lxii) Model Version Tracking"])
+def list_model_versions(
+    task_type: Optional[str] = None,
+    pipeline_type: Optional[str] = None,
+    db: Session = Depends(get_db)
+):
+    """List all registered model versions across Spark and Python pipelines."""
+    query = db.query(ModelVersion)
+    if task_type:
+        query = query.filter(ModelVersion.task_type == task_type)
+    if pipeline_type:
+        query = query.filter(ModelVersion.pipeline_type == pipeline_type)
+    models = query.all()
+    return [
+        {
+            "version_id": m.version_id,
+            "model_name": m.model_name,
+            "version_tag": m.version_tag,
+            "framework": m.framework,
+            "pipeline_type": m.pipeline_type,
+            "task_type": m.task_type,
+            "metrics": m.metrics,
+            "artifact_uri": m.artifact_uri,
+            "is_active": m.is_active,
+            "trained_at": str(m.trained_at) if m.trained_at else None
+        }
+        for m in models
+    ]
+
+
+@router.post("/models/versions", status_code=status.HTTP_201_CREATED, tags=["(lxii) Model Version Tracking"])
+def register_model_version(
+    req: ModelVersionCreate,
+    user: Dict[str, Any] = Depends(require_roles(["admin", "analyst"])),
+    db: Session = Depends(get_db)
+):
+    """Register and tag a new model version."""
+    v_id = req.version_id or f"MV-{req.task_type.upper()}-{uuid.uuid4().hex[:6].upper()}"
+    new_model = ModelVersion(
+        version_id=v_id,
+        model_name=req.model_name,
+        version_tag=req.version_tag,
+        framework=req.framework,
+        pipeline_type=req.pipeline_type,
+        task_type=req.task_type,
+        metrics=req.metrics,
+        parameters=req.parameters,
+        artifact_uri=req.artifact_uri,
+        is_active=req.is_active,
+        trained_at=datetime.now(),
+        created_at=datetime.now()
+    )
+    db.add(new_model)
+    db.commit()
+
+    # Log to audit trail (SRS lxiii)
+    from src.audit_logger import log_audit_event
+    log_audit_event(
+        db=db,
+        event_type="MODEL_TRAINING",
+        action="REGISTER_MODEL_VERSION",
+        actor=user.get("username", "analyst"),
+        resource_id=v_id,
+        details=f"Registered model version '{req.version_tag}' for {req.model_name}"
+    )
+
+    return {"message": "Model version registered successfully", "version_id": v_id}
+
+
+@router.post("/models/predict-tagged", tags=["(lxii) Model Version Tracking"])
+def execute_tagged_prediction(
+    req: TaggedPredictionRequest,
+    user: Dict[str, Any] = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """
+    Executes inference and stores prediction result immutably tagged with model version (SRS lxii).
+    """
+    from src.model_version_tracker import get_active_model_version, record_prediction
+    from src.audit_logger import log_audit_event
+
+    active_model = get_active_model_version(db, task_type=req.task_type, pipeline_type=req.pipeline_type)
+    if not active_model:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No active model version registered for task '{req.task_type}' and pipeline '{req.pipeline_type}'"
+        )
+
+    # Simulated model inference logic based on task
+    if req.task_type == "Churn":
+        pred_val = "AT_RISK"
+        confidence = 0.842
+    elif req.task_type == "Demand":
+        pred_val = 145.0  # units
+        confidence = 0.910
+    elif req.task_type == "Wastage":
+        pred_val = "HIGH_WASTAGE_RISK"
+        confidence = 0.785
+    else:
+        pred_val = "RECOMMENDED"
+        confidence = 0.880
+
+    pred_record = record_prediction(
+        db=db,
+        model_version_id=active_model.version_id,
+        task_type=req.task_type,
+        entity_type=req.entity_type,
+        entity_id=req.entity_id,
+        predicted_value=pred_val,
+        confidence_score=confidence,
+        metadata={"features": req.features or {}, "pipeline": req.pipeline_type}
+    )
+
+    # Log to audit trail (SRS lxiii)
+    log_audit_event(
+        db=db,
+        event_type="PREDICTION",
+        action=f"PREDICT_{req.task_type.upper()}",
+        actor=user.get("username", "user"),
+        resource_id=pred_record.prediction_id,
+        details=f"Tagged prediction for {req.entity_type} '{req.entity_id}' using {active_model.version_tag}"
+    )
+
+    return {
+        "prediction_id": pred_record.prediction_id,
+        "model_version_id": active_model.version_id,
+        "model_name": active_model.model_name,
+        "version_tag": active_model.version_tag,
+        "framework": active_model.framework,
+        "pipeline_type": active_model.pipeline_type,
+        "entity_type": req.entity_type,
+        "entity_id": req.entity_id,
+        "predicted_value": pred_val,
+        "confidence_score": confidence,
+        "timestamp": str(pred_record.prediction_timestamp)
+    }
+
+
+@router.get("/models/predictions", tags=["(lxii) Model Version Tracking"])
+def list_tagged_predictions(
+    task_type: Optional[str] = None,
+    entity_id: Optional[str] = None,
+    limit: int = 50,
+    db: Session = Depends(get_db)
+):
+    """Retrieve predictions with their associated model version tags."""
+    query = db.query(PredictionResult)
+    if task_type:
+        query = query.filter(PredictionResult.task_type == task_type)
+    if entity_id:
+        query = query.filter(PredictionResult.entity_id == entity_id)
+
+    results = query.order_by(PredictionResult.prediction_timestamp.desc()).limit(limit).all()
+    return [
+        {
+            "prediction_id": r.prediction_id,
+            "model_version_id": r.model_version_id,
+            "task_type": r.task_type,
+            "entity_type": r.entity_type,
+            "entity_id": r.entity_id,
+            "predicted_value": r.predicted_value,
+            "actual_value": r.actual_value,
+            "confidence_score": r.confidence_score,
+            "prediction_timestamp": str(r.prediction_timestamp)
+        }
+        for r in results
+    ]
+
+
+# =============================================================================
+# (lxiii) AUDIT TRAIL (Data-processing jobs, predictions, exports, admin actions)
+# =============================================================================
+
+class AuditLogCreate(BaseModel):
+    event_type: str
+    action: str
+    resource_id: Optional[str] = None
+    status: Optional[str] = "SUCCESS"
+    details: Optional[str] = None
+
+@router.get("/audit-trail", tags=["(lxiii) Audit Trail"])
+def list_audit_trail(
+    event_type: Optional[str] = None,
+    status_filter: Optional[str] = None,
+    actor: Optional[str] = None,
+    limit: int = 50,
+    db: Session = Depends(get_db)
+):
+    """
+    List audit log records across data-processing jobs, predictions, exports, and admin actions.
+    """
+    query = db.query(AuditLog)
+    if event_type:
+        query = query.filter(AuditLog.event_type == event_type)
+    if status_filter:
+        query = query.filter(AuditLog.status == status_filter)
+    if actor:
+        query = query.filter(AuditLog.actor == actor)
+
+    logs = query.order_by(AuditLog.timestamp.desc()).limit(limit).all()
+    return [
+        {
+            "audit_id": a.audit_id,
+            "event_type": a.event_type,
+            "action": a.action,
+            "actor": a.actor,
+            "resource_id": a.resource_id,
+            "status": a.status,
+            "details": a.details,
+            "timestamp": str(a.timestamp)
+        }
+        for a in logs
+    ]
+
+
+@router.post("/audit-trail", status_code=status.HTTP_201_CREATED, tags=["(lxiii) Audit Trail"])
+def create_audit_log_entry(
+    req: AuditLogCreate,
+    user: Dict[str, Any] = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Manually append an event to the system audit trail."""
+    from src.audit_logger import log_audit_event
+    entry = log_audit_event(
+        db=db,
+        event_type=req.event_type,
+        action=req.action,
+        actor=user.get("username", "system_user"),
+        resource_id=req.resource_id,
+        status=req.status or "SUCCESS",
+        details=req.details
+    )
+    return {"message": "Audit entry recorded", "audit_id": entry.audit_id}
+
+
+# =============================================================================
+# (lxiv) ERROR HANDLING SIMULATION & TEST ENDPOINTS
+# =============================================================================
+
+@router.get("/system/test-error/{error_category}", tags=["(lxiv) Error Handling"])
+def trigger_test_error(error_category: str):
+    """
+    Demonstrates understandable error responses across processing, model, Spark, and database failures.
+    """
+    from src.error_handlers import (
+        ProcessingError,
+        ModelError,
+        SparkExecutionError,
+        DatabaseOperationError,
+    )
+
+    cat = error_category.lower()
+    if cat == "processing":
+        raise ProcessingError(
+            message="Data row in 'orders_batch_04.csv' failed quarantine criteria (Negative order subtotal: -$42.00).",
+            stage="ETL_CLEANING_AND_QUARANTINE",
+            details={"file": "orders_batch_04.csv", "row_index": 1420, "violation": "subtotal_amount < 0"},
+            suggested_action="Ensure raw POS input streams filter out unrefunded cancellation records prior to ingestion."
+        )
+    elif cat == "model":
+        raise ModelError(
+            message="Input feature dimension mismatch for Customer Churn Predictor. Expected 12 features, received 8.",
+            model_name="Customer Churn Classifier",
+            model_version="v2.1.0-mllib",
+            details={"expected_features": 12, "provided_features": 8, "missing": ["visit_frequency_delta", "category_diversity"]},
+            suggested_action="Verify upstream feature aggregation pipelines prior to invoking model inference."
+        )
+    elif cat == "spark":
+        raise SparkExecutionError(
+            message="Spark executor stage 4 aborted due to PySpark Worker out-of-memory during broadcast join.",
+            job_id="SPARK-JOB-105",
+            stage_id=4,
+            details={"executor_id": "exec-02", "memory_allocated": "4GB", "shuffle_spill": "1.2GB"},
+            suggested_action="Increase 'spark.executor.memory' or repartition DataFrame before large broadcast joins."
+        )
+    elif cat == "database":
+        raise DatabaseOperationError(
+            message="Foreign key constraint failure: location_id 'LOC-999' does not exist in 'restaurants' table.",
+            operation="INSERT_ORDER",
+            table_name="orders",
+            details={"violating_fk": "LOC-999"},
+            suggested_action="Ensure restaurant location is created and active before logging orders against it."
+        )
+    else:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unknown error category '{error_category}'. Valid test categories: processing, model, spark, database"
+        )
+
+
+# =============================================================================
+# (lxv) SPARK JOB MONITORING (Job Status, Stages, Telemetry)
+# =============================================================================
+
+class SparkJobTriggerRequest(BaseModel):
+    job_name: str
+    pipeline_type: Optional[str] = "PySpark"
+    total_stages: Optional[int] = 5
+    records_processed: Optional[int] = 20000
+
+@router.get("/spark/jobs", tags=["(lxv) Spark Job Monitoring"])
+def list_spark_jobs(
+    status_filter: Optional[str] = None,
+    limit: int = 50,
+    db: Session = Depends(get_db)
+):
+    """
+    List all Spark distributed processing jobs with live status, stages, duration, and metrics.
+    """
+    query = db.query(SparkJob)
+    if status_filter:
+        query = query.filter(SparkJob.status == status_filter)
+
+    jobs = query.order_by(SparkJob.start_time.desc()).limit(limit).all()
+    
+    # Calculate telemetry metrics
+    total_count = db.query(SparkJob).count()
+    completed_count = db.query(SparkJob).filter(SparkJob.status == "COMPLETED").count()
+    running_count = db.query(SparkJob).filter(SparkJob.status == "RUNNING").count()
+    failed_count = db.query(SparkJob).filter(SparkJob.status == "FAILED").count()
+
+    return {
+        "summary": {
+            "total_jobs": total_count,
+            "running_jobs": running_count,
+            "completed_jobs": completed_count,
+            "failed_jobs": failed_count,
+            "success_rate_pct": round((completed_count / total_count * 100), 1) if total_count > 0 else 100.0
+        },
+        "jobs": [
+            {
+                "job_id": j.job_id,
+                "job_name": j.job_name,
+                "pipeline_type": j.pipeline_type,
+                "status": j.status,
+                "stages_completed": j.stages_completed,
+                "total_stages": j.total_stages,
+                "progress_pct": round((j.stages_completed / j.total_stages * 100), 1) if j.total_stages > 0 else 0,
+                "records_processed": j.records_processed,
+                "duration_seconds": j.duration_seconds,
+                "metrics": j.metrics,
+                "error_message": j.error_message,
+                "start_time": str(j.start_time),
+                "end_time": str(j.end_time) if j.end_time else None
+            }
+            for j in jobs
+        ]
+    }
+
+
+@router.get("/spark/jobs/{job_id}", tags=["(lxv) Spark Job Monitoring"])
+def get_spark_job_details(job_id: str, db: Session = Depends(get_db)):
+    """Retrieve detailed execution telemetry and stage errors for a Spark job."""
+    job = db.query(SparkJob).filter(SparkJob.job_id == job_id).first()
+    if not job:
+        raise HTTPException(status_code=404, detail=f"Spark job '{job_id}' not found")
+    return {
+        "job_id": job.job_id,
+        "job_name": job.job_name,
+        "pipeline_type": job.pipeline_type,
+        "status": job.status,
+        "stages_completed": job.stages_completed,
+        "total_stages": job.total_stages,
+        "progress_pct": round((job.stages_completed / job.total_stages * 100), 1) if job.total_stages > 0 else 0,
+        "records_processed": job.records_processed,
+        "duration_seconds": job.duration_seconds,
+        "metrics": job.metrics,
+        "error_message": job.error_message,
+        "start_time": str(job.start_time),
+        "end_time": str(job.end_time) if job.end_time else None
+    }
+
+
+@router.post("/spark/jobs/trigger", status_code=status.HTTP_201_CREATED, tags=["(lxv) Spark Job Monitoring"])
+def trigger_new_spark_job(
+    req: SparkJobTriggerRequest,
+    user: Dict[str, Any] = Depends(require_roles(["admin", "analyst"])),
+    db: Session = Depends(get_db)
+):
+    """Trigger a new distributed Spark data pipeline job."""
+    from src.spark_monitor import trigger_spark_job
+    job = trigger_spark_job(
+        db=db,
+        job_name=req.job_name,
+        pipeline_type=req.pipeline_type or "PySpark",
+        total_stages=req.total_stages or 5,
+        records_processed=req.records_processed or 20000,
+        actor=user.get("username", "admin")
+    )
+    return {
+        "message": f"Spark job '{job.job_name}' triggered successfully",
+        "job_id": job.job_id,
+        "status": job.status,
+        "stages": f"{job.stages_completed}/{job.total_stages}"
+    }
+

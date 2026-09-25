@@ -4,6 +4,7 @@ import ExecutiveDashboard from './dashboards/ExecutiveDashboard';
 import MenuIntelligenceDashboard from './dashboards/MenuIntelligenceDashboard';
 import CustomerIntelligenceDashboard from './dashboards/CustomerIntelligenceDashboard';
 import WastageDashboard from './dashboards/WastageDashboard';
+import SystemOperationsDashboard from './dashboards/SystemOperationsDashboard';
 import SearchFilterModal from './components/SearchFilterModal';
 import ReportsExportsModal from './components/ReportsExportsModal';
 
@@ -36,8 +37,9 @@ export default function App() {
         {activeTab === 'menu' && <MenuIntelligenceDashboard />}
         {activeTab === 'customer' && <CustomerIntelligenceDashboard />}
         {activeTab === 'wastage' && <WastageDashboard />}
+        {activeTab === 'system' && <SystemOperationsDashboard />}
 
-        {activeTab !== 'executive' && activeTab !== 'menu' && activeTab !== 'customer' && activeTab !== 'wastage' && (
+        {activeTab !== 'executive' && activeTab !== 'menu' && activeTab !== 'customer' && activeTab !== 'wastage' && activeTab !== 'system' && (
           <div className="glass-card" style={{ padding: '60px 24px', textAlign: 'center' }}>
             <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#f8fafc', marginBottom: '8px' }}>
               Dashboard Scheduled in Pipeline Sequence
