@@ -184,6 +184,7 @@ def register_error_handlers(app: FastAPI):
             status_code=exc.status_code,
             content={
                 "status": "error",
+                "detail": exc.message,
                 "category": exc.category,
                 "error_code": exc.error_code,
                 "message": exc.message,
@@ -206,6 +207,7 @@ def register_error_handlers(app: FastAPI):
             status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
             content={
                 "status": "error",
+                "detail": readable_errors,
                 "category": "VALIDATION",
                 "error_code": "REQUEST_VALIDATION_ERROR",
                 "message": "Input validation failed. Please check the requested parameters and format.",
@@ -223,6 +225,7 @@ def register_error_handlers(app: FastAPI):
             status_code=exc.status_code,
             content={
                 "status": "error",
+                "detail": str(exc.detail),
                 "category": category,
                 "error_code": f"HTTP_{exc.status_code}",
                 "message": str(exc.detail),
@@ -250,6 +253,7 @@ def register_error_handlers(app: FastAPI):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             content={
                 "status": "error",
+                "detail": str(exc),
                 "category": "INTERNAL",
                 "error_code": "INTERNAL_SERVER_ERROR",
                 "message": f"An unexpected system exception occurred: {str(exc)}",
