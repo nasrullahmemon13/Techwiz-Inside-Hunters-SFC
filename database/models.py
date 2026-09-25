@@ -20,6 +20,25 @@ from sqlalchemy.orm import declarative_base, relationship
 
 Base = declarative_base()
 
+class Role(Base):
+    __tablename__ = "roles"
+
+    role_id = Column(String(50), primary_key=True)
+    role_name = Column(String(100), nullable=False, unique=True)
+    description = Column(Text)
+
+class User(Base):
+    __tablename__ = "users"
+
+    user_id = Column(String(50), primary_key=True)
+    username = Column(String(100), nullable=False, unique=True, index=True)
+    email = Column(String(255), nullable=False, unique=True, index=True)
+    hashed_password = Column(String(255), nullable=False)
+    full_name = Column(String(150), nullable=False)
+    role_id = Column(String(50), ForeignKey("roles.role_id"), nullable=False, index=True)
+    assigned_location_id = Column(String(50), nullable=True)
+    is_active = Column(Boolean, default=True)
+
 class Restaurant(Base):
     __tablename__ = "restaurants"
 

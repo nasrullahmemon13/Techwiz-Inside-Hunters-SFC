@@ -15,6 +15,7 @@ from backend.routers.wastage import router as wastage_router
 from backend.routers.search_filter import router as search_filter_router
 from backend.routers.reports import router as reports_router
 from backend.routers.exports import router as exports_router
+from src.routes import router as crud_router
 
 app = FastAPI(
     title="DineIQ Analytics Platform API",
@@ -39,6 +40,7 @@ app.include_router(wastage_router)
 app.include_router(search_filter_router)
 app.include_router(reports_router)
 app.include_router(exports_router)
+app.include_router(crud_router)
 
 
 @app.get("/api/health", tags=["Health"])
