@@ -12,6 +12,8 @@ Executes the generation of all 11 tables in the exact dependency order:
 9. Inventory & Wastage (26,000 inventory & 50,000 wastage records)
 """
 import time
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generate_restaurants import generate_restaurants
 from generate_menu_categories import generate_menu_categories
 from generate_menu_items import generate_menu_items

@@ -1,5 +1,5 @@
 # DineIQ Analytics - Multi-Location Intelligence Report
-**Generated:** 2026-09-25 12:00:39  
+**Generated:** 2026-09-25 12:33:42  
 **Specifications:** SRS Step 33 (Multi-Location Intelligence) & SRS Step 34 (Location-Specific Menu Performance)  
 
 ## 1. Executive Summary
