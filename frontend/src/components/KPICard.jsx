@@ -16,7 +16,7 @@ export default function KPICard({
         <span className="kpi-title">{title}</span>
         {Icon && (
           <div className="kpi-icon">
-            <Icon size={18} color="#94a3b8" />
+            <Icon size={18} color="var(--text-secondary)" />
           </div>
         )}
       </div>
@@ -33,7 +33,7 @@ export default function KPICard({
           <span>{subtitle}</span>
         </div>
         {secondaryStat && (
-          <div style={{ fontSize: '0.75rem', color: '#94a3b8', fontWeight: 500 }}>
+          <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 500 }}>
             {secondaryStat}
           </div>
         )}

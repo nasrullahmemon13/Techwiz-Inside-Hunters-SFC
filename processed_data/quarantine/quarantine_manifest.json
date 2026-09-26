@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-09-26T11:22:12.311589",
+  "total_quarantined_batches": 11,
+  "total_quarantined_records": 97361,
+  "batches": [
+    {
+      "rule_id": "RULE-02",
+      "rule_name": "duplicate orders",
+      "entity": "orders",
+      "quarantined_records": 200,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\orders_rule_02.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\orders_rule_02.parquet",
+      "reason": "Exact duplicate order_id detected",
+      "timestamp": "2026-09-26T11:22:05.649409"
+    },
+    {
+      "rule_id": "RULE-03",
+      "rule_name": "duplicate order-line records",
+      "entity": "order_items",
+      "quarantined_records": 1500,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_rule_03.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_rule_03.parquet",
+      "reason": "Exact duplicate order_item_id detected",
+      "timestamp": "2026-09-26T11:22:05.794278"
+    },
+    {
+      "rule_id": "RULE-06",
+      "rule_name": "invalid dates",
+      "entity": "orders",
+      "quarantined_records": 25,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\orders_rule_06.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\orders_rule_06.parquet",
+      "reason": "Order date is in future or unparseable calendar date",
+      "timestamp": "2026-09-26T11:22:06.531938"
+    },
+    {
+      "rule_id": "RULE-10",
+      "rule_name": "invalid restaurant IDs",
+      "entity": "orders",
+      "quarantined_records": 30,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\orders_rule_10.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\orders_rule_10.parquet",
+      "reason": "Location ID 'LOC-999' does not exist in master restaurants",
+      "timestamp": "2026-09-26T11:22:06.570614"
+    },
+    {
+      "rule_id": "RULE-05",
+      "rule_name": "negative quantities",
+      "entity": "order_items",
+      "quarantined_records": 50,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_rule_05.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_rule_05.parquet",
+      "reason": "Quantity <= 0 detected",
+      "timestamp": "2026-09-26T11:22:06.690923"
+    },
+    {
+      "rule_id": "RULE-09",
+      "rule_name": "missing menu IDs",
+      "entity": "order_items",
+      "quarantined_records": 35,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_rule_09.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_rule_09.parquet",
+      "reason": "Null item_id prevents menu item association",
+      "timestamp": "2026-09-26T11:22:06.760320"
+    },
+    {
+      "rule_id": "CASCADED-QUARANTINE",
+      "rule_name": "cascaded quarantined orders",
+      "entity": "order_items",
+      "quarantined_records": 95413,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_cascaded_quarantine.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\order_items_cascaded_quarantine.parquet",
+      "reason": "Parent order was cancelled or quarantined",
+      "timestamp": "2026-09-26T11:22:07.635773"
+    },
+    {
+      "rule_id": "RULE-04",
+      "rule_name": "invalid menu prices",
+      "entity": "menu_items",
+      "quarantined_records": 8,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\menu_items_rule_04.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\menu_items_rule_04.parquet",
+      "reason": "Base price <= 0, cost <= 0, or cost > base_price",
+      "timestamp": "2026-09-26T11:22:08.172581"
+    },
+    {
+      "rule_id": "RULE-07",
+      "rule_name": "invalid ratings",
+      "entity": "ratings",
+      "quarantined_records": 45,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\ratings_rule_07.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\ratings_rule_07.parquet",
+      "reason": "Overall rating outside 1 to 5 Likert scale",
+      "timestamp": "2026-09-26T11:22:08.184693"
+    },
+    {
+      "rule_id": "RULE-11",
+      "rule_name": "impossible wastage quantities",
+      "entity": "wastage",
+      "quarantined_records": 25,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\wastage_rule_11.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\wastage_rule_11.parquet",
+      "reason": "Quantity wasted > 50 or <= 0",
+      "timestamp": "2026-09-26T11:22:08.194352"
+    },
+    {
+      "rule_id": "RULE-15",
+      "rule_name": "invalid location references",
+      "entity": "wastage",
+      "quarantined_records": 30,
+      "csv_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\wastage_rule_15.csv",
+      "parquet_path": "C:\\Users\\HP 250 G9\\OneDrive\\Desktop\\techwiz-Inside Hunters SFC\\processed_data\\quarantine\\wastage_rule_15.parquet",
+      "reason": "Location ID 'LOC-404' not found in master restaurants",
+      "timestamp": "2026-09-26T11:22:08.209236"
+    }
+  ]
+}

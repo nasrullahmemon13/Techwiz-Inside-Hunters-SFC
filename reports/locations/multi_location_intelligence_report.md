@@ -1,10 +1,10 @@
 # DineIQ Analytics - Multi-Location Intelligence Report
-**Generated:** 2026-09-25 12:33:42  
+**Generated:** 2026-09-26 12:55:15  
 **Specifications:** SRS Step 33 (Multi-Location Intelligence) & SRS Step 34 (Location-Specific Menu Performance)  
 
 ## 1. Executive Summary
 - **Network Scope:** 20 restaurant locations across Flagship, Express, and Standard tiers.
-- **System Financial Performance:** $24,356,940.46 total revenue, $11,748,526.68 gross profit, $269.13 mean AOV.
+- **System Financial Performance:** $24,359,124.89 total revenue, $11,748,526.68 gross profit, $269.12 mean AOV.
 - **Total Location-Menu Pairs Evaluated:** 3,000 (150 dishes $\times$ 20 locations).
 - **Difficult Case Demonstrated:** 85 dishes exhibit divergent performance classes across locations (14 dishes exhibit 3+ different classes).
 
@@ -12,23 +12,23 @@
 
 | Loc ID | Restaurant Name | City | Tier | Revenue | Margin % | AOV | Diners | Repeat % | Waste % | Rating | Promo Share | Profit Drivers |
 |--------|-----------------|------|------|---------|----------|-----|--------|----------|---------|--------|-------------|----------------|
-| LOC-001 | DineIQ Flagship Do | New York | Flagship | $1,762,437 | 56.0% | $271.44 | 5,848 | 6.3% | 14.53% | 3.62* | 33.5% | 40 |
+| LOC-001 | DineIQ Flagship Do | New York | Flagship | $1,762,757 | 56.0% | $271.44 | 5,848 | 6.3% | 14.53% | 3.62* | 33.4% | 40 |
 | LOC-012 | DineIQ Los Angeles | Los Angeles | Flagship | $1,680,632 | 56.1% | $270.28 | 5,677 | 5.3% | 15.08% | 3.60* | 33.4% | 40 |
 | LOC-010 | DineIQ San Francis | San Francisco | Flagship | $1,611,512 | 55.9% | $269.35 | 5,424 | 5.5% | 15.52% | 3.65* | 33.1% | 39 |
-| LOC-017 | DineIQ Orlando The | Orlando | Family Destination | $1,519,178 | 56.1% | $269.26 | 5,152 | 5.4% | 15.41% | 3.62* | 33.1% | 38 |
-| LOC-004 | DineIQ Chicago Mag | Chicago | Flagship | $1,478,622 | 56.0% | $268.69 | 5,017 | 5.1% | 16.26% | 3.62* | 34.2% | 34 |
+| LOC-017 | DineIQ Orlando The | Orlando | Family Destination | $1,519,491 | 56.1% | $269.27 | 5,153 | 5.4% | 15.41% | 3.62* | 33.1% | 38 |
+| LOC-004 | DineIQ Chicago Mag | Chicago | Flagship | $1,478,855 | 56.0% | $268.69 | 5,018 | 5.1% | 16.26% | 3.62* | 34.2% | 34 |
 | LOC-016 | DineIQ Miami South | Miami | Coastal Boardwalk | $1,429,719 | 56.0% | $268.49 | 4,847 | 5.0% | 17.01% | 3.62* | 33.4% | 37 |
 | LOC-013 | DineIQ Santa Monic | Santa Monica | Coastal Boardwalk | $1,420,104 | 55.9% | $269.98 | 4,838 | 4.7% | 16.85% | 3.62* | 34.9% | 34 |
 | LOC-002 | DineIQ Financial C | New York | Urban Corporate | $1,340,654 | 56.1% | $269.75 | 4,556 | 5.0% | 17.60% | 3.62* | 34.2% | 40 |
 | LOC-008 | DineIQ Houston Gal | Houston | Suburban Mall | $1,169,565 | 56.0% | $271.80 | 3,935 | 4.2% | 20.01% | 3.61* | 33.8% | 34 |
 | LOC-006 | DineIQ Austin Down | Austin | Urban Dining | $1,148,440 | 55.8% | $269.65 | 3,940 | 3.9% | 19.87% | 3.63* | 32.5% | 35 |
 | LOC-011 | DineIQ Silicon Val | San Jose | Urban Corporate | $1,140,242 | 56.0% | $266.91 | 3,953 | 3.6% | 19.93% | 3.58* | 32.6% | 36 |
-| LOC-005 | DineIQ West Loop B | Chicago | Urban Dining | $1,116,176 | 56.1% | $267.73 | 3,855 | 4.0% | 20.73% | 3.64* | 34.9% | 36 |
+| LOC-005 | DineIQ West Loop B | Chicago | Urban Dining | $1,116,724 | 56.1% | $267.74 | 3,857 | 4.0% | 20.73% | 3.64* | 34.9% | 36 |
 | LOC-014 | DineIQ Seattle Pik | Seattle | Urban Dining | $1,109,149 | 56.2% | $269.41 | 3,803 | 4.2% | 20.35% | 3.61* | 34.0% | 36 |
 | LOC-009 | DineIQ Dallas Arts | Dallas | Urban Dining | $1,072,288 | 56.0% | $268.34 | 3,680 | 4.2% | 21.24% | 3.60* | 32.9% | 34 |
-| LOC-020 | DineIQ Boston Back | Boston | Historic Urban | $1,007,497 | 55.9% | $268.67 | 3,421 | 4.2% | 22.75% | 3.61* | 35.1% | 33 |
-| LOC-015 | DineIQ Bellevue Te | Bellevue | Urban Corporate | $990,105 | 55.8% | $268.03 | 3,412 | 3.8% | 22.34% | 3.56* | 35.3% | 35 |
-| LOC-019 | DineIQ Atlanta Mid | Atlanta | Urban Dining | $978,127 | 55.9% | $265.36 | 3,406 | 3.8% | 22.79% | 3.55* | 32.8% | 29 |
+| LOC-020 | DineIQ Boston Back | Boston | Historic Urban | $1,007,600 | 55.9% | $268.62 | 3,422 | 4.1% | 22.75% | 3.61* | 35.1% | 33 |
+| LOC-015 | DineIQ Bellevue Te | Bellevue | Urban Corporate | $990,464 | 55.8% | $267.98 | 3,414 | 3.8% | 22.34% | 3.56* | 35.3% | 35 |
+| LOC-019 | DineIQ Atlanta Mid | Atlanta | Urban Dining | $978,434 | 55.9% | $265.37 | 3,407 | 3.8% | 22.79% | 3.55* | 32.8% | 29 |
 | LOC-003 | DineIQ Brooklyn He | Brooklyn | Suburban Upscale | $950,687 | 56.1% | $270.16 | 3,253 | 3.6% | 22.78% | 3.60* | 33.5% | 33 |
 | LOC-018 | DineIQ Denver LoDo | Denver | Urban Dining | $948,457 | 56.0% | $269.37 | 3,286 | 3.4% | 22.70% | 3.65* | 33.3% | 35 |
 | LOC-007 | DineIQ Austin Doma | Austin | Drive-Thru Express | $483,352 | 56.1% | $269.88 | 1,703 | 1.6% | 37.70% | 3.56* | 32.7% | 20 |

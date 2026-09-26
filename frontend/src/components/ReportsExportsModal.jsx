@@ -80,7 +80,7 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
       left: 0,
       width: '100vw',
       height: '100vh',
-      background: 'rgba(10, 15, 29, 0.85)',
+      background: 'rgba(0, 0, 0, 0.65)',
       backdropFilter: 'blur(6px)',
       display: 'flex',
       alignItems: 'center',
@@ -94,26 +94,26 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
         maxHeight: '90vh',
         overflowY: 'auto',
         padding: '28px',
-        background: '#0f172a',
-        borderColor: '#475569'
+        background: 'var(--surface)',
+        borderColor: 'var(--border)'
       }}>
         {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
           <div>
-            <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#f8fafc' }}>
+            <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)' }}>
               Reports &amp; Data Export Center
             </h2>
-            <p style={{ fontSize: '0.8rem', color: '#94a3b8' }}>
+            <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
               SRS Step 49 (12 Downloadable Analytical Reports) &amp; Step 50 (Role-Based CSV/Excel Data Export).
             </p>
           </div>
-          <button onClick={onClose} style={{ background: 'transparent', border: 'none', color: '#94a3b8', cursor: 'pointer' }}>
+          <button onClick={onClose} style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer' }}>
             <X size={22} />
           </button>
         </div>
 
         {/* Tab Switcher */}
-        <div style={{ display: 'flex', gap: '8px', borderBottom: '1px solid var(--border-color)', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', gap: '8px', borderBottom: '1px solid var(--border)', marginBottom: '20px' }}>
           <button
             onClick={() => setActiveTab('reports')}
             style={{
@@ -122,8 +122,8 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
               fontWeight: 600,
               background: 'transparent',
               border: 'none',
-              borderBottom: activeTab === 'reports' ? '2px solid #38bdf8' : '2px solid transparent',
-              color: activeTab === 'reports' ? '#38bdf8' : '#94a3b8',
+              borderBottom: activeTab === 'reports' ? '2px solid var(--primary)' : '2px solid transparent',
+              color: activeTab === 'reports' ? 'var(--primary)' : 'var(--text-secondary)',
               cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
@@ -142,8 +142,8 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
               fontWeight: 600,
               background: 'transparent',
               border: 'none',
-              borderBottom: activeTab === 'exports' ? '2px solid #38bdf8' : '2px solid transparent',
-              color: activeTab === 'exports' ? '#38bdf8' : '#94a3b8',
+              borderBottom: activeTab === 'exports' ? '2px solid var(--primary)' : '2px solid transparent',
+              color: activeTab === 'exports' ? 'var(--primary)' : 'var(--text-secondary)',
               cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
@@ -160,18 +160,18 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
           <div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '12px' }}>
               {reports.map((rep) => (
-                <div key={rep.report_key} style={{ background: '#1e293b', border: '1px solid #334155', borderRadius: '8px', padding: '16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div key={rep.report_key} style={{ background: 'var(--surface-secondary)', border: '1px solid var(--border)', borderRadius: '8px', padding: '16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                   <div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '6px' }}>
-                      <span style={{ fontSize: '0.7rem', fontWeight: 700, padding: '2px 8px', borderRadius: '4px', background: 'rgba(56, 189, 248, 0.15)', color: '#38bdf8' }}>
+                      <span style={{ fontSize: '0.7rem', fontWeight: 700, padding: '2px 8px', borderRadius: '4px', background: 'var(--primary-tint)', color: 'var(--primary)' }}>
                         {rep.category}
                       </span>
-                      <span style={{ fontSize: '0.72rem', color: '#64748b' }}>{rep.file_size_kb} KB</span>
+                      <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>{rep.file_size_kb} KB</span>
                     </div>
-                    <h4 style={{ fontSize: '0.88rem', fontWeight: 700, color: '#f8fafc', marginBottom: '4px' }}>
+                    <h4 style={{ fontSize: '0.88rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '4px' }}>
                       {rep.title}
                     </h4>
-                    <p style={{ fontSize: '0.78rem', color: '#94a3b8', lineHeight: 1.3, marginBottom: '12px' }}>
+                    <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', lineHeight: 1.3, marginBottom: '12px' }}>
                       {rep.description}
                     </p>
                   </div>
@@ -179,9 +179,9 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
                   <button
                     onClick={() => handleDownloadReport(rep.report_key)}
                     style={{
-                      background: 'rgba(255, 255, 255, 0.05)',
-                      border: '1px solid #475569',
-                      color: '#f8fafc',
+                      background: 'var(--surface)',
+                      border: '1px solid var(--border)',
+                      color: 'var(--text-primary)',
                       padding: '8px 12px',
                       borderRadius: '6px',
                       fontSize: '0.78rem',
@@ -206,13 +206,13 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
         {activeTab === 'exports' && (
           <div>
             {/* Role Simulation Selector */}
-            <div style={{ background: 'rgba(15, 23, 42, 0.6)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '14px 18px', marginBottom: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div style={{ background: 'var(--surface-secondary)', border: '1px solid var(--border)', borderRadius: '8px', padding: '14px 18px', marginBottom: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
-                <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#f8fafc', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <Lock size={15} color="#38bdf8" />
+                <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <Lock size={15} color="var(--primary)" />
                   Simulate User Role (RBAC Permissions):
                 </span>
-                <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
                   Step 50 rule: 'Users with suitable permissions should be able to export results'.
                 </span>
               </div>
@@ -229,8 +229,9 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
                       fontWeight: 600,
                       border: 'none',
                       cursor: 'pointer',
-                      background: userRole === role ? (role === 'viewer' ? '#f43f5e' : '#0284c7') : '#334155',
-                      color: '#ffffff'
+                      background: userRole === role ? (role === 'viewer' ? 'var(--danger)' : 'var(--primary)') : 'var(--surface)',
+                      color: userRole === role ? '#ffffff' : 'var(--text-secondary)',
+                      boxShadow: 'var(--shadow-sm)'
                     }}
                   >
                     {role.toUpperCase()} {role === 'viewer' ? '(No Perms)' : '(Authorized)'}
@@ -241,7 +242,7 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
 
             {/* Permission Alert */}
             {!canExport && (
-              <div style={{ background: 'rgba(244, 63, 94, 0.1)', border: '1px solid rgba(244, 63, 94, 0.3)', borderRadius: '8px', padding: '12px 16px', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px', color: '#fb7185', fontSize: '0.85rem' }}>
+              <div style={{ background: 'var(--danger-tint)', border: '1px solid var(--danger)', borderRadius: '8px', padding: '12px 16px', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '10px', color: 'var(--danger)', fontSize: '0.85rem' }}>
                 <ShieldAlert size={20} />
                 <span>
                   <strong>Access Restricted:</strong> Current role '<code>{userRole}</code>' lacks data export privileges. Attempting export will result in HTTP 403 Forbidden.
@@ -252,13 +253,13 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
             {/* Status notification */}
             {exportStatus && (
               <div style={{
-                background: exportStatus.error ? 'rgba(244, 63, 94, 0.15)' : 'rgba(16, 185, 129, 0.15)',
-                border: `1px solid ${exportStatus.error ? '#f43f5e' : '#10b981'}`,
+                background: exportStatus.error ? 'var(--danger-tint)' : 'var(--success-tint)',
+                border: `1px solid ${exportStatus.error ? 'var(--danger)' : 'var(--success)'}`,
                 borderRadius: '8px',
                 padding: '10px 16px',
                 marginBottom: '16px',
                 fontSize: '0.85rem',
-                color: exportStatus.error ? '#fb7185' : '#34d399'
+                color: exportStatus.error ? 'var(--danger)' : 'var(--success)'
               }}>
                 {exportStatus.msg}
               </div>
@@ -290,9 +291,9 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
                           <button
                             onClick={() => handleExportData(d.dataset_key, 'csv')}
                             style={{
-                              background: '#1e293b',
-                              border: '1px solid #475569',
-                              color: '#38bdf8',
+                              background: 'var(--surface-secondary)',
+                              border: '1px solid var(--border)',
+                              color: 'var(--primary)',
                               padding: '4px 10px',
                               borderRadius: '4px',
                               fontSize: '0.75rem',
@@ -310,9 +311,9 @@ export default function ReportsExportsModal({ isOpen, onClose }) {
                           <button
                             onClick={() => handleExportData(d.dataset_key, 'excel')}
                             style={{
-                              background: '#1e293b',
-                              border: '1px solid #475569',
-                              color: '#34d399',
+                              background: 'var(--surface-secondary)',
+                              border: '1px solid var(--border)',
+                              color: 'var(--success)',
                               padding: '4px 10px',
                               borderRadius: '4px',
                               fontSize: '0.75rem',

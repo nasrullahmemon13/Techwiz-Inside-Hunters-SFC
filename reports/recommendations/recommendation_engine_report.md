@@ -1,8 +1,8 @@
 # DineIQ Analytics - Evidence-Based Recommendation Engine Report
 **SRS References:** Step 37 (Recommendation Engine), Step 38 (Recommendation Evidence), Step 39 (Recommendation Priority)  
-**Generation Timestamp:** 2026-09-25 12:33:55  
+**Generation Timestamp:** 2026-09-26 12:55:19  
 **Total Recommendations Formulated:** 57  
-**Total Potential Business Impact:** $3,665,651.85  
+**Total Potential Business Impact:** $3,665,704.58  
 
 ---
 
@@ -16,7 +16,7 @@ Every recommendation in DineIQ is classified into one of four distinct business 
 ### Priority Breakdown
 | Priority Tier | Recommendation Count | Share of Portfolio | Total Business Impact ($) | Impact Share (%) | Average Impact per Action |
 |---|---|---|---|---|---|
-| **Critical** | 21 | 36.8% | $2,715,227.86 | 74.07% | $129,296.56 |
+| **Critical** | 21 | 36.8% | $2,715,280.59 | 74.07% | $129,299.08 |
 | **High** | 8 | 14.0% | $411,374.09 | 11.22% | $51,421.76 |
 | **Medium** | 27 | 47.4% | $533,282.37 | 14.55% | $19,751.20 |
 | **Low** | 1 | 1.8% | $5,767.53 | 0.16% | $5,767.53 |
@@ -30,7 +30,7 @@ DineIQ strictly generates evidence-based recommendations from **EXACTLY the 9 SR
 |---|---|---|---|---|---|---|---|
 | 1 | **Bundle frequently purchased items** | 8 | 0 | 0 | 8 | 0 | $111,678.75 |
 | 2 | **Increase stock before predicted peak periods** | 2 | 1 | 0 | 0 | 1 | $159,006.62 |
-| 3 | **Investigate anomalous locations** | 4 | 4 | 0 | 0 | 0 | $428,183.42 |
+| 3 | **Investigate anomalous locations** | 4 | 4 | 0 | 0 | 0 | $428,236.15 |
 | 4 | **Promote high-margin Hidden Opportunities** | 9 | 0 | 1 | 8 | 0 | $178,596.89 |
 | 5 | **Reduce preparation quantity of high-wastage dishes** | 10 | 7 | 0 | 3 | 0 | $361,748.38 |
 | 6 | **Remove or redesign persistent Low Performers** | 8 | 3 | 5 | 0 | 0 | $688,328.18 |
@@ -124,7 +124,7 @@ Reason:
 ---
 ### [CRITICAL PRIORITY] Investigate anomalous locations (`REC-057`)
 **Target Entity:** Location - `LOC-005` (DineIQ West Loop Bistro (Chicago))  
-**Potential Financial Impact:** $111,913.87  
+**Potential Financial Impact:** $111,935.81  
 **Implementation Effort:** High  
 
 ```
@@ -135,10 +135,10 @@ Reason:
   * Severe customer dissatisfaction: CSAT of only 64.7% (697 1-star reviews, 3.64 avg rating)
   * Excessive food wastage: $168,167.10 annual waste loss (20.7% waste rate)
   * Operating margin lag: contribution margin of 56.1% trails network high performers
-  * High commercial exposure: $1,116,175.78 in location revenue subject to customer churn
+  * High commercial exposure: $1,116,724.13 in location revenue subject to customer churn
   * Actionable audit protocol: conduct kitchen prep consistency review and staff service training
 ```
-*Business Impact Rationale: Operational turnaround captures $111,913.87 through reduced spoilage and restored customer retention.*
+*Business Impact Rationale: Operational turnaround captures $111,935.81 through reduced spoilage and restored customer retention.*
 
 ---
 ### [CRITICAL PRIORITY] Reduce preparation quantity of high-wastage dishes (`REC-010`)
@@ -232,7 +232,7 @@ The table below highlights the highest-priority operational directives requiring
 | `REC-050` | **Review and Immediately Restructure Ineffective Promotion: PROMO-009 ('VIP Platinum Royalty 25% Off')** | VIP Platinum Royalty 25% Off | **$140,000.00** | Low | Review ineffective promotions |
 | `REC-038` | **Remove or Redesign Persistent Low Performer: ITEM-005 (Wild Alaskan Salmon Tartare)** | Wild Alaskan Salmon Tartare | **$117,159.10** | Medium | Remove or redesign persistent Low Performers |
 | `REC-047` | **Target Regular Diners Showing Reduced Category Diversity with Category Sampler Incentives** | Regular Customers with Menu Fatigue | **$114,681.73** | Low | Target selected customer segments |
-| `REC-057` | **Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)** | DineIQ West Loop Bistro (Chicago) | **$111,913.87** | High | Investigate anomalous locations |
+| `REC-057` | **Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)** | DineIQ West Loop Bistro (Chicago) | **$111,935.81** | High | Investigate anomalous locations |
 
 ---
 *Report generated automatically by DineIQ Analytics Engine.*

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth, ROLE_DEFINITIONS } from '../context/AuthContext';
+import ThemeToggle from '../components/ThemeToggle';
 import {
   UtensilsCrossed,
   Lock,
@@ -66,17 +67,18 @@ export default function LoginPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [activeQuickRole, setActiveQuickRole] = useState(null);
 
+  // Where to redirect after login (default to '/')
   const destination = location.state?.from?.pathname || '/';
 
   const handleSubmit = async (e) => {
-    if (e) e.preventDefault();
+    e.preventDefault();
     if (!username.trim() || !password.trim()) {
-      setAuthError('Please enter both username/email and password.');
+      setAuthError('Please enter both username and password.');
       return;
     }
 
     setIsSubmitting(true);
-    const result = await login(username.trim(), password.trim());
+    const result = await login(username.trim(), password);
     setIsSubmitting(false);
 
     if (result.success) {
@@ -88,9 +90,8 @@ export default function LoginPage() {
     setActiveQuickRole(role.roleId);
     setUsername(role.username);
     setPassword(role.password);
-    setAuthError(null);
-
     setIsSubmitting(true);
+
     const result = await login(role.username, role.password);
     setIsSubmitting(false);
 
@@ -102,14 +103,20 @@ export default function LoginPage() {
   return (
     <div style={{
       minHeight: '100vh',
-      backgroundColor: 'var(--bg-primary, #0a0f1d)',
-      backgroundImage: 'radial-gradient(circle at 50% 20%, rgba(14, 165, 233, 0.08) 0%, transparent 60%)',
+      backgroundColor: 'var(--background)',
+      backgroundImage: 'radial-gradient(ellipse at 60% 0%, var(--primary-tint) 0%, transparent 55%)',
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      padding: '32px 16px'
+      padding: '32px 16px',
+      position: 'relative'
     }}>
+      {/* Top Right Theme Toggle */}
+      <div style={{ position: 'absolute', top: '24px', right: '24px' }}>
+        <ThemeToggle />
+      </div>
+
       <div style={{ width: '100%', maxWidth: '980px' }}>
         {/* Brand Header */}
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
@@ -120,8 +127,8 @@ export default function LoginPage() {
             width: '56px',
             height: '56px',
             borderRadius: '14px',
-            background: 'linear-gradient(135deg, #0ea5e9, #6366f1)',
-            boxShadow: '0 8px 24px rgba(14, 165, 233, 0.35)',
+            background: 'linear-gradient(135deg, var(--primary), #6366f1)',
+            boxShadow: '0 8px 24px var(--primary-tint)',
             marginBottom: '16px'
           }}>
             <UtensilsCrossed size={30} color="#ffffff" />
@@ -130,13 +137,13 @@ export default function LoginPage() {
             fontSize: '2rem',
             fontWeight: 800,
             letterSpacing: '-0.03em',
-            color: '#f8fafc',
+            color: 'var(--text-primary)',
             margin: '0 0 6px 0'
           }}>
-            DineIQ <span style={{ color: '#38bdf8' }}>Analytics</span>
+            DineIQ <span style={{ color: 'var(--primary)' }}>Analytics</span>
           </h1>
           <p style={{
-            color: '#94a3b8',
+            color: 'var(--text-secondary)',
             fontSize: '0.95rem',
             margin: 0,
             maxWidth: '520px',
@@ -152,9 +159,9 @@ export default function LoginPage() {
               fontWeight: 600,
               padding: '3px 10px',
               borderRadius: '9999px',
-              backgroundColor: 'rgba(56, 189, 248, 0.12)',
-              border: '1px solid rgba(56, 189, 248, 0.25)',
-              color: '#38bdf8'
+              backgroundColor: 'var(--primary-tint)',
+              border: '1px solid var(--border)',
+              color: 'var(--primary)'
             }}>
               SRS Functional Requirements (i) &amp; (ii) Compliant
             </span>
@@ -174,14 +181,14 @@ export default function LoginPage() {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
-            backgroundColor: 'var(--bg-card, #1e293b)'
+            backgroundColor: 'var(--surface)'
           }}>
             <div>
               <div style={{ marginBottom: '24px' }}>
-                <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#f8fafc', margin: '0 0 6px 0' }}>
+                <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)', margin: '0 0 6px 0' }}>
                   Platform Sign In
                 </h2>
-                <p style={{ fontSize: '0.82rem', color: '#94a3b8', margin: 0 }}>
+                <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: 0 }}>
                   Enter your assigned credentials to access your designated role portal.
                 </p>
               </div>
@@ -191,15 +198,15 @@ export default function LoginPage() {
                   display: 'flex',
                   alignItems: 'center',
                   gap: '10px',
-                  backgroundColor: 'rgba(244, 63, 94, 0.12)',
-                  border: '1px solid rgba(244, 63, 94, 0.35)',
-                  color: '#fda4af',
+                  backgroundColor: 'var(--danger-tint)',
+                  border: '1px solid var(--danger)',
+                  color: 'var(--danger)',
                   padding: '12px 16px',
                   borderRadius: '8px',
                   marginBottom: '20px',
                   fontSize: '0.85rem'
                 }}>
-                  <AlertCircle size={18} style={{ flexShrink: 0, color: '#f43f5e' }} />
+                  <AlertCircle size={18} style={{ flexShrink: 0, color: 'var(--danger)' }} />
                   <span>{authError}</span>
                 </div>
               )}
@@ -210,7 +217,7 @@ export default function LoginPage() {
                     display: 'block',
                     fontSize: '0.8rem',
                     fontWeight: 600,
-                    color: '#cbd5e1',
+                    color: 'var(--text-secondary)',
                     marginBottom: '8px'
                   }}>
                     Username or Email
@@ -221,7 +228,7 @@ export default function LoginPage() {
                       left: '12px',
                       top: '50%',
                       transform: 'translateY(-50%)',
-                      color: '#64748b'
+                      color: 'var(--text-muted)'
                     }}>
                       <UserIcon size={16} />
                     </div>
@@ -234,16 +241,16 @@ export default function LoginPage() {
                       style={{
                         width: '100%',
                         padding: '11px 12px 11px 38px',
-                        backgroundColor: '#0f172a',
-                        border: '1px solid #334155',
+                        backgroundColor: 'var(--surface-secondary)',
+                        border: '1px solid var(--border)',
                         borderRadius: '8px',
-                        color: '#f8fafc',
+                        color: 'var(--text-primary)',
                         fontSize: '0.9rem',
                         outline: 'none',
                         transition: 'border-color 0.2s'
                       }}
-                      onFocus={(e) => (e.target.style.borderColor = '#38bdf8')}
-                      onBlur={(e) => (e.target.style.borderColor = '#334155')}
+                      onFocus={(e) => (e.target.style.borderColor = 'var(--primary)')}
+                      onBlur={(e) => (e.target.style.borderColor = 'var(--border)')}
                     />
                   </div>
                 </div>
@@ -253,12 +260,12 @@ export default function LoginPage() {
                     <label style={{
                       fontSize: '0.8rem',
                       fontWeight: 600,
-                      color: '#cbd5e1'
+                      color: 'var(--text-secondary)'
                     }}>
                       Password
                     </label>
-                    <span style={{ fontSize: '0.75rem', color: '#64748b' }}>
-                      Default: <code style={{ color: '#38bdf8' }}>admin123</code>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                      Default: <code style={{ color: 'var(--primary)' }}>admin123</code>
                     </span>
                   </div>
                   <div style={{ position: 'relative' }}>
@@ -267,7 +274,7 @@ export default function LoginPage() {
                       left: '12px',
                       top: '50%',
                       transform: 'translateY(-50%)',
-                      color: '#64748b'
+                      color: 'var(--text-muted)'
                     }}>
                       <Lock size={16} />
                     </div>
@@ -280,16 +287,16 @@ export default function LoginPage() {
                       style={{
                         width: '100%',
                         padding: '11px 40px 11px 38px',
-                        backgroundColor: '#0f172a',
-                        border: '1px solid #334155',
+                        backgroundColor: 'var(--surface-secondary)',
+                        border: '1px solid var(--border)',
                         borderRadius: '8px',
-                        color: '#f8fafc',
+                        color: 'var(--text-primary)',
                         fontSize: '0.9rem',
                         outline: 'none',
                         transition: 'border-color 0.2s'
                       }}
-                      onFocus={(e) => (e.target.style.borderColor = '#38bdf8')}
-                      onBlur={(e) => (e.target.style.borderColor = '#334155')}
+                      onFocus={(e) => (e.target.style.borderColor = 'var(--primary)')}
+                      onBlur={(e) => (e.target.style.borderColor = 'var(--border)')}
                     />
                     <button
                       type="button"
@@ -301,7 +308,7 @@ export default function LoginPage() {
                         transform: 'translateY(-50%)',
                         background: 'transparent',
                         border: 'none',
-                        color: '#64748b',
+                        color: 'var(--text-muted)',
                         cursor: 'pointer',
                         display: 'flex',
                         alignItems: 'center',
@@ -319,15 +326,15 @@ export default function LoginPage() {
                   style={{
                     width: '100%',
                     padding: '12px',
-                    backgroundColor: '#0284c7',
-                    backgroundImage: 'linear-gradient(135deg, #0284c7, #2563eb)',
+                    backgroundColor: 'var(--primary)',
+                    backgroundImage: 'linear-gradient(135deg, var(--primary), #2563eb)',
                     border: 'none',
                     borderRadius: '8px',
                     color: '#ffffff',
                     fontWeight: 600,
                     fontSize: '0.95rem',
                     cursor: isSubmitting ? 'not-allowed' : 'pointer',
-                    boxShadow: '0 4px 14px rgba(2, 132, 199, 0.35)',
+                    boxShadow: '0 4px 14px var(--primary-tint)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -359,9 +366,9 @@ export default function LoginPage() {
             <div style={{
               marginTop: '24px',
               paddingTop: '16px',
-              borderTop: '1px solid #334155',
+              borderTop: '1px solid var(--border)',
               fontSize: '0.75rem',
-              color: '#64748b',
+              color: 'var(--text-muted)',
               textAlign: 'center'
             }}>
               Protected session via FastAPI &bull; In-memory active tokens &bull; Role-Based Access Control
@@ -371,18 +378,18 @@ export default function LoginPage() {
           {/* Right Column: 1-Click Role Switcher for Evaluators */}
           <div className="glass-card" style={{
             padding: '32px',
-            backgroundColor: 'var(--bg-card, #1e293b)',
+            backgroundColor: 'var(--surface)',
             display: 'flex',
             flexDirection: 'column'
           }}>
             <div style={{ marginBottom: '18px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
-                <Layers size={18} color="#38bdf8" />
-                <h2 style={{ fontSize: '1.15rem', fontWeight: 700, color: '#f8fafc', margin: 0 }}>
+                <Layers size={18} color="var(--primary)" />
+                <h2 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
                   Role Quick-Switcher
                 </h2>
               </div>
-              <p style={{ fontSize: '0.8rem', color: '#94a3b8', margin: 0 }}>
+              <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', margin: 0 }}>
                 1-click instant login for testing and evaluating all 4 SRS roles:
               </p>
             </div>
@@ -408,8 +415,8 @@ export default function LoginPage() {
                       alignItems: 'flex-start',
                       gap: '14px',
                       padding: '14px',
-                      backgroundColor: isSelected ? 'rgba(56, 189, 248, 0.08)' : '#0f172a',
-                      border: `1px solid ${isSelected ? role.color : '#334155'}`,
+                      backgroundColor: isSelected ? 'var(--primary-tint)' : 'var(--surface-secondary)',
+                      border: `1px solid ${isSelected ? role.color : 'var(--border)'}`,
                       borderRadius: '10px',
                       cursor: isSubmitting ? 'not-allowed' : 'pointer',
                       textAlign: 'left',
@@ -421,7 +428,7 @@ export default function LoginPage() {
                       if (!isSubmitting) e.currentTarget.style.borderColor = role.color;
                     }}
                     onMouseLeave={(e) => {
-                      if (!isSelected && !isSubmitting) e.currentTarget.style.borderColor = '#334155';
+                      if (!isSelected && !isSubmitting) e.currentTarget.style.borderColor = 'var(--border)';
                     }}
                   >
                     <div style={{
@@ -438,21 +445,22 @@ export default function LoginPage() {
 
                     <div style={{ flex: 1 }}>
                       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2px' }}>
-                        <span style={{ fontSize: '0.9rem', fontWeight: 700, color: '#f8fafc' }}>
+                        <span style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-primary)' }}>
                           {role.title}
                         </span>
                         <span style={{
                           fontSize: '0.7rem',
                           fontFamily: 'JetBrains Mono, monospace',
-                          color: '#94a3b8',
-                          background: 'rgba(255,255,255,0.06)',
+                          color: 'var(--text-secondary)',
+                          background: 'var(--primary-tint)',
                           padding: '1px 6px',
-                          borderRadius: '4px'
+                          borderRadius: '4px',
+                          border: '1px solid var(--border)'
                         }}>
                           {role.username}
                         </span>
                       </div>
-                      <p style={{ fontSize: '0.76rem', color: '#94a3b8', margin: '0 0 6px 0', lineHeight: 1.3 }}>
+                      <p style={{ fontSize: '0.76rem', color: 'var(--text-secondary)', margin: '0 0 6px 0', lineHeight: 1.3 }}>
                         {role.scope}
                       </p>
                       <div style={{
@@ -477,7 +485,7 @@ export default function LoginPage() {
         <div style={{
           textAlign: 'center',
           marginTop: '28px',
-          color: '#64748b',
+          color: 'var(--text-muted)',
           fontSize: '0.78rem'
         }}>
           DineIQ Analytics &copy; 2026. Conforms to Software Requirements Specification (SRS v1.0).

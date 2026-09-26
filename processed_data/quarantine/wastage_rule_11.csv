@@ -1,0 +1,26 @@
+wastage_id,item_id,location_id,wastage_date,wastage_time,quantity_wasted,unit_cost,total_loss_amount,wastage_reason,complexity_profile,reported_by,_quarantine_timestamp,_quarantine_rule_id,_quarantine_rule_name,_quarantine_reason
+WAS-000051,ITEM-146,LOC-017,2025-01-08,15:00:00,9999,3.4,37.4,PREPARATION_ERROR,HIGH_WASTAGE,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000052,ITEM-098,LOC-011,2025-03-05,14:14:00,9999,6.8,81.6,EXPIRED_SHELF_LIFE,HIGH_WASTAGE,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000053,ITEM-144,LOC-001,2025-11-16,22:04:00,9999,2.6,5.2,EQUIPMENT_COOLER_FAILURE,HIGH_WASTAGE,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000054,ITEM-119,LOC-019,2025-09-07,23:13:00,9999,3.2,19.2,PREPARATION_ERROR,HIGH_WASTAGE,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000055,ITEM-074,LOC-001,2025-01-26,23:15:00,9999,12.0,132.0,OVERPRODUCTION_UNSOLD,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000056,ITEM-141,LOC-004,2025-01-16,15:06:00,9999,1.4,5.6,PREPARATION_ERROR,STANDARD,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000057,ITEM-011,LOC-007,2025-04-22,23:22:00,9999,9.8,117.6,PREPARATION_ERROR,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000058,ITEM-031,LOC-020,2025-03-01,23:55:00,9999,12.0,48.0,OVERPRODUCTION_UNSOLD,POPULAR_LOW_MARGIN,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000059,ITEM-006,LOC-001,2025-02-11,14:03:00,9999,10.2,122.4,EXPIRED_SHELF_LIFE,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000060,ITEM-049,LOC-011,2025-02-02,14:15:00,9999,19.5,58.5,OVERPRODUCTION_UNSOLD,STANDARD,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000061,ITEM-062,LOC-013,2025-11-21,23:08:00,9999,16.0,80.0,EXPIRED_SHELF_LIFE,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000062,ITEM-043,LOC-003,2025-07-14,22:29:00,9999,8.5,34.0,PREPARATION_ERROR,HIGH_WASTAGE,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000063,ITEM-110,LOC-008,2025-03-06,23:51:00,9999,5.8,17.4,EXPIRED_SHELF_LIFE,HIGH_WASTAGE,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000064,ITEM-059,LOC-012,2025-10-02,14:05:00,9999,13.5,27.0,EXPIRED_SHELF_LIFE,STANDARD,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000065,ITEM-043,LOC-002,2025-06-03,23:31:00,9999,8.5,34.0,EXPIRED_SHELF_LIFE,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000066,ITEM-071,LOC-001,2025-02-05,23:57:00,-5,9.5,47.5,CUSTOMER_SEND_BACK,HIGH_WASTAGE,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000067,ITEM-021,LOC-020,2025-11-04,23:00:00,-5,8.9,35.6,PREPARATION_ERROR,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000068,ITEM-102,LOC-014,2025-05-09,23:18:00,-5,5.6,16.8,OVERPRODUCTION_UNSOLD,STANDARD,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000069,ITEM-010,LOC-015,2025-12-03,23:09:00,-5,7.0,70.0,EXPIRED_SHELF_LIFE,STANDARD,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000070,ITEM-148,LOC-004,2025-04-10,15:03:00,-5,4.1,24.6,EXPIRED_SHELF_LIFE,HIGH_WASTAGE,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000071,ITEM-098,LOC-020,2025-10-21,14:03:00,-5,6.8,47.6,PREPARATION_ERROR,HIGH_WASTAGE,Inventory Clerk,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000072,ITEM-032,LOC-007,2025-12-14,14:32:00,-5,13.8,27.6,OVERPRODUCTION_UNSOLD,POPULAR_LOW_MARGIN,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000073,ITEM-003,LOC-001,2025-09-13,14:38:00,-5,7.1,28.4,EXPIRED_SHELF_LIFE,POPULAR_LOW_MARGIN,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000074,ITEM-108,LOC-005,2025-06-22,23:07:00,-5,6.9,13.8,OVERPRODUCTION_UNSOLD,POPULAR_LOW_MARGIN,Sous Chef,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0
+WAS-000075,ITEM-085,LOC-014,2025-05-30,14:39:00,-5,9.8,107.8,EXPIRED_SHELF_LIFE,STANDARD,Kitchen Manager,2026-09-26T11:22:08.194352,RULE-11,impossible wastage quantities,Quantity wasted > 50 or <= 0

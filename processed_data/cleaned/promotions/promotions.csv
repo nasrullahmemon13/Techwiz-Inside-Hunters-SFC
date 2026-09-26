@@ -1,0 +1,13 @@
+promotion_id,promotion_name,discount_type,discount_value,min_order_amount,max_discount_amount,applicable_category,start_date,end_date,target_segment,complexity_tag,is_misleading,description
+PROMO-001,New Year Kickoff 20% Off,PERCENTAGE,20.0,25.0,15.0,ALL,2025-01-01,2025-01-15,ALL,STANDARD_SEASONAL,False,20% off all orders over $25 during the first two weeks of January.
+PROMO-002,Valentine Dinner Date $15 Off,FIXED_AMOUNT,15.0,50.0,15.0,CAT-001,2025-02-10,2025-02-16,REGULAR,STANDARD_HOLIDAY,False,$15 off signature entrees on Valentine's week for orders over $50.
+PROMO-003,Mega Feast 50% Off (Fine Print: $120 Min),PERCENTAGE,50.0,120.0,25.0,CAT-002,2025-03-01,2025-03-31,ALL,MISLEADING_HIGH_MIN_SPEND,True,Advertised as '50% Off Feast' but requires $120 min order and caps maximum savings at $25.
+PROMO-004,Spring Weekend Flash 15%,PERCENTAGE,15.0,30.0,20.0,ALL,2025-04-01,2025-04-30,ALL,WEEKEND_FLASH,False,15% off orders on weekend evenings throughout April.
+PROMO-005,Free Dessert Illusion (Min $80 Order),FIXED_AMOUNT,8.0,80.0,8.0,CAT-005,2025-05-01,2025-05-31,OCCASIONAL,MISLEADING_LOW_VALUE_PERK,True,Promoted as 'Free Artisan Dessert' but requires an unrealistic $80 spend on lunch/dinner.
+PROMO-006,Summer Happy Hour BOGO Drink,BOGO,6.5,15.0,10.0,CAT-004,2025-06-01,2025-08-31,ALL,PEAK_HOUR_HAPPY_HOUR,False,Buy one get one free on all handcrafted beverages from 4 PM to 7 PM.
+PROMO-007,Back-to-School Family Combo $10 Off,FIXED_AMOUNT,10.0,40.0,10.0,ALL,2025-09-01,2025-09-30,REGULAR,STANDARD_SEASONAL,False,$10 discount on family meal combos during September.
+PROMO-008,70% Mega Sale (Hidden Exclusions),PERCENTAGE,70.0,60.0,12.0,CAT-007,2025-10-01,2025-10-31,ALL,MISLEADING_EXCLUDED_CATEGORIES,True,"Advertised as 70% storewide sale, but actually only applies to low-cost side dips and capped at $12."
+PROMO-009,VIP Platinum Royalty 25% Off,PERCENTAGE,25.0,35.0,40.0,ALL,2025-01-01,2025-12-31,HIGH_VALUE,VIP_EXCLUSIVE,False,Year-round exclusive 25% discount for Platinum tier loyalty members.
+PROMO-010,Black Friday Week Blowout $20 Off,FIXED_AMOUNT,20.0,60.0,20.0,ALL,2025-11-24,2025-11-30,ALL,PEAK_EVENT,False,$20 flat discount on orders over $60 during Thanksgiving/Black Friday week.
+PROMO-011,Holiday Season Cheers 15%,PERCENTAGE,15.0,35.0,25.0,ALL,2025-12-01,2025-12-31,ALL,STANDARD_SEASONAL,False,15% off throughout December for holiday parties and festive dinners.
+PROMO-012,Late Night Craver 20% Off,PERCENTAGE,20.0,20.0,15.0,CAT-006,2025-01-01,2025-12-31,ALL,LATE_NIGHT_TARGETED,False,20% off all late night munchies ordered between 9 PM and 2 AM.

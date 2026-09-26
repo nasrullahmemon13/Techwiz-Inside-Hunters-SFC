@@ -1,6 +1,6 @@
 # DineIQ Analytics Platform — Non-Functional Requirements (NFR) Verification Report
 
-**Verification Date:** 2026-09-25 07:33:44 UTC  
+**Verification Date:** 2026-09-26 07:55:16 UTC  
 **Conforms to:** DineIQ Software Requirements Specification (SRS v1.0)  
 **System Evaluated:** FastAPI Backend + React Enterprise Frontend + Dual-Engine (PySpark & Python) + PostgreSQL/SQLite Storage
 
@@ -12,7 +12,7 @@ This report documents the rigorous verification and empirical testing of the **5
 
 | # | NFR Category | SRS Specification | Empirical Test Result | Status |
 |---|---|---|---|---|
-| **1** | **Performance** | Process & generate predictions from both models within 5s | Churn: **21.4ms**, Demand: **20.3ms** (Total: **41.7ms**) | **PASS (100% compliant)** |
+| **1** | **Performance** | Process & generate predictions from both models within 5s | Churn: **25.7ms**, Demand: **24.3ms** (Total: **50.0ms**) | **PASS (100% compliant)** |
 | **2** | **Scalability** | Support scaling to 5,000,000+ order-line records without redesign | Partitioned Parquet storage + indexed relational DB + chunked generator ETL | **PASS (100% compliant)** |
 | **3** | **Usability** | Intuitive Web interface for all 4 roles | Role-tailored dashboards for Admin, Regional Mgr, Store Mgr, Analyst | **PASS (100% compliant)** |
 | **4** | **Accuracy** | Classification >=85% test acc OR macro F1 >=0.80; Forecasting beats baseline | Churn: **88.4% Acc (0.871 F1)**, Wastage: **89.5% Acc**, Forecast: **8.15 vs 24.50 RMSE** | **PASS (100% compliant)** |
@@ -27,14 +27,14 @@ This report documents the rigorous verification and empirical testing of the **5
 
 ### Empirical Benchmark
 - **Model A — Customer Churn Classifier (PySpark MLlib / Python RF):**
-  - Average Single Inference Latency: **21.38 ms**
+  - Average Single Inference Latency: **25.71 ms**
   - Throughput: **>339,000 samples / second** (in-memory tree traversal)
   - 1,000 Record Batch Scoring Time: **0.184 seconds**
 - **Model B — Location & Item Demand Forecaster (Spark GBT / Statsmodels):**
-  - Average Forecast Generation Latency: **20.32 ms**
+  - Average Forecast Generation Latency: **24.28 ms**
   - 30-Day Multi-Location Forecast Horizon Time: **0.420 seconds**
 - **Combined Dual-Model Execution Time:**
-  - Total latency: **0.0417 seconds**
+  - Total latency: **0.0500 seconds**
   - Margin of safety: **>92% below the 5.0-second limit**
 
 ### Verdict: **PASS**

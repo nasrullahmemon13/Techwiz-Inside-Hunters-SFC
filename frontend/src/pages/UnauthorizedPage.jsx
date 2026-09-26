@@ -29,27 +29,27 @@ export default function UnauthorizedPage() {
         width: '100%',
         padding: '36px',
         textAlign: 'center',
-        border: '1px solid rgba(244, 63, 94, 0.3)',
-        backgroundColor: 'var(--bg-card, #1e293b)'
+        border: '1px solid var(--danger)',
+        backgroundColor: 'var(--surface)'
       }}>
         <div style={{
           width: '64px',
           height: '64px',
           borderRadius: '50%',
-          backgroundColor: 'rgba(244, 63, 94, 0.12)',
-          border: '1px solid rgba(244, 63, 94, 0.3)',
+          backgroundColor: 'var(--danger-tint)',
+          border: '1px solid var(--danger)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           margin: '0 auto 20px'
         }}>
-          <ShieldAlert size={32} color="#f43f5e" />
+          <ShieldAlert size={32} color="var(--danger)" />
         </div>
 
         <h1 style={{
           fontSize: '1.5rem',
           fontWeight: 800,
-          color: '#f8fafc',
+          color: 'var(--text-primary)',
           marginBottom: '10px'
         }}>
           Access Restricted (HTTP 403)
@@ -57,7 +57,7 @@ export default function UnauthorizedPage() {
 
         <p style={{
           fontSize: '0.9rem',
-          color: '#94a3b8',
+          color: 'var(--text-secondary)',
           lineHeight: 1.6,
           marginBottom: '24px'
         }}>
@@ -66,8 +66,8 @@ export default function UnauthorizedPage() {
 
         {/* Role Comparison Card */}
         <div style={{
-          backgroundColor: '#0f172a',
-          border: '1px solid #334155',
+          backgroundColor: 'var(--surface-secondary)',
+          border: '1px solid var(--border)',
           borderRadius: '8px',
           padding: '16px',
           marginBottom: '28px',
@@ -80,13 +80,13 @@ export default function UnauthorizedPage() {
             marginBottom: '10px',
             fontSize: '0.85rem'
           }}>
-            <span style={{ color: '#94a3b8' }}>Your Authenticated Role:</span>
+            <span style={{ color: 'var(--text-secondary)' }}>Your Authenticated Role:</span>
             <span style={{
               fontWeight: 700,
               padding: '2px 8px',
               borderRadius: '6px',
-              backgroundColor: roleMeta?.bgBadge || 'rgba(148, 163, 184, 0.15)',
-              color: roleMeta?.badgeColor || '#94a3b8',
+              backgroundColor: roleMeta?.bgBadge || 'var(--primary-tint)',
+              color: roleMeta?.badgeColor || 'var(--primary)',
               fontSize: '0.78rem'
             }}>
               {roleMeta?.name || currentRole}
@@ -99,15 +99,15 @@ export default function UnauthorizedPage() {
             alignItems: 'center',
             fontSize: '0.85rem'
           }}>
-            <span style={{ color: '#94a3b8' }}>Required Permission:</span>
+            <span style={{ color: 'var(--text-secondary)' }}>Required Permission:</span>
             <div style={{ display: 'flex', gap: '4px' }}>
               {requiredRoles.map((r) => (
                 <span key={r} style={{
                   fontWeight: 700,
                   padding: '2px 8px',
                   borderRadius: '6px',
-                  backgroundColor: 'rgba(56, 189, 248, 0.15)',
-                  color: '#38bdf8',
+                  backgroundColor: 'var(--primary-tint)',
+                  color: 'var(--primary)',
                   fontSize: '0.78rem'
                 }}>
                   {r}
@@ -126,7 +126,7 @@ export default function UnauthorizedPage() {
               alignItems: 'center',
               gap: '8px',
               padding: '10px 18px',
-              backgroundColor: '#0284c7',
+              backgroundColor: 'var(--primary)',
               border: 'none',
               borderRadius: '8px',
               color: '#ffffff',
@@ -147,9 +147,9 @@ export default function UnauthorizedPage() {
               gap: '8px',
               padding: '10px 18px',
               backgroundColor: 'transparent',
-              border: '1px solid #334155',
+              border: '1px solid var(--border)',
               borderRadius: '8px',
-              color: '#cbd5e1',
+              color: 'var(--text-primary)',
               fontWeight: 600,
               fontSize: '0.88rem',
               cursor: 'pointer'

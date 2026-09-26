@@ -1,7 +1,7 @@
 category,recommendation_count,total_potential_business_impact,avg_potential_business_impact,critical_priority_count,high_priority_count,medium_priority_count,low_priority_count
 Bundle frequently purchased items,8,111678.75,13959.84,0,0,8,0
 Increase stock before predicted peak periods,2,159006.62,79503.31,1,0,0,1
-Investigate anomalous locations,4,428183.42,107045.86,4,0,0,0
+Investigate anomalous locations,4,428236.15,107059.04,4,0,0,0
 Promote high-margin Hidden Opportunities,9,178596.89,19844.1,0,1,8,0
 Reduce preparation quantity of high-wastage dishes,10,361748.38,36174.84,7,0,3,0
 Remove or redesign persistent Low Performers,8,688328.18,86041.02,3,5,0,0

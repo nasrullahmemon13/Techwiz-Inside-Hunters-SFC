@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
   LayoutDashboard,
@@ -13,65 +13,67 @@ import {
   ChevronRight,
   Database,
   Lock,
-  Sparkles
+  UploadCloud,
+  Store,
+  ShoppingCart,
+  Megaphone,
+  Star,
+  Package,
+  Layers,
+  BarChart3,
+  Brain,
+  Lightbulb,
+  Target,
+  AlertTriangle,
+  MapPin,
+  Zap,
+  Sparkles,
+  DollarSign,
+  GitBranch
 } from 'lucide-react';
 
-export const NAVIGATION_ITEMS = [
+const NAV_GROUPS = [
   {
-    path: '/',
-    name: 'Executive Overview',
-    step: 'Step 42',
-    icon: LayoutDashboard,
-    allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'],
-    status: 'live'
+    label: 'MANAGEMENT',
+    items: [
+      { path: '/', name: 'Dashboard', icon: LayoutDashboard, exact: true, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/restaurants', name: 'Restaurants', icon: Store, allowedRoles: ['admin', 'regional_manager'] },
+      { path: '/menu', name: 'Menu', icon: UtensilsCrossed, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/customer', name: 'Customers', icon: Users, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/orders', name: 'Orders', icon: ShoppingCart, allowedRoles: ['admin', 'regional_manager', 'manager'] },
+      { path: '/promotions', name: 'Promotions', icon: Megaphone, allowedRoles: ['admin', 'regional_manager'] },
+      { path: '/ratings', name: 'Ratings', icon: Star, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/inventory', name: 'Inventory', icon: Package, allowedRoles: ['admin', 'regional_manager', 'manager'] },
+      { path: '/wastage', name: 'Wastage', icon: Trash2, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+    ]
   },
   {
-    path: '/menu',
-    name: 'Menu Intelligence',
-    step: 'Step 43',
-    icon: UtensilsCrossed,
-    allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'],
-    status: 'live'
+    label: 'INTELLIGENCE',
+    items: [
+      { path: '/menu', name: 'Menu Intelligence', icon: UtensilsCrossed, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/customer', name: 'Customer Intelligence', icon: Users, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/basket', name: 'Basket Analysis', icon: ShoppingCart, allowedRoles: ['admin', 'regional_manager', 'analyst'] },
+      { path: '/peak-periods', name: 'Peak Periods', icon: TrendingUp, allowedRoles: ['admin', 'regional_manager', 'analyst'] },
+      { path: '/forecast', name: 'Demand Forecast', icon: BarChart3, allowedRoles: ['analyst', 'regional_manager', 'admin'] },
+      { path: '/wastage', name: 'Wastage Intelligence', icon: Trash2, allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'] },
+      { path: '/pricing', name: 'Pricing & Promotions', icon: DollarSign, allowedRoles: ['admin', 'regional_manager', 'analyst'] },
+      { path: '/locations', name: 'Locations & Channels', icon: MapPin, allowedRoles: ['admin', 'regional_manager', 'analyst'] },
+      { path: '/anomalies', name: 'Anomalies & Churn', icon: AlertTriangle, allowedRoles: ['admin', 'analyst'] },
+    ]
   },
   {
-    path: '/customer',
-    name: 'Customer Intelligence',
-    step: 'Step 44',
-    icon: Users,
-    allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'],
-    status: 'live'
+    label: 'AI & MODELS',
+    items: [
+      { path: '/comparison', name: 'Model Performance', icon: Brain, allowedRoles: ['analyst', 'admin'] },
+      { path: '/comparison', name: 'Spark vs Python', icon: GitBranch, allowedRoles: ['analyst', 'admin'] },
+    ]
   },
   {
-    path: '/wastage',
-    name: 'Wastage & Inventory',
-    step: 'Step 45',
-    icon: Trash2,
-    allowedRoles: ['admin', 'regional_manager', 'manager', 'analyst'],
-    status: 'live'
-  },
-  {
-    path: '/forecast',
-    name: 'Demand Forecasting',
-    step: 'Step 46',
-    icon: TrendingUp,
-    allowedRoles: ['analyst', 'regional_manager', 'admin'],
-    status: 'upcoming'
-  },
-  {
-    path: '/comparison',
-    name: 'Dual-Pipeline ML',
-    step: 'Step 47',
-    icon: GitCompare,
-    allowedRoles: ['analyst', 'admin'],
-    status: 'upcoming'
-  },
-  {
-    path: '/system',
-    name: 'System Ops & Spark',
-    step: 'FR lxi-lxvi',
-    icon: ShieldCheck,
-    allowedRoles: ['admin'],
-    status: 'live'
+    label: 'DECISION SUPPORT',
+    items: [
+      { path: '/recommendations', name: 'Recommendations', icon: Lightbulb, allowedRoles: ['admin', 'regional_manager', 'analyst'] },
+      { path: '/what-if', name: 'What-If Analysis', icon: Target, allowedRoles: ['analyst', 'admin'] },
+    ]
   }
 ];
 
@@ -80,138 +82,141 @@ export default function Sidebar({ collapsed, setCollapsed }) {
 
   return (
     <aside style={{
-      width: collapsed ? '68px' : '260px',
-      backgroundColor: 'var(--bg-secondary, #0f172a)',
-      borderRight: '1px solid var(--border-color, #334155)',
+      width: collapsed ? '60px' : '220px',
+      backgroundColor: 'var(--surface)',
+      borderRight: '1px solid var(--border)',
       display: 'flex',
       flexDirection: 'column',
-      transition: 'width 0.2s ease-in-out',
+      transition: 'width 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
       position: 'relative',
       flexShrink: 0,
-      zIndex: 20
+      zIndex: 20,
+      overflowY: 'auto',
+      overflowX: 'hidden'
     }}>
-      {/* Sidebar Collapse Toggle */}
+      {/* Collapse Toggle Button */}
       <button
         onClick={() => setCollapsed(!collapsed)}
+        aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
         style={{
           position: 'absolute',
-          right: '-12px',
-          top: '20px',
-          width: '24px',
-          height: '24px',
+          right: '-11px',
+          top: '18px',
+          width: '22px',
+          height: '22px',
           borderRadius: '50%',
-          backgroundColor: '#1e293b',
-          border: '1px solid #475569',
-          color: '#cbd5e1',
+          backgroundColor: 'var(--surface-elevated, var(--surface))',
+          border: '1px solid var(--border)',
+          color: 'var(--text-muted)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           cursor: 'pointer',
           zIndex: 30,
-          boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
+          boxShadow: 'var(--shadow-sm)',
+          padding: 0
         }}
-        title={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
       >
-        {collapsed ? <ChevronRight size={14} /> : <ChevronLeft size={14} />}
+        {collapsed ? <ChevronRight size={12} /> : <ChevronLeft size={12} />}
       </button>
 
-      {/* Navigation Group Title */}
-      <div style={{
-        padding: collapsed ? '16px 8px 8px 8px' : '20px 16px 8px 20px',
-        fontSize: '0.7rem',
-        fontWeight: 700,
-        textTransform: 'uppercase',
-        letterSpacing: '0.08em',
-        color: '#64748b'
-      }}>
-        {!collapsed ? 'Analytical Suite' : '---'}
-      </div>
-
-      {/* Navigation Links */}
-      <nav style={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '4px',
-        padding: '0 10px',
-        flex: 1
-      }}>
-        {NAVIGATION_ITEMS.map((item) => {
-          const Icon = item.icon;
-          const userHasAccess = hasRole(item.allowedRoles);
-
-          return (
-            <NavLink
-              key={item.path}
-              to={item.path}
-              className={({ isActive }) => `sidebar-link ${isActive ? 'active' : ''}`}
-              style={({ isActive }) => ({
-                display: 'flex',
-                alignItems: 'center',
-                gap: '12px',
-                padding: collapsed ? '10px 0' : '10px 12px',
-                justifyContent: collapsed ? 'center' : 'flex-start',
-                borderRadius: '8px',
-                color: isActive ? '#38bdf8' : userHasAccess ? '#94a3b8' : '#64748b',
-                backgroundColor: isActive ? 'rgba(56, 189, 248, 0.1)' : 'transparent',
-                border: isActive ? '1px solid rgba(56, 189, 248, 0.25)' : '1px solid transparent',
-                textDecoration: 'none',
-                fontSize: '0.84rem',
-                fontWeight: isActive ? 600 : 500,
-                transition: 'all 0.15s ease',
-                position: 'relative'
-              })}
-              title={collapsed ? `${item.name} (${item.step})` : undefined}
-            >
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                <Icon size={18} />
+      {/* Navigation Groups */}
+      <nav style={{ padding: '12px 0', flex: 1 }}>
+        {NAV_GROUPS.map((group, gIdx) => (
+          <div key={gIdx} style={{ marginBottom: collapsed ? '8px' : '4px' }}>
+            {/* Group Label */}
+            {!collapsed && (
+              <div style={{
+                padding: '10px 16px 4px 16px',
+                fontSize: '0.62rem',
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                color: 'var(--text-muted)',
+                userSelect: 'none'
+              }}>
+                {group.label}
               </div>
+            )}
+            {collapsed && gIdx > 0 && (
+              <div style={{
+                margin: '6px 10px',
+                height: '1px',
+                backgroundColor: 'var(--border)'
+              }} />
+            )}
 
-              {!collapsed && (
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', overflow: 'hidden' }}>
-                  <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                    <span>{item.name}</span>
-                    <span style={{
-                      display: 'block',
-                      fontSize: '0.68rem',
-                      color: '#64748b',
-                      marginTop: '1px'
-                    }}>
-                      {item.step}
-                    </span>
+            {/* Group Items */}
+            {group.items.map((item) => {
+              const Icon = item.icon;
+              const userHasAccess = hasRole(item.allowedRoles);
+
+              return (
+                <NavLink
+                  key={`${item.path}-${item.name}`}
+                  to={item.path}
+                  end={item.exact}
+                  style={({ isActive }) => ({
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                    padding: collapsed ? '8px 0' : '6px 12px 6px 16px',
+                    justifyContent: collapsed ? 'center' : 'flex-start',
+                    margin: collapsed ? '2px 8px' : '1px 8px',
+                    borderRadius: '6px',
+                    color: isActive
+                      ? 'var(--primary)'
+                      : userHasAccess
+                        ? 'var(--text-secondary)'
+                        : 'var(--text-muted)',
+                    backgroundColor: isActive ? 'var(--primary-tint)' : 'transparent',
+                    textDecoration: 'none',
+                    fontSize: '0.8rem',
+                    fontWeight: isActive ? 600 : 400,
+                    transition: 'all 0.15s ease',
+                    opacity: userHasAccess ? 1 : 0.5,
+                    whiteSpace: 'nowrap',
+                    overflow: 'hidden'
+                  })}
+                  title={collapsed ? item.name : undefined}
+                >
+                  <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center' }}>
+                    <Icon size={15} />
                   </div>
-
-                  {!userHasAccess && (
-                    <span title={`Requires: ${item.allowedRoles.join(', ')}`} style={{ color: '#f43f5e', marginLeft: '6px' }}>
-                      <Lock size={12} />
+                  {!collapsed && (
+                    <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', flex: 1 }}>
+                      {item.name}
                     </span>
                   )}
-                </div>
-              )}
-            </NavLink>
-          );
-        })}
+                  {!collapsed && !userHasAccess && (
+                    <Lock size={10} style={{ flexShrink: 0, marginLeft: 'auto' }} />
+                  )}
+                </NavLink>
+              );
+            })}
+          </div>
+        ))}
       </nav>
 
-      {/* Role Info Footer in Sidebar */}
+      {/* User Scope Footer */}
       {!collapsed && user && (
         <div style={{
-          padding: '14px 16px',
-          borderTop: '1px solid var(--border-color, #334155)',
-          backgroundColor: '#0a0f1d'
+          padding: '10px 16px',
+          borderTop: '1px solid var(--border)',
+          backgroundColor: 'var(--surface-secondary)'
         }}>
-          <div style={{ fontSize: '0.72rem', color: '#64748b', marginBottom: '4px' }}>
-            Current Assigned Scope:
+          <div style={{ fontSize: '0.65rem', color: 'var(--text-muted)', marginBottom: '3px' }}>
+            Assigned Scope
           </div>
           <div style={{
-            fontSize: '0.78rem',
-            color: '#cbd5e1',
-            fontFamily: 'JetBrains Mono, monospace',
+            fontSize: '0.72rem',
+            color: 'var(--text-primary)',
             display: 'flex',
             alignItems: 'center',
-            gap: '6px'
+            gap: '5px'
           }}>
-            <Database size={12} color="#10b981" />
-            <span>{user.assigned_location_id || 'All Locations (Corp)'}</span>
+            <Database size={10} color="var(--success)" />
+            <span>{user.assigned_location_id || 'All Locations'}</span>
           </div>
         </div>
       )}

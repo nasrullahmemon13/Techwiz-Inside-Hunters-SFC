@@ -11,11 +11,11 @@ export default function AnomaliesFeed({ anomalies = [] }) {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ display: 'inline-flex', padding: '4px', borderRadius: '6px', background: 'rgba(245, 158, 11, 0.15)', color: '#fbbf24' }}>
+            <span style={{ display: 'inline-flex', padding: '4px', borderRadius: '6px', background: 'var(--warning-tint)', color: 'var(--warning)' }}>
               <Zap size={18} />
             </span>
-            <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#f8fafc' }}>
-              Real-Time Anomalies & Operational Risk Alerts
+            <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-primary)' }}>
+              Real-Time Anomalies &amp; Operational Risk Alerts
             </h3>
             <span className="kpi-badge badge-amber">
               SRS Steps 30-31 Detected
@@ -55,17 +55,17 @@ export default function AnomaliesFeed({ anomalies = [] }) {
                   </td>
                   <td style={{ fontWeight: 600 }}>{item.anomaly_type}</td>
                   <td>
-                    <code style={{ fontSize: '0.78rem', background: '#0f172a', padding: '2px 6px', borderRadius: '4px', border: '1px solid var(--border-color)' }}>
+                    <code style={{ fontSize: '0.78rem', background: 'var(--surface-secondary)', padding: '2px 6px', borderRadius: '4px', border: '1px solid var(--border)' }}>
                       {item.entity_id}
                     </code>
                   </td>
-                  <td style={{ color: '#94a3b8' }}>{item.date}</td>
+                  <td style={{ color: 'var(--text-muted)' }}>{item.date}</td>
                   <td>
-                    <span style={{ fontSize: '0.78rem', fontWeight: 600, color: '#e2e8f0' }}>
+                    <span style={{ fontSize: '0.78rem', fontWeight: 600, color: 'var(--text-primary)' }}>
                       {item.score_or_metric}
                     </span>
                   </td>
-                  <td style={{ color: '#cbd5e1', maxWidth: '380px' }}>{item.description}</td>
+                  <td style={{ color: 'var(--text-secondary)', maxWidth: '380px' }}>{item.description}</td>
                 </tr>
               );
             })}

@@ -81,24 +81,24 @@ Reason:
   * Identified churn precursor: active category breadth narrowed significantly between H1 and H2
   * Early warning indicator: customers currently in Medium Churn Risk buffer before complete lapse
   * Actionable intervention: 30% discount on unsampled menu categories to re-ignite dining variety",114681.73,"Reversing menu fatigue retains $114,681.73 in repeat dining frequency.",Critical,Low,REC-047
-Investigate anomalous locations,Location,LOC-005,DineIQ West Loop Bistro (Chicago),"Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)","['Severe customer dissatisfaction: CSAT of only 64.7% (697 1-star reviews, 3.64 avg rating)', 'Excessive food wastage: $168,167.10 annual waste loss (20.7% waste rate)', 'Operating margin lag: contribution margin of 56.1% trails network high performers', 'High commercial exposure: $1,116,175.78 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+Investigate anomalous locations,Location,LOC-005,DineIQ West Loop Bistro (Chicago),"Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)","['Severe customer dissatisfaction: CSAT of only 64.7% (697 1-star reviews, 3.64 avg rating)', 'Excessive food wastage: $168,167.10 annual waste loss (20.7% waste rate)', 'Operating margin lag: contribution margin of 56.1% trails network high performers', 'High commercial exposure: $1,116,724.13 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
   Investigate Operational & Quality Anomalies at Location LOC-005 (DineIQ West Loop Bistro, Chicago)
 
 Reason:
   * Severe customer dissatisfaction: CSAT of only 64.7% (697 1-star reviews, 3.64 avg rating)
   * Excessive food wastage: $168,167.10 annual waste loss (20.7% waste rate)
   * Operating margin lag: contribution margin of 56.1% trails network high performers
-  * High commercial exposure: $1,116,175.78 in location revenue subject to customer churn
-  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",111913.87,"Operational turnaround captures $111,913.87 through reduced spoilage and restored customer retention.",Critical,High,REC-057
-Investigate anomalous locations,Location,LOC-020,DineIQ Boston Back Bay (Boston),"Investigate Operational & Quality Anomalies at Location LOC-020 (DineIQ Boston Back Bay, Boston)","['Severe customer dissatisfaction: CSAT of only 63.9% (639 1-star reviews, 3.61 avg rating)', 'Excessive food wastage: $169,904.70 annual waste loss (22.8% waste rate)', 'Operating margin lag: contribution margin of 55.9% trails network high performers', 'High commercial exposure: $1,007,497.16 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+  * High commercial exposure: $1,116,724.13 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",111935.81,"Operational turnaround captures $111,935.81 through reduced spoilage and restored customer retention.",Critical,High,REC-057
+Investigate anomalous locations,Location,LOC-020,DineIQ Boston Back Bay (Boston),"Investigate Operational & Quality Anomalies at Location LOC-020 (DineIQ Boston Back Bay, Boston)","['Severe customer dissatisfaction: CSAT of only 63.9% (639 1-star reviews, 3.61 avg rating)', 'Excessive food wastage: $169,904.70 annual waste loss (22.8% waste rate)', 'Operating margin lag: contribution margin of 55.9% trails network high performers', 'High commercial exposure: $1,007,599.92 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
   Investigate Operational & Quality Anomalies at Location LOC-020 (DineIQ Boston Back Bay, Boston)
 
 Reason:
   * Severe customer dissatisfaction: CSAT of only 63.9% (639 1-star reviews, 3.61 avg rating)
   * Excessive food wastage: $169,904.70 annual waste loss (22.8% waste rate)
   * Operating margin lag: contribution margin of 55.9% trails network high performers
-  * High commercial exposure: $1,007,497.16 in location revenue subject to customer churn
-  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",108261.77,"Operational turnaround captures $108,261.77 through reduced spoilage and restored customer retention.",Critical,High,REC-056
+  * High commercial exposure: $1,007,599.92 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",108265.88,"Operational turnaround captures $108,265.88 through reduced spoilage and restored customer retention.",Critical,High,REC-056
 Review ineffective promotions,Promotion,PROMO-003,Mega Feast 50% Off (Fine Print: $120 Min),Review and Immediately Restructure Ineffective Promotion: PROMO-003 ('Mega Feast 50% Off (Fine Print: $120 Min)'),"['Multi-trap promotion failure: triggered 3 of 5 distinct SRS Promotion Traps', 'Trap 1 (Sales Up, Profit Down): Revenue was $215,657.98, but profit margin contracted by 44.3% below baseline (11.7% vs 56.0%), yielding only $25,231.18 in net profit.', 'Trap 2 (Margin Collapse): Acquired high transaction volume (1,629 unique customers), but order margin collapsed to 11.7% due to aggressive discount absorption.', 'Trap 4 (Discount-Only Patrons): Extreme customer churn: 80.0% of promo patrons never returned after the discount expired (only 19.9% 30-day post-campaign retention).']","Recommended Action:
   Review and Immediately Restructure Ineffective Promotion: PROMO-003 ('Mega Feast 50% Off (Fine Print: $120 Min)')
 
@@ -107,24 +107,24 @@ Reason:
   * Trap 1 (Sales Up, Profit Down): Revenue was $215,657.98, but profit margin contracted by 44.3% below baseline (11.7% vs 56.0%), yielding only $25,231.18 in net profit.
   * Trap 2 (Margin Collapse): Acquired high transaction volume (1,629 unique customers), but order margin collapsed to 11.7% due to aggressive discount absorption.
   * Trap 4 (Discount-Only Patrons): Extreme customer churn: 80.0% of promo patrons never returned after the discount expired (only 19.9% 30-day post-campaign retention).",105000.0,"Halting profit margin dilution and excessive waste recovers ~$105,000.00 in net restaurant earnings.",Critical,Low,REC-051
-Investigate anomalous locations,Location,LOC-015,DineIQ Bellevue Tech Plaza (Bellevue),"Investigate Operational & Quality Anomalies at Location LOC-015 (DineIQ Bellevue Tech Plaza, Bellevue)","['Severe customer dissatisfaction: CSAT of only 62.6% (675 1-star reviews, 3.56 avg rating)', 'Excessive food wastage: $161,231.50 annual waste loss (22.3% waste rate)', 'Operating margin lag: contribution margin of 55.8% trails network high performers', 'High commercial exposure: $990,105.01 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+Investigate anomalous locations,Location,LOC-015,DineIQ Bellevue Tech Plaza (Bellevue),"Investigate Operational & Quality Anomalies at Location LOC-015 (DineIQ Bellevue Tech Plaza, Bellevue)","['Severe customer dissatisfaction: CSAT of only 62.6% (675 1-star reviews, 3.56 avg rating)', 'Excessive food wastage: $161,231.50 annual waste loss (22.3% waste rate)', 'Operating margin lag: contribution margin of 55.8% trails network high performers', 'High commercial exposure: $990,464.07 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
   Investigate Operational & Quality Anomalies at Location LOC-015 (DineIQ Bellevue Tech Plaza, Bellevue)
 
 Reason:
   * Severe customer dissatisfaction: CSAT of only 62.6% (675 1-star reviews, 3.56 avg rating)
   * Excessive food wastage: $161,231.50 annual waste loss (22.3% waste rate)
   * Operating margin lag: contribution margin of 55.8% trails network high performers
-  * High commercial exposure: $990,105.01 in location revenue subject to customer churn
-  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",104096.8,"Operational turnaround captures $104,096.80 through reduced spoilage and restored customer retention.",Critical,High,REC-055
-Investigate anomalous locations,Location,LOC-019,DineIQ Atlanta Midtown (Atlanta),"Investigate Operational & Quality Anomalies at Location LOC-019 (DineIQ Atlanta Midtown, Atlanta)","['Severe customer dissatisfaction: CSAT of only 62.2% (720 1-star reviews, 3.55 avg rating)', 'Excessive food wastage: $161,964.80 annual waste loss (22.8% waste rate)', 'Operating margin lag: contribution margin of 55.9% trails network high performers', 'High commercial exposure: $978,126.54 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
+  * High commercial exposure: $990,464.07 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",104111.16,"Operational turnaround captures $104,111.16 through reduced spoilage and restored customer retention.",Critical,High,REC-055
+Investigate anomalous locations,Location,LOC-019,DineIQ Atlanta Midtown (Atlanta),"Investigate Operational & Quality Anomalies at Location LOC-019 (DineIQ Atlanta Midtown, Atlanta)","['Severe customer dissatisfaction: CSAT of only 62.2% (720 1-star reviews, 3.55 avg rating)', 'Excessive food wastage: $161,964.80 annual waste loss (22.8% waste rate)', 'Operating margin lag: contribution margin of 55.9% trails network high performers', 'High commercial exposure: $978,434.46 in location revenue subject to customer churn', 'Actionable audit protocol: conduct kitchen prep consistency review and staff service training']","Recommended Action:
   Investigate Operational & Quality Anomalies at Location LOC-019 (DineIQ Atlanta Midtown, Atlanta)
 
 Reason:
   * Severe customer dissatisfaction: CSAT of only 62.2% (720 1-star reviews, 3.55 avg rating)
   * Excessive food wastage: $161,964.80 annual waste loss (22.8% waste rate)
   * Operating margin lag: contribution margin of 55.9% trails network high performers
-  * High commercial exposure: $978,126.54 in location revenue subject to customer churn
-  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",103910.98,"Operational turnaround captures $103,910.98 through reduced spoilage and restored customer retention.",Critical,High,REC-054
+  * High commercial exposure: $978,434.46 in location revenue subject to customer churn
+  * Actionable audit protocol: conduct kitchen prep consistency review and staff service training",103923.3,"Operational turnaround captures $103,923.30 through reduced spoilage and restored customer retention.",Critical,High,REC-054
 Reduce preparation quantity of high-wastage dishes,Menu Item,ITEM-064,Butter Poached Maine Lobster Tail,Reduce Daily Preparation Quantity of Item ITEM-064 (Butter Poached Maine Lobster Tail) by 27%,"['Severe inventory loss: $224,754.00 annual waste loss (9,564 portions discarded)', 'Excessive wastage rate: 45.7% of prepared portions discarded unserved', 'Short shelf-life constraint: 2 days before mandatory spoilage purge', 'Recipe complexity profile: HIGH_WASTAGE requiring expensive mise-en-place labor', 'Recurrent overproduction: 1,357 recorded spoilage incidents across locations']","Recommended Action:
   Reduce Daily Preparation Quantity of Item ITEM-064 (Butter Poached Maine Lobster Tail) by 27%
 

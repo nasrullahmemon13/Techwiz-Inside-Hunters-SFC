@@ -4,15 +4,17 @@ import { useAuth } from '../context/AuthContext';
 import Sidebar from './Sidebar';
 import SearchFilterModal from './SearchFilterModal';
 import ReportsExportsModal from './ReportsExportsModal';
+import ThemeToggle from './ThemeToggle';
 import {
   UtensilsCrossed,
-  Filter,
-  Download,
-  Activity,
+  Search,
+  Bell,
   LogOut,
-  User as UserIcon,
-  ShieldCheck,
-  ChevronDown
+  ChevronDown,
+  MapPin,
+  Calendar,
+  Settings,
+  Download
 } from 'lucide-react';
 
 export default function AppLayout() {
@@ -29,221 +31,295 @@ export default function AppLayout() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: 'var(--bg-primary, #0a0f1d)' }}>
-      {/* Top Application Header */}
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      backgroundColor: 'var(--background)'
+    }}>
+      {/* ─── Top Header Bar ─────────────────────────────────── */}
       <header style={{
-        background: 'var(--bg-secondary, #0f172a)',
-        borderBottom: '1px solid var(--border-color, #334155)',
+        background: 'var(--surface)',
+        borderBottom: '1px solid var(--border)',
         position: 'sticky',
         top: 0,
-        zIndex: 40
+        zIndex: 40,
+        height: '52px',
+        display: 'flex',
+        alignItems: 'center',
+        padding: '0 16px',
+        gap: '12px'
       }}>
+        {/* Brand Logo */}
         <div style={{
-          padding: '12px 24px',
           display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center'
+          alignItems: 'center',
+          gap: '8px',
+          width: sidebarCollapsed ? '44px' : '204px',
+          flexShrink: 0,
+          transition: 'width 0.25s ease',
+          overflow: 'hidden'
         }}>
-          {/* Logo & Brand Identity */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+          <div style={{
+            background: 'linear-gradient(135deg, #f97316, #ef4444)',
+            width: '30px',
+            height: '30px',
+            borderRadius: '8px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexShrink: 0
+          }}>
+            <UtensilsCrossed size={16} color="#ffffff" />
+          </div>
+          {!sidebarCollapsed && (
+            <div style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}>
+              <div style={{ fontSize: '0.88rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '-0.01em' }}>
+                DineIQ <span style={{ color: '#f97316' }}>Analytics</span>
+              </div>
+              <div style={{ fontSize: '0.6rem', color: 'var(--text-muted)', marginTop: '-1px' }}>
+                Restaurant Intelligence Platform
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Search Bar */}
+        <div
+          onClick={() => setIsSearchOpen(true)}
+          style={{
+            flex: 1,
+            maxWidth: '480px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            backgroundColor: 'var(--surface-secondary)',
+            border: '1px solid var(--border)',
+            borderRadius: '8px',
+            padding: '7px 12px',
+            cursor: 'pointer',
+            transition: 'border-color 0.15s'
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.borderColor = 'var(--primary)'}
+          onMouseLeave={(e) => e.currentTarget.style.borderColor = 'var(--border)'}
+        >
+          <Search size={14} color="var(--text-muted)" />
+          <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', flex: 1 }}>
+            Search menus, customers, locations, insights...
+          </span>
+          <kbd style={{
+            fontSize: '0.62rem',
+            padding: '2px 5px',
+            borderRadius: '4px',
+            border: '1px solid var(--border)',
+            background: 'var(--surface)',
+            color: 'var(--text-muted)',
+            fontFamily: 'monospace'
+          }}>
+            Ctrl+K
+          </kbd>
+        </div>
+
+        {/* Spacer */}
+        <div style={{ flex: 1 }} />
+
+        {/* Date Range Filter */}
+        <button style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '6px',
+          padding: '6px 10px',
+          borderRadius: '7px',
+          border: '1px solid var(--border)',
+          background: 'var(--surface-secondary)',
+          color: 'var(--text-secondary)',
+          fontSize: '0.78rem',
+          fontWeight: 500,
+          cursor: 'pointer',
+          whiteSpace: 'nowrap'
+        }}>
+          <Calendar size={13} />
+          <span>Last 30 Days</span>
+          <ChevronDown size={11} />
+        </button>
+
+        {/* Location Filter */}
+        <button style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '6px',
+          padding: '6px 10px',
+          borderRadius: '7px',
+          border: '1px solid var(--border)',
+          background: 'var(--surface-secondary)',
+          color: 'var(--text-secondary)',
+          fontSize: '0.78rem',
+          fontWeight: 500,
+          cursor: 'pointer',
+          whiteSpace: 'nowrap'
+        }}>
+          <MapPin size={13} />
+          <span>All Locations</span>
+          <ChevronDown size={11} />
+        </button>
+
+        {/* Notifications */}
+        <button style={{
+          position: 'relative',
+          width: '34px',
+          height: '34px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '8px',
+          border: '1px solid var(--border)',
+          background: 'var(--surface-secondary)',
+          color: 'var(--text-secondary)',
+          cursor: 'pointer',
+          flexShrink: 0
+        }}>
+          <Bell size={15} />
+          {/* Red dot */}
+          <span style={{
+            position: 'absolute',
+            top: '7px',
+            right: '7px',
+            width: '7px',
+            height: '7px',
+            borderRadius: '50%',
+            backgroundColor: '#ef4444',
+            border: '1.5px solid var(--surface)'
+          }} />
+        </button>
+
+        {/* Theme Toggle */}
+        <ThemeToggle style={{ flexShrink: 0 }} />
+
+        {/* User Profile */}
+        {user && (
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '4px 8px 4px 4px',
+            borderRadius: '24px',
+            border: '1px solid var(--border)',
+            background: 'var(--surface-secondary)',
+            cursor: 'default',
+            flexShrink: 0
+          }}>
             <div style={{
-              background: 'linear-gradient(135deg, #0ea5e9, #6366f1)',
-              width: '38px',
-              height: '38px',
-              borderRadius: '10px',
+              width: '26px',
+              height: '26px',
+              borderRadius: '50%',
+              background: roleMeta?.badgeColor || 'var(--primary)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              boxShadow: '0 4px 12px rgba(14, 165, 233, 0.3)'
+              fontSize: '0.72rem',
+              fontWeight: 700,
+              color: '#ffffff',
+              flexShrink: 0
             }}>
-              <UtensilsCrossed size={20} color="#ffffff" />
+              {user.full_name ? user.full_name.charAt(0).toUpperCase() : 'U'}
             </div>
-            <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <span style={{ fontSize: '1.2rem', fontWeight: 800, letterSpacing: '-0.02em', color: '#f8fafc' }}>
-                  DineIQ <span style={{ color: '#38bdf8' }}>Analytics</span>
-                </span>
-                <span style={{
-                  fontSize: '0.68rem',
-                  padding: '2px 8px',
-                  borderRadius: '9999px',
-                  background: 'rgba(56, 189, 248, 0.15)',
-                  color: '#38bdf8',
-                  fontWeight: 600
-                }}>
-                  Enterprise v1.0
-                </span>
+            <div style={{ lineHeight: 1.25 }}>
+              <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-primary)', whiteSpace: 'nowrap' }}>
+                {user.full_name || user.username}
               </div>
-              <p style={{ fontSize: '0.74rem', color: 'var(--text-muted, #64748b)', margin: 0 }}>
-                Restaurant Big Data &amp; Data Science Intelligence Platform
-              </p>
+              <div style={{ fontSize: '0.62rem', color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>
+                {roleMeta?.name || user.role_id}
+              </div>
             </div>
-          </div>
-
-          {/* Action Modals & User Identity Pill */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <button
-              onClick={() => setIsSearchOpen(true)}
+              onClick={handleLogout}
+              title="Sign out"
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '6px',
-                background: 'rgba(56, 189, 248, 0.1)',
-                border: '1px solid rgba(56, 189, 248, 0.3)',
-                color: '#38bdf8',
-                padding: '6px 12px',
-                borderRadius: '8px',
-                fontSize: '0.8rem',
-                fontWeight: 600,
-                cursor: 'pointer'
+                background: 'transparent',
+                border: 'none',
+                color: 'var(--text-muted)',
+                cursor: 'pointer',
+                padding: '2px',
+                borderRadius: '4px',
+                marginLeft: '2px'
               }}
+              onMouseEnter={(e) => e.currentTarget.style.color = 'var(--danger)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
             >
-              <Filter size={14} />
-              <span>Search &amp; Filter (Step 48)</span>
+              <LogOut size={13} />
             </button>
+          </div>
+        )}
+      </header>
 
+      {/* Global Modals */}
+      <SearchFilterModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+      <ReportsExportsModal isOpen={isReportsOpen} onClose={() => setIsReportsOpen(false)} />
+
+      {/* ─── Body: Sidebar + Main ───────────────────────────── */}
+      <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
+        <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
+
+        <main style={{
+          flex: 1,
+          overflowY: 'auto',
+          overflowX: 'hidden',
+          backgroundColor: 'var(--background)',
+          minWidth: 0
+        }}>
+          {/* Page-level toolbar (Customize button like reference image) */}
+          <div style={{
+            display: 'flex',
+            justifyContent: 'flex-end',
+            padding: '8px 20px 0',
+            gap: '8px'
+          }}>
             <button
               onClick={() => setIsReportsOpen(true)}
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '6px',
-                background: 'rgba(99, 102, 241, 0.1)',
-                border: '1px solid rgba(99, 102, 241, 0.3)',
-                color: '#818cf8',
-                padding: '6px 12px',
-                borderRadius: '8px',
-                fontSize: '0.8rem',
-                fontWeight: 600,
+                gap: '5px',
+                padding: '5px 10px',
+                fontSize: '0.75rem',
+                fontWeight: 500,
+                color: 'var(--text-secondary)',
+                background: 'transparent',
+                border: '1px solid var(--border)',
+                borderRadius: '6px',
                 cursor: 'pointer'
               }}
             >
-              <Download size={14} />
-              <span>Reports &amp; Exports (49-50)</span>
+              <Download size={12} />
+              Export
             </button>
-
-            <div style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              fontSize: '0.78rem',
-              color: '#34d399',
-              background: 'rgba(16, 185, 129, 0.1)',
-              padding: '6px 10px',
-              borderRadius: '8px',
-              border: '1px solid rgba(16, 185, 129, 0.2)'
-            }}>
-              <Activity size={13} />
-              <span>FastAPI (:8000)</span>
-            </div>
-
-            {/* Authenticated User Profile Pill */}
-            {user && (
-              <div style={{
+            <button
+              style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '10px',
-                padding: '4px 10px 4px 6px',
-                backgroundColor: '#1e293b',
-                border: '1px solid #334155',
-                borderRadius: '24px'
-              }}>
-                <div style={{
-                  width: '28px',
-                  height: '28px',
-                  borderRadius: '50%',
-                  backgroundColor: roleMeta?.badgeColor || '#0284c7',
-                  color: '#ffffff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 700,
-                  fontSize: '0.8rem'
-                }}>
-                  {user.full_name ? user.full_name.charAt(0).toUpperCase() : 'U'}
-                </div>
-
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <span style={{ fontSize: '0.8rem', fontWeight: 600, color: '#f8fafc' }}>
-                      {user.full_name || user.username}
-                    </span>
-                    <span style={{
-                      fontSize: '0.65rem',
-                      fontWeight: 700,
-                      padding: '1px 6px',
-                      borderRadius: '4px',
-                      backgroundColor: roleMeta?.bgBadge || 'rgba(14, 165, 233, 0.15)',
-                      color: roleMeta?.badgeColor || '#38bdf8'
-                    }}>
-                      {roleMeta?.name || user.role_id}
-                    </span>
-                  </div>
-                </div>
-
-                <button
-                  onClick={handleLogout}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    backgroundColor: 'transparent',
-                    border: 'none',
-                    color: '#94a3b8',
-                    cursor: 'pointer',
-                    padding: '4px',
-                    borderRadius: '4px',
-                    marginLeft: '4px',
-                    transition: 'color 0.2s'
-                  }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = '#f43f5e')}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = '#94a3b8')}
-                  title="Sign out of DineIQ platform"
-                >
-                  <LogOut size={15} />
-                </button>
-              </div>
-            )}
+                gap: '5px',
+                padding: '5px 10px',
+                fontSize: '0.75rem',
+                fontWeight: 500,
+                color: 'var(--text-secondary)',
+                background: 'transparent',
+                border: '1px solid var(--border)',
+                borderRadius: '6px',
+                cursor: 'pointer'
+              }}
+            >
+              <Settings size={12} />
+              Customize
+            </button>
           </div>
-        </div>
-      </header>
 
-      {/* Global Modals */}
-      <SearchFilterModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-      />
-      <ReportsExportsModal
-        isOpen={isReportsOpen}
-        onClose={() => setIsReportsOpen(false)}
-      />
-
-      {/* Main Container with Sidebar + View Area */}
-      <div style={{ display: 'flex', flex: 1, position: 'relative' }}>
-        <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
-
-        <main style={{
-          flex: 1,
-          padding: '24px',
-          overflowX: 'hidden',
-          backgroundColor: 'var(--bg-primary, #0a0f1d)',
-          minWidth: 0
-        }}>
-          <Outlet />
+          <div style={{ padding: '12px 20px 24px' }}>
+            <Outlet />
+          </div>
         </main>
       </div>
-
-      {/* Persistent Footer */}
-      <footer style={{
-        background: 'var(--bg-secondary, #0f172a)',
-        borderTop: '1px solid var(--border-color, #334155)',
-        padding: '14px 24px',
-        textAlign: 'center',
-        fontSize: '0.78rem',
-        color: '#64748b'
-      }}>
-        DineIQ Analytics &copy; 2026. Built with React &amp; FastAPI. Conforms to Software Requirements Specification (SRS v1.0).
-      </footer>
     </div>
   );
 }

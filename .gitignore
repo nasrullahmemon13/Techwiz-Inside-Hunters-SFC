@@ -57,3 +57,7 @@ database/mongodb_exports/
 # Large generated datasets (>100MB exceeds GitHub limit)
 processed_data/joined/master_analytical_cube/*.csv
 
+# Temporary staged data pipeline runs
+data_staging/runs/
+
+

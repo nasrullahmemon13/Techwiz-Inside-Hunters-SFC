@@ -1,5 +1,5 @@
 # DineIQ Analytics - Sales Anomaly Detection Report
-**Generated:** 2026-09-25 12:33:57  
+**Generated:** 2026-09-26 09:51:33  
 **Specification:** SRS Step 31 (Sales Anomaly Detection)  
 
 ## 1. Executive Summary

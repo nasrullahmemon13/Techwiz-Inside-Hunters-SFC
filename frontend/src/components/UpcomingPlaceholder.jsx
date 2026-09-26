@@ -16,14 +16,14 @@ export default function UpcomingPlaceholder({ title, step, phase, description })
         width: '56px',
         height: '56px',
         borderRadius: '14px',
-        backgroundColor: 'rgba(56, 189, 248, 0.12)',
-        border: '1px solid rgba(56, 189, 248, 0.25)',
+        backgroundColor: 'var(--primary-tint)',
+        border: '1px solid var(--border)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         margin: '0 auto 16px'
       }}>
-        <Clock size={28} color="#38bdf8" />
+        <Clock size={28} color="var(--primary)" />
       </div>
 
       <div style={{
@@ -32,9 +32,9 @@ export default function UpcomingPlaceholder({ title, step, phase, description })
         fontWeight: 700,
         padding: '3px 10px',
         borderRadius: '9999px',
-        backgroundColor: 'rgba(99, 102, 241, 0.15)',
-        border: '1px solid rgba(99, 102, 241, 0.3)',
-        color: '#818cf8',
+        backgroundColor: 'var(--purple-tint)',
+        border: '1px solid var(--border)',
+        color: 'var(--purple)',
         marginBottom: '12px'
       }}>
         {phase || 'Upcoming Remediation Phase'} &bull; {step}
@@ -43,14 +43,14 @@ export default function UpcomingPlaceholder({ title, step, phase, description })
       <h2 style={{
         fontSize: '1.4rem',
         fontWeight: 700,
-        color: '#f8fafc',
+        color: 'var(--text-primary)',
         marginBottom: '8px'
       }}>
         {title}
       </h2>
 
       <p style={{
-        color: '#94a3b8',
+        color: 'var(--text-secondary)',
         fontSize: '0.9rem',
         maxWidth: '520px',
         margin: '0 auto 24px',
@@ -65,7 +65,7 @@ export default function UpcomingPlaceholder({ title, step, phase, description })
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
-          background: '#0284c7',
+          background: 'var(--primary)',
           color: '#ffffff',
           border: 'none',
           padding: '10px 20px',

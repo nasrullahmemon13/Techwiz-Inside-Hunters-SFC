@@ -15,6 +15,8 @@ from backend.routers.wastage import router as wastage_router
 from backend.routers.search_filter import router as search_filter_router
 from backend.routers.reports import router as reports_router
 from backend.routers.exports import router as exports_router
+from backend.routers.data_pipeline import router as data_pipeline_router
+from backend.routers.database_status import router as database_status_router
 from src.routes import router as crud_router
 from src.error_handlers import register_error_handlers
 
@@ -44,6 +46,8 @@ app.include_router(wastage_router)
 app.include_router(search_filter_router)
 app.include_router(reports_router)
 app.include_router(exports_router)
+app.include_router(data_pipeline_router)
+app.include_router(database_status_router)
 app.include_router(crud_router)
 
 
