@@ -223,6 +223,7 @@ class DashboardService:
             "total_revenue": total_revenue,
             "total_profit": gross_profit,
             "net_profitability": net_profitability,
+            "net_profit_margin_pct": net_profit_margin_pct,
             "contribution_margin_pct": margin_pct,
             "total_orders": total_orders,
             "average_order_value": avg_order_value,

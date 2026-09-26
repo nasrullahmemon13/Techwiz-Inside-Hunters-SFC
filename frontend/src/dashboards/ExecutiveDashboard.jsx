@@ -101,6 +101,10 @@ export default function ExecutiveDashboard() {
     channels
   } = data;
 
+  const net_profit_margin_pct = data.net_profit_margin_pct !== undefined
+    ? data.net_profit_margin_pct
+    : (total_revenue && total_revenue > 0 ? ((net_profitability / total_revenue) * 100).toFixed(1) : '0.0');
+
   return (
     <div>
       {/* Dashboard Header Bar */}

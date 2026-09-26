@@ -12,14 +12,16 @@ import CustomerIntelligenceDashboard from './dashboards/CustomerIntelligenceDash
 import WastageDashboard from './dashboards/WastageDashboard';
 import SystemOperationsDashboard from './dashboards/SystemOperationsDashboard';
 import UpcomingPlaceholder from './components/UpcomingPlaceholder';
+import ErrorBoundary from './components/ErrorBoundary';
 
 export default function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <Routes>
-          {/* Public Authentication Route */}
-          <Route path="/login" element={<LoginPage />} />
+        <ErrorBoundary>
+          <Routes>
+            {/* Public Authentication Route */}
+            <Route path="/login" element={<LoginPage />} />
 
           {/* Protected Application Routes wrapped in AppLayout shell */}
           <Route
@@ -83,7 +85,8 @@ export default function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>
-      </AuthProvider>
-    </BrowserRouter>
-  );
+      </ErrorBoundary>
+    </AuthProvider>
+  </BrowserRouter>
+);
 }
