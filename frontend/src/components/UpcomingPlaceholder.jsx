@@ -1,0 +1,83 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Clock, ArrowLeft, Layers } from 'lucide-react';
+
+export default function UpcomingPlaceholder({ title, step, phase, description }) {
+  const navigate = useNavigate();
+
+  return (
+    <div style={{
+      maxWidth: '720px',
+      margin: '60px auto',
+      textAlign: 'center',
+      padding: '48px 24px'
+    }} className="glass-card">
+      <div style={{
+        width: '56px',
+        height: '56px',
+        borderRadius: '14px',
+        backgroundColor: 'rgba(56, 189, 248, 0.12)',
+        border: '1px solid rgba(56, 189, 248, 0.25)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: '0 auto 16px'
+      }}>
+        <Clock size={28} color="#38bdf8" />
+      </div>
+
+      <div style={{
+        display: 'inline-block',
+        fontSize: '0.72rem',
+        fontWeight: 700,
+        padding: '3px 10px',
+        borderRadius: '9999px',
+        backgroundColor: 'rgba(99, 102, 241, 0.15)',
+        border: '1px solid rgba(99, 102, 241, 0.3)',
+        color: '#818cf8',
+        marginBottom: '12px'
+      }}>
+        {phase || 'Upcoming Remediation Phase'} &bull; {step}
+      </div>
+
+      <h2 style={{
+        fontSize: '1.4rem',
+        fontWeight: 700,
+        color: '#f8fafc',
+        marginBottom: '8px'
+      }}>
+        {title}
+      </h2>
+
+      <p style={{
+        color: '#94a3b8',
+        fontSize: '0.9rem',
+        maxWidth: '520px',
+        margin: '0 auto 24px',
+        lineHeight: 1.5
+      }}>
+        {description || 'This module is scheduled for implementation in the next remediation phase according to the SRS Gap Audit roadmap.'}
+      </p>
+
+      <button
+        onClick={() => navigate('/')}
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: '8px',
+          background: '#0284c7',
+          color: '#ffffff',
+          border: 'none',
+          padding: '10px 20px',
+          borderRadius: '8px',
+          fontWeight: 600,
+          fontSize: '0.88rem',
+          cursor: 'pointer'
+        }}
+      >
+        <ArrowLeft size={16} />
+        <span>Return to Executive Overview</span>
+      </button>
+    </div>
+  );
+}

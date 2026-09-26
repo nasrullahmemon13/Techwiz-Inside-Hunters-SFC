@@ -147,7 +147,7 @@ export default function ExecutiveDashboard() {
           title="Total Revenue"
           value={`$${total_revenue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
           subtitle="Annual Network Volume"
-          badgeText="+8.4% YoY"
+          badgeText={`Margin: ${contribution_margin_pct}%`}
           badgeType="emerald"
           theme="emerald"
           icon={DollarSign}
@@ -159,7 +159,7 @@ export default function ExecutiveDashboard() {
           title="Total Gross Profit"
           value={`$${total_profit.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
           subtitle={`${contribution_margin_pct}% Contribution Margin`}
-          badgeText="Healthy Margin"
+          badgeText={`Net Margin: ${net_profit_margin_pct}%`}
           badgeType="emerald"
           theme="emerald"
           icon={TrendingUp}
@@ -171,11 +171,11 @@ export default function ExecutiveDashboard() {
           title="Total Orders"
           value={total_orders.toLocaleString()}
           subtitle="Transactions in 2025"
-          badgeText="99.2% Fulfilled"
+          badgeText="Verified Orders"
           badgeType="indigo"
           theme="indigo"
           icon={ShoppingBag}
-          secondaryStat="~248 orders/day"
+          secondaryStat={`${Math.round(total_orders / 365)} orders/day`}
         />
 
         {/* 4. Average Order Value (AOV) */}
@@ -183,11 +183,11 @@ export default function ExecutiveDashboard() {
           title="Average Order Value"
           value={`$${average_order_value.toFixed(2)}`}
           subtitle="Mean Ticket Spend"
-          badgeText="3.8 items/ticket"
+          badgeText="Across All Channels"
           badgeType="cyan"
           theme="cyan"
           icon={CreditCard}
-          secondaryStat="Dine-in: $294.60"
+          secondaryStat={`Network AOV: $${average_order_value.toFixed(2)}`}
         />
 
         {/* 5. Active Customers */}
@@ -195,11 +195,11 @@ export default function ExecutiveDashboard() {
           title="Active Customers"
           value={active_customers.toLocaleString()}
           subtitle="Unique Registered Diners"
-          badgeText="82.2% Active"
+          badgeText={`Repeat: ${repeat_rate_pct}%`}
           badgeType="indigo"
           theme="indigo"
           icon={Users}
-          secondaryStat="50,000 Total Base"
+          secondaryStat={`${active_customers.toLocaleString()} Total Active Diners`}
         />
 
         {/* 6. Repeat Customers */}
@@ -207,7 +207,7 @@ export default function ExecutiveDashboard() {
           title="Repeat Customers"
           value={repeat_customers.toLocaleString()}
           subtitle={`${repeat_rate_pct}% Multi-Visit Rate`}
-          badgeText="High Retention"
+          badgeText={`${repeat_rate_pct}% Repeat Rate`}
           badgeType="emerald"
           theme="emerald"
           icon={Repeat}
@@ -219,7 +219,7 @@ export default function ExecutiveDashboard() {
           title="Food Wastage Loss"
           value={`$${wastage.total_wastage_cost.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`}
           subtitle={`${wastage.wastage_pct_of_sales}% of Gross Sales`}
-          badgeText="Step 23-24 Tracked"
+          badgeText={`${wastage.wastage_pct_of_sales}% Loss`}
           badgeType="rose"
           theme="rose"
           icon={Trash2}

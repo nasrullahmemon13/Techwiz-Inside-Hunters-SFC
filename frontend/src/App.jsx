@@ -1,73 +1,89 @@
-import React, { useState } from 'react';
-import Navbar from './components/Navbar';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
+import RoleGuard from './components/RoleGuard';
+import AppLayout from './components/AppLayout';
+import LoginPage from './pages/LoginPage';
+import UnauthorizedPage from './pages/UnauthorizedPage';
 import ExecutiveDashboard from './dashboards/ExecutiveDashboard';
 import MenuIntelligenceDashboard from './dashboards/MenuIntelligenceDashboard';
 import CustomerIntelligenceDashboard from './dashboards/CustomerIntelligenceDashboard';
 import WastageDashboard from './dashboards/WastageDashboard';
 import SystemOperationsDashboard from './dashboards/SystemOperationsDashboard';
-import SearchFilterModal from './components/SearchFilterModal';
-import ReportsExportsModal from './components/ReportsExportsModal';
+import UpcomingPlaceholder from './components/UpcomingPlaceholder';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('executive');
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [isReportsOpen, setIsReportsOpen] = useState(false);
-
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <Navbar
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        onOpenSearch={() => setIsSearchOpen(true)}
-        onOpenReports={() => setIsReportsOpen(true)}
-      />
+    <BrowserRouter>
+      <AuthProvider>
+        <Routes>
+          {/* Public Authentication Route */}
+          <Route path="/login" element={<LoginPage />} />
 
-      {/* Global Modals for Steps 48, 49, 50 */}
-      <SearchFilterModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-      />
-      <ReportsExportsModal
-        isOpen={isReportsOpen}
-        onClose={() => setIsReportsOpen(false)}
-      />
+          {/* Protected Application Routes wrapped in AppLayout shell */}
+          <Route
+            path="/"
+            element={
+              <ProtectedRoute>
+                <AppLayout />
+              </ProtectedRoute>
+            }
+          >
+            {/* Core Dashboards accessible to all 4 roles */}
+            <Route index element={<ExecutiveDashboard />} />
+            <Route path="menu" element={<MenuIntelligenceDashboard />} />
+            <Route path="customer" element={<CustomerIntelligenceDashboard />} />
+            <Route path="wastage" element={<WastageDashboard />} />
 
-      <main className="dashboard-container" style={{ flex: 1, width: '100%' }}>
-        {activeTab === 'executive' && <ExecutiveDashboard />}
-        {activeTab === 'menu' && <MenuIntelligenceDashboard />}
-        {activeTab === 'customer' && <CustomerIntelligenceDashboard />}
-        {activeTab === 'wastage' && <WastageDashboard />}
-        {activeTab === 'system' && <SystemOperationsDashboard />}
+            {/* System Operations & Spark: Admin Only (FR lxi-lxvi) */}
+            <Route
+              path="system"
+              element={
+                <RoleGuard allowedRoles={['admin']}>
+                  <SystemOperationsDashboard />
+                </RoleGuard>
+              }
+            />
 
-        {activeTab !== 'executive' && activeTab !== 'menu' && activeTab !== 'customer' && activeTab !== 'wastage' && activeTab !== 'system' && (
-          <div className="glass-card" style={{ padding: '60px 24px', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '1.4rem', fontWeight: 700, color: '#f8fafc', marginBottom: '8px' }}>
-              Dashboard Scheduled in Pipeline Sequence
-            </h2>
-            <p style={{ color: '#94a3b8', maxWidth: '500px', margin: '0 auto 20px' }}>
-              Building one dashboard at a time. Steps 42, 43, 44, 45 are live.
-            </p>
-            <button
-              onClick={() => setActiveTab('executive')}
-              style={{
-                background: '#0284c7',
-                color: '#fff',
-                border: 'none',
-                padding: '10px 20px',
-                borderRadius: '8px',
-                fontWeight: 600,
-                cursor: 'pointer'
-              }}
-            >
-              Return to Executive Dashboard
-            </button>
-          </div>
-        )}
-      </main>
+            {/* Demand Forecasting: Analyst, Regional Manager, Admin (Step 46 & FR-xxviii) */}
+            <Route
+              path="forecast"
+              element={
+                <RoleGuard allowedRoles={['analyst', 'regional_manager', 'admin']}>
+                  <UpcomingPlaceholder
+                    title="Demand Forecasting & Daypart Analytics"
+                    step="Step 46 & FR-xxviii/xxix"
+                    phase="Phase FIX-4"
+                    description="Hierarchical 7-day dish demand forecasting and hourly daypart distribution models. Activates in Phase FIX-4."
+                  />
+                </RoleGuard>
+              }
+            />
 
-      <footer style={{ background: 'var(--bg-secondary)', borderTop: '1px solid var(--border-color)', padding: '16px 24px', textAlign: 'center', fontSize: '0.8rem', color: '#64748b' }}>
-        DineIQ Analytics &copy; 2026. Built with React &amp; FastAPI. Conforms to Software Requirements Specification (SRS v1.0).
-      </footer>
-    </div>
+            {/* Dual-Pipeline Comparison: Analyst & Admin (Step 47 & FR-xliv) */}
+            <Route
+              path="comparison"
+              element={
+                <RoleGuard allowedRoles={['analyst', 'admin']}>
+                  <UpcomingPlaceholder
+                    title="Dual-Pipeline ML Comparison Dashboard"
+                    step="Step 47 & FR-xliv/xlv"
+                    phase="Phase FIX-8"
+                    description="Side-by-side PySpark MLlib vs Scikit-Learn evaluation, classification parity, and latency metrics. Activates in Phase FIX-8."
+                  />
+                </RoleGuard>
+              }
+            />
+
+            {/* 403 Forbidden Screen */}
+            <Route path="unauthorized" element={<UnauthorizedPage />} />
+
+            {/* Catch-all redirect to Executive Dashboard */}
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Route>
+        </Routes>
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
